@@ -77,7 +77,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
         # Convert the new parsed URL back to a string
         new_url = urlunparse(new_parsed_url)
 
-    return new_urlو country_code
+    return new_url
 
 def convert_proxies(input_file, output_file, ir_file, us_file, custom_url_base):
     with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out, open(ir_file, 'w') as f_ir, open(us_file, 'w') as f_us:
