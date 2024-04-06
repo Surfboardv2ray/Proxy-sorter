@@ -54,7 +54,7 @@ jobs:
       run: python python/sorter.py
 
     - name: Check for Base64 Changes
-      id: changes64
+      id: changes
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
@@ -64,4 +64,5 @@ jobs:
         git config --local user.name "GitHub Action"
         git add output/converted.txt output/US.txt output/IR.txt
         git commit -m "Update files" -a
+        git pull
         git push
