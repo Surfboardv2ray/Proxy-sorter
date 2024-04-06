@@ -75,3 +75,26 @@ jobs:
         git commit -m "Update files" -a
         git pull
         git push
+
+    - name: Convert to Base64
+      run: |
+          files=("output/converted.txt" "output/US.txt.txt" "output/IR.txt")
+          for file in "${files[@]}"; do
+          content=$(base64 "$file")
+          echo "$content" > "base64/${file#output/}"
+          done
+       
+     
+    - name: Check for Base64 Changes
+      id: changes64
+      run: |
+              git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+      
+    - name: Commit and push Base64
+      if: steps.changes.outputs.changed == 'true'   
+      run: |
+                git config --local user.email "action@github.com"
+                git config --local user.name "GitHub Action"
+                git add -A
+                git commit -m "Convert to Base64"
+                git push
