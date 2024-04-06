@@ -32,8 +32,14 @@ jobs:
         name: proxies
         path: input/proxies.txt
 
-    - name: Push changes
+    - name: Check for Input Changes
+      id: changesin
       run: |
+        git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+      
+    - name: Commit and push if there are changes
+      run: |
+      if: steps.changes.outputs.changed == 'true'
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add input/proxies.txt
