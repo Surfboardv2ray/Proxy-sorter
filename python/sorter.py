@@ -3,6 +3,7 @@ import requests
 import socket
 import base64
 from urllib.parse import urlparse, urlunparse, ParseResult
+import ipaddress
 
 def get_ip(host):
     try:
