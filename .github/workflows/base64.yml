@@ -13,25 +13,25 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Convert to Base64
+    - name: Convert to base64
       run: |
-          files=("output/converted.txt" "output/US.txt" "output/IR.txt")
-          for file in "${files[@]}"; do
-          content=$(base64 "$file")
-          echo "$content" > "base64/${file#output/}"
+          content=$(cat output/converted.txt | base64)
+            echo "$content" > base64/converted.txt
+          for file in output/US.txt output/IR.txt; do
+            base64 $file > "base64/$(basename $file)"
           done
        
-     
     - name: Check for Base64 Changes
       id: changes64
       run: |
-              git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
     - name: Commit and push Base64
       if: steps.changes.outputs.changed == 'true'   
       run: |
-                git config --local user.email "action@github.com"
-                git config --local user.name "GitHub Action"
-                git add -A
-                git commit -m "Convert to Base64"
-                git push
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add base64/converted.txt
+          git add base64/*
+          git commit --allow-empty -m "Update output files"
+          git push
