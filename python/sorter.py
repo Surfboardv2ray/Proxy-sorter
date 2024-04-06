@@ -1,13 +1,26 @@
 import json
 import requests
+import socket
 from urllib.parse import urlparse, urlunparse, ParseResult
+
+def get_ip(host):
+    try:
+        # Check if the host is an IP address
+        socket.inet_aton(host)
+        return host
+    except socket.error:
+        # If not, resolve the hostname to an IP address
+        return socket.gethostbyname(host)
 
 def set_remarks_from_custom_url(url, custom_url_base):
     # Parse the vless proxy URL
     parsed_url = urlparse(url)
 
-    # Extract the IP from the netloc part of the URL
-    ip = parsed_url.netloc.split('@')[1].split(':')[0]
+    # Extract the IP or hostname from the netloc part of the URL
+    host = parsed_url.netloc.split('@')[1].split(':')[0]
+
+    # Get the IP address
+    ip = get_ip(host)
 
     # Construct the custom URL
     custom_url = custom_url_base + ip
