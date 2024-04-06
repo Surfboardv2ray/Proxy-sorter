@@ -47,7 +47,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
     country_code = response.text
 
     # Append the counter to the country code to create the new remarks
-    new_remarks = f"{country_code}_{counter}"
+    new_remarks = f"{country_code}_{counter}_@Surfboardv2ray"
 
     if url.startswith('vmess://'):
         # Set the "ps" field in the config to the new remarks
