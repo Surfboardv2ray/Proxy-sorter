@@ -31,3 +31,11 @@ jobs:
       with:
         name: proxies
         path: proxies.txt
+
+    - name: Push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add proxies.txt
+        git commit -m "Fetch proxies"
+        git push
