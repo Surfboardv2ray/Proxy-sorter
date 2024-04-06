@@ -1,6 +1,7 @@
 import json
 import requests
 import socket
+import base64
 from urllib.parse import urlparse, urlunparse, ParseResult
 
 def get_ip(host):
@@ -13,11 +14,20 @@ def get_ip(host):
         return socket.gethostbyname(host)
 
 def set_remarks_from_custom_url(url, custom_url_base, counter):
-    # Parse the vless proxy URL
-    parsed_url = urlparse(url)
+    # Check if the URL starts with 'vmess://'
+    if url.startswith('vmess://'):
+        # Decode the base64 string after 'vmess://'
+        decoded_str = base64.b64decode(url[8:]).decode('utf-8')
+        config = json.loads(decoded_str)
 
-    # Extract the IP or hostname from the netloc part of the URL
-    host = parsed_url.netloc.split('@')[1].split(':')[0]
+        # Extract the IP or hostname from the "add" field in the config
+        host = config['add']
+    else:
+        # Parse the vless proxy URL
+        parsed_url = urlparse(url)
+
+        # Extract the IP or hostname from the netloc part of the URL
+        host = parsed_url.netloc.split('@')[1].split(':')[0]
 
     # Get the IP address
     ip = get_ip(host)
@@ -39,18 +49,25 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
     # Append the counter to the country code to create the new remarks
     new_remarks = f"{country_code}_{counter}"
 
-    # Replace the fragment in the original parsed URL with the new remarks
-    new_parsed_url = ParseResult(
-        scheme=parsed_url.scheme,
-        netloc=parsed_url.netloc,
-        path=parsed_url.path,
-        params=parsed_url.params,
-        query=parsed_url.query,
-        fragment=new_remarks
-    )
+    if url.startswith('vmess://'):
+        # Set the "ps" field in the config to the new remarks
+        config['ps'] = new_remarks
 
-    # Convert the new parsed URL back to a string
-    new_url = urlunparse(new_parsed_url)
+        # Re-encode the config back to a base64 string
+        new_url = 'vmess://' + base64.b64encode(json.dumps(config).encode('utf-8')).decode('utf-8')
+    else:
+        # Replace the fragment in the original parsed URL with the new remarks
+        new_parsed_url = ParseResult(
+            scheme=parsed_url.scheme,
+            netloc=parsed_url.netloc,
+            path=parsed_url.path,
+            params=parsed_url.params,
+            query=parsed_url.query,
+            fragment=new_remarks
+        )
+
+        # Convert the new parsed URL back to a string
+        new_url = urlunparse(new_parsed_url)
 
     return new_url
 
