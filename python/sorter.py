@@ -20,8 +20,8 @@ def set_remarks_from_custom_url(url, custom_url_base):
         print(f"Failed to get remarks from {custom_url}")
         return url
 
-    # Parse the response URL and extract the fragment (the new remarks)
-    new_remarks = urlparse(response.url).fragment
+    # The response text is assumed to be the country code
+    country_code = response.text
 
     # Replace the fragment in the original parsed URL with the new remarks
     new_parsed_url = ParseResult(
@@ -30,7 +30,7 @@ def set_remarks_from_custom_url(url, custom_url_base):
         path=parsed_url.path,
         params=parsed_url.params,
         query=parsed_url.query,
-        fragment=new_remarks
+        fragment=country_code
     )
 
     # Convert the new parsed URL back to a string
