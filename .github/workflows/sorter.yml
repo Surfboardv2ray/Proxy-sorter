@@ -16,8 +16,8 @@ jobs:
     - name: Combine URL contents
       run: |
         # Replace with your URLs
-        URL1="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vless"
-        URL2="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vmess"
+        URL1="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/vless"
+        URL2="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/vmess"
 
         # Fetch the contents
         CONTENT1=$(curl -s "$URL1")
