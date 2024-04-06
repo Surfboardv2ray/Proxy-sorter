@@ -53,8 +53,13 @@ jobs:
     - name: Run sorter
       run: python python/sorter.py
 
-    - name: Commit and push changes
+    - name: Check for Base64 Changes
+      id: changes64
       run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+      
+    - name: Commit and push changes
+      if: steps.changes.outputs.changed == 'true'   
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add output/converted.txt output/US.txt output/IR.txt
