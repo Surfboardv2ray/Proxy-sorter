@@ -34,6 +34,9 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
         host = parsed_url.netloc.split('@', 1)[1].split(':', 1)[0]
 
     ip = get_ip(host)
+    if ip is None:
+        return None, None
+
     custom_url = custom_url_base + ip
     response = requests.get(custom_url)
 
@@ -60,6 +63,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
         new_url = urlunparse(new_parsed_url)
 
     return new_url, country_code
+
 
 
 def convert_proxies(input_file, output_file, ir_file, us_file, custom_url_base):
