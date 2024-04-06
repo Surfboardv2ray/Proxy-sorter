@@ -1,1 +1,2 @@
-
+vless://USERID@IP:PORT?encryption=ENCRYPTION&security=SECURITY&sni=SNI&alpn=ALPN&fp=USERAGENT&type=TYPE&host=HOST&path=PATH#
+vless://USERID@IP:PORT?encryption=ENCRYPTION&security=SECURITY&sni=SNI&alpn=ALPN&fp=USERAGENT&type=TYPE&host=HOST&path=PATH#
