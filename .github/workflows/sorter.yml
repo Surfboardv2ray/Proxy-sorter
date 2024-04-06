@@ -1,4 +1,4 @@
-name: Run Python Script
+name: Fetch proxies, Run python sorter
 
 on:
   push:
@@ -13,6 +13,26 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Combine URL contents
+      run: |
+        # Replace with your URLs
+        URL1="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vless"
+        URL2="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vmess"
+
+        # Fetch the contents
+        CONTENT1=$(curl -s "$URL1")
+        CONTENT2=$(curl -s "$URL2")
+
+        # Combine and save to a file
+        echo -e "$CONTENT1\n$CONTENT2" > input/proxies.txt
+
+    - name: Upload combined content
+      uses: actions/upload-artifact@v2
+      with:
+        name: proxies
+        path: proxies.txt
+
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -23,7 +43,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Run script
+    - name: Run sorter
       run: python python/sorter.py
 
     - name: Commit and push changes
