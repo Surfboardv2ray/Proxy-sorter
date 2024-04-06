@@ -30,12 +30,12 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: proxies
-        path: proxies.txt
+        path: input/proxies.txt
 
     - name: Push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add proxies.txt
+        git add input/proxies.txt
         git commit -m "Fetch proxies"
         git push
