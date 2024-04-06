@@ -79,5 +79,5 @@ def convert_proxies(input_file, output_file, custom_url_base):
             f_out.write(new_url + '\n')
 
 # Usage
-custom_url_base = 'https://ipinfo.divineglaive.workers.dev/'
+custom_url_base = 'https://ipinfo.dehel15354.workers.dev/'
 convert_proxies('input/vless.txt', 'output/converted.txt', custom_url_base)
