@@ -37,9 +37,9 @@ jobs:
       run: |
         git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
-    - name: Commit and push changes
-      run: |
-      if: steps.changes.outputs.changed == 'true'
+    - name: Commit and push if there are changes
+      if: steps.changes.outputs.changed == 'true' 
+      run: |  
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add input/proxies.txt
