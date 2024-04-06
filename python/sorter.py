@@ -12,7 +12,7 @@ def get_ip(host):
         # If not, resolve the hostname to an IP address
         return socket.gethostbyname(host)
 
-def set_remarks_from_custom_url(url, custom_url_base):
+def set_remarks_from_custom_url(url, custom_url_base, counter):
     # Parse the vless proxy URL
     parsed_url = urlparse(url)
 
@@ -36,6 +36,9 @@ def set_remarks_from_custom_url(url, custom_url_base):
     # The response text is assumed to be the country code
     country_code = response.text
 
+    # Append the counter to the country code to create the new remarks
+    new_remarks = f"{country_code}_{counter}"
+
     # Replace the fragment in the original parsed URL with the new remarks
     new_parsed_url = ParseResult(
         scheme=parsed_url.scheme,
@@ -43,7 +46,7 @@ def set_remarks_from_custom_url(url, custom_url_base):
         path=parsed_url.path,
         params=parsed_url.params,
         query=parsed_url.query,
-        fragment=country_code
+        fragment=new_remarks
     )
 
     # Convert the new parsed URL back to a string
@@ -53,9 +56,9 @@ def set_remarks_from_custom_url(url, custom_url_base):
 
 def convert_proxies(input_file, output_file, custom_url_base):
     with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
-        for line in f_in:
+        for counter, line in enumerate(f_in, start=1):
             url = line.strip()
-            new_url = set_remarks_from_custom_url(url, custom_url_base)
+            new_url = set_remarks_from_custom_url(url, custom_url_base, counter)
             f_out.write(new_url + '\n')
 
 # Usage
