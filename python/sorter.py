@@ -71,6 +71,8 @@ def convert_proxies(input_file, output_file, ir_file, us_file, custom_url_base):
         for counter, line in enumerate(f_in, start=1):
             url = line.strip()
             new_url, country_code = set_remarks_from_custom_url(url, custom_url_base, counter)
+            if new_url is None:
+                continue
             f_out.write(new_url + '\n')
             if country_code == 'IR':
                 f_ir.write(new_url + '\n')
