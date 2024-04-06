@@ -15,7 +15,7 @@ jobs:
 
     - name: Convert to Base64
       run: |
-          files=("output/converted.txt" "output/US.txt.txt" "output/IR.txt")
+          files=("output/converted.txt" "output/US.txt" "output/IR.txt")
           for file in "${files[@]}"; do
           content=$(base64 "$file")
           echo "$content" > "base64/${file#output/}"
