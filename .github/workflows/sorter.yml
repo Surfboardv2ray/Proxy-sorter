@@ -25,3 +25,11 @@ jobs:
 
     - name: Run script
       run: python python/sorter.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add output/converted.txt
+        git commit -m "Update converted.txt" -a
+        git push
