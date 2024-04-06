@@ -46,7 +46,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
     # Check if the request was successful
     if response.status_code != 200:
         print(f"Failed to get remarks from {custom_url}")
-        return url
+        return url, None
 
     # The response text is assumed to be the country code
     country_code = response.text
