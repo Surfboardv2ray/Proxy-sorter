@@ -13,6 +13,11 @@ def get_ip(host):
         # If not, resolve the hostname to an IP address
         return socket.gethostbyname(host)
 
+def country_code_to_emoji(country_code):
+    # Convert the country code to corresponding Unicode
+    flag_emoji = ''.join(chr(ord(char) + 127397) for char in country_code.upper())
+    return flag_emoji
+
 def set_remarks_from_custom_url(url, custom_url_base, counter):
     # Check if the URL starts with 'vmess://'
     if url.startswith('vmess://'):
@@ -46,8 +51,11 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
     # The response text is assumed to be the country code
     country_code = response.text
 
+    # Convert the country code to an emoji flag
+    country_emoji = country_code_to_emoji(country_code)
+
     # Append the counter to the country code to create the new remarks
-    new_remarks = f"{country_code}_{counter}_@Surfboardv2ray"
+    new_remarks = f"{country_emoji}_{country_code}_{counter}_@Surfboardv2ray"
 
     if url.startswith('vmess://'):
         # Set the "ps" field in the config to the new remarks
