@@ -7,11 +7,16 @@ from urllib.parse import urlparse, urlunparse, ParseResult
 def get_ip(host):
     try:
         # Check if the host is an IP address
-        socket.inet_aton(host)
+        ipaddress.ip_address(host)
         return host
-    except socket.error:
+    except ValueError:
         # If not, resolve the hostname to an IP address
-        return socket.gethostbyname(host)
+        try:
+            return socket.gethostbyname(host)
+        except socket.gaierror:
+            print(f"Unable to resolve hostname: {host}")
+            return None
+
 
 def country_code_to_emoji(country_code):
     # Convert the country code to corresponding Unicode
