@@ -39,7 +39,7 @@ jobs:
       
     - name: Commit and push if there are changes
       run: |
-      if: steps.changes.outputs.changed == 'true'
+      if: steps.changesin.outputs.changed == 'true'
         
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
