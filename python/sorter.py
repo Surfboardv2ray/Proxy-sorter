@@ -79,13 +79,17 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
 
     return new_url
 
-def convert_proxies(input_file, output_file, custom_url_base):
-    with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
+def convert_proxies(input_file, output_file, ir_file, us_file, custom_url_base):
+    with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out, open(ir_file, 'w') as f_ir, open(us_file, 'w') as f_us:
         for counter, line in enumerate(f_in, start=1):
             url = line.strip()
-            new_url = set_remarks_from_custom_url(url, custom_url_base, counter)
+            new_url, country_code = set_remarks_from_custom_url(url, custom_url_base, counter)
             f_out.write(new_url + '\n')
-
+            if country_code == 'IR':
+                f_ir.write(new_url + '\n')
+            elif country_code == 'US':
+                f_us.write(new_url + '\n')
+                
 # Usage
 custom_url_base = 'https://ipinfo.dehel15354.workers.dev/'
-convert_proxies('input/proxies.txt', 'output/converted.txt', custom_url_base)
+convert_proxies('input/proxies.txt', 'output/converted.txt', 'output/IR.txt', 'output/US.txt' custom_url_base)
