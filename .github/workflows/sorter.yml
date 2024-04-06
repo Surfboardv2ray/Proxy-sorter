@@ -13,26 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Combine URL contents
-      run: |
-        # Replace with your URLs
-        URL1="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/vless"
-        URL2="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/vmess"
-
-        # Fetch the contents
-        CONTENT1=$(curl -s "$URL1")
-        CONTENT2=$(curl -s "$URL2")
-
-        # Combine and save to a file
-        echo -e "$CONTENT1\n$CONTENT2" > input/proxies.txt
-
-    - name: Upload combined content
-      uses: actions/upload-artifact@v2
-      with:
-        name: proxies
-        path: proxies.txt
-
-
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -50,6 +30,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add output/converted.txt
-        git commit -m "Update converted.txt" -a
+        git add output/converted.txt output/US.txt output/IR.txt
+        git commit -m "Update files" -a
         git push
