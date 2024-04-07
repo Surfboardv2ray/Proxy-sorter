@@ -25,14 +25,10 @@ jobs:
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
     - name: Add if change & setup git
-      if: steps.changes.outputs.changed == 'true'   
+      if: steps.changes64.outputs.changed == 'true'   
       run: |
-          git add submerge/*
-          
-          
-    - name: Commit and Push Bas64
-      run: |   
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add submerge/* 
           git commit -m "Update output files"
           git push
