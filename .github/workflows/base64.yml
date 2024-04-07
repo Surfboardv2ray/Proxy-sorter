@@ -15,10 +15,8 @@ jobs:
 
     - name: Convert to base64
       run: |
-          content=$(cat output/converted.txt | base64)
-            echo "$content" > base64/converted.txt
-          for file in output/US.txt output/IR.txt; do
-            base64 $file > "base64/$(basename $file)"
+          for file in output/converted.txt output/US.txt output/IR.txt; do
+            base64 $file > "submerge/$(basename $file)"
           done
        
     - name: Check for Base64 Changes
@@ -31,7 +29,6 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add base64/converted.txt
-          git add base64/*
+          git add submerge/*
           git commit --allow-empty -m "Update output files"
           git push
