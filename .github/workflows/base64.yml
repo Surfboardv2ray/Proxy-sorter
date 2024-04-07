@@ -30,5 +30,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add submerge/*
-          git commit --allow-empty -m "Update output files"
+          git commit -m "Update output files"
           git push
