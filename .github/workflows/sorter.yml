@@ -66,7 +66,7 @@ jobs:
       run: |
         git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
-    - name: Commit and push changes
+    - name: Commit and push sorter changes
       if: steps.changes.outputs.changed == 'true'   
       run: |
         git config --local user.email "action@github.com"
@@ -74,3 +74,24 @@ jobs:
         git add output/converted.txt output/US.txt output/IR.txt
         git commit -m "Update files" -a
         git push
+
+    - name: Convert to base64
+      run: |
+          for file in output/converted.txt output/US.txt output/IR.txt; do
+            base64 $file > "submerge/$(basename $file)"
+          done
+       
+    - name: Check for Base64 Changes
+      id: changes64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+      
+    - name: Commit and Push Base64
+      if: steps.changes64.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add submerge/* 
+          git commit -m "Update output files"
+          git push
+        
