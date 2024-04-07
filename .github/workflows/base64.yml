@@ -24,7 +24,7 @@ jobs:
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
-    - name: Add if change & setup git
+    - name: Commit and Push Base64
       if: steps.changes64.outputs.changed == 'true'   
       run: |
           git config --local user.email "action@github.com"
