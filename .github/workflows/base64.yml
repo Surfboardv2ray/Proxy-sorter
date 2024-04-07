@@ -33,5 +33,6 @@ jobs:
           
           
     - name: Commit and Push Bas64
+      run: |   
           git commit -m "Update output files"
           git push
