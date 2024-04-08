@@ -15,6 +15,7 @@ vless://27b08a01-7056-473d-8917-0db091da8a89@46.102.136.69:57803?security=none&e
 vless://2b4af20d-dc2e-41a5-bfdd-13c9b3ad8e4d@213.176.1.95:4001?security=none&encryption=none&headerType=none&type=tcp#🇮🇷_IR_457_@Surfboardv2ray
 vless://31b76bac-60bd-4629-8de3-dc43b41b7838@85.9.98.252:45694?security=none&encryption=none&host=idem.ir&headerType=http&type=tcp#🇮🇷_IR_609_@Surfboardv2ray
 vless://35f0755b-0ea2-4e6e-af68-1dba20ce64b6@62.60.132.196:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=greenpepper.ir&fp=chrome&security=reality&pbk=xnLXDcGVZwMsFOjXT6SFK1cPJO66a1kfgn94x2Ih6UA&sid=122efac9#🇮🇷_IR_627_@Surfboardv2ray
+vless://35f0755b-0ea2-4e6e-af68-1dba20ce64b6@lvl2.helixservers.chvrsi.ir:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=greenpepper.ir&fp=chrome&security=reality&pbk=xnLXDcGVZwMsFOjXT6SFK1cPJO66a1kfgn94x2Ih6UA&sid=122efac9#🇮🇷_IR_628_@Surfboardv2ray
 vless://3d8f6bac-9b5a-4f7c-deb4-da46d5767ff5@62.60.210.59:8443?security=none&encryption=none&host=@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP,+@V2RAYNG_IP&headerType=http&type=tcp#🇮🇷_IR_668_@Surfboardv2ray
 vless://3e43d714-23e1-47b6-d820-bdb50610362e@Super.dr-ping1.com:443?path=/api?ed=1024&security=tls&encryption=none&alpn=h2,http/1.1&host=arv1.ryhoon.com&fp=chrome&type=ws&sni=arv1.ryhoon.com#🇮🇷_IR_675_@Surfboardv2ray
 vless://3e43d714-23e1-47b6-d820-bdb50610362e@snapp.ir:443?path=/api?ed=1024&security=tls&encryption=none&alpn=h2,http/1.1&host=arv1.ryhoon.com&fp=chrome&type=ws&sni=arv1.ryhoon.com#🇮🇷_IR_676_@Surfboardv2ray
@@ -22,6 +23,7 @@ vless://3e43d714-23e1-47b6-d820-bdb50610362e@snapp.ir:443?path=/api?ed=1024&secu
 vless://4339df3f-c0ac-43d6-86b6-e883c98c395e@top.mobilegame.site:28915?security=none&encryption=none&headerType=http&serviceName=-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn&type=tcp#🇮🇷_IR_716_@Surfboardv2ray
 vless://45b8345e-0c2b-4ed4-8087-372b579ea0d7@185.58.241.132:58212?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷_IR_747_@Surfboardv2ray
 vless://48f3cc67-2a25-41e8-9e2c-6e2cea92fb35@31.14.115.124:80?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷_IR_768_@Surfboardv2ray
+vless://4b2e7bc8-f01d-4530-81fd-f28a5586ecaf@46.102.136.69:57803?host=fast.com&headerType=http&type=tcp#🇮🇷_IR_779_@Surfboardv2ray
 vless://4b7e011b-a6fe-40b2-bdda-f946987bda5b@62.60.132.10:56617?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷_IR_780_@Surfboardv2ray
 vless://4ef79985-7115-4a93-a568-dfe4172bf42f@irvps.megaazarakhsh.site:57803?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷_IR_816_@Surfboardv2ray
 vless://578692db-b688-4a62-99e8-7e3e165c3fc1@37.32.12.94:9080?security=none&encryption=none&headerType=http&type=tcp#🇮🇷_IR_943_@Surfboardv2ray
@@ -37,6 +39,7 @@ vless://7fb2265a-14ff-447f-9903-ef93482c332c@2.189.130.82:12539?path=/&security=
 vless://82a5c738-9614-4b1e-a4ec-091a9494b659@free.drpingservice.net:443?path=/&security=none&encryption=none&serviceName=-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn-Telegram:@Evay_vpn&type=ws#🇮🇷_IR_1298_@Surfboardv2ray
 vless://8dbd6722-1791-4cbb-bb49-8b155638515c@45.149.79.155:18207?security=none&encryption=none&headerType=http&type=tcp#🇮🇷_IR_1378_@Surfboardv2ray
 vless://8e31b954-f651-404e-9f7f-74ed07341731@89.44.118.60:1?security=none&encryption=none&host=x640b4525.divarcdn.comxx.com&headerType=http&type=tcp#🇮🇷_IR_1381_@Surfboardv2ray
+vless://V2darkOrg@85.9.105.38:1300?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷_IR_1561_@Surfboardv2ray
 vless://a94f6a0f-9971-4e97-8619-1ea3050195c1@mc0.xirix.li:30707?security=reality&encryption=none&pbk=IENappO7s_6OCAD8s8nLx7I3VOiso5RYsy3ASwQQeAk&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com#🇮🇷_IR_1652_@Surfboardv2ray
 vless://a9d9411c-d8b6-4f56-babf-538c1adcf5f5@2.189.130.119:10885?path=/&security=none&encryption=none&type=ws#🇮🇷_IR_1657_@Surfboardv2ray
 vless://ac3f43db-01d0-4cd9-8d0e-822fba28077a@78.109.200.12:27014?security=none&encryption=none&host=Speedtest.net&headerType=http&type=tcp#🇮🇷_IR_1670_@Surfboardv2ray
