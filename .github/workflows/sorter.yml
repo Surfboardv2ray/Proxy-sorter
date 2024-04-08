@@ -1,4 +1,4 @@
-name: Fetch proxies, Run python sorter
+name: Fetch proxies, Run python sorter and Base64
 
 on:
   push:
