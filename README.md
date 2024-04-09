@@ -3,14 +3,14 @@ Sorting proxies by location renaming remarks with country flags and codes. This 
 
 # Access Links
 
-All Countires:  [Base64](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/base64/converted.txt)
+All Countires:  [Base64](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt)
                 |
                 [UTF-8](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/converted.txt)
 
-US-only:  [Base64](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/base64/US.txt)
+US-only:  [Base64](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/US.txt)
           |
           [UTF-8](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/US.txt)
 
-IR-only:  [Base64](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/base64/IR.txt)
+IR-only:  [Base64](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/IR.txt)
           |
           [UTF-8](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/IR.txt)
