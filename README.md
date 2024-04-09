@@ -1,5 +1,5 @@
 # Proxy-sorter
-Sorting proxies by location - Just for testing. This repository uses sources from another repo of current user, [TGParse](https://github.com/Surfboardv2ray/TGParse).
+Sorting proxies by location renaming remarks with country flags and codes. This repository uses [TGParse](https://github.com/Surfboardv2ray/TGParse) sources.
 
 # Access Links
 
