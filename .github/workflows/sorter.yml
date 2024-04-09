@@ -75,11 +75,20 @@ jobs:
         git commit -m "Update files" -a
         git push
 
-    - name: Convert to base64
+    - name: Convert Converted to base64
       run: |
-          for file in output/converted.txt output/US.txt output/IR.txt; do
-            base64 $file > "submerge/$(basename $file)"
-          done
+          content=$(cat output/converted.txt | base64 | tr -d '\n')
+            echo "$content" > submerge/coverted.txt
+
+    - name: Convert IR to base64
+      run: |
+          content=$(cat output/IR.txt | base64 | tr -d '\n')
+            echo "$content" > submerge/IR.txt
+
+    - name: Convert US to base64
+      run: |
+          content=$(cat output/US.txt | base64 | tr -d '\n')
+            echo "$content" > submerge/US.txt
        
     - name: Check for Base64 Changes
       id: changes64
