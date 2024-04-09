@@ -78,7 +78,7 @@ jobs:
     - name: Convert Converted to base64
       run: |
           content=$(cat output/converted.txt | base64 | tr -d '\n')
-            echo "$content" > submerge/coverted.txt
+            echo "$content" > submerge/converted.txt
 
     - name: Convert IR to base64
       run: |
