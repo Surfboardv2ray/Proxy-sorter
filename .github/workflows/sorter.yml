@@ -121,4 +121,65 @@ jobs:
           git add submerge/* 
           git commit -m "Update output files"
           git push
+
+    - name: Create timestamped directory
+      run: |
+        mkdir -p ./archives/ws_tls/$(date +'%Y%m')
+        mkdir -p ./archives/ws_tls/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
+        cp ws_tls/proxies/wstls ./archives/ws_tls/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')/
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    - name: Run WSTLS
+      run: |
+        python python/wstls.py
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    - name: Run 7899
+      run: |
+        python python/7899.py
+    - name: Commit and push if it changed
+      run: |
+        git diff
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git commit -am "Update WS+TLS" || exit 0
+        git push
+
+    - name: Convert WSTLS to base64
+      run: |
+          content=$(cat ws_tls/proxies/wstls | base64 | tr -d '\n')
+            echo "$content" > ws_tls/proxies/wstls_base64
+
+    - name: Convert 7899 to base64
+      run: |
+          content=$(cat ws_tls/7899/7899 | base64 | tr -d '\n')
+            echo "$content" > ws_tls/7899/7899_base64
+       
+    - name: Check for Base64 Changes
+      id: changes7899
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+      
+    - name: Commit and Push WSTLS Base64
+      if: steps.changes7899.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git add ws_tls/proxies/wstls_base64
+          git add ws_tls/7899/7899_base64
+          git commit -m "Update Base64"
+          git push
+
         
