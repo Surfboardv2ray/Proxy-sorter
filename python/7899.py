@@ -3,7 +3,7 @@ import json
 import urllib.parse
 
 def modify_proxies():
-    with open('output.txt', 'r') as f:
+    with open('ws_tls/proxies/wstls', 'r') as f:
         proxies = f.readlines()
 
     modified_proxies = []
@@ -29,7 +29,7 @@ def modify_proxies():
             modified_proxy = 'vless://' + uuid + '@127.0.0.1:7899' + rest[len(ip+port)+2:]
             modified_proxies.append(modified_proxy)
 
-    with open('changes.txt', 'w') as f:
+    with open('ws_tls/7899/7899', 'w') as f:
         for proxy in modified_proxies:
             f.write(proxy + '\n')
 
