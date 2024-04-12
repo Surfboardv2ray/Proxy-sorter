@@ -80,5 +80,5 @@ def convert_proxies(input_file, output_file, ir_file, us_file, custom_url_base):
                 f_us.write(new_url + '\n')
                 
 # Usage
-custom_url_base = 'https://ip-api.jilino2325.workers.dev/'
+custom_url_base = 'https://ip-api.dehel15354.workers.dev/'
 convert_proxies('input/proxies.txt', 'output/converted.txt', 'output/IR.txt', 'output/US.txt', custom_url_base)
