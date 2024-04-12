@@ -15,7 +15,7 @@ def modify_proxies():
             proxy_dict = json.loads(proxy_info)
 
             proxy_dict['add'] = '127.0.0.1'
-            proxy_dict['port'] = '7789'
+            proxy_dict['port'] = '7899'
 
             modified_proxy = 'vmess://' + base64.b64encode(json.dumps(proxy_dict).encode('utf-8')).decode('utf-8')
             modified_proxies.append(modified_proxy)
