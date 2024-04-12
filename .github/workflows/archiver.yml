@@ -1,0 +1,29 @@
+name: Archive Converted
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  archive-and-update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Create timestamped directory
+      run: |
+        mkdir -p ./archives/$(date +'%Y-%m-%d_%H-%M-%S')
+        cp converted.txt ./archives/$(date +'%Y-%m-%d_%H-%M-%S')/
+
+    - name: Grab content and update backup
+      run: |
+        curl https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt -o converted.txt # Replace with your actual URL
+
+    - name: Commit and push if there are changes
+      run: |
+        git config --global user.name 'Github Action'
+        git config --global user.email 'Action@github.com'
+        git add .
+        git commit -m "Archived backups"
+        git push
