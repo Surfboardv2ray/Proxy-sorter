@@ -26,7 +26,7 @@ def country_code_to_emoji(country_code):
 
 def set_remarks_from_custom_url(url, custom_url_base, counter):
     if url.startswith('vmess://'):
-        decoded_str = base64.b64decode(url[8:]).decode('utf-8')
+        decoded_str = base64.b64decode(url[8:].encode('utf-8', 'ignore')).decode('utf-8')
         config = json.loads(decoded_str)
         host = config['add']
     else:
