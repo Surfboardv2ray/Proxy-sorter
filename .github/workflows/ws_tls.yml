@@ -1,0 +1,47 @@
+name: WS+TLS
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    - name: Run WSTLS
+      run: |
+        python python/wstls.py
+    - name: Commit and push if it changed
+      run: |
+        git diff
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git commit -am "Update WS+TLS" || exit 0
+        git push
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    - name: Run 7899
+      run: |
+        python python/7899.py
+    - name: Commit and push if it changed
+      run: |
+        git diff
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git commit -am "Update changes.txt" || exit 0
+        git push
+
