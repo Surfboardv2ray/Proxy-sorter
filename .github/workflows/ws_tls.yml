@@ -54,3 +54,28 @@ jobs:
         git commit -am "Update changes.txt" || exit 0
         git push
 
+    - name: Convert WSTLS to base64
+      run: |
+          content=$(cat ws_tls/proxies/wstls | base64 | tr -d '\n')
+            echo "$content" > ws_tls/proxies/wstls_base64
+
+    - name: Convert 7899 to base64
+      run: |
+          content=$(cat ws_tls/7899/7899 | base64 | tr -d '\n')
+            echo "$content" > ws_tls/7899/7899_base64
+       
+    - name: Check for Base64 Changes
+      id: changes64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+      
+    - name: Commit and Push Base64
+      if: steps.changes64.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add submerge/* 
+          git commit -m "Update output files"
+          git push
+        
+
