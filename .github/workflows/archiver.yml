@@ -15,7 +15,7 @@ jobs:
     - name: Create timestamped directory
       run: |
         mkdir -p ./archives/$(date +'%Y-%m-%d_%H-%M-%S')
-        cp converted.txt ./archives/$(date +'%Y-%m-%d_%H-%M-%S')/
+        cp submerge/converted.txt ./archives/$(date +'%Y-%m-%d_%H-%M-%S')/
 
     - name: Grab content and update backup
       run: |
