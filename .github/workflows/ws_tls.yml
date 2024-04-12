@@ -28,13 +28,6 @@ jobs:
     - name: Run WSTLS
       run: |
         python python/wstls.py
-    - name: Commit and push if it changed
-      run: |
-        git diff
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git commit -am "Update WS+TLS" || exit 0
-        git push
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -51,7 +44,7 @@ jobs:
         git diff
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-        git commit -am "Update changes.txt" || exit 0
+        git commit -am "Update WS+TLS" || exit 0
         git push
 
     - name: Convert WSTLS to base64
@@ -74,9 +67,8 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add .
           git add ws_tls/proxies/wstls_base64
           git add ws_tls/7899/7899_base64
-          git commit -m "Update output files"
+          git commit -m "Update Base64"
           git push
-        
-
