@@ -3,12 +3,21 @@ on:
   push:
     branches:
       - main
+
+  workflow_dispatch:
+  schedule:
+    - cron: "0 10 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    - name: Create timestamped directory
+      run: |
+        mkdir -p ./archives/ws_tls/$(date +'%Y%m')
+        mkdir -p ./archives/ws_tls/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
+        cp ws_tls/proxies/wstls ./archives/ws_tls/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')/
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
