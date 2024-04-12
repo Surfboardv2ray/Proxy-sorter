@@ -3,7 +3,7 @@ import json
 import urllib.parse
 
 def filter_proxies():
-    with open('input.txt', 'r') as f:
+    with open('output/converted.txt', 'r') as f:
         proxies = f.readlines()
 
     filtered_proxies = []
@@ -24,7 +24,7 @@ def filter_proxies():
             if proxy_dict.get('security') == 'tls' and proxy_dict.get('type') == 'ws' and proxy_dict.get('port') == '443':
                 filtered_proxies.append(proxy)
 
-    with open('output.txt', 'w') as f:
+    with open('ws_tls/proxies/wstls', 'w') as f:
         for proxy in filtered_proxies:
             f.write(proxy + '\n')
 
