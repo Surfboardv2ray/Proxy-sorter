@@ -22,7 +22,7 @@ jobs:
 
     - name: Grab content and update backup
       run: |
-        curl https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt -o archives/converted.txt # Replace with your actual URL
+        curl https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt -o archives/latest_backup/converted.txt # Replace with your actual URL
 
     - name: Commit and push if there are changes
       run: |
