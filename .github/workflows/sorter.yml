@@ -57,7 +57,8 @@ jobs:
       run: |
         if [[ "${{ steps.changesin.outputs.changed }}" != "true" ]]; then
           echo "No changes in input file, exiting"
-          exit 0
+          echo "::error::No changes in input file, stopping workflow"
+          exit 1
         fi
     
     - name: Commit and push if there are changes
