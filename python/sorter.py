@@ -31,7 +31,11 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
         host = config['add']
     else:
         parsed_url = urlparse(url)
-        host = parsed_url.netloc.split('@', 1)[1].split(':', 1)[0]
+        netloc_parts = parsed_url.netloc.split('@', 1)
+        if len(netloc_parts) < 2:
+            print(f"Invalid URL format: {url}")
+            return None, None
+        host = netloc_parts[1].split(':', 1)[0]
 
     ip = get_ip(host)
     if ip is None:
