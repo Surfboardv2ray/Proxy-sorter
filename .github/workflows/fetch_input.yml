@@ -1,12 +1,10 @@
-name: Fetch proxies, Run python sorter and Base64
+name: Fetch proxies
 
 on:
   push:
     branches: [ main ]
 
   workflow_dispatch:
-  schedule:
-    - cron: "0 6,18 * * *"
 jobs:
   build:
 
@@ -34,7 +32,7 @@ jobs:
         git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
     - name: Commit and push if there are changes
-      if: steps.changes.outputs.changed == 'true' 
+      if: steps.changesin.outputs.changed == 'true' 
       run: |  
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
