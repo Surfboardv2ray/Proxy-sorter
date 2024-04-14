@@ -29,20 +29,11 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
     if url.startswith('vmess://'):
         try:
             base64_str = url[8:]
-            # Calculate the required padding length
-            padding_length = (-len(base64_str) % 4)
-
-# Add the correct amount of padding
-            base64_str += '=' * padding_length
-
-# Decode the base64 string
-            decoded_str = base64.b64decode(base64_str.encode('utf-8', 'ignore')).decode('utf-8')
-
-        except (UnicodeDecodeError, json.JSONDecodeError) as e:
-            print(f"Error decoding string: {e}")
-            return None, None
-        config = json.loads(decoded_str)
-        host = config['add']
+            decoded_str = decode_base64(base64_str)
+            if decoded_str is None:
+                return None, None
+            config = json.loads(decoded_str)
+            host = config['add']
     else:
         parsed_url = urlparse(url)
         netloc_parts = parsed_url.netloc.split('@', 1)
