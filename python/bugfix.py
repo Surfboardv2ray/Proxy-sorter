@@ -71,7 +71,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
 
     if url.startswith('vmess://'):
         config['ps'] = new_remarks
-        new_url = 'vmess://' + base64.b64encode(json.dumps(config).encode('utf-8', 'ignore')).decode('utf-8')
+        new_url = 'vmess://' + base64.b64encode(json.dumps(config).encode('utf-8', 'ignore')).decode('utf-8', 'ignore')
     else:
         new_parsed_url = ParseResult(
             scheme=parsed_url.scheme,
