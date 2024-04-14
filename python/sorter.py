@@ -81,7 +81,7 @@ with open('output/converted.txt', 'r') as in_f:
     proxies = in_f.readlines()
     with open('output/IR.txt', 'w') as ir_f, open('output/US.txt', 'w') as us_f:
         for proxy in proxies:
-            if '_IR_' in proxy:
+            if 'IR_' in proxy:
                 ir_f.write(proxy)
-            elif '_US_' in proxy:
+            elif 'US_' in proxy:
                 us_f.write(proxy)
