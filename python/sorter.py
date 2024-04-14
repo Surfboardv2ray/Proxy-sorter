@@ -38,7 +38,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
 # Decode the base64 string
             decoded_str = base64.b64decode(base64_str.encode('utf-8', 'ignore')).decode('utf-8')
 
-            except (UnicodeDecodeError, json.JSONDecodeError) as e:
+        except (UnicodeDecodeError, json.JSONDecodeError) as e:
             print(f"Error decoding string: {e}")
             return None, None
         config = json.loads(decoded_str)
