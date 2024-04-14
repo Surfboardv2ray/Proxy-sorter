@@ -3,6 +3,7 @@ import json
 import requests
 import re
 import socket
+from urllib.parse import urlparse, parse_qs
 
 def get_country_code(ip_address):
     try:
@@ -31,6 +32,9 @@ proxy_counter = 0
 # Files for each country code
 files = {'IR': open('output/IR.txt', 'w'), 'US': open('output/US.txt', 'w')}
 
+# Set to keep track of the proxies we've seen so far
+seen_proxies = set()
+
 def process_vmess(proxy):
     global proxy_counter
     base64_str = proxy.split('://')[1]
@@ -50,8 +54,16 @@ def process_vmess(proxy):
         proxy_json['ps'] = remarks
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
         processed_proxy = 'vmess://' + encoded_str
-        if country_code in files:
-            files[country_code].write(processed_proxy + '\n')
+        # Create a unique identifier for the proxy based on the specific attributes
+        try:
+            proxy_id = (proxy_json['add'], proxy_json['port'], proxy_json['id'], proxy_json['net'], proxy_json['host'], proxy_json['path'], proxy_json['tls'])
+        except KeyError as e:
+            print(f"Missing attribute in vmess proxy: {e}")
+            return None
+        # Check if we've seen this proxy before
+        if proxy_id in seen_proxies:
+            return None
+        seen_proxies.add(proxy_id)
         return processed_proxy
     except Exception as e:
         print("Error processing vmess proxy: ", e)
@@ -59,17 +71,34 @@ def process_vmess(proxy):
 
 def process_vless(proxy):
     global proxy_counter
-    ip_address = proxy.split('@')[1].split(':')[0]
-    country_code = get_country_code(ip_address)
-    if country_code is None:
+    try:
+        # Parse the vless URL
+        url = urlparse(proxy)
+        # Extract the UUID, IP address, and port
+        uuid, ip_address = url.netloc.split('@')
+        port = url.port
+        # Extract the network, host, and path from the query parameters
+        query_params = parse_qs(url.query)
+        network = query_params.get('type', [''])[0]
+        host = query_params.get('host', [''])[0]
+        path = query_params.get('path', [''])[0]
+        # Create a unique identifier for the proxy based on the specific attributes
+        proxy_id = (uuid, ip_address, port, network, host, path)
+        # Check if we've seen this proxy before
+        if proxy_id in seen_proxies:
+            return None
+        seen_proxies.add(proxy_id)
+        # Get the country code and generate the remarks
+        country_code = get_country_code(ip_address)
+        if country_code is None or country_code not in ['US', 'IR']:
+            return None
+        flag_emoji = country_code_to_emoji(country_code)
+        proxy_counter += 1
+        remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
+        return proxy.split('#')[0] + '#' + remarks
+    except Exception as e:
+        print(f"Error processing vless proxy: {e}")
         return None
-    flag_emoji = country_code_to_emoji(country_code)
-    proxy_counter += 1
-    remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
-    processed_proxy = proxy.split('#')[0] + '#' + remarks
-    if country_code in files:
-        files[country_code].write(processed_proxy + '\n')
-    return processed_proxy
 
 # Process the proxies and write them to output.txt and the country-specific files
 with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as out_f:
