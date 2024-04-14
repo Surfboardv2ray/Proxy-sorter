@@ -37,7 +37,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
         except Exception as e:  # Add this line
             print(f"Error: {e}")
             return None, None
-        else:
+    else:
         parsed_url = urlparse(url)
         netloc_parts = parsed_url.netloc.split('@', 1)
         if len(netloc_parts) < 2:
