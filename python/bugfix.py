@@ -2,13 +2,26 @@ import base64
 import json
 import requests
 import re
+import socket
+
+
 
 def get_country_code(ip_address):
-    response = requests.get(f'https://https://ip-api.colaho6124.workers.dev/{ip_address}')
+    try:
+        # Try to resolve the hostname to an IP address
+        ip_address = socket.gethostbyname(ip_address)
+    except socket.gaierror:
+        print("Unable to resolve hostname")
+        return None
+    response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
     return response.text
 
 def process_vmess(proxy):
     base64_str = proxy.split('://')[1]
+    # Add padding if it's missing
+    missing_padding = len(base64_str) % 4
+    if missing_padding:
+        base64_str += '='* (4 - missing_padding)
     try:
         decoded_str = base64.b64decode(base64_str).decode('utf-8')
         proxy_json = json.loads(decoded_str)
@@ -20,6 +33,7 @@ def process_vmess(proxy):
     except Exception as e:
         print("Invalid base64 string")
         return None
+
 
 def process_vless(proxy):
     ip_address = proxy.split('@')[1].split(':')[0]
