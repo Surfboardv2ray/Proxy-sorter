@@ -43,7 +43,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
             host = config['add']
         except Exception as e:
             print(f"Error: {e}")
-            return None, None    
+            return None, None
             
        
     else:
