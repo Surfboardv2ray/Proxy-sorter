@@ -41,8 +41,8 @@ def decode_base64(input_str):
         try:
             decoded_str = decoded_bytes.decode('utf-8')
         except UnicodeDecodeError:
-            print(f"Invalid UTF-8 data: {decoded_bytes}")
-            return None
+            print(f"Data is not a valid UTF-8 string, handling as binary: {decoded_bytes}")
+            return decoded_bytes
 
         return decoded_str
     except binascii.Error as e:
