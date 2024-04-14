@@ -53,13 +53,13 @@ jobs:
       run: |
         git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
-    - name: Stop if no changes
-      run: |
-        if [[ "${{ steps.changesin.outputs.changed }}" != "true" ]]; then
-          echo "No changes in input file, exiting"
-          echo "::error::No changes in input file, stopping workflow"
-          exit 1
-        fi
+#    - name: Stop if no changes
+#      run: |
+#        if [[ "${{ steps.changesin.outputs.changed }}" != "true" ]]; then
+#          echo "No changes in input file, exiting"
+#          echo "::error::No changes in input file, stopping workflow"
+#          exit 1
+#        fi
     
     - name: Commit and push if there are changes
       if: steps.changesin.outputs.changed == 'true' 
