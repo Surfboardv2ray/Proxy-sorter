@@ -30,15 +30,15 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
         try:
             base64_str = url[8:]
             # Calculate the required padding length
-        padding_length = (-len(base64_str) % 4)
+            padding_length = (-len(base64_str) % 4)
 
 # Add the correct amount of padding
-        base64_str += '=' * padding_length
+            base64_str += '=' * padding_length
 
 # Decode the base64 string
-        decoded_str = base64.b64decode(base64_str.encode('utf-8', 'ignore')).decode('utf-8')
+            decoded_str = base64.b64decode(base64_str.encode('utf-8', 'ignore')).decode('utf-8')
 
-        except (UnicodeDecodeError, json.JSONDecodeError) as e:
+            except (UnicodeDecodeError, json.JSONDecodeError) as e:
             print(f"Error decoding string: {e}")
             return None, None
         config = json.loads(decoded_str)
