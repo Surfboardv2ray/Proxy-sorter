@@ -34,7 +34,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
                 return None, None
             config = json.loads(decoded_str)
             host = config['add']
-    else:
+        else:
         parsed_url = urlparse(url)
         netloc_parts = parsed_url.netloc.split('@', 1)
         if len(netloc_parts) < 2:
