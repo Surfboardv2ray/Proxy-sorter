@@ -30,29 +30,6 @@ def country_code_to_emoji(country_code):
 def is_base64(s):
     # Check if the string is a valid base64 string
     return (len(s) % 4 == 0) and re.match('^[A-Za-z0-9+/]+[=]{0,2}$', s)
-
-def decode_base64(input_str):
-    try:
-        # Calculate the required padding length
-        padding_length = (-len(input_str) % 4)
-
-        # Add the correct amount of padding
-        input_str += '=' * padding_length
-
-        # Decode the base64 string into bytes
-        decoded_bytes = base64.b64decode(input_str)
-
-        # Try to decode the bytes into a string
-        try:
-            decoded_str = decoded_bytes.decode('utf-8')
-        except UnicodeDecodeError:
-            print(f"Data is not a valid UTF-8 string, skipping this proxy.")
-            return None
-
-        return decoded_str
-    except binascii.Error as e:
-        print(f"Error decoding base64 string, skipping this proxy.")
-        return None
         
 def set_remarks_from_custom_url(url, custom_url_base, counter):
     if url.startswith('vmess://'):
@@ -61,10 +38,9 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
             print(f"Invalid base64 string: {base64_str}")
             return None, None
         try:
-            decoded_str = decode_base64(base64_str)
-            if decoded_str is None:
-                return None, None
-            config = json.loads(decoded_str)
+            decoded_str = base64.b64decode(url[8:]).decode('utf-8')
+        config = json.loads(decoded_str)
+            
             host = config['add']
         except Exception as e:
             print(f"Error: {e}")
