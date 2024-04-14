@@ -4,8 +4,6 @@ import requests
 import re
 import socket
 
-
-
 def get_country_code(ip_address):
     try:
         # Try to resolve the hostname to an IP address
@@ -13,8 +11,15 @@ def get_country_code(ip_address):
     except socket.gaierror:
         print(f"Unable to resolve hostname: {ip_address}")
         return None
-    response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
-    return response.text
+    except UnicodeError:
+        print(f"Hostname violates IDNA rules: {ip_address}")
+        return None
+    try:
+        response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"Error sending request: {e}")
+        return None
 
 def country_code_to_emoji(country_code):
     # Convert the country code to corresponding Unicode regional indicator symbols
