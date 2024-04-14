@@ -23,6 +23,9 @@ def country_code_to_emoji(country_code):
 # Counter for all proxies
 proxy_counter = 0
 
+# Files for each country code
+files = {'IR': open('output/IR.txt', 'w'), 'US': open('output/US.txt', 'w')}
+
 def process_vmess(proxy):
     global proxy_counter
     base64_str = proxy.split('://')[1]
@@ -38,9 +41,13 @@ def process_vmess(proxy):
             return None
         flag_emoji = country_code_to_emoji(country_code)
         proxy_counter += 1
-        proxy_json['ps'] = flag_emoji + country_code + '+' + str(proxy_counter) + '@Surfboardv2ray'
+        remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
+        proxy_json['ps'] = remarks
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
-        return 'vmess://' + encoded_str
+        processed_proxy = 'vmess://' + encoded_str
+        if country_code in files:
+            files[country_code].write(processed_proxy + '\n')
+        return processed_proxy
     except Exception as e:
         print("Error processing vmess proxy: ", e)
         return None
@@ -53,22 +60,24 @@ def process_vless(proxy):
         return None
     flag_emoji = country_code_to_emoji(country_code)
     proxy_counter += 1
-    return proxy.split('#')[0] + '#' + flag_emoji + country_code + '+' + str(proxy_counter) + '@Surfboardv2ray'
-    
+    remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
+    processed_proxy = proxy.split('#')[0] + '#' + remarks
+    if country_code in files:
+        files[country_code].write(processed_proxy + '\n')
+    return processed_proxy
 
-with open('input/bugfix.txt', 'r') as f:
+# Process the proxies and write them to output.txt and the country-specific files
+with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as out_f:
     proxies = f.readlines()
-
-output_proxies = []
-for proxy in proxies:
-    proxy = proxy.strip()
-    if proxy.startswith('vmess://'):
-        processed_proxy = process_vmess(proxy)
+    for proxy in proxies:
+        proxy = proxy.strip()
+        if proxy.startswith('vmess://'):
+            processed_proxy = process_vmess(proxy)
+        elif proxy.startswith('vless://'):
+            processed_proxy = process_vless(proxy)
         if processed_proxy is not None:
-            output_proxies.append(processed_proxy)
-    elif proxy.startswith('vless://'):
-        output_proxies.append(process_vless(proxy))
+            out_f.write(processed_proxy + '\n')
 
-with open('output/bugfix.txt', 'w') as f:
-    for proxy in output_proxies:
-        f.write(proxy + '\n')
+# Close the country-specific files
+for file in files.values():
+    file.close()
