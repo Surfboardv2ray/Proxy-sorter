@@ -38,13 +38,10 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
             print(f"Invalid base64 string: {base64_str}")
             return None, None
         try:
-            decoded_str = base64.b64decode(url[8:]).decode('utf-8', 'ignore')
+            decoded_str = base64.b64decode(url[8:]).decode('utf-8')
             if decoded_str and decoded_str.startswith('{') and decoded_str.endswith('}'):
                 config = json.loads(decoded_str)
                 host = config['add']
-            else:
-                print(f"Invalid JSON string: {decoded_str}")
-                return None, None
         except Exception as e:
             print(f"Error: {e}")
             return None, None
