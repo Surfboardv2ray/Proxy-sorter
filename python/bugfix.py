@@ -5,6 +5,7 @@ import base64
 import binascii
 from urllib.parse import urlparse, urlunparse, ParseResult
 import ipaddress
+import re
 
 def get_ip(host):
     try:
@@ -40,16 +41,23 @@ def decode_base64(input_str):
         print(f"Error decoding base64 string: {e}")
         return None
 
+def is_base64(s):
+    # Check if the string is a valid base64 string
+    return (len(s) % 4 == 0) and re.match('^[A-Za-z0-9+/]+[=]{0,2}$', s)
+
 def set_remarks_from_custom_url(url, custom_url_base, counter):
     if url.startswith('vmess://'):
+        base64_str = url[8:]
+        if not is_base64(base64_str):
+            print(f"Invalid base64 string: {base64_str}")
+            return None, None
         try:
-            base64_str = url[8:]
             decoded_str = decode_base64(base64_str)
             if decoded_str is None:
                 return None, None
             config = json.loads(decoded_str)
             host = config['add']
-        except Exception as e:  # Add this line
+        except Exception as e:
             print(f"Error: {e}")
             return None, None
     else:
