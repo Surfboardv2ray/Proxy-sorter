@@ -11,7 +11,7 @@ def get_country_code(ip_address):
         # Try to resolve the hostname to an IP address
         ip_address = socket.gethostbyname(ip_address)
     except socket.gaierror:
-        print("Unable to resolve hostname")
+        print("Unable to resolve hostname: {ip_address}")
         return None
     response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
     return response.text
@@ -20,10 +20,11 @@ def country_code_to_emoji(country_code):
     # Convert the country code to corresponding Unicode regional indicator symbols
     return ''.join(chr(ord(letter) + 127397) for letter in country_code.upper())
 
-# Counter for each country code
-country_code_counter = {}
+# Counter for all proxies
+proxy_counter = 0
 
 def process_vmess(proxy):
+    global proxy_counter
     base64_str = proxy.split('://')[1]
     missing_padding = len(base64_str) % 4
     if missing_padding:
@@ -36,23 +37,24 @@ def process_vmess(proxy):
         if country_code is None:
             return None
         flag_emoji = country_code_to_emoji(country_code)
-        country_code_counter[country_code] = country_code_counter.get(country_code, 0) + 1
-        proxy_json['ps'] = flag_emoji + country_code + '+' + str(country_code_counter[country_code]) + '+' + '@Surfboardv2ray'
+        proxy_counter += 1
+        proxy_json['ps'] = flag_emoji + country_code + '+' + str(proxy_counter) + '@Surfboardv2ray'
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
         return 'vmess://' + encoded_str
     except Exception as e:
-        print("Invalid base64 string")
+        print("Error processing vmess proxy: ", e)
         return None
 
 def process_vless(proxy):
+    global proxy_counter
     ip_address = proxy.split('@')[1].split(':')[0]
     country_code = get_country_code(ip_address)
     if country_code is None:
         return None
     flag_emoji = country_code_to_emoji(country_code)
-    country_code_counter[country_code] = country_code_counter.get(country_code, 0) + 1
-    return proxy.split('#')[0] + '#' + flag_emoji + country_code + '+' + str(country_code_counter[country_code]) + '+' + '@Surfboardv2ray'
-
+    proxy_counter += 1
+    return proxy.split('#')[0] + '#' + flag_emoji + country_code + '+' + str(proxy_counter) + '@Surfboardv2ray'
+    
 
 with open('input/bugfix.txt', 'r') as f:
     proxies = f.readlines()
