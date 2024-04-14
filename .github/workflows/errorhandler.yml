@@ -24,13 +24,13 @@ jobs:
     - name: Run sorter
       run: python python/bugfix.py
     
-    - name: Check for Output Changes
-      id: changes
-      run: |
-        git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+    #- name: Check for Output Changes
+     # id: changes
+      #run: |
+       # git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
       
     - name: Commit and push sorter changes
-      if: steps.changes.outputs.changed == 'true'   
+      #if: steps.changes.outputs.changed == 'true'   
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
