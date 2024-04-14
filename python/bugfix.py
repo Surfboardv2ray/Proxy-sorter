@@ -18,7 +18,6 @@ def get_country_code(ip_address):
 
 def process_vmess(proxy):
     base64_str = proxy.split('://')[1]
-    # Add padding if it's missing
     missing_padding = len(base64_str) % 4
     if missing_padding:
         base64_str += '='* (4 - missing_padding)
@@ -27,6 +26,8 @@ def process_vmess(proxy):
         proxy_json = json.loads(decoded_str)
         ip_address = proxy_json['add']
         country_code = get_country_code(ip_address)
+        if country_code is None:
+            return None
         proxy_json['ps'] = country_code
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
         return 'vmess://' + encoded_str
@@ -38,6 +39,8 @@ def process_vmess(proxy):
 def process_vless(proxy):
     ip_address = proxy.split('@')[1].split(':')[0]
     country_code = get_country_code(ip_address)
+    if country_code is None:
+        return None
     return proxy.split('#')[0] + '#' + country_code
 
 with open('input/bugfix.txt', 'r') as f:
