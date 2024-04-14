@@ -11,7 +11,7 @@ def get_country_code(ip_address):
         # Try to resolve the hostname to an IP address
         ip_address = socket.gethostbyname(ip_address)
     except socket.gaierror:
-        print("Unable to resolve hostname: {ip_address}")
+        print(f"Unable to resolve hostname: {ip_address}")
         return None
     response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
     return response.text
