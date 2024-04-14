@@ -26,28 +26,7 @@ def country_code_to_emoji(country_code):
     flag_emoji = ''.join(chr(ord(char) + 127397) for char in country_code.upper())
     return flag_emoji
 
-def decode_base64(input_str):
-    try:
-        # Calculate the required padding length
-        padding_length = (-len(input_str) % 4)
 
-        # Add the correct amount of padding
-        input_str += '=' * padding_length
-
-        # Decode the base64 string into bytes
-        decoded_bytes = base64.b64decode(input_str)
-
-        # Try to decode the bytes into a string
-        try:
-            decoded_str = decoded_bytes.decode('utf-8')
-        except UnicodeDecodeError:
-            print(f"Data is not a valid UTF-8 string, handling as binary: {decoded_bytes}")
-            return decoded_bytes
-
-        return decoded_str
-    except binascii.Error as e:
-        print(f"Error decoding base64 string: {e}")
-        return None
 def is_base64(s):
     # Check if the string is a valid base64 string
     return (len(s) % 4 == 0) and re.match('^[A-Za-z0-9+/]+[=]{0,2}$', s)
