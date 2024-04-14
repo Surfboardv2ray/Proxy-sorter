@@ -37,7 +37,7 @@ def process_vmess(proxy):
             return None
         flag_emoji = country_code_to_emoji(country_code)
         country_code_counter[country_code] = country_code_counter.get(country_code, 0) + 1
-        proxy_json['ps'] = flag_emoji + country_code + str(country_code_counter[country_code]) + '@Surfboardv2ray'
+        proxy_json['ps'] = flag_emoji + country_code + '+' + str(country_code_counter[country_code]) + '+' + '@Surfboardv2ray'
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
         return 'vmess://' + encoded_str
     except Exception as e:
@@ -51,7 +51,7 @@ def process_vless(proxy):
         return None
     flag_emoji = country_code_to_emoji(country_code)
     country_code_counter[country_code] = country_code_counter.get(country_code, 0) + 1
-    return proxy.split('#')[0] + '#' + flag_emoji + country_code + str(country_code_counter[country_code]) + '@Surfboardv2ray'
+    return proxy.split('#')[0] + '#' + flag_emoji + country_code + '+' + str(country_code_counter[country_code]) + '+' + '@Surfboardv2ray'
 
 
 with open('input/bugfix.txt', 'r') as f:
