@@ -34,6 +34,9 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
                 return None, None
             config = json.loads(decoded_str)
             host = config['add']
+        except Exception as e:  # Add this line
+            print(f"Error: {e}")
+            return None, None
         else:
         parsed_url = urlparse(url)
         netloc_parts = parsed_url.netloc.split('@', 1)
@@ -41,9 +44,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
             print(f"Invalid URL format: {url}")
             return None, None
         host = netloc_parts[1].split(':', 1)[0]
-        else
-            continue
-            
+    
     ip = get_ip(host)
     if ip is None:
         return None, None
