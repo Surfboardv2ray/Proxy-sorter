@@ -24,18 +24,16 @@ def country_code_to_emoji(country_code):
     flag_emoji = ''.join(chr(ord(char) + 127397) for char in country_code.upper())
     return flag_emoji
 
+
 def set_remarks_from_custom_url(url, custom_url_base, counter):
     if url.startswith('vmess://'):
         try:
             base64_str = url[8:]
-            # Check if the base64 string is correctly padded
-            base64_str = base64_str.replace('+', '-')
-            missing_padding = len(base64_str) % 4
-            if missing_padding != 0:
-                base64_str += '='* (4 - missing_padding)
+            # Pad base64 string to the correct length without altering other characters
+            base64_str += '=' * (-len(base64_str) % 4)
             decoded_str = base64.b64decode(base64_str.encode('utf-8', 'ignore')).decode('utf-8')
-        except UnicodeDecodeError:
-            print(f"Invalid base64 or UTF-8 string: {base64_str}")
+        except (UnicodeDecodeError, json.JSONDecodeError) as e:
+            print(f"Error decoding string: {e}")
             return None, None
         config = json.loads(decoded_str)
         host = config['add']
