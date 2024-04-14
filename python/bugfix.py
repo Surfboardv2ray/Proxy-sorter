@@ -39,11 +39,16 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
             return None, None
         try:
             decoded_str = base64.b64decode(url[8:]).decode('utf-8', 'ignore')
-            config = json.loads(decoded_str)
-            host = config['add']
+            if decoded_str and decoded_str.startswith('{') and decoded_str.endswith('}'):
+                config = json.loads(decoded_str)
+                host = config['add']
+            else:
+                print(f"Invalid JSON string: {decoded_str}")
+                return None, None
         except Exception as e:
             print(f"Error: {e}")
             return None, None
+    
             
        
     else:
