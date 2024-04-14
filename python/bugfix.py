@@ -16,6 +16,13 @@ def get_country_code(ip_address):
     response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
     return response.text
 
+def country_code_to_emoji(country_code):
+    # Convert the country code to corresponding Unicode regional indicator symbols
+    return ''.join(chr(ord(letter) + 127397) for letter in country_code.upper())
+
+# Counter for each country code
+country_code_counter = {}
+
 def process_vmess(proxy):
     base64_str = proxy.split('://')[1]
     missing_padding = len(base64_str) % 4
@@ -28,20 +35,24 @@ def process_vmess(proxy):
         country_code = get_country_code(ip_address)
         if country_code is None:
             return None
-        proxy_json['ps'] = country_code
+        flag_emoji = country_code_to_emoji(country_code)
+        country_code_counter[country_code] = country_code_counter.get(country_code, 0) + 1
+        proxy_json['ps'] = flag_emoji + country_code + str(country_code_counter[country_code]) + '@Surfboardv2ray'
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
         return 'vmess://' + encoded_str
     except Exception as e:
         print("Invalid base64 string")
         return None
 
-
 def process_vless(proxy):
     ip_address = proxy.split('@')[1].split(':')[0]
     country_code = get_country_code(ip_address)
     if country_code is None:
         return None
-    return proxy.split('#')[0] + '#' + country_code
+    flag_emoji = country_code_to_emoji(country_code)
+    country_code_counter[country_code] = country_code_counter.get(country_code, 0) + 1
+    return proxy.split('#')[0] + '#' + flag_emoji + country_code + str(country_code_counter[country_code]) + '@Surfboardv2ray'
+
 
 with open('input/bugfix.txt', 'r') as f:
     proxies = f.readlines()
