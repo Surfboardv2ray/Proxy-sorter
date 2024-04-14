@@ -29,6 +29,7 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
         try:
             base64_str = url[8:]
             # Check if the base64 string is correctly padded
+            base64_str = base64_str.replace('+', '-')
             missing_padding = len(base64_str) % 4
             if missing_padding != 0:
                 base64_str += '='* (4 - missing_padding)
