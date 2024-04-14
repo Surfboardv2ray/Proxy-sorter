@@ -39,9 +39,8 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
             return None, None
         try:
             decoded_str = base64.b64decode(url[8:]).decode('utf-8')
-            if decoded_str and decoded_str.startswith('{') and decoded_str.endswith('}'):
-                config = json.loads(decoded_str)
-                host = config['add']
+            config = json.loads(decoded_str)
+            host = config['add']
         except Exception as e:
             print(f"Error: {e}")
             return None, None
