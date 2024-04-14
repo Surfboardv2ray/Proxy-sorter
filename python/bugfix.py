@@ -2,6 +2,7 @@ import json
 import requests
 import socket
 import base64
+import binascii
 from urllib.parse import urlparse, urlunparse, ParseResult
 import ipaddress
 
@@ -24,6 +25,20 @@ def country_code_to_emoji(country_code):
     flag_emoji = ''.join(chr(ord(char) + 127397) for char in country_code.upper())
     return flag_emoji
 
+def decode_base64(input_str):
+    try:
+        # Calculate the required padding length
+        padding_length = (-len(input_str) % 4)
+
+        # Add the correct amount of padding
+        input_str += '=' * padding_length
+
+        # Decode the base64 string
+        decoded_str = base64.b64decode(input_str.encode('utf-8', 'ignore')).decode('utf-8')
+        return decoded_str
+    except binascii.Error as e:
+        print(f"Error decoding base64 string: {e}")
+        return None
 
 def set_remarks_from_custom_url(url, custom_url_base, counter):
     if url.startswith('vmess://'):
