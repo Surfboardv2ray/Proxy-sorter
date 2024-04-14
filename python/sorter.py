@@ -3,7 +3,6 @@ import json
 import requests
 import re
 import socket
-from urllib.parse import urlparse, parse_qs
 
 def get_country_code(ip_address):
     try:
@@ -17,9 +16,6 @@ def get_country_code(ip_address):
         return None
     try:
         response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
-        if response.text == "Invalid IP address":
-            print(f"Invalid IP address: {ip_address}")
-            return None
         return response.text
     except requests.exceptions.RequestException as e:
         print(f"Error sending request: {e}")
@@ -32,12 +28,6 @@ def country_code_to_emoji(country_code):
 # Counter for all proxies
 proxy_counter = 0
 
-# Files for each country code
-files = {'IR': open('output/IR.txt', 'w'), 'US': open('output/US.txt', 'w')}
-
-# Set to keep track of the proxies we've seen so far
-seen_proxies = set()
-
 def process_vmess(proxy):
     global proxy_counter
     base64_str = proxy.split('://')[1]
@@ -48,8 +38,7 @@ def process_vmess(proxy):
         decoded_str = base64.b64decode(base64_str).decode('utf-8')
         proxy_json = json.loads(decoded_str)
         ip_address = proxy_json['add']
-        hostname = proxy_json['add'].split(':')[0]  # Split the hostname and port
-        country_code = get_country_code(hostname)  # Pass the hostname to get_country_code
+        country_code = get_country_code(ip_address)
         if country_code is None:
             return None
         flag_emoji = country_code_to_emoji(country_code)
@@ -58,16 +47,6 @@ def process_vmess(proxy):
         proxy_json['ps'] = remarks
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
         processed_proxy = 'vmess://' + encoded_str
-        # Create a unique identifier for the proxy based on the specific attributes
-        try:
-            proxy_id = (proxy_json['add'], proxy_json['port'], proxy_json['id'], proxy_json['net'], proxy_json['host'], proxy_json['path'], proxy_json['tls'])
-        except KeyError as e:
-            print(f"Missing attribute in vmess proxy: {e}")
-            return None
-        # Check if we've seen this proxy before
-        if proxy_id in seen_proxies:
-            return None
-        seen_proxies.add(proxy_id)
         return processed_proxy
     except Exception as e:
         print("Error processing vmess proxy: ", e)
@@ -75,37 +54,17 @@ def process_vmess(proxy):
 
 def process_vless(proxy):
     global proxy_counter
-    try:
-        # Parse the vless URL
-        url = urlparse(proxy)
-        # Extract the UUID, IP address, and port
-        uuid, ip_address = url.netloc.split('@')
-        port = url.port
-        # Extract the network, host, and path from the query parameters
-        query_params = parse_qs(url.query)
-        network = query_params.get('type', [''])[0]
-        host = query_params.get('host', [''])[0]
-        path = query_params.get('path', [''])[0]
-        # Create a unique identifier for the proxy based on the specific attributes
-        proxy_id = (uuid, ip_address, port, network, host, path)
-        # Check if we've seen this proxy before
-        if proxy_id in seen_proxies:
-            return None
-        seen_proxies.add(proxy_id)
-        # Get the country code and generate the remarks
-        hostname = proxy.split('@')[1].split(':')[0]  # Split the hostname and port
-        country_code = get_country_code(hostname)  # Pass the hostname to get_country_code
-        if country_code is None:
-            return None
-        flag_emoji = country_code_to_emoji(country_code)
-        proxy_counter += 1
-        remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
-        return proxy.split('#')[0] + '#' + remarks
-    except Exception as e:
-        print(f"Error processing vless proxy: {e}")
+    ip_address = proxy.split('@')[1].split(':')[0]
+    country_code = get_country_code(ip_address)
+    if country_code is None:
         return None
+    flag_emoji = country_code_to_emoji(country_code)
+    proxy_counter += 1
+    remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
+    processed_proxy = proxy.split('#')[0] + '#' + remarks
+    return processed_proxy
 
-# Process the proxies and write them to output.txt and the country-specific files
+# Process the proxies and write them to converted.txt
 with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as out_f:
     proxies = f.readlines()
     for proxy in proxies:
@@ -117,6 +76,12 @@ with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as o
         if processed_proxy is not None:
             out_f.write(processed_proxy + '\n')
 
-# Close the country-specific files
-for file in files.values():
-    file.close()
+# Read from converted.txt and separate the proxies based on the country code
+with open('output/converted.txt', 'r') as in_f:
+    proxies = in_f.readlines()
+    with open('output/IR.txt', 'w') as ir_f, open('output/US.txt', 'w') as us_f:
+        for proxy in proxies:
+            if '_IR_' in proxy:
+                ir_f.write(proxy)
+            elif '_US_' in proxy:
+                us_f.write(proxy)
