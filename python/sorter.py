@@ -48,8 +48,9 @@ def process_vmess(proxy):
         decoded_str = base64.b64decode(base64_str).decode('utf-8')
         proxy_json = json.loads(decoded_str)
         ip_address = proxy_json['add']
-        country_code = get_country_code(ip_address)
-        if country_code is None or country_code not in ['US', 'IR']:
+        hostname = proxy_json['add'].split(':')[0]  # Split the hostname and port
+        country_code = get_country_code(hostname)  # Pass the hostname to get_country_code
+        if country_code is None:
             return None
         flag_emoji = country_code_to_emoji(country_code)
         proxy_counter += 1
@@ -92,8 +93,9 @@ def process_vless(proxy):
             return None
         seen_proxies.add(proxy_id)
         # Get the country code and generate the remarks
-        country_code = get_country_code(ip_address)
-        if country_code is None or country_code not in ['US', 'IR']:
+        hostname = proxy.split('@')[1].split(':')[0]  # Split the hostname and port
+        country_code = get_country_code(hostname)  # Pass the hostname to get_country_code
+        if country_code is None:
             return None
         flag_emoji = country_code_to_emoji(country_code)
         proxy_counter += 1
