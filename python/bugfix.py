@@ -39,15 +39,20 @@ def decode_base64(input_str):
         # Add the correct amount of padding
         input_str += '=' * padding_length
 
-        # Decode the base64 string
+        # Decode the base64 string into bytes
         decoded_bytes = base64.b64decode(input_str)
 
         # Try to decode the bytes into a string
         try:
             decoded_str = decoded_bytes.decode('utf-8')
         except UnicodeDecodeError:
-            print(f"Invalid UTF-8 data: {decoded_bytes}")
-            return None
+            print(f"Data is not a valid UTF-8 string, handling as binary: {decoded_bytes}")
+            return decoded_bytes
+
+        return decoded_str
+    except binascii.Error as e:
+        print(f"Error decoding base64 string: {e}")
+        return None
 
         return decoded_str
     except binascii.Error as e:
