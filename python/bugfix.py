@@ -46,17 +46,12 @@ def decode_base64(input_str):
         try:
             decoded_str = decoded_bytes.decode('utf-8')
         except UnicodeDecodeError:
-            print(f"Data is not a valid UTF-8 string, handling as binary: {decoded_bytes}")
-            return decoded_bytes
+            print(f"Data is not a valid UTF-8 string, skipping this proxy.")
+            return None
 
         return decoded_str
     except binascii.Error as e:
-        print(f"Error decoding base64 string: {e}")
-        return None
-
-        return decoded_str
-    except binascii.Error as e:
-        print(f"Error decoding base64 string: {e}")
+        print(f"Error decoding base64 string, skipping this proxy.")
         return None
         
 def set_remarks_from_custom_url(url, custom_url_base, counter):
