@@ -40,11 +40,11 @@ def set_remarks_from_custom_url(url, custom_url_base, counter):
         try:
             decoded_str = base64.b64decode(url[8:]).decode('utf-8')
         config = json.loads(decoded_str)
-            
-            host = config['add']
         except Exception as e:
             print(f"Error: {e}")
-            return None, None
+            return None, None    
+            host = config['add']
+       
     else:
         parsed_url = urlparse(url)
         netloc_parts = parsed_url.netloc.split('@', 1)
