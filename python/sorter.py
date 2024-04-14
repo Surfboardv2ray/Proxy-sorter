@@ -17,6 +17,9 @@ def get_country_code(ip_address):
         return None
     try:
         response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
+        if response.text == "Invalid IP address":
+            print(f"Invalid IP address: {ip_address}")
+            return None
         return response.text
     except requests.exceptions.RequestException as e:
         print(f"Error sending request: {e}")
@@ -46,7 +49,7 @@ def process_vmess(proxy):
         proxy_json = json.loads(decoded_str)
         ip_address = proxy_json['add']
         country_code = get_country_code(ip_address)
-        if country_code is None:
+        if country_code is None or country_code not in ['US', 'IR']:
             return None
         flag_emoji = country_code_to_emoji(country_code)
         proxy_counter += 1
