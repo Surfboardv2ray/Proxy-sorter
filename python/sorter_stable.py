@@ -28,9 +28,6 @@ def country_code_to_emoji(country_code):
 # Counter for all proxies
 proxy_counter = 0
 
-# Files for each country code
-files = {'IR': open('output/IR.txt', 'w'), 'US': open('output/US.txt', 'w')}
-
 def process_vmess(proxy):
     global proxy_counter
     base64_str = proxy.split('://')[1]
@@ -50,8 +47,6 @@ def process_vmess(proxy):
         proxy_json['ps'] = remarks
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
         processed_proxy = 'vmess://' + encoded_str
-        if country_code in files:
-            files[country_code].write(processed_proxy + '\n')
         return processed_proxy
     except Exception as e:
         print("Error processing vmess proxy: ", e)
@@ -67,11 +62,9 @@ def process_vless(proxy):
     proxy_counter += 1
     remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
     processed_proxy = proxy.split('#')[0] + '#' + remarks
-    if country_code in files:
-        files[country_code].write(processed_proxy + '\n')
     return processed_proxy
 
-# Process the proxies and write them to output.txt and the country-specific files
+# Process the proxies and write them to converted.txt
 with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as out_f:
     proxies = f.readlines()
     for proxy in proxies:
@@ -83,6 +76,12 @@ with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as o
         if processed_proxy is not None:
             out_f.write(processed_proxy + '\n')
 
-# Close the country-specific files
-for file in files.values():
-    file.close()
+# Read from converted.txt and separate the proxies based on the country code
+with open('output/converted.txt', 'r') as in_f:
+    proxies = in_f.readlines()
+    with open('output/IR.txt', 'w') as ir_f, open('output/US.txt', 'w') as us_f:
+        for proxy in proxies:
+            if '_IR_' in proxy:
+                ir_f.write(proxy)
+            elif '_US_' in proxy:
+                us_f.write(proxy)
