@@ -1,0 +1,6 @@
+vless://0f786905-42cd-4469-8146-46d7b8b13993@sam7.haylo.sbs:57592?security=none&encryption=none&host=bitcoin.org&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
+vless://238b38af-6a41-4c04-82b7-27cda3c463fe@85.9.99.191:52455?security=none&type=tcp&host=bwm.com&path=/&headerType=http#🇮🇷IR_93_@Surfboardv2ray
+vless://4f659f61-7326-487d-a3f6-8f7fb2ba10e5@188.121.117.3:59200?type=tcp&path=/&host=speedtest.net&headerType=http&security=none#🇮🇷IR_191_@Surfboardv2ray
+vless://8fa58961-5896-499a-a074-de3fa9873f8d@ir.starze.site:8080?path=/&security=tls&encryption=none&type=ws&sni=ir.starze.site#🇮🇷IR_302_@Surfboardv2ray
+vless://c5d89dde-0cc3-4c98-b053-95fffd5be364@79.175.177.111:24669?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_410_@Surfboardv2ray
+vless://v2ray-best_iran5@bestshop1.channneltest.pics:444?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_553_@Surfboardv2ray
