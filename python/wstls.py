@@ -20,8 +20,10 @@ def filter_proxies():
             proxy_info = proxy.split('vless://')[1]
             url_parts = urllib.parse.urlparse('http://' + proxy_info)
             query_params = urllib.parse.parse_qs(url_parts.query)
-    
-            if query_params.get('port') == ['443'] and query_params.get('security') == ['tls'] and query_params.get('type') == ['ws']:
+        
+            port = url_parts.port  # Extract the port directly from the URL
+        
+            if str(port) == '443' and query_params.get('security') == ['tls'] and query_params.get('type') == ['ws']:
                 filtered_proxies.append(proxy)
 
 
