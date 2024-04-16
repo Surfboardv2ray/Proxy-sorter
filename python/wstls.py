@@ -17,12 +17,13 @@ def filter_proxies():
             if proxy_dict.get('tls') == 'tls' and proxy_dict.get('net') == 'ws' and proxy_dict.get('port') == '443':
                 filtered_proxies.append(proxy)
         elif proxy.startswith('vless://'):
-            proxy_info = proxy.split('vless://')[1]
-            proxy_info = urllib.parse.unquote(proxy_info)
-            proxy_dict = dict(urllib.parse.parse_qsl(proxy_info))
+    proxy_info = proxy.split('vless://')[1]
+    url_parts = urllib.parse.urlparse('http://' + proxy_info)
+    query_params = urllib.parse.parse_qs(url_parts.query)
 
-            if proxy_dict.get('security') == 'tls' and proxy_dict.get('type') == 'ws' and proxy_dict.get('port') == '443':
-                filtered_proxies.append(proxy)
+    if query_params.get('port') == ['443'] and query_params.get('security') == ['tls'] and query_params.get('type') == ['ws']:
+        filtered_proxies.append(proxy)
+
 
     with open('ws_tls/proxies/wstls', 'w') as f:
         for proxy in filtered_proxies:
