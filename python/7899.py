@@ -23,9 +23,9 @@ def modify_proxies():
             proxy_info = proxy.split('vless://')[1]
             proxy_info = urllib.parse.unquote(proxy_info)
             proxy_dict = dict(urllib.parse.parse_qsl(proxy_info))
-
-            uuid, rest = proxy_info.split('@')
-            ip, port = rest.split(':')
+        
+            uuid, rest = proxy_info.split('@', 1)  # Split at the first occurrence of '@'
+            ip, port = rest.split(':', 1)  # Split at the first occurrence of ':'
             modified_proxy = 'vless://' + uuid + '@127.0.0.1:7899' + rest[len(ip+port)+2:]
             modified_proxies.append(modified_proxy)
 
