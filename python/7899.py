@@ -22,12 +22,12 @@ def modify_proxies():
         elif proxy.startswith('vless://'):
             proxy_info = proxy.split('vless://')[1]
             proxy_info = urllib.parse.unquote(proxy_info)
-            proxy_dict = dict(urllib.parse.parse_qsl(proxy_info))
         
             uuid, rest = proxy_info.split('@', 1)  # Split at the first occurrence of '@'
-            ip, port = rest.split(':', 1)  # Split at the first occurrence of ':'
-            modified_proxy = 'vless://' + uuid + '@127.0.0.1:7899' + rest[len(ip+port)+2:]
+            ip_port, rest = rest.split('?', 1)  # Split at the first occurrence of '?'
+            modified_proxy = 'vless://' + uuid + '@127.0.0.1:7899?' + rest
             modified_proxies.append(modified_proxy)
+
 
     with open('ws_tls/7899/7899', 'w') as f:
         for proxy in modified_proxies:
