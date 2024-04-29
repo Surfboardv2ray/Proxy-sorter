@@ -14,3 +14,7 @@ US-only:  [Base64](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter
 IR-only:  [Base64](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/IR.txt)
           |
           [UTF-8](https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/IR.txt)
+
+
+## Stargazers
+[![Stargazers over time](https://starchart.cc/Surfboardv2ray/Proxy-sorter.svg?variant=adaptive)](https://starchart.cc/Surfboardv2ray/Proxy-sorter)
