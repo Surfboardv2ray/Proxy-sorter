@@ -15,7 +15,12 @@ def get_country_code(ip_address):
         print(f"Hostname violates IDNA rules: {ip_address}")
         return None
     try:
-        response = requests.get(f'https://ip-api.colaho6124.workers.dev/{ip_address}')
+        # Retrieve the base URL from the environment variable
+        base_url = os.getenv('GET_IPGEO')
+        if not base_url:
+            raise ValueError("Environment variable GET_IPGEO not set")
+
+        response = requests.get(f'{base_url}/{ip_address}')
         return response.text
     except requests.exceptions.RequestException as e:
         print(f"Error sending request: {e}")
