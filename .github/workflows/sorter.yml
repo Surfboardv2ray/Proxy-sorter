@@ -81,9 +81,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Run sorter
-      run: python python/sorter.py
-
+    - name: Run sorter script
+      env:
+          GET_IPGEO: ${{ secrets.GET_IPGEO }}
+      run: python sorter.py
+      
     - name: Check for Output Changes
       id: changes
       run: |
