@@ -84,7 +84,7 @@ jobs:
     - name: Run sorter script
       env:
           GET_IPGEO: ${{ secrets.GET_IPGEO }}
-      run: python sorter.py
+      run: python python/sorter.py
       
     - name: Check for Output Changes
       id: changes
