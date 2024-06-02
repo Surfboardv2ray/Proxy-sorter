@@ -38,8 +38,8 @@ jobs:
     - name: Combine URL contents
       run: |
         # Replace with your URLs
-        URL1="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/vless"
-        URL2="https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/vmess"
+        URL1="${{ secrets.VMESS_URL }}"
+        URL2="${{ secrets.VLESS_URL }}"
 
         # Fetch the contents
         CONTENT1=$(curl -s "$URL1")
