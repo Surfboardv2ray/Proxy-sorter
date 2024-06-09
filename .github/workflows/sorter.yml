@@ -189,4 +189,37 @@ jobs:
           git commit -m "Update Base64"
           git push
 
-        
+    - name: Run script to select random lines
+      run: |
+          python selector/random_lines.py
+
+    - name: Push Random
+      if: steps.changesRandom.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add selector/random
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
+    - name: Convert Random to base64
+      run: |
+          > selector/random64
+          content=$(cat selector/random | base64 | tr -d '\n')
+            echo "$content" > selector/random64
+
+    - name: Check for Random base64 Changes
+      id: changesRandom64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push Random Base64
+      if: steps.changesRandom64.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
