@@ -1,63 +1,93 @@
 import base64
 import json
+import requests
 import re
+import socket
 import os
 
-# Global variable to keep track of processed proxies
+def get_country_code(ip_address):
+    try:
+        # Try to resolve the hostname to an IP address
+        ip_address = socket.gethostbyname(ip_address)
+    except socket.gaierror:
+        print(f"Unable to resolve hostname: {ip_address}")
+        return None
+    except UnicodeError:
+        print(f"Hostname violates IDNA rules: {ip_address}")
+        return None
+    try:
+        # Retrieve the base URL from the environment variable
+        base_url = os.getenv('GET_IPGEO')
+        if not base_url:
+            raise ValueError("Environment variable GET_IPGEO not set")
+
+        response = requests.get(f'{base_url}/{ip_address}')
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"Error sending request: {e}")
+        return None
+
+def country_code_to_emoji(country_code):
+    # Convert the country code to corresponding Unicode regional indicator symbols
+    return ''.join(chr(ord(letter) + 127397) for letter in country_code.upper())
+
+# Counter for all proxies
 proxy_counter = 0
 
-def rename_vmess_address(proxy, new_address):
+def process_vmess(proxy):
     global proxy_counter
     base64_str = proxy.split('://')[1]
     missing_padding = len(base64_str) % 4
     if missing_padding:
-        base64_str += '=' * (4 - missing_padding)
+        base64_str += '='* (4 - missing_padding)
     try:
         decoded_str = base64.b64decode(base64_str).decode('utf-8')
-        print("Decoded VMess proxy JSON:", decoded_str)  # Debugging
         proxy_json = json.loads(decoded_str)
-        proxy_json['add'] = new_address
+        ip_address = proxy_json['add']
+        country_code = get_country_code(ip_address)
+        if country_code is None:
+            return None
+        flag_emoji = country_code_to_emoji(country_code)
         proxy_counter += 1
+        remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
+        proxy_json['ps'] = remarks
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
-        renamed_proxy = 'vmess://' + encoded_str
-        print("Renamed VMess proxy:", renamed_proxy)  # Debugging
-        return renamed_proxy
+        processed_proxy = 'vmess://' + encoded_str
+        return processed_proxy
     except Exception as e:
         print("Error processing vmess proxy: ", e)
         return None
 
-def rename_vless_address(proxy, new_address):
+def process_vless(proxy):
     global proxy_counter
-    try:
-        parts = proxy.split('@')
-        userinfo = parts[0]
-        hostinfo = parts[1]
-        hostinfo_parts = hostinfo.split(':')
-        hostinfo_parts[0] = new_address
-        hostinfo = ':'.join(hostinfo_parts)
-        renamed_proxy = userinfo + '@' + hostinfo
-        proxy_counter += 1
-        print("Renamed VLess proxy:", renamed_proxy)  # Debugging
-        return renamed_proxy
-    except Exception as e:
-        print("Error processing vless proxy: ", e)
+    ip_address = proxy.split('@')[1].split(':')[0]
+    country_code = get_country_code(ip_address)
+    if country_code is None:
         return None
+    flag_emoji = country_code_to_emoji(country_code)
+    proxy_counter += 1
+    remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
+    processed_proxy = proxy.split('#')[0] + '#' + remarks
+    return processed_proxy
 
-def process_proxies(input_file, output_file, new_address):
-    with open(input_file, 'r') as f, open(output_file, 'w') as out_f:
-        proxies = f.readlines()
+# Process the proxies and write them to converted.txt
+with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as out_f:
+    proxies = f.readlines()
+    for proxy in proxies:
+        proxy = proxy.strip()
+        if proxy.startswith('vmess://'):
+            processed_proxy = process_vmess(proxy)
+        elif proxy.startswith('vless://'):
+            processed_proxy = process_vless(proxy)
+        if processed_proxy is not None:
+            out_f.write(processed_proxy + '\n')
+
+# Read from converted.txt and separate the proxies based on the country code
+with open('output/converted.txt', 'r') as in_f:
+    proxies = in_f.readlines()
+    with open('output/IR.txt', 'w') as ir_f, open('output/US.txt', 'w') as us_f:
         for proxy in proxies:
-            proxy = proxy.strip()
-            if proxy.startswith('vmess://'):
-                renamed_proxy = rename_vmess_address(proxy, new_address)
-            elif proxy.startswith('vless://'):
-                renamed_proxy = rename_vless_address(proxy, new_address)
-            if renamed_proxy is not None:
-                out_f.write(renamed_proxy + '\n')
-
-# Example usage
-input_file = 'StarStruck/Star'
-output_file = 'StarStruck/StarRenamed'
-new_address = '188.114.97.161'
-
-process_proxies(input_file, output_file, new_address)
+            if 'IR_' in proxy:
+                ir_f.write(proxy)
+            elif 'US_' in proxy:
+                us_f.write(proxy)
