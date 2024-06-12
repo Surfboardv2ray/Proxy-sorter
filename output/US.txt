@@ -1,9 +1,7 @@
-vless://6eccc692-3876-41a8-cfb9-65da484f097e@gcore.com:80?path=/V2ray?ed=2048&security=none&encryption=none&host=dlrozaneh.ir.&type=ws#🇺🇸US_202_@Surfboardv2ray
-vless://ad8aa9eb-7120-4953-a877-e7206f5a7c3c@188.114.99.99:2096?mode=gun&security=tls&encryption=none&alpn=http/1.1&authority=&fp=chrome&type=grpc&serviceName=&sni=tarasvalete.parhamtraberthos.IR.#🇺🇸US_336_@Surfboardv2ray
-vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_407_@Surfboardv2ray
-vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_408_@Surfboardv2ray
-vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/?ed&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_409_@Surfboardv2ray
-vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/?ed&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_410_@Surfboardv2ray
-vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/?ed=2048&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_411_@Surfboardv2ray
-vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@172.64.101.233:443?security=tls&sni=mmdv2.pages.dev&type=ws&host=mmdv2.pages.dev&path=/&fp=chrome#🇺🇸US_412_@Surfboardv2ray
-vless://e8db8f51-bb93-452c-8808-eb3b2c0b2b6d@172.64.139.224:8080?security=none&type=ws&host=jD.neT.v2rayng6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.SaMaN.Monster.&path=//Cmdv2rayng-V2rayngcmd-telegram-cmd_v2rayng?ed=2048#🇺🇸US_432_@Surfboardv2ray
+vless://6eccc692-3876-41a8-cfb9-65da484f097e@gcore.com:80?path=/V2ray?ed=2048&security=none&encryption=none&host=dlrozaneh.ir.&type=ws#🇺🇸US_203_@Surfboardv2ray
+vless://ad8aa9eb-7120-4953-a877-e7206f5a7c3c@188.114.99.99:2096?mode=gun&security=tls&encryption=none&alpn=http/1.1&authority=&fp=chrome&type=grpc&serviceName=&sni=tarasvalete.parhamtraberthos.IR.#🇺🇸US_330_@Surfboardv2ray
+vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_409_@Surfboardv2ray
+vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_410_@Surfboardv2ray
+vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/?ed&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_411_@Surfboardv2ray
+vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/?ed&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_412_@Surfboardv2ray
+vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.252.236:443?path=/?ed=2048&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_413_@Surfboardv2ray
