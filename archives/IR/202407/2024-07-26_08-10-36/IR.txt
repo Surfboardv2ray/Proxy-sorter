@@ -1,0 +1,10 @@
+vless://076e69bf-22f6-48a6-ad26-370c7c650c40@85.133.201.148:26837?security=none&encryption=none&host=Ponisha.ir&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
+vless://1ce8c07c-1531-4d40-a776-e989580fbd40@188.121.118.76:803?path=/&security=none&encryption=none&type=ws#🇮🇷IR_70_@Surfboardv2ray
+vless://31b5087b-4445-42e0-ec11-7adfd42d1b34@193.107.48.121:50149?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_82_@Surfboardv2ray
+vless://32ed7d06-9d3d-4cf5-b58c-b67e8fc4e189@185.173.130.24:443?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
+vless://4dc6ab81-aa95-4728-92f8-f6a3672971ba@80.249.114.29:10533?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_145_@Surfboardv2ray
+vless://5e30b4cd-b8ac-41b1-930f-886a61670a45@88.135.46.225:443?security=reality&flow=xtls-rprx-vision&sni=www.pinterest.com&type=tcp&fp=chrome&pbk=ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk&sid=6acf3ba5790e4324&alpn=http/1.1#🇮🇷IR_164_@Surfboardv2ray
+vless://872ead64-bd1f-4cdb-c7f8-8bc159e2bd61@194.60.231.168:49762?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_195_@Surfboardv2ray
+vless://f1652ca5-c3fc-4ec6-83af-2f85579da0ed@89.47.198.98:51011?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_372_@Surfboardv2ray
+vless://f1652ca5-c3fc-4ec6-83af-2f85579da0ed@89.47.198.98:51011?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_373_@Surfboardv2ray
+vless://f6465c91-4246-47c0-b66e-8a2c90177e8d@193.107.48.121:17271?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_376_@Surfboardv2ray
