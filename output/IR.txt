@@ -1,2 +1,5 @@
-vless://2dbac56a-40e9-4e0d-b2ee-554e6bdb6874@bama.ir:80?path=/&security=none&encryption=none&host=network.ir&type=ws#🇮🇷IR_13_@Surfboardv2ray
-vless://daa7c497-237b-4efb-d713-363f2fc3aac2@88.135.46.45:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_58_@Surfboardv2ray
+vless://1c0f314f-522b-4cb2-abe3-5ed552123cc1@79.175.129.167:64?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_20_@Surfboardv2ray
+vless://2dbac56a-40e9-4e0d-b2ee-554e6bdb6874@bama.ir:80?path=/&security=none&encryption=none&host=network.ir&type=ws#🇮🇷IR_21_@Surfboardv2ray
+vless://59facaad-eb4d-45ba-bf4f-3721890e109b@vipserver.newavnetwork.top:443?security=none&encryption=none&host=eset.com&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
+vless://6a99725d-2af8-d27c-cef5-302fbbe54c07@81.12.92.132:18101?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_38_@Surfboardv2ray
+vless://fa214aa0-65c0-9b13-8698-2cb6b7ccedf0@t1.darklord.life:443?security=none&encryption=none&host=divarcdn.com&headerType=http&type=tcp#🇮🇷IR_75_@Surfboardv2ray
