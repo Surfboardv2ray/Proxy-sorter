@@ -1,6 +1,5 @@
-vless://28da1ca5-a6ad-4ee2-8954-1641248f5c72@85.9.108.12:9090?path=/&security=none&encryption=none&type=ws#🇮🇷IR_18_@Surfboardv2ray
-vless://2dbac56a-40e9-4e0d-b2ee-554e6bdb6874@bama.ir:80?path=/&security=none&encryption=none&host=network.ir&type=ws#🇮🇷IR_19_@Surfboardv2ray
-vless://54ef4ecf-ff37-436a-be13-95c8a8a1114d@188.121.118.55:443?path=/?ed=2048&security=tls&encryption=none&host=ViRgInIaVpN-Nl.PaGeS.DeV&type=ws&sni=vIrGiNiAvPn-nL.pAgEs.dEv#🇮🇷IR_26_@Surfboardv2ray
-vless://56d1556c-9924-46f9-e205-913e88149b9d@31.7.70.80:30617?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_27_@Surfboardv2ray
-vless://6a99725d-2af8-d27c-cef5-302fbbe54c07@81.12.92.130:18989?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
-vless://Abc-Cloud@faradars.org:443?path=a?ed=2048&security=tls&encryption=none&host=abc2-50bdf20b6a-abc.apps.ir-thr-ba1.arvancaas.ir&type=ws&sni=faradars.org#🇮🇷IR_41_@Surfboardv2ray
+vless://3b6f59bb-cdcd-4ebc-864f-f516d46d3f79@95.38.200.220:39733?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_27_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_31_@Surfboardv2ray
+vless://6a99725d-2af8-d27c-cef5-302fbbe54c07@81.12.92.130:18989?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_42_@Surfboardv2ray
+vless://b39da4d8-edaa-444d-91d2-846eb24f00df@193.107.48.54:443?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_63_@Surfboardv2ray
+vless://d88d5d47-0826-49ea-b146-c5fbfb4ccdf2@85.198.9.12:8443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_67_@Surfboardv2ray
