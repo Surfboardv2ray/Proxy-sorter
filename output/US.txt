@@ -1,5 +1,2 @@
-vless://3d4fac5a-6011-4526-b70d-2a71058f11f6@104.25.24.18:8080?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080&host=join-to.vmessorg.Community.&encryption=none#🇺🇸US_29_@Surfboardv2ray
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@162.159.60.173:8880?path=/f6QE1QHz0sEFAUIO/MjAyLjYxLjE5My4yNDg=?ed=2560&security=none&encryption=none&host=bpb.KmEVPs.iR&type=ws#🇺🇸US_47_@Surfboardv2ray
-vless://SAVTEAM3@speedtest.net:443?path=/?ed=1024&security=tls&encryption=none&alpn=h2,http/1.1&host=SAV.TEAM&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_60_@Surfboardv2ray
-vless://SAVTEAM6@speedtest.net:443?path=/?ed=1024&serviceName=@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud&security=tls&encryption=none&alpn=h2,http/1.1&host=SAV.TEAM&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_61_@Surfboardv2ray
-vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@172.64.143.172:443?path=/?ed=2048&security=tls&encryption=none&host=mmdv2.pages.dev&type=ws&sni=mmdv2.pages.dev#🇺🇸US_68_@Surfboardv2ray
+vless://21cd7c3e-a252-4593-873a-27dbdc8431df@speedtest.net:443?path=/?ed=1024&security=tls&encryption=none&alpn=h2,http/1.1&host=mtn.site&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_29_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_37_@Surfboardv2ray

@@ -1,5 +1,0 @@
-vless://3b6f59bb-cdcd-4ebc-864f-f516d46d3f79@95.38.200.220:39733?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_27_@Surfboardv2ray
-vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_31_@Surfboardv2ray
-vless://6a99725d-2af8-d27c-cef5-302fbbe54c07@81.12.92.130:18989?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_42_@Surfboardv2ray
-vless://b39da4d8-edaa-444d-91d2-846eb24f00df@193.107.48.54:443?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_63_@Surfboardv2ray
-vless://d88d5d47-0826-49ea-b146-c5fbfb4ccdf2@85.198.9.12:8443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_67_@Surfboardv2ray
