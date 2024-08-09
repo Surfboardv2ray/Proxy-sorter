@@ -1,2 +1,6 @@
-vless://4c1983a8-1802-46f1-8837-aaf33958ed46@185.148.105.52:443?path=/MgFwdcE2Hs2cgQYI0W&security=tls&encryption=none&alpn=http/1.1&host=fln1.novinping.com&fp=chrome&type=ws&sni=fln1.novinping.com#🇺🇸US_46_@Surfboardv2ray
-vless://ab602e02-624b-44f0-a51b-25ed53f70048@144.126.145.43:80/?type=ws&encryption=none&host=us.eaxeg.be&path=/03k3EF1qSBBZ3SSQ9N70H4Y2aW#🇺🇸US_59_@Surfboardv2ray
+vless://4c1983a8-1802-46f1-8837-aaf33958ed46@185.148.105.52:443?path=/MgFwdcE2Hs2cgQYI0W&security=tls&encryption=none&alpn=http/1.1&host=fln1.novinping.com&fp=chrome&type=ws&sni=fln1.novinping.com#🇺🇸US_19_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_58_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.194.133:443?path=@Selinc/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_59_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443/?type=ws&encryption=none&host=fraud.chase&path=/&security=tls&sni=www.Arizona.edu&fp=chrome#🇺🇸US_60_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?path=/?ed&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_61_@Surfboardv2ray
+vless://d7dd3a35-b68b-4992-b319-a85b8a1fc8e5@154.17.21.134:18446/?type=ws&encryption=none&host=dns68.putata.eu.org&path=/?ed=2048&security=tls&sni=dns68.putata.eu.org&fp=chrome#🇺🇸US_64_@Surfboardv2ray

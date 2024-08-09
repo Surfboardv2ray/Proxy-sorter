@@ -1,3 +1,0 @@
-vless://19eea751-a818-4315-d0bd-fd307755a04f@31.7.70.80:30617?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_43_@Surfboardv2ray
-vless://4cf89101-531a-4e85-aa70-b2fd512c8857@31.7.70.80:50775?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_47_@Surfboardv2ray
-vless://825b2a8e-2b91-451e-be51-e1adb9e08114@31.7.70.80:20566?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_51_@Surfboardv2ray
