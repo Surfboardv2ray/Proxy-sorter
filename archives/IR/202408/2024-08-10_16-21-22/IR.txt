@@ -1,0 +1,4 @@
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_30_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_33_@Surfboardv2ray
+vless://59745cbc-e3e2-48e2-ab90-7c18951df693@asmas.newvps1.site:58948?type=tcp&path=/&host=telewebion.com&headerType=http&security=none#🇮🇷IR_38_@Surfboardv2ray
+vless://a7ba0f43-0306-4d43-803c-c3841efd71a2@88.135.46.45:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_65_@Surfboardv2ray
