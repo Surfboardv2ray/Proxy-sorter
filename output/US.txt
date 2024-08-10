@@ -1,5 +1,6 @@
-vless://Abc_Cloud@SpeedTesT.Net:443?path=@Abc_Cloud?ed=2048&security=tls&encryption=none&alpn=h3,h2,http/1.1&host=Abc.iR&fp=chrome&type=ws&sni=SpeeDTest.Net#🇺🇸US_61_@Surfboardv2ray
-vless://SAVTEAM7@speedtest.net:443?path=/?ed=1024&security=tls&encryption=none&alpn=h2,http/1.1&host=SAV.TEAM&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_62_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443?path=/&security=tls&encryption=none&host=fraud.chase&fp=chrome&type=ws&sni=www.Arizona.edu#🇺🇸US_68_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_69_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?path=/?ed&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_70_@Surfboardv2ray
+vless://3dc9717a-0237-4f23-ae6f-a33b3bd6e798@172.86.105.114:2086?security=reality&encryption=none&pbk=_Js6bRWLPFiNrix1dAZuzn_o0DeVSmrzBwDQtBw1BnM&fp=chrome&type=http&sni=cdn-download.zula.ir&sid=31b227da2405f933#🇺🇸US_39_@Surfboardv2ray
+vless://416f18ec-11f3-4648-9693-8c6480d0662d@162.159.60.173:2082/?type=ws&encryption=none&host=UuOxTfVv27.eJaZeMaDaStE-KhOdScH.OrG&path=/#🇺🇸US_41_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.0.0:80?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_60_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.194.133:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_61_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_62_@Surfboardv2ray
+vless://d8a95a51-294c-4460-9525-36ef4023434c@104.25.24.18:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080#🇺🇸US_63_@Surfboardv2ray
