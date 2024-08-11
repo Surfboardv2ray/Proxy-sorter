@@ -1,0 +1,2 @@
+vless://Join-ViraV2ray-1@46.245.64.173:50775?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_34_@Surfboardv2ray
+vless://f2d62750-01ba-449c-be17-9e5b6453ba7c@85.133.202.88:2001?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#🇮🇷IR_69_@Surfboardv2ray
