@@ -1,4 +1,4 @@
-vless://133d5e25-64ff-4d76-8294-66e1f5a2a16a@5.160.46.23:443?security=none&encryption=none&host=google.com&headerType=http&type=tcp#🇮🇷IR_8_@Surfboardv2ray
-vless://Join-ViraV2ray-1@46.245.64.173:50775?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_36_@Surfboardv2ray
-vless://Join-ViraV2ray-2@46.245.64.173:30617?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_37_@Surfboardv2ray
-vless://Join-ViraV2ray-3@31.7.70.80:20566?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_38_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_23_@Surfboardv2ray
+vless://Join-ViraV2ray-1@46.245.64.173:50775?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
+vless://Join-ViraV2ray-2@46.245.64.173:30617?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_38_@Surfboardv2ray
+vless://Join-ViraV2ray-3@31.7.70.80:20566?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_39_@Surfboardv2ray
