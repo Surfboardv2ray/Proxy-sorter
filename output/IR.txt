@@ -1,2 +1,2 @@
-vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_33_@Surfboardv2ray
-vless://f2d62750-01ba-449c-be17-9e5b6453ba7c@85.133.202.88:2001?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#🇮🇷IR_78_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_46_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_49_@Surfboardv2ray
