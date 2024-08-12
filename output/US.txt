@@ -1,9 +1,7 @@
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.131.1:80?path=/?ed&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_51_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.131.1:80?path=/?ed=2048&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_52_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.131.1:80?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_53_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_54_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&alpn=h3,h2,http/1.1&host=fraud.chase&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_55_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?path=/?ed&security=tls&encryption=none&host=fraud.chase&fp=chrome&type=ws&sni=www.Arizona.edu#🇺🇸US_56_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_57_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.paypal.com.cn:80?path=/?ed=2048&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_58_@Surfboardv2ray
-vless://f4859fc9-dc44-11ee-b9ba-00505603e70d@151.101.2.219:443?path=/websocket?ed=TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=01.ir&type=ws&sni=speedtest.net#🇺🇸US_66_@Surfboardv2ray
+vless://63165b83-9244-465d-b1cf-f4524c28f611@66.235.200.91:2095/?type=ws&encryption=none&host=13.v2.n.www.speedtest.net.dnschecker.one.chanel99.online&path=TelegramChanel:t.me/HTTP_injector99#🇺🇸US_37_@Surfboardv2ray
+vless://a17ff0c6-3aee-48c9-92e7-9f5019c595d6@188.114.99.1:443?encryption=none&security=tls&sni=esetsecuritylicense1.zzzgldy.workers.dev&fp=chrome&type=ws&host=esetsecuritylicense1.zzzgldy.workers.dev&path=/#🇺🇸US_54_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.131.1:80/?type=ws&encryption=none&host=fraud.chase&path=/?ed=2048#🇺🇸US_62_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.131.1:80?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_63_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&alpn=h3,h2,http/1.1&host=fraud.chase&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_64_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_65_@Surfboardv2ray
+vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@162.159.245.217:443?encryption=none&security=tls&sni=mmdv2.pages.dev&fp=chrome&type=ws&host=mmdv2.pages.dev&path=/?ed=2048#🇺🇸US_74_@Surfboardv2ray
