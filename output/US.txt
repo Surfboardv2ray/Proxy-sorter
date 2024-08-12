@@ -1,11 +1,7 @@
-vless://359ab45c-cf24-4bc1-e80a-2f68f7366ae7@143.198.67.80:20142/?type=tcp&encryption=none#🇺🇸US_32_@Surfboardv2ray
-vless://703d8ef2-a5a3-4039-bb0d-7b332a10e9d0@143.198.67.80:17716/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.lovelive-anime.jp&fp=chrome&security=reality&pbk=rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w&sid=#🇺🇸US_36_@Surfboardv2ray
-vless://703d8ef2-a5a3-4039-bb0d-7b332a10e9d0@146.190.12.66:50721/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.lovelive-anime.jp&fp=chrome&security=reality&pbk=rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w&sid=#🇺🇸US_37_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_55_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.131.1:80?path=/?ed=2048&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_56_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.2.133:443/?type=ws&encryption=none&host=fraud.chase&path=/&security=tls&sni=www.Arizona.edu#🇺🇸US_57_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.67.1:80?path=/&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_58_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443/?type=ws&encryption=none&host=fraud.chase&path=/?ed=2048&security=tls&sni=www.Arizona.edu#🇺🇸US_59_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.paypal.com.cn:80/?type=ws&encryption=none&host=fraud.chase&path=/?ed=2048#🇺🇸US_60_@Surfboardv2ray
-vless://d7dd3a35-b68b-4992-b319-a85b8a1fc8e5@154.21.89.12:12446/?type=ws&encryption=none&host=dns68.putata.eu.org&path=/?ed=2048&security=tls&sni=dns68.putata.eu.org&fp=chrome#🇺🇸US_64_@Surfboardv2ray
-vless://f61cdaf5-16d0-4d2d-cbc2-cab933c1befe@165.227.95.157:25147/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=addons.mozilla.org&fp=chrome&security=reality&pbk=rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w&sid=#🇺🇸US_76_@Surfboardv2ray
+vless://8c00f030-8cbf-43a6-ade5-848315f4206c@172.64.146.118:8443?encryption=none&security=tls&sni=pardazeshvpn-tg38.pages.dev&fp=chrome&type=ws&host=pardazeshvpn-tg38.pages.dev&path=/?ed=2048#🇺🇸US_22_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_44_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.194.133:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_45_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443/?type=ws&encryption=none&host=fraud.chase&path=/&security=tls&sni=www.Arizona.edu#🇺🇸US_46_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.67.1:80?path=/&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_47_@Surfboardv2ray
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@198.11.183.185:80/?type=ws&encryption=none&host=a.ssll.gay&path=Telegram🇨🇳 @WangCai_8 /?ed=2048#🇺🇸US_48_@Surfboardv2ray
+vless://d8a95a51-294c-4460-9525-36ef4023434c@104.25.24.18:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080#🇺🇸US_65_@Surfboardv2ray

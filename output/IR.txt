@@ -1,3 +1,1 @@
-vless://90bfacc6-fbcf-4552-b628-e75c5fd88805@car.vrvpn.lol:443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp#🇮🇷IR_44_@Surfboardv2ray
-vless://daa7c497-237b-4efb-d713-363f2fc3aac2@88.135.46.45:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_68_@Surfboardv2ray
-vless://f2d62750-01ba-449c-be17-9e5b6453ba7c@85.133.202.88:2001?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#🇮🇷IR_75_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_15_@Surfboardv2ray
