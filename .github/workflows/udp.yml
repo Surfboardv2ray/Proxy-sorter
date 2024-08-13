@@ -56,8 +56,8 @@ jobs:
       - name: Check for provider changes
         id: git-diff
         run: |
-          git diff --quiet && echo "::set-output name=changed::false" || echo "::set-output name=changed::true"
-
+          git diff --quiet && echo "changed=false" >> $GITHUB_ENV || echo "changed=true" >> $GITHUB_ENV
+          
       - name: Commit and push providers if changed
         if: steps.git-diff.outputs.changed == 'true'
         run: |
