@@ -29,6 +29,7 @@ jobs:
           )
 
 
+
           for url in "${urls[@]}"
           do
             echo "Processing $url"
@@ -39,15 +40,18 @@ jobs:
             fi
 
             if [[ $content =~ ^[A-Za-z0-9+/=]+$ ]]; then
-              echo "$content" | base64 --decode >> custom/udp.txt
+              decoded_content=$(echo "$content" | base64 --decode)
               if [[ $? -ne 0 ]]; then
                 echo "Failed to decode base64 content from $url"
                 exit 1
               fi
             else
-              echo "$content" >> custom/udp.txt
+              decoded_content="$content"
             fi
+
+            echo "$decoded_content" | grep -E '^(hy2://|hysteria://|hysteria2://|tuic://)' >> custom/udp.txt
           done
+
      
       - name: Check for provider changes
         id: git-diff
