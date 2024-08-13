@@ -1,6 +1,2 @@
-vless://GozargahVPN@speedtest.net:443?path=/ws/?ed&security=tls&encryption=none&host=GozargahVPN.ir&type=ws&sni=speedtest.net#🇺🇸US_47_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.131.1:80?path=/?ed=2048&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_61_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.194.133:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_62_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_63_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?path=/?ed&security=tls&encryption=none&host=fraud.chase&fp=chrome&type=ws&sni=www.Arizona.edu#🇺🇸US_64_@Surfboardv2ray
-vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@172.64.111.69:443?path=/?ed=2048&security=tls&encryption=none&host=mmdv2.pages.dev&fp=chrome&type=ws&sni=mmdv2.pages.dev#🇺🇸US_67_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.131.1:80?path=/?ed=2048&security=none&encryption=none&host=fraud.chase&type=ws#🇺🇸US_59_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.66.133:443?path=/&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_60_@Surfboardv2ray
