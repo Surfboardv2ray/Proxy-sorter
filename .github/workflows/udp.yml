@@ -1,0 +1,66 @@
+name: Get Providers List
+
+on:
+  push:
+    paths:
+      - '.github/workflows/udp.yml'
+  workflow_dispatch:
+  schedule:
+        - cron: '0 */8 * * *'
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Combine URL Contents
+        run: |
+          urls=(
+            "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2"
+            "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2"
+            "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria"
+            "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/tuic"
+            "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/hysteria"
+            "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/tuic"
+            "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/hys-tuic.txt"
+          )
+
+          > custom/udp.txt
+          for url in "${urls[@]}"
+          do
+            echo "Processing $url"
+            content=$(curl -s --fail $url)
+            if [[ $? -ne 0 ]]; then
+              echo "Failed to fetch content from $url"
+              exit 1
+            fi
+
+            if [[ $content =~ ^[A-Za-z0-9+/=]+$ ]]; then
+              echo "$content" | base64 --decode >> custom/udp.txt
+              if [[ $? -ne 0 ]]; then
+                echo "Failed to decode base64 content from $url"
+                exit 1
+              fi
+            else
+              echo "$content" >> custom/udp.txt
+            fi
+          done
+     
+      - name: Check for provider changes
+        id: git-diff
+        run: |
+          git diff --quiet && echo "::set-output name=changed::false" || echo "::set-output name=changed::true"
+
+      - name: Commit and push providers if changed
+        if: steps.git-diff.outputs.changed == 'true'
+        run: |
+          git config --local user.name 'GitHub Actions'
+          git config --local user.email 'github-actions@github.com'
+          git add .
+          git add custom/udp.txt
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
