@@ -62,5 +62,4 @@ jobs:
           git add custom/udp.txt
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
-          git pull
           git push
