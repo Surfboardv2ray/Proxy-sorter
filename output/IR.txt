@@ -1,1 +1,1 @@
-vless://ChabokVPN10@serv01.sell4sell.top:80?path=/vl80&security=none&encryption=none&type=ws#🇮🇷IR_71_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_13_@Surfboardv2ray
