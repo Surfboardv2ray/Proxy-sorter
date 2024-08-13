@@ -1,4 +1,4 @@
-name: Get Providers List
+name: Get UDP Sub
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Combine URL Contents
+      - name: Combine UDP URL Contents
         run: |
           urls=(
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2"
@@ -59,8 +59,8 @@ jobs:
         run: |
           git config --local user.name 'GitHub Actions'
           git config --local user.email 'github-actions@github.com'
-          git add .
           git add custom/udp.txt
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
+          git pull
           git push
