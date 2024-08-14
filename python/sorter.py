@@ -15,30 +15,14 @@ def get_country_code(ip_address):
     except UnicodeError:
         print(f"Hostname violates IDNA rules: {ip_address}")
         return None
-
     try:
-        # Define the base URL for ip-api
-        base_url = 'http://ip-api.com/line'
+        # Retrieve the base URL from the environment variable
+        base_url = os.getenv('GET_IPGEO')
+        if not base_url:
+            raise ValueError("Environment variable GET_IPGEO not set")
 
-        # Send a GET request to ip-api
         response = requests.get(f'{base_url}/{ip_address}')
-        
-        # Check if the request was successful
-        if response.status_code != 200:
-            print(f"Error fetching data: HTTP {response.status_code}")
-            return None
-
-        # Split the response into lines
-        response_lines = response.text.splitlines()
-
-        # Check if the first line is 'success'
-        if response_lines[0].strip().lower() == 'success':
-            # Return the country code from the third line
-            return response_lines[2].strip()
-        else:
-            print(f"Failed to get country code for IP: {ip_address}")
-            return None
-
+        return response.text
     except requests.exceptions.RequestException as e:
         print(f"Error sending request: {e}")
         return None
