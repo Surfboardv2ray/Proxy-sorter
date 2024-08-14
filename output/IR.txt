@@ -1,1 +1,4 @@
-vless://f2d62750-01ba-449c-be17-9e5b6453ba7c@85.133.202.88:2001?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#🇮🇷IR_64_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_22_@Surfboardv2ray
+vless://4f4f129f-b9cb-476f-8d80-246c58d5bdfb@94.101.185.199:443?path=/doctorping_bot?@persianelon@persianelon@persianelon@persianelon@persianelon@persianelon@persianelon@persianelon&security=none&encryption=none&type=ws#🇮🇷IR_23_@Surfboardv2ray
+vless://ab25bad4-3a40-4356-9ce2-d69af637dcc4@217.60.245.153:8443?security=none&encryption=none&host=eset.com&headerType=http&type=tcp#🇮🇷IR_88_@Surfboardv2ray
+vless://ab25bad4-3a40-4356-9ce2-d69af637dcc4@217.60.245.153:8443?security=none&encryption=none&host=eset.com&headerType=http&type=tcp#🇮🇷IR_89_@Surfboardv2ray
