@@ -1,9 +1,6 @@
+vless://4c1983a8-1802-46f1-8837-aaf33958ed46@185.148.105.52:443?path=/MgFwdcE2Hs2cgQYI0W&security=tls&encryption=none&alpn=http/1.1&host=fln1.novinping.com&fp=chrome&type=ws&sni=fln1.novinping.com#🇺🇸US_86_@Surfboardv2ray
 vless://82b7624c-8c12-4156-b192-6a4b6d272417@speedtest.net:443?path=/?ed=1024&security=tls&encryption=none&alpn=h2,http/1.1&host=Tuskmy.com&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_93_@Surfboardv2ray
-vless://82b7624c-8c12-4156-b192-6a4b6d272417@speedtest.net:443?path=/?ed=1024&security=tls&encryption=none&alpn=h2,http/1.1&host=Tuskmy.com&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_94_@Surfboardv2ray
-vless://82b7624c-8c12-4156-b192-6a4b6d272417@speedtest.net:80?path=/?ed=1024&security=none&encryption=none&alpn=h2,http/1.1&host=Tuskmy.com&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_95_@Surfboardv2ray
-vless://82b7624c-8c12-4156-b192-6a4b6d272417@speedtest.net:80?path=/?ed=1024&security=none&encryption=none&alpn=h2,http/1.1&host=Tuskmy.com&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_96_@Surfboardv2ray
-vless://SVNTEAM@speedtest.net:443?type=ws&host=TeHraN.IR&path=/?ed=1024&security=tls&fp=chrome&sni=speedtest.net&alpn=h2,http/1.1#🇺🇸US_110_@Surfboardv2ray
-vless://SVNTEAM@speedtest.net:443?type=ws&host=TeHraN.IR&path=/?ed=1024&security=tls&fp=chrome&sni=speedtest.net&alpn=h2,http/1.1#🇺🇸US_111_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_123_@Surfboardv2ray
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_124_@Surfboardv2ray
-vless://d8a95a51-294c-4460-9525-36ef4023434c@104.25.24.18:8080/?type=ws&encryption=none&host=join-to.vmessorg.Community.&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080#🇺🇸US_125_@Surfboardv2ray
+vless://82b7624c-8c12-4156-b192-6a4b6d272417@speedtest.net:80?path=/?ed=1024&security=none&encryption=none&alpn=h2,http/1.1&host=Tuskmy.com&fp=chrome&type=ws&sni=speedtest.net#🇺🇸US_94_@Surfboardv2ray
+vless://SVNTEAM@speedtest.net:443?type=ws&host=TeHraN.IR&path=/?ed=1024&security=tls&fp=chrome&sni=speedtest.net&alpn=h2,http/1.1#🇺🇸US_108_@Surfboardv2ray
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.130.133:443?path=/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI/?ed=2048&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#🇺🇸US_121_@Surfboardv2ray
+vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@172.64.101.233:443?path=/OhVpn?ed=2048&security=tls&encryption=none&host=mmdv2.pages.dev&fp=chrome&type=ws&sni=mmdv2.pages.dev#🇺🇸US_125_@Surfboardv2ray
