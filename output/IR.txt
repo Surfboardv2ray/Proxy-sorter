@@ -1,1 +1,6 @@
-vless://25b44465-fb20-4258-b519-8d4de16c3caf@sure.iamconnected.sbs:2053?security=none&encryption=none&host=nobitex.com&headerType=http&type=tcp#🇮🇷IR_32_@Surfboardv2ray
+vless://2deef54e-671a-403c-be2f-43744bd5e3a0@tt.hide-abr.xyz:443?security=none&type=tcp&headerType=http&path=/&host=tamasha.com#🇮🇷IR_56_@Surfboardv2ray
+vless://2deef54e-671a-403c-be2f-43744bd5e3a0@tt.hide-abr.xyz:443?security=none&type=tcp&headerType=http&path=/&host=tamasha.com#🇮🇷IR_57_@Surfboardv2ray
+vless://54ef4ecf-ff37-436a-be13-95c8a8a1114d@188.121.118.55:443?path=/&security=tls&encryption=none&host=ViRgInIaVpN-Nl.PaGeS.DeV&type=ws&sni=vIrGiNiAvPn-nL.pAgEs.dEv#🇮🇷IR_62_@Surfboardv2ray
+vless://54ef4ecf-ff37-436a-be13-95c8a8a1114d@188.121.118.55:443?path=/&security=tls&encryption=none&host=ViRgInIaVpN-Nl.PaGeS.DeV&type=ws&sni=vIrGiNiAvPn-nL.pAgEs.dEv#🇮🇷IR_63_@Surfboardv2ray
+vless://59745cbc-e3e2-48e2-ab90-7c18951df693@85.9.122.120:58948?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_64_@Surfboardv2ray
+vless://59745cbc-e3e2-48e2-ab90-7c18951df693@85.9.122.120:58948?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_65_@Surfboardv2ray
