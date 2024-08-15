@@ -1,4 +1,1 @@
-vless://5a01d769-24dc-4df8-83cd-b0c732c24877@ne.cpcod079.info:23695?type=tcp&headerType=http&host=telewebion.com&security=none#🇮🇷IR_41_@Surfboardv2ray
-vless://5a01d769-24dc-4df8-83cd-b0c732c24877@ne.cpcod079.info:23695?type=tcp&headerType=http&host=telewebion.com&security=none#🇮🇷IR_42_@Surfboardv2ray
-vless://88e57f4f-c2ef-4ab9-8da4-b32c0b8577e3@85.9.123.158:8880?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#🇮🇷IR_67_@Surfboardv2ray
-vless://ba9935b8-3b80-44c6-baa2-8c67142e97be@178.239.145.152:9060?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_104_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_81_@Surfboardv2ray
