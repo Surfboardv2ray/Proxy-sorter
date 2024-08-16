@@ -56,12 +56,12 @@ jobs:
 
      
       - name: Check for provider changes
-        id: kir
+        id: git-diff
         run: |
           git diff --quiet && echo "changed=false" >> $GITHUB_ENV || echo "changed=true" >> $GITHUB_ENV
           
       - name: Commit and push providers if changed
-        if: steps.kir.outputs.changed == 'true'
+        if: steps.git-diff.outputs.changed == 'true'
         run: |
           git config --local user.name 'GitHub Actions'
           git config --local user.email 'github-actions@github.com'
