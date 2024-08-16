@@ -1,9 +1,4 @@
-vless://1504f2a0-ea9a-4ddf-82dd-b0eb6dec223c@37.130.200.240:31152?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
-vless://25b44465-fb20-4258-b519-8d4de16c3caf@sure.iamconnected.sbs:2053?security=none&encryption=none&host=nobitex.com&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
-vless://25b44465-fb20-4258-b519-8d4de16c3caf@sure.iamconnected.sbs:2053?security=none&encryption=none&host=nobitex.com&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
-vless://2f3a2b93-62e1-41a8-96dc-71bcf5097db3@37.130.205.229:16037?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_38_@Surfboardv2ray
-vless://b6bcfc6b-aab6-43f5-a5d1-c1cc29fb5deb@page.ontenbaz.ir:2572?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_107_@Surfboardv2ray
-vless://b6bcfc6b-aab6-43f5-a5d1-c1cc29fb5deb@page.ontenbaz.ir:2572?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_108_@Surfboardv2ray
-vless://d83ffc50-09e2-4834-af69-e0a32e590eaf@85.133.201.67:8443?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_151_@Surfboardv2ray
-vless://eae331af-576d-4b57-b2b5-ab056472be75@194.5.177.77:443?security=reality&encryption=none&pbk=Qu9PNhHGchcaNbGebuG2LwrVVE-NPDI3Ym8ZukMdEn8&headerType=none&fp=chrome&type=tcp&sni=google.com&sid=240c85b9#🇮🇷IR_162_@Surfboardv2ray
-vless://ee30f3aa-5010-4e40-d213-cc57c3fccac2@88.135.46.45:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_163_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_59_@Surfboardv2ray
+vless://43a596cd-9b0d-4b21-82bc-6ea65ef080e4@tt.hide-abr.xyz:443?security=none&encryption=none&host=tamasha.com&headerType=http&type=tcp#🇮🇷IR_60_@Surfboardv2ray
+vless://5a01d769-24dc-4df8-83cd-b0c732c24877@ne.cpcod079.info:23695?encryption=none&security=none&type=tcp&headerType=http&host=telewebion.com#🇮🇷IR_65_@Surfboardv2ray
+vless://c726f2fd-168d-4c3c-b28c-d54cc0f25850@vip2.halazzon.ir:5050?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_154_@Surfboardv2ray
