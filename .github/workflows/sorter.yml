@@ -29,8 +29,8 @@ jobs:
 
     - name: Commit and push if there are changes
       run: |
-        git config --global user.name 'Github Action'
-        git config --global user.email 'Action@github.com'
+        git config --local user.name 'Github Action'
+        git config --local user.email 'Action@github.com'
         git add .
         git commit -m "Archived backups"
         git push
@@ -158,8 +158,8 @@ jobs:
     - name: Commit and push if it changed
       run: |
         git diff
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git commit -am "Update WS+TLS" || exit 0
         git push
 
