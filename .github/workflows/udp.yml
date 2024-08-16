@@ -18,6 +18,7 @@ jobs:
 
       - name: Combine UDP URL Contents
         run: |
+          > custom/udp.txt
           urls=(
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2"
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2"
@@ -28,8 +29,6 @@ jobs:
             "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/hys-tuic.txt"
           )
 
-
-          > custom/udp.txt
 
 
           for url in "${urls[@]}"
