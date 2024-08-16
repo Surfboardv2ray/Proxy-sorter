@@ -1,0 +1,2 @@
+vless://1504f2a0-ea9a-4ddf-82dd-b0eb6dec223c@37.130.200.240:31152?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_94_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_106_@Surfboardv2ray
