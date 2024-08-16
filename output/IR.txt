@@ -1,3 +1,2 @@
-vless://2f3a2b93-62e1-41a8-96dc-71bcf5097db3@37.130.205.229:16037?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_82_@Surfboardv2ray
-vless://c726f2fd-168d-4c3c-b28c-d54cc0f25850@89.47.198.189:5050?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_130_@Surfboardv2ray
-vless://c726f2fd-168d-4c3c-b28c-d54cc0f25850@vip1.halazzon.ir:5050?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_131_@Surfboardv2ray
+vless://1504f2a0-ea9a-4ddf-82dd-b0eb6dec223c@37.130.200.240:31152?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_94_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_106_@Surfboardv2ray
