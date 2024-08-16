@@ -18,7 +18,6 @@ jobs:
 
       - name: Combine UDP URL Contents
         run: |
-          > custom/udp.txt
           urls=(
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2"
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2"
