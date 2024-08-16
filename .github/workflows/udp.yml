@@ -19,7 +19,8 @@ jobs:
       - name: Combine UDP URL Contents
         run: |
           urls=(
-            
+
+"https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2"            
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2"
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria"
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/tuic"
