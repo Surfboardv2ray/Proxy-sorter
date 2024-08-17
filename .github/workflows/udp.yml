@@ -42,16 +42,14 @@ jobs:
             fi
 
             if [[ $content =~ ^[A-Za-z0-9+/=]+$ ]]; then
-              decoded_content=$(echo "$content" | base64 --decode)
+              echo "$content" | base64 --decode >> custom/udp.txt
               if [[ $? -ne 0 ]]; then
                 echo "Failed to decode base64 content from $url"
                 exit 1
               fi
             else
-              decoded_content="$content"
+              echo "$content" >> custom/udp.txt
             fi
-
-            echo "$decoded_content" | grep -E '^(hy2://|hysteria://|hysteria2://|tuic://)' >> custom/udp.txt
           done
 
      
