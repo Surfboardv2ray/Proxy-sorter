@@ -1,0 +1,2 @@
+vless://25b44465-fb20-4258-b519-8d4de16c3caf@sure.iamconnected.sbs:2053?security=none&encryption=none&host=nobitex.com&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
+vless://47171092-e63f-4a28-b6c4-ab4796490d37@185.73.114.216:1050?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_49_@Surfboardv2ray
