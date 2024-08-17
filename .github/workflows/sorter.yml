@@ -2,7 +2,9 @@ name: Fetch proxies, Run python sorter and Base64
 
 on:
   push:
-    branches: [ main ]
+    paths:
+      - 'python/sorter.py'
+      - '.github/workflows/sorter.yml'
 
   workflow_dispatch:
   schedule:
