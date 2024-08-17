@@ -1,9 +1,3 @@
-vless://00a30c20-767c-40d1-bd19-cda4ab7b195a@46.245.64.173:30617?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_15_@Surfboardv2ray
-vless://2f3a2b93-62e1-41a8-96dc-71bcf5097db3@37.130.205.229:16037?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_22_@Surfboardv2ray
-vless://5a01d769-24dc-4df8-83cd-b0c732c24877@ne.cpcod079.info:23695?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_25_@Surfboardv2ray
-vless://690ad922-e51e-4520-821c-4d7ad4024c22@46.245.64.173:50775?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_26_@Surfboardv2ray
-vless://8a46fb3f-a2a2-45ac-b380-cef4b7d9e087@50UaMQ.de1.jsjejejejjjej88888.store:1844?security=none&path=/&host=efvu5cgz.speedtest1.shatel.ir&headerType=http&type=tcp#🇮🇷IR_45_@Surfboardv2ray
-vless://c0b0d75f-1639-4fbd-b471-b6e50f434b6d@ir.homayonmobile.xyz:2254?type=tcp&path=/&host=speedtest.net&headerType=http&security=none#🇮🇷IR_108_@Surfboardv2ray
-vless://c0b0d75f-1639-4fbd-b471-b6e50f434b6d@ir.homayonmobile.xyz:2254?type=tcp&path=/&host=speedtest.net&headerType=http&security=none#🇮🇷IR_109_@Surfboardv2ray
-vless://cc70f551-7be4-48aa-8714-d250aedabbec@46.245.64.173:20566?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_111_@Surfboardv2ray
-vless://eae331af-576d-4b57-b2b5-ab056472be75@194.5.177.77:443?security=reality&encryption=none&pbk=Qu9PNhHGchcaNbGebuG2LwrVVE-NPDI3Ym8ZukMdEn8&headerType=none&fp=chrome&type=tcp&sni=google.com&sid=240c85b9#🇮🇷IR_132_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_72_@Surfboardv2ray
+vless://c960c11e-abf0-4cec-b704-a06c34740dd5@ir.homayonmobile.xyz:2254?type=tcp&path=/&host=speedtest.net&headerType=http&security=none#🇮🇷IR_113_@Surfboardv2ray
+vless://c960c11e-abf0-4cec-b704-a06c34740dd5@ir.homayonmobile.xyz:2254?type=tcp&path=/&host=speedtest.net&headerType=http&security=none#🇮🇷IR_114_@Surfboardv2ray
