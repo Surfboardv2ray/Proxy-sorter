@@ -1,1 +1,9 @@
-vless://ab516a4a-5cec-47cf-9243-269dbfbca323@79.127.69.120:6338?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_91_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_79_@Surfboardv2ray
+vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.137:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_81_@Surfboardv2ray
+vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.137:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_82_@Surfboardv2ray
+vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.148:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
+vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.148:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_84_@Surfboardv2ray
+vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.194:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_85_@Surfboardv2ray
+vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.194:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_86_@Surfboardv2ray
+vless://54ef4ecf-ff37-436a-be13-95c8a8a1114d@188.121.118.55:443?path=/&security=tls&encryption=none&host=ViRgInIaVpN-Nl.PaGeS.DeV&type=ws&sni=vIrGiNiAvPn-nL.pAgEs.dEv#🇮🇷IR_88_@Surfboardv2ray
+vless://54ef4ecf-ff37-436a-be13-95c8a8a1114d@188.121.118.55:443?path=/&security=tls&encryption=none&host=ViRgInIaVpN-Nl.PaGeS.DeV&type=ws&sni=vIrGiNiAvPn-nL.pAgEs.dEv#🇮🇷IR_89_@Surfboardv2ray
