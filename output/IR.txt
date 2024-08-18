@@ -1,8 +1,1 @@
-vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.137:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_56_@Surfboardv2ray
-vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.148:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_57_@Surfboardv2ray
-vless://498f99cb-a90c-ac06-acd7-e48b665e8446@62.60.212.194:9129?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_58_@Surfboardv2ray
-vless://54ef4ecf-ff37-436a-be13-95c8a8a1114d@188.121.118.55:443?path=/&security=tls&encryption=none&host=ViRgInIaVpN-Nl.PaGeS.DeV&type=ws&sni=vIrGiNiAvPn-nL.pAgEs.dEv#🇮🇷IR_60_@Surfboardv2ray
-vless://90a38fd6-96bb-411c-a359-5041bec1761e@185.226.119.140:800?encryption=none&security=none&type=ws&path=/Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs#🇮🇷IR_95_@Surfboardv2ray
-vless://90a38fd6-96bb-411c-a359-5041bec1761e@185.226.119.140:800?encryption=none&security=none&type=ws&path=/Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs#🇮🇷IR_96_@Surfboardv2ray
-vless://c37423ca-0623-452b-bdce-55aecec53ce8@turktu.roshdadcollection.ir:2052?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_130_@Surfboardv2ray
-vless://c37423ca-0623-452b-bdce-55aecec53ce8@turktu.roshdadcollection.ir:2052?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_131_@Surfboardv2ray
+vless://ab516a4a-5cec-47cf-9243-269dbfbca323@79.127.69.120:6338?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_91_@Surfboardv2ray
