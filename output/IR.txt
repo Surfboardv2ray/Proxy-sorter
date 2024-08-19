@@ -1,2 +1,4 @@
-vless://8718a66c-d66c-4a08-bfe2-ec6448cbc23a@5.202.75.72:54703?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_49_@Surfboardv2ray
-vless://8718a66c-d66c-4a08-bfe2-ec6448cbc23a@5.202.75.72:54703?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_50_@Surfboardv2ray
+vless://348cd64e-a551-422b-93f2-55e34fdb1601@193.107.48.54:443?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_32_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_33_@Surfboardv2ray
+vless://TELEGRAM_GetConfigIR_Channel@185.231.181.217:8787?security=none&encryption=none&host=zula.ir,+TELEGRAM#🇮🇷IR_71_@Surfboardv2ray
+vless://TELEGRAM_GetConfigIR_Channel@185.231.181.217:8787?security=none&encryption=none&host=zula.ir,+TELEGRAM#🇮🇷IR_72_@Surfboardv2ray
