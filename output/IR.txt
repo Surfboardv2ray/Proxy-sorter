@@ -1,3 +1,3 @@
-vless://TELEGRAM_GetConfigIR_Channel@185.231.181.217:8787?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_100_@Surfboardv2ray
-vless://TELEGRAM_GetConfigIR_Channel@185.231.181.217:8787?security=none&encryption=none&host=zula.ir,+TELEGRAM#🇮🇷IR_101_@Surfboardv2ray
-vless://c37423ca-0623-452b-bdce-55aecec53ce8@turktu.roshdadcollection.ir:2052?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_139_@Surfboardv2ray
+vless://31864802-bebf-496b-acc9-7cb75bc660af@193.151.158.16:80?path=/@V2Graphy/giveaway/ws1?ed=2560&security=none&encryption=none&type=ws#🇮🇷IR_45_@Surfboardv2ray
+vless://3a474ab9-cd7b-46e1-91b8-2911669113b1@194.5.177.77:443?type=tcp&security=reality&pbk=Qu9PNhHGchcaNbGebuG2LwrVVE-NPDI3Ym8ZukMdEn8&fp=chrome&sni=google.com&sid=240c85b9&spx=/#🇮🇷IR_49_@Surfboardv2ray
+vless://b3e74ecf-2033-42bc-a1c4-0bd906949790@sell.ontenbaz.ir:2573?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_104_@Surfboardv2ray
