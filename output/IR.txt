@@ -1,2 +1,6 @@
-vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_40_@Surfboardv2ray
-vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_43_@Surfboardv2ray
+vless://7693e9fb-6ae8-4f6d-b848-e73a300b83b2@oraclex.technocloud.space:2015?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=QfL8hHrDW0inYBVA0WdSUt1R2QMOgtp_beZCGTHAWQM&sid=dad4e142&spx=/&type=tcp&headerType=none#🇮🇷IR_56_@Surfboardv2ray
+vless://7693e9fb-6ae8-4f6d-b848-e73a300b83b2@oraclex.technocloud.space:2015?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=QfL8hHrDW0inYBVA0WdSUt1R2QMOgtp_beZCGTHAWQM&sid=dad4e142&spx=/&type=tcp&headerType=none#🇮🇷IR_57_@Surfboardv2ray
+vless://cc6ae7df-969a-4d74-92e5-3568880267aa@46.245.70.75:20652?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_117_@Surfboardv2ray
+vless://cc6ae7df-969a-4d74-92e5-3568880267aa@46.245.70.75:20652?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_118_@Surfboardv2ray
+vless://f66da74b-51bd-4de1-f552-e6bfb65dcf77@31.7.70.80:20652?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_149_@Surfboardv2ray
+vless://f66da74b-51bd-4de1-f552-e6bfb65dcf77@31.7.70.80:20652?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_150_@Surfboardv2ray
