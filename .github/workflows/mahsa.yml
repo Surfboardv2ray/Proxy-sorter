@@ -9,7 +9,7 @@ on:
         - cron: '0 */8 * * *'
 
 jobs:
-  udp:
+  MahsaNet:
     runs-on: ubuntu-latest
 
     steps:
