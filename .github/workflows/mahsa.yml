@@ -1,0 +1,70 @@
+name: Get UDP Sub
+
+on:
+  push:
+    paths:
+      - '.github/workflows/mahsa.yml'
+  workflow_dispatch:
+  schedule:
+        - cron: '0 */8 * * *'
+
+jobs:
+  udp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Combine UDP URL Contents
+        run: |
+          urls=(
+
+            "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt"
+            "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt"
+            "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_3.txt"
+            "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_4.txt"
+            "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt"
+            "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt"
+            "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_3.txt"
+            "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_4.txt"
+          )
+
+          mkdir custom/mahsa.txt
+          > custom/mahsa.txt
+
+          for url in "${urls[@]}"
+          do
+            echo "Processing $url"
+            content=$(curl -s --fail $url)
+            if [[ $? -ne 0 ]]; then
+              echo "Failed to fetch content from $url"
+              exit 1
+            fi
+
+            if [[ $content =~ ^[A-Za-z0-9+/=]+$ ]]; then
+              echo "$content" | base64 --decode >> custom/mahsa.txt
+              if [[ $? -ne 0 ]]; then
+                echo "Failed to decode base64 content from $url"
+                exit 1
+              fi
+            else
+              echo "$content" >> custom/mahsa.txt
+            fi
+          done
+
+     
+      - name: Check for provider changes
+        id: git-diff
+        run: |
+          git diff --quiet && echo "::set-output name=changed::false" || echo "::set-output name=changed::true"
+          
+      - name: Commit and push providers if changed
+        if: steps.git-diff.outputs.changed == 'true'
+        run: |
+          git config --local user.name 'GitHub Actions'
+          git config --local user.email 'github-actions@github.com'
+          git add custom/mahsa.txt
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
