@@ -1,6 +1,2 @@
-vless://2c4887d7-2572-42b5-d7f1-0980f52e47fb@dl.mashhad-digital.shop:5061?type=tcp&path=/&headerType=http&security=none#🇮🇷IR_33_@Surfboardv2ray
-vless://aef8d3eb-9ba4-4b73-e195-f3b33d27e605@dl.mashhad-digital.shop:5063?type=tcp&security=none#🇮🇷IR_95_@Surfboardv2ray
-vless://b45f4c1f-e027-404e-8500-bf608032869b@65wXo1.de4.jsjshsgegegvev3v828.pro:10063?security=none&path=/&host=efvu5cgz.speedtest1.shatel.ir&headerType=http&type=tcp#🇮🇷IR_98_@Surfboardv2ray
-vless://c3e17faa-fa4a-4c36-c86b-d97e390174de@dl.mashhad-digital.shop:5061?type=tcp&path=/&headerType=http&security=none#🇮🇷IR_109_@Surfboardv2ray
-vless://c3e17faa-fa4a-4c36-c86b-d97e390174de@dl.mashhad-digital.shop:5061?type=tcp&path=/&headerType=http&security=none#🇮🇷IR_110_@Surfboardv2ray
-vless://f5e11821-b8a8-4968-d007-bb34e96c4d8c@dl.mashhad-digital.shop:5063?type=tcp&security=none#🇮🇷IR_130_@Surfboardv2ray
+vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_26_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_29_@Surfboardv2ray
