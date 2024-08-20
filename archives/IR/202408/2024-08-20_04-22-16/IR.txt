@@ -1,0 +1,2 @@
+vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_26_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_29_@Surfboardv2ray
