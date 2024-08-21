@@ -1,0 +1,2 @@
+vless://b333915f-82d9-4163-83e6-c91e243a7edd@irmk.petirangroup.com:30242?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
+vless://b333915f-82d9-4163-83e6-c91e243a7edd@irmk.petirangroup.com:30242?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_84_@Surfboardv2ray
