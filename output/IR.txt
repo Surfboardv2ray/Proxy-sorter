@@ -1,2 +1,1 @@
-vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_13_@Surfboardv2ray
-vless://2c2a3e8e-c223-490d-b7fd-d2be3f5bc506@195.234.191.157:47303?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🇮🇷IR_15_@Surfboardv2ray
+vless://588c8de5-5425-4568-ff7f-176e386e9b8f@irer.ervanidtel.online:443?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_59_@Surfboardv2ray
