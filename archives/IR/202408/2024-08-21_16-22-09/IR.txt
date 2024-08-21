@@ -1,0 +1,1 @@
+vless://588c8de5-5425-4568-ff7f-176e386e9b8f@irer.ervanidtel.online:443?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_59_@Surfboardv2ray
