@@ -1,2 +1,4 @@
-vless://b333915f-82d9-4163-83e6-c91e243a7edd@irmk.petirangroup.com:30242?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
-vless://b333915f-82d9-4163-83e6-c91e243a7edd@irmk.petirangroup.com:30242?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_84_@Surfboardv2ray
+vless://25b44465-fb20-4258-b519-8d4de16c3caf@sure.iamconnected.sbs:2053?security=none&encryption=none&host=nobitex.com&headerType=http&type=tcp#🇮🇷IR_73_@Surfboardv2ray
+vless://2a956412-71aa-4523-b8c0-54a561d91d56@sv.qashqaipan.xyz:440?security=none&encryption=none&host=alibaba.ir&headerType=http&type=tcp#🇮🇷IR_74_@Surfboardv2ray
+vless://516fc847-39f1-4a7c-bee9-b8b900dee39d@188.212.96.246:2020?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_81_@Surfboardv2ray
+vless://ab516a4a-5cec-47cf-9243-269dbfbca323@79.127.69.120:6338?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_102_@Surfboardv2ray
