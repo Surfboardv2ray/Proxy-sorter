@@ -1,5 +1,2 @@
-vless://25b44465-fb20-4258-b519-8d4de16c3caf@sure.iamconnected.sbs:2053?security=none&encryption=none&host=nobitex.com&headerType=http&type=tcp#🇮🇷IR_24_@Surfboardv2ray
-vless://40b9a39c-6310-40d9-bcfa-bdd18e52102b@193.151.147.48:2053?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
-vless://448c58a0-ff77-498f-9193-2751961b8c1e@193.151.147.129:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_32_@Surfboardv2ray
-vless://901f607a-f3d6-4b06-9adb-f96aab22fe24@193.151.147.129:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_80_@Surfboardv2ray
-vless://93201d61-fccc-4c13-9034-6620d1980cc9@193.151.147.48:2053?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_81_@Surfboardv2ray
+vless://b333915f-82d9-4163-83e6-c91e243a7edd@irmk.petirangroup.com:30242?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
+vless://b333915f-82d9-4163-83e6-c91e243a7edd@irmk.petirangroup.com:30242?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_84_@Surfboardv2ray
