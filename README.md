@@ -36,7 +36,7 @@ Sorting proxies by location renaming remarks with country flags and codes. This 
 
 # Work In Progress
 
-* Xray Ping is a part of [xray-proxy-grabber-telegram](https://github.com/MrMohebi/xray-proxy-grabber-telegram) that could be implemented soon.
+* Xray Ping is a part of [xray-proxy-grabber-telegram](https://github.com/MrMohebi/xray-proxy-grabber-telegram) that could be implemented soon. We're both using MIT License.
 
 ## Stargazers
 [![Stargazers over time](https://starchart.cc/Surfboardv2ray/Proxy-sorter.svg?variant=adaptive)](https://starchart.cc/Surfboardv2ray/Proxy-sorter)
