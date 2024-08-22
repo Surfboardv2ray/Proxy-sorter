@@ -6,9 +6,9 @@ import os
 
 load_dotenv()
 
-GITHUB_TOKEN = os.getenv('GITHUB_TOKEN', 'default_token')
+GITHUB_TOKEN = os.getenv('TOKEN_GITHUB')
 REPO = os.getenv('REPO', 'Surfboardv2ray/Proxy-sorter')
-IS_DEBUG = bool(int(os.getenv('DEBUG_MODE', '0')))
+IS_DEBUG = '0'
 
 
 if os.path.exists("./repo/.git"):
