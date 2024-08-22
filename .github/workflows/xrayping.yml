@@ -3,8 +3,9 @@ name: Ping Configs
 on:
   push:
     paths:
-      - '.github/workflows/xrayping1.yml'
-
+      - '.github/workflows/xrayping.yml'
+      - 'xray/xrayping.py'
+      - 'xray/configs/all_configs.txt'
   workflow_dispatch:
 
 jobs:
