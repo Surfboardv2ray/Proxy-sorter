@@ -6,11 +6,12 @@ from random import randint
 from threading import Thread
 from pathlib import Path
 import requests
-import json  # Make sure to import json
+import json
 
-sys.path.append('./xray/modules/')
+# Adjust the sys.path to point to the modules folder
+sys.path.append(str(Path(__file__).resolve().parent / 'modules'))
 
-from xray_ping.XrayPing import XrayPing
+from XrayPing import XrayPing
 
 class XrayUrlDecoder:
     def __init__(self, url, tag):
