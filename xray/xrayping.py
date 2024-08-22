@@ -3,7 +3,7 @@ sys.path.append('./modules/xray_url_decoder/')
 sys.path.append('./modules/clash_meta_url_decoder/')
 sys.path.append('./')
 sys.path.append('./modules')
-sys.path.append('/modules/gitRepo.py')
+sys.path.append('./modules/gitRepo.py')
 
 import json
 import uuid
