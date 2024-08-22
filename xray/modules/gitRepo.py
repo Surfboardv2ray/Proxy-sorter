@@ -41,16 +41,16 @@ def resetGitUser():
 def getLatestRowProxies():
     if not IS_DEBUG:
         repo.git.execute(["git", "fetch", "--all"])
-        repo.git.execute(["git", "checkout", "remotes/origin/master", "collected-proxies"])
-        shutil.copytree("./repo/collected-proxies/row-url", "collected-proxies/row-url", dirs_exist_ok=True)
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "xray/configs"])
+        shutil.copytree("./repo/xray/configs/row-url", "xray/configs/row-url", dirs_exist_ok=True)
 
 
 def getLatestActiveConfigs():
     if not IS_DEBUG:
         repo.git.execute(["git", "fetch", "--all"])
-        repo.git.execute(["git", "checkout", "remotes/origin/master", "collected-proxies"])
-        shutil.copytree("./repo/collected-proxies/xray-json", "collected-proxies/xray-json", dirs_exist_ok=True)
-        shutil.copytree("./repo/collected-proxies/clash-meta", "collected-proxies/clash-meta", dirs_exist_ok=True)
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "xray/configs"])
+        shutil.copytree("./repo/xray/configs/xray-json", "xray/configs/xray-json", dirs_exist_ok=True)
+        shutil.copytree("./repo/xray/configs/clash-meta", "xray/configs/clash-meta", dirs_exist_ok=True)
 
 
 def commitPushRowProxiesFile(chanelUsername):
@@ -58,8 +58,8 @@ def commitPushRowProxiesFile(chanelUsername):
         repo.git.execute(["git", "fetch", "--all"])
         repo.git.execute(["git", "reset", "--hard", "origin/master"])
         repo.git.execute(["git", "pull"])
-        shutil.copytree("collected-proxies/row-url", "./repo/collected-proxies/row-url", dirs_exist_ok=True)
-        repo.index.add([r'collected-proxies/row-url/*'])
+        shutil.copytree("xray/configs/row-url", "./repo/xray/configs/row-url", dirs_exist_ok=True)
+        repo.index.add([r'xray/configs/row-url/*'])
         changeGitUserToBot()
         repo.index.commit('update proxies from {}'.format(chanelUsername))
         repo.remotes.origin.push()
@@ -72,10 +72,10 @@ def commitPushRActiveProxiesFile():
         repo.git.execute(["git", "fetch", "--all"])
         repo.git.execute(["git", "reset", "--hard", "origin/master"])
         repo.git.execute(["git", "pull"])
-        shutil.copytree("collected-proxies/xray-json", "./repo/collected-proxies/xray-json", dirs_exist_ok=True)
-        shutil.copytree("collected-proxies/clash-meta", "./repo/collected-proxies/clash-meta", dirs_exist_ok=True)
-        repo.index.add([r'collected-proxies/clash-meta/*'])
-        repo.index.add([r'collected-proxies/xray-json/*'])
+        shutil.copytree("xray/configs/xray-json", "./repo/xray/configs/xray-json", dirs_exist_ok=True)
+        shutil.copytree("xray/configs/clash-meta", "./repo/xray/configs/clash-meta", dirs_exist_ok=True)
+        repo.index.add([r'xray/configs/clash-meta/*'])
+        repo.index.add([r'xray/configs/xray-json/*'])
         changeGitUserToBot()
         repo.index.commit('update active proxies')
         repo.remotes.origin.push()
