@@ -1,8 +1,8 @@
 import uuid
 from curses.ascii import isalnum
 
-from xray_url_decoder.XraySetting import TLSSettings, RealitySettings
-from xray_url_decoder.vless import UserVless, VnextVless
+from .XraySetting import TLSSettings, RealitySettings
+from .vless import UserVless, VnextVless
 
 
 def is_valid_uuid(value):
