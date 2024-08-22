@@ -10,9 +10,9 @@ import uuid
 from ruamel.yaml import YAML
 from modules.gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
 
-from xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
-from xray_ping.XrayPing import XrayPing
-from clash_meta_url_decoder.ClashMetaUrlDecoder import ClashMetaDecoder
+from modules.XrayUrlDecoder import XrayUrlDecoder
+from modules.XrayPing import XrayPing
+from modules.ClashMetaUrlDecoder import ClashMetaDecoder
 
 
 def is_good_for_game(config: XrayUrlDecoder):
