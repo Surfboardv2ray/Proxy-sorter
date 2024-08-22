@@ -1,5 +1,5 @@
 import sys
-sys.path.append('./modules/xray_url_decoder/XrayUrlDecoder.py')
+sys.path.append('./modules/xray_url_decoder/')
 sys.path.append('./modules/clash_meta_url_decoder/')
 sys.path.append('./')
 sys.path.append('./modules')
