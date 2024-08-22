@@ -10,7 +10,7 @@ import uuid
 from ruamel.yaml import YAML
 from modules.gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
 
-from modules.xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
+from modules.XrayUrlDecoder import XrayUrlDecoder
 from modules.XrayPing import XrayPing
 from modules.clash_meta_url_decoder.ClashMetaUrlDecoder import ClashMetaDecoder
 
