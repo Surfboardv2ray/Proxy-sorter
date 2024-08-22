@@ -1,4 +1,0 @@
-vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_12_@Surfboardv2ray
-vless://22f121ad-4d6e-43b2-a111-7baf487d7369@217.219.78.207:12003/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.speedtest.net&security=reality&pbk=mjg5hfiykNBo-KPtce-RTU3BumTDlq0BGna1-7CO0gA&sid=e6488676#🇮🇷IR_19_@Surfboardv2ray
-vless://22f121ad-4d6e-43b2-a111-7baf487d7369@A3k.zaros.tech:12003?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=mjg5hfiykNBo-KPtce-RTU3BumTDlq0BGna1-7CO0gA&sid=e6488676&spx=/&type=tcp&headerType=none#🇮🇷IR_20_@Surfboardv2ray
-vless://2a956412-71aa-4523-b8c0-54a561d91d56@sv.qashqaipan.xyz:440?security=none&encryption=none&host=alibaba.ir&headerType=http&type=tcp#🇮🇷IR_26_@Surfboardv2ray
