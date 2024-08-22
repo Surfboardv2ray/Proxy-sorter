@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN', 'default_token')
-REPO = os.getenv('REPO', 'default_repo')
+REPO = os.getenv('REPO', 'Surfboardv2ray/Proxy-sorter')
 IS_DEBUG = bool(int(os.getenv('DEBUG_MODE', '0')))
 
 
