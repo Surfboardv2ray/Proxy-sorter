@@ -39,6 +39,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add xray/configs/actives_under_1000ms.txt xray/configs/actives_under_1500ms.txt xray/configs/actives_no_403_under_1000ms.txt
+        git add xray/configs/
         git commit -m "Update files" -a
         git push
