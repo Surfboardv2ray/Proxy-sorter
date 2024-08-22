@@ -6,6 +6,7 @@ from random import randint
 from threading import Thread
 from pathlib import Path
 import requests
+import json  # Importing json as we need it
 
 # Adjust the sys.path to point to the modules folder
 sys.path.append(str(Path(__file__).resolve().parent / 'modules'))
@@ -19,9 +20,14 @@ class XrayUrlDecoder:
         self.isSupported = True
         self.isValid = True
 
-    def generate_raw_config(self):
-        # Simulated method for generating raw config from the Xray URL
-        return f"{self.url}#{self.tag}"  # Example; real implementation should decode the URL
+    def generate_json_str(self):
+        # Simulated method for generating JSON config from raw Xray URL
+        return json.dumps({
+            "tag": self.tag,
+            "streamSettings": {
+                "network": "tcp"  # Example; real implementation should decode the URL properly
+            }
+        })
 
 def real_delay(port: int, proxy_name: str):
     test_url = 'http://detectportal.firefox.com/success.txt'
@@ -55,15 +61,14 @@ class XrayPing:
         self.realDelay_under_1500 = []
         self.no403_realDelay_under_1000 = []
 
-        # No need for JSON processing, handle configs as raw URLs
-        confs = configs  # Already in the required format
+        confs = [json.loads(c) for c in configs]  # Correctly handle JSON configs
         socks = []
         rules = []
         socksPorts = list(set([randint(2000, 49999) for _ in range(len(confs) * 2)]))
 
         for index, outbound in enumerate(confs):
-            socksInbound = Inbound("socks__" + outbound, socksPorts[index], "0.0.0.0", "socks", Sniffing(), SocksSettings())
-            rule = Rule(socksInbound.tag, outbound, [])
+            socksInbound = Inbound("socks__" + outbound["tag"], socksPorts[index], "0.0.0.0", "socks", Sniffing(), SocksSettings())
+            rule = Rule(socksInbound.tag, outbound["tag"], [])
             socks.append(socksInbound)
             rules.append(rule)
 
@@ -71,7 +76,7 @@ class XrayPing:
         xrayConfig = appendBypassMode(XrayConfigSimple(socks, confs, route))
         configFilePath = "./xray/configs/xray_config_ping.json"
         with open(configFilePath, 'w') as f:
-            f.write(xrayConfig)  # Write raw configurations directly
+            f.write(json.dumps(xrayConfig, default=lambda x: x.__dict__))
 
         runXrayThread = Thread(target=subprocess.run, args=([Path("xray").resolve(), "run", "-c", configFilePath],))
         runXrayThread.daemon = True
@@ -102,7 +107,7 @@ with open("xray/configs/all_configs.txt", 'r') as configsFile:
                 cusTag = uuid.uuid4().hex
                 c = XrayUrlDecoder(url, cusTag)
                 if c.isSupported and c.isValid:
-                    urls.append(c.generate_raw_config())
+                    urls.append(c.generate_json_str())
             except Exception as e:
                 print(f"There is an error with this proxy => {url}, error: {str(e)}")
 
@@ -110,15 +115,15 @@ with open("xray/configs/all_configs.txt", 'r') as configsFile:
 
     with open("xray/configs/actives_under_1000ms.txt", 'w') as active1000ProxiesFile:
         for active in delays.realDelay_under_1000:
-            active1000ProxiesFile.write(active['proxy'] + "\n")
+            active1000ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
     with open("xray/configs/actives_under_1500ms.txt", 'w') as active1500ProxiesFile:
         for active in delays.realDelay_under_1500:
-            active1500ProxiesFile.write(active['proxy'] + "\n")
+            active1500ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
     with open("xray/configs/actives_no_403_under_1000ms.txt", 'w') as active1000no403ProxiesFile:
         for active in delays.no403_realDelay_under_1000:
-            active1000no403ProxiesFile.write(active['proxy'] + "\n")
+            active1000no403ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
 # Xray core file placement
 # Place the 'xray' core executable in the same directory as this script.
