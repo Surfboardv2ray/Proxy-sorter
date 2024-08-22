@@ -8,7 +8,7 @@ sys.path.append('xray/modules/gitRepo.py')
 import json
 import uuid
 from ruamel.yaml import YAML
-from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
+from modules.gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
 
 from xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
 from xray_ping.XrayPing import XrayPing
