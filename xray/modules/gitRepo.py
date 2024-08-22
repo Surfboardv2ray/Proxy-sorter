@@ -8,7 +8,7 @@ load_dotenv()
 
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 REPO = os.getenv('REPO')
-IS_DEBUG = bool(int(os.getenv('DEBUG_MODE')))
+IS_DEBUG = "1"
 
 if os.path.exists("./repo/.git"):
     repo = Repo("./repo/")
@@ -42,7 +42,7 @@ def getLatestRowProxies():
     if not IS_DEBUG:
         repo.git.execute(["git", "fetch", "--all"])
         repo.git.execute(["git", "checkout", "remotes/origin/master", "xray/configs"])
-        shutil.copytree("./repo/xray/configs/row-url", "xray/configs/row-url", dirs_exist_ok=True)
+        shutil.copytree("./repo/xray/configs/raw-url", "xray/configs/raw-url", dirs_exist_ok=True)
 
 
 def getLatestActiveConfigs():
@@ -58,8 +58,8 @@ def commitPushRowProxiesFile(chanelUsername):
         repo.git.execute(["git", "fetch", "--all"])
         repo.git.execute(["git", "reset", "--hard", "origin/master"])
         repo.git.execute(["git", "pull"])
-        shutil.copytree("xray/configs/row-url", "./repo/xray/configs/row-url", dirs_exist_ok=True)
-        repo.index.add([r'xray/configs/row-url/*'])
+        shutil.copytree("xray/configs/raw-url", "./repo/xray/configs/raw-url", dirs_exist_ok=True)
+        repo.index.add([r'xray/configs/raw-url/*'])
         changeGitUserToBot()
         repo.index.commit('update proxies from {}'.format(chanelUsername))
         repo.remotes.origin.push()
