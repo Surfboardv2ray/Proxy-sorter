@@ -3,12 +3,12 @@ import json
 import base64
 import uuid
 from urllib.parse import parse_qs, ParseResult, urlencode, urlparse, urlunparse
-from xray_url_decoder.IsValid import isValid_tls, isValid_reality, isValid_userVless, isValid_vnextVless, isValid_link
-from xray_url_decoder.XraySetting import GrpcSettings, TCPSettings, WsSettingsVless, RealitySettings, TLSSettings, Mux
-from xray_url_decoder.trojan import Trojan, ServerTrojan, SettingsTrojan
-from xray_url_decoder.vless import Vless, UserVless, SettingsVless, VnextVless
-from xray_url_decoder.vmess import Vmess, UserVmess, VnextVmess, SettingsVmess
-from xray_url_decoder.XraySetting import StreamSettings
+from xray.modules.xray_url_decoder.IsValid import isValid_tls, isValid_reality, isValid_userVless, isValid_vnextVless, isValid_link
+from xray.modules.xray_url_decoder.XraySetting import GrpcSettings, TCPSettings, WsSettingsVless, RealitySettings, TLSSettings, Mux
+from xray.modules.xray_url_decoder.trojan import Trojan, ServerTrojan, SettingsTrojan
+from xray.modules.xray_url_decoder.vless import Vless, UserVless, SettingsVless, VnextVless
+from xray.modules.xray_url_decoder.vmess import Vmess, UserVmess, VnextVmess, SettingsVmess
+from xray.modules.xray_url_decoder.XraySetting import StreamSettings
 from collections import namedtuple
 
 
