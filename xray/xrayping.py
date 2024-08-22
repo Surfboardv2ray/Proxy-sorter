@@ -1,149 +1,101 @@
+import json
 import sys
 import uuid
-import time
-import subprocess
-from random import randint
-from threading import Thread
-from pathlib import Path
-import requests
-import json
+from ruamel.yaml import YAML
+from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
 
-# Adjust the sys.path to point to the modules folder
-sys.path.append(str(Path(__file__).resolve().parent / 'modules'))
+sys.path.append('./xray_url_decoder/')
+sys.path.append('./clash_meta_url_decoder/')
+sys.path.append('./')
 
-from XrayPing import XrayPing
+from xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
+from xray_ping.XrayPing import XrayPing
+from clash_meta_url_decoder.ClashMetaUrlDecoder import ClashMetaDecoder
 
-class XrayUrlDecoder:
-    def __init__(self, url, tag):
-        self.url = url.strip()
-        self.tag = tag
-        self.isSupported = True
-        self.isValid = True
 
-    def generate_json_str(self):
-        # Simulated method for generating JSON config from raw Xray URL
-        return json.dumps({
-            "tag": self.tag,
-            "streamSettings": {
-                "network": "tcp"  # Example; real implementation should decode the URL
-            }
-        })
+def is_good_for_game(config: XrayUrlDecoder):
+    return (config.type in ['tcp', 'grpc']) and (config.security in [None, "tls"])
 
-def real_delay(port: int, proxy_name: str):
-    test_url = 'http://detectportal.firefox.com/success.txt'
-    err_403_url = 'https://open.spotify.com/'
-    proxy = f"socks5://127.0.0.1:{port}"
-    delay = -1
-    statusCode = -1
-    try:
-        start_time = time.time()
-        requests.get(test_url, timeout=10, proxies=dict(http=proxy, https=proxy))
-        end_time = time.time()
-        delay = end_time - start_time
-        err_403_res = requests.get(err_403_url, timeout=10, proxies=dict(http=proxy, https=proxy))
-        statusCode = err_403_res.status_code
-    except Exception as e:
-        print(f"Error in real_delay: {e}")
-    return dict(proxy=proxy_name, realDelay_ms=round(delay if delay <= 0 else delay * 1000), is403=(statusCode == 403))
 
-def appendBypassMode(config):
-    inbounds = [Inbound("bypass_mode", 3080, "0.0.0.0", "socks", Sniffing(), SocksSettings())] + config.inbounds
-    outbounds = [{'tag': 'direct-out', 'protocol': 'freedom'}] + config.outbounds
-    rules = [Rule("bypass_mode", "direct-out", [])] + config.routing.rules
-    route = XrayRouting("IPIfNonMatch", "hybrid", rules)
-    return XrayConfigSimple(inbounds, outbounds, route)
+# for more info, track this issue https://github.com/MetaCubeX/Clash.Meta/issues/801
+def is_buggy_in_clash_meta(config: ClashMetaDecoder):
+    return config.security == "reality" and config.type == "grpc"
 
-class XrayPing:
-    def __init__(self, configs, limit=200):
-        self.result = []
-        self.actives = []
-        self.realDelay_under_1000 = []
-        self.realDelay_under_1500 = []
-        self.no403_realDelay_under_1000 = []
 
-        confs = [json.loads(c) for c in configs]
-        print(f"Parsed {len(confs)} configurations for processing.")  # Debugging statement
 
-        socks = []
-        rules = []
-        socksPorts = list(set([randint(2000, 49999) for _ in range(len(confs) * 2)]))
 
-        for index, outbound in enumerate(confs):
-            socksInbound = Inbound("socks__" + outbound["tag"], socksPorts[index], "0.0.0.0", "socks", Sniffing(), SocksSettings())
-            rule = Rule(socksInbound.tag, outbound["tag"], [])
-            socks.append(socksInbound)
-            rules.append(rule)
-
-        route = XrayRouting("IPIfNonMatch", "hybrid", rules)
-        xrayConfig = appendBypassMode(XrayConfigSimple(socks, confs, route))
-        configFilePath = "./xray/configs/xray_config_ping.json"
-        with open(configFilePath, 'w') as f:
-            f.write(json.dumps(xrayConfig, default=lambda x: x.__dict__))
-
-        print(f"Xray configuration file written to {configFilePath}.")  # Debugging statement
-
-        runXrayThread = Thread(target=subprocess.run, args=([Path("xray").resolve(), "run", "-c", configFilePath],))
-        runXrayThread.daemon = True
-        runXrayThread.start()
-        time.sleep(5)
-
-        proxiesSorted = [real_delay(s.port, s.tag.split("__")[1]) for s in socks]
-        proxiesSorted = sorted(proxiesSorted, key=lambda d: d['realDelay_ms'])
-
-        print(f"Processed delays for {len(proxiesSorted)} proxies.")  # Debugging statement
-
-        for index, r in enumerate(proxiesSorted):
-            r["proxy"] = confs[index]
-            self.result.append(r)
-            if r["realDelay_ms"] > 0 and len(self.actives) < limit:
-                self.actives.append(r)
-            if 1000 >= r['realDelay_ms'] > 0 and len(self.realDelay_under_1000) < limit:
-                self.realDelay_under_1000.append(r)
-                if not r["is403"]:
-                    self.no403_realDelay_under_1000.append(r)
-            if 1500 >= r['realDelay_ms'] > 0 and len(self.realDelay_under_1500) < limit:
-                self.realDelay_under_1500.append(r)
-
-        print(f"Found {len(self.actives)} active proxies under 200ms, {len(self.realDelay_under_1000)} under 1000ms, and {len(self.realDelay_under_1500)} under 1500ms.")  # Debugging statement
-
-# Main script execution
-with open("xray/configs/all_configs.txt", 'r') as configsFile:
-    urls = configsFile.readlines()
-    print(f"Found {len(urls)} URLs in the config file.")  # Debugging statement
-
-    if not urls:
-        print("No URLs found in the config file. Exiting.")
-        sys.exit(1)
-
-    valid_urls = []
-    for url in urls:
-        if len(url.strip()) > 10:
+with open("xray/configs/raw-url/all.txt", 'r') as rowProxiesFile:
+    configs = []
+    clash_meta_configs = []
+    for_game_proxies = []
+    for url in rowProxiesFile:
+        if len(url) > 10:
             try:
                 cusTag = uuid.uuid4().hex
+
+                # ############# xray ############
                 c = XrayUrlDecoder(url, cusTag)
+                c_json = c.generate_json_str()
                 if c.isSupported and c.isValid:
-                    valid_urls.append(url.strip())
-            except Exception as e:
-                print(f"There is an error with this proxy => {url}: {e}")
+                    configs.append(c_json)
 
-    print(f"Collected {len(valid_urls)} valid URLs.")  # Debugging statement
+                # ############# clash Meta ##########
+                ccm = ClashMetaDecoder(url, cusTag)
+                ccm_json = ccm.generate_obj_str()
+                if c.isSupported and c.isValid and (not is_buggy_in_clash_meta(ccm)):
+                    clash_meta_configs.append(json.loads(ccm_json))
 
-    delays = XrayPing(valid_urls, 200)
+                if is_good_for_game(c):
+                    for_game_proxies.append(url)
+            except:
+                print("There is error with this proxy => " + url)
 
-    with open("xray/configs/actives_under_1000ms.txt", 'w') as active1000ProxiesFile:
+    # getLatestGoodForGame()
+    # with open("xray/configs/row-url/for_game.txt", 'w') as forGameProxiesFile:
+    #     for forGame in for_game_proxies:
+    #         forGameProxiesFile.write(forGame)
+    # commitPushForGameProxiesFile()
+
+    delays = XrayPing(configs, 200)
+    getLatestActiveConfigs()
+
+    yaml = YAML()
+    with open("xray/configs/clash-meta/all.yaml", 'w') as allClashProxiesFile:
+        yaml.dump({"proxies": clash_meta_configs}, allClashProxiesFile)
+
+    with open("xray/configs/clash-meta/actives_under_1000ms.yaml", 'w') as active1000ClashProxiesFile:
+        values_to_filter = {d['proxy']['tag'].split("_@_")[0] for d in delays.realDelay_under_1000}
+        filtered_array = [item for item in clash_meta_configs if item['name'].split("_@_")[0] in values_to_filter]
+        yaml.dump({"proxies": filtered_array}, active1000ClashProxiesFile)
+
+    with open("xray/configs/clash-meta/actives_under_1500ms.yaml", 'w') as active1500ClashProxiesFile:
+        values_to_filter = {d['proxy']['tag'].split("_@_")[0] for d in delays.realDelay_under_1500}
+        filtered_array = [item for item in clash_meta_configs if item['name'].split("_@_")[0] in values_to_filter]
+        yaml.dump({"proxies": filtered_array}, active1500ClashProxiesFile)
+
+    with open("xray/configs/xray-json/actives_all.txt", 'w') as activeProxiesFile:
+        for active in delays.actives:
+            activeProxiesFile.write(json.dumps(active['proxy']) + "\n")
+
+    with open("xray/configs/xray-json/actives_under_1000ms.txt", 'w') as active1000ProxiesFile:
         for active in delays.realDelay_under_1000:
-            active1000ProxiesFile.write(active['proxy']['tag'] + "\n")
-    print("Saved active proxies under 1000ms to 'actives_under_1000ms.txt'.")  # Debugging statement
+            active1000ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open("xray/configs/actives_under_1500ms.txt", 'w') as active1500ProxiesFile:
+    with open("xray/configs/xray-json/actives_under_1500ms.txt", 'w') as active1500ProxiesFile:
         for active in delays.realDelay_under_1500:
-            active1500ProxiesFile.write(active['proxy']['tag'] + "\n")
-    print("Saved active proxies under 1500ms to 'actives_under_1500ms.txt'.")  # Debugging statement
+            active1500ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open("xray/configs/actives_no_403_under_1000ms.txt", 'w') as active1000no403ProxiesFile:
+    with open("xray/configs/xray-json/actives_no_403_under_1000ms.txt", 'w') as active1000no403ProxiesFile:
         for active in delays.no403_realDelay_under_1000:
-            active1000no403ProxiesFile.write(active['proxy']['tag'] + "\n")
-    print("Saved active proxies under 1000ms with no 403 error to 'actives_no_403_under_1000ms.txt'.")  # Debugging statement
+            active1000no403ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-# Xray core file placement
-print("Place the 'xray' core executable in the same directory as this script.")  # Debugging statement
+    with open("xray/configs/xray-json/actives_for_ir_server_no403_u1s.txt",
+              'w') as active1000no403ForServerProxiesFile:
+        for active in delays.no403_realDelay_under_1000:
+            if active['proxy']["streamSettings"]["network"] not in ["ws", "grpc"]:
+                active1000no403ForServerProxiesFile.write(json.dumps(active['proxy']) + "\n")
+
+
+
+
+commitPushRActiveProxiesFile()
