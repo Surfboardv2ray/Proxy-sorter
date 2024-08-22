@@ -4,9 +4,10 @@ import uuid
 from ruamel.yaml import YAML
 from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
 
-sys.path.append('./xray_url_decoder/')
-sys.path.append('./clash_meta_url_decoder/')
+sys.path.append('./modules/xray_url_decoder/')
+sys.path.append('./modules/clash_meta_url_decoder/')
 sys.path.append('./')
+sys.path.append('./modules')
 
 from xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
 from xray_ping.XrayPing import XrayPing
