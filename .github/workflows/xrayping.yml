@@ -6,6 +6,7 @@ on:
       - '.github/workflows/xrayping.yml'
       - 'xray/xrayping.py'
       - 'xray/configs/all_configs.txt'
+      - 'xray/modules/gitRepo.py'
   workflow_dispatch:
 
 jobs:
