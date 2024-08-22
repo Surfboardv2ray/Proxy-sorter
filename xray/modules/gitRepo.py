@@ -6,9 +6,10 @@ import os
 
 load_dotenv()
 
-GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-REPO = os.getenv('REPO')
-IS_DEBUG = "1"
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN', 'default_token')
+REPO = os.getenv('REPO', 'default_repo')
+IS_DEBUG = bool(int(os.getenv('DEBUG_MODE', '0')))
+
 
 if os.path.exists("./repo/.git"):
     repo = Repo("./repo/")
