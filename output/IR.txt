@@ -1,5 +1,0 @@
-vless://250f40a7-7f18-4a5e-8925-136841d1abf1@46.245.70.75:20652?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/&headerType=http&security=none#🇮🇷IR_35_@Surfboardv2ray
-vless://501a4e53-0f0c-488a-daf2-707dc9acd72e@46.245.70.75:30352?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/&headerType=http&security=none#🇮🇷IR_40_@Surfboardv2ray
-vless://aef97fc7-1733-465f-b018-e5df33e3f744@srv7.bestforcast.com:27540?type=ws&path=/&host=&security=none#🇮🇷IR_114_@Surfboardv2ray
-vless://f5e11821-b8a8-4968-d007-bb34e96c4d8c@dl.mashhad-digital.shop:5063?type=tcp&security=none#🇮🇷IR_143_@Surfboardv2ray
-vless://f5e11821-b8a8-4968-d007-bb34e96c4d8c@dl.mashhad-digital.shop:5063?type=tcp&security=none#🇮🇷IR_144_@Surfboardv2ray
