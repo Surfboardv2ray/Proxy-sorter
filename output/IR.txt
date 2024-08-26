@@ -1,2 +1,1 @@
-vless://ad55ce27-9d27-43e5-a158-185bc5e62d95@213.176.0.229:4412?security=none&encryption=none&host=api.vasaham.com&headerType=http&type=tcp#🇮🇷IR_140_@Surfboardv2ray
-vless://f823ba23-c92e-4278-a8b6-c2dafe151e3c@s22.martin3erver.sbs:46041?encryption=none&security=none&type=tcp&headerType=http&host=speedtest.net#🇮🇷IR_161_@Surfboardv2ray
+vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@185.226.117.234:995?path=/&security=none&encryption=none&type=ws#🇮🇷IR_31_@Surfboardv2ray
