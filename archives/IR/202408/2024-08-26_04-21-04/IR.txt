@@ -1,0 +1,3 @@
+vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@188.213.196.83:995?encryption=none&security=none&type=ws&path=/#🇮🇷IR_52_@Surfboardv2ray
+vless://23806407-9838-4592-8174-0e90116afd03@188.213.196.83:3306?encryption=none&security=none&type=ws&path=/Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs#🇮🇷IR_62_@Surfboardv2ray
+vless://23806407-9838-4592-8174-0e90116afd03@188.213.196.83:3306?encryption=none&security=none&type=ws&path=/Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs,Telegram:@FreeConfigVPNs#🇮🇷IR_63_@Surfboardv2ray
