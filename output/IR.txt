@@ -1,7 +1,3 @@
-vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@37.32.22.100:995/path=-----SERVERSIRAN-----@SERVERSIRAN----@SERVERSIRAN----@SERVERSIRAN11----@SERVERSIRAN----@SERVERSIRAN11----?path=/&security=none&encryption=none&type=ws#🇮🇷IR_33_@Surfboardv2ray
-vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@37.32.22.100:995?path=/&security=none&encryption=none&type=ws#🇮🇷IR_34_@Surfboardv2ray
-vless://4e996356-ffb9-4023-986a-0c63482cf1a4@tlsm18.gsmvx.com:445?security=none&type=ws&headerType=&path=/gsmx&host=google.com#🇮🇷IR_41_@Surfboardv2ray
-vless://62a12d4e-83f7-48cf-8e95-2e92f6a41fd4@tlsm37.gsmvx.com:445?security=none&type=ws&headerType=&path=/gsmx&host=google.com#🇮🇷IR_44_@Surfboardv2ray
-vless://67d7b9f5-a10e-4491-e07f-3122bb8fadcc@46.245.67.185:30352?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_46_@Surfboardv2ray
-vless://91133cf7-7888-4dcd-bfce-a66a57f9c660@193.228.168.112:19296?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_86_@Surfboardv2ray
-vless://ea4ee54a-91ce-4dfc-8a8f-c8c10a97a826@78.109.194.153:49413?path=/&security=none&encryption=none&host=telewebion.com&type=ws#🇮🇷IR_143_@Surfboardv2ray
+vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_21_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_51_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_52_@Surfboardv2ray
