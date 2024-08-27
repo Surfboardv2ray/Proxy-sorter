@@ -1,10 +1,8 @@
-vless://1361c792-ffa7-4230-8f86-0d57f65a900d@193.151.141.217:4000?security=none&encryption=none&host=sheypoor.com&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
-vless://1b43f832-7398-4fb2-8dd4-ec7fea12b9fe@78.38.153.137:443?type=grpc&mode=gun&serviceName=5ik4g6h5jk56ghjkh&security=none#🇮🇷IR_32_@Surfboardv2ray
-vless://1b43f832-7398-4fb2-8dd4-ec7fea12b9fe@78.38.153.137:443?type=grpc&mode=gun&serviceName=5ik4g6h5jk56ghjkh&security=none#🇮🇷IR_33_@Surfboardv2ray
-vless://260e7dff-e0c6-45ff-c921-4e5fcbc7c5b3@46.245.67.185:30352?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
-vless://448bce1b-a752-4751-d7b2-23f52fd06ab5@46.245.67.185:20652?security=none&encryption=none&host=webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_46_@Surfboardv2ray
-vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_52_@Surfboardv2ray
-vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_53_@Surfboardv2ray
+vless://464938cd-2dc4-31e9-17a9-33a430eb5ff9@finland.ir.tekcloud.fun:25812/?encryption=none&host=alibaba.com&type=tcp&headerType=http#🇮🇷IR_32_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
 vless://91133cf7-7888-4dcd-bfce-a66a57f9c660@193.228.168.112:19296?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_81_@Surfboardv2ray
-vless://91dd16bc-1dcf-4a21-8222-88445bdafe35@109.94.165.104:11000?path=/&security=none&encryption=none&type=ws#🇮🇷IR_82_@Surfboardv2ray
-vless://d364a492-5e5e-43c2-9696-d4c786d962b2@89.42.137.37:20835?security=tls&encryption=none&alpn=h3,h2,http/1.1&headerType=none&fp=chrome&type=tcp&sni=whatbro.info#🇮🇷IR_140_@Surfboardv2ray
+vless://d364a492-5e5e-43c2-9696-d4c786d962b2@89.42.137.37:20835?security=tls&encryption=none&alpn=h3,h2,http/1.1&headerType=none&fp=chrome&type=tcp&sni=whatbro.info#🇮🇷IR_130_@Surfboardv2ray
+vless://e7ef040d-256a-45d9-9165-451bdb6e4dce@azadi.m8tokhsali.xyz:2096?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_142_@Surfboardv2ray
+vless://e7ef040d-256a-45d9-9165-451bdb6e4dce@azadi.m8tokhsali.xyz:2096?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_143_@Surfboardv2ray
+vless://f823ba23-c92e-4278-a8b6-c2dafe151e3c@45.129.36.103:46041?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_150_@Surfboardv2ray
