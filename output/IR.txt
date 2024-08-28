@@ -1,5 +1,12 @@
-vless://4b8eb720-7a55-9033-133d-254e44e89c92@vip1.bluewale.online:56931?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_88_@Surfboardv2ray
-vless://4b8eb720-7a55-9033-133d-254e44e89c92@vip1.bluewale.online:56931?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_89_@Surfboardv2ray
-vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_94_@Surfboardv2ray
-vless://b2fdc5d5-7056-5863-623e-c0af5987bc4a@vip1.bluewale.online:56931?security=none&encryption=none&host=Speedtest.net&headerType=http&type=tcp#🇮🇷IR_133_@Surfboardv2ray
-vless://b2fdc5d5-7056-5863-623e-c0af5987bc4a@vip1.bluewale.online:56931?security=none&encryption=none&host=Speedtest.net&headerType=http&type=tcp#🇮🇷IR_134_@Surfboardv2ray
+vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@185.97.117.210:995?path=/&security=none&encryption=none&type=ws#🇮🇷IR_28_@Surfboardv2ray
+vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@37.32.22.63:995?path=/&security=none&encryption=none&type=ws#🇮🇷IR_29_@Surfboardv2ray
+vless://2446d17e-e68e-4f19-b48b-cee5c86b6b36@s47.webira.net:42988?security=none&type=tcp&headerType=http&path=/&host=divarcdn.com#🇮🇷IR_31_@Surfboardv2ray
+vless://2446d17e-e68e-4f19-b48b-cee5c86b6b36@s47.webira.net:51039?security=none&type=ws&headerType=&path=/&host=divarcdn.com#🇮🇷IR_32_@Surfboardv2ray
+vless://25b44465-fb20-4258-b519-8d4de16c3caf@sure.iamconnected.sbs:2053?security=none&encryption=none&host=nobitex.com&headerType=http&type=tcp#🇮🇷IR_33_@Surfboardv2ray
+vless://516fc847-39f1-4a7c-bee9-b8b900dee39d@188.212.96.246:2020?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_47_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_48_@Surfboardv2ray
+vless://684926f9-1f51-4d6d-803d-79b5731927c9@94.182.152.117:10137?path=/&security=none&encryption=none&type=ws#🇮🇷IR_58_@Surfboardv2ray
+vless://c5547ee1-05c4-4aff-aeb7-1162b0c5d1ff@s3mci.riashop.ir:45051?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_133_@Surfboardv2ray
+vless://c5547ee1-05c4-4aff-aeb7-1162b0c5d1ff@s3mci.riashop.ir:45051?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_134_@Surfboardv2ray
+vless://e09b22d6-f7d6-45ad-b70d-fb438a414294@88.135.46.58:16200?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_147_@Surfboardv2ray
+vless://ef38916e-67e0-4607-85be-2bf79a24c847@46.245.64.60:30352?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_150_@Surfboardv2ray
