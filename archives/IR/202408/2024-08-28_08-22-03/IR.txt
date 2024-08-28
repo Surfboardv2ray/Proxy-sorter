@@ -1,0 +1,5 @@
+vless://4b8eb720-7a55-9033-133d-254e44e89c92@vip1.bluewale.online:56931?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_88_@Surfboardv2ray
+vless://4b8eb720-7a55-9033-133d-254e44e89c92@vip1.bluewale.online:56931?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_89_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_94_@Surfboardv2ray
+vless://b2fdc5d5-7056-5863-623e-c0af5987bc4a@vip1.bluewale.online:56931?security=none&encryption=none&host=Speedtest.net&headerType=http&type=tcp#🇮🇷IR_133_@Surfboardv2ray
+vless://b2fdc5d5-7056-5863-623e-c0af5987bc4a@vip1.bluewale.online:56931?security=none&encryption=none&host=Speedtest.net&headerType=http&type=tcp#🇮🇷IR_134_@Surfboardv2ray
