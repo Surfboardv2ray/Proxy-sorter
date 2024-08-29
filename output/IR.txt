@@ -1,10 +1,2 @@
-vless://0c24ef77-da5e-403c-9ce2-750d666d8a8e@am.blackapple.sbs:2096?type=tcp&security=reality&pbk=jB5mQwVxnzh4cvWeiV4UEJaJWzVtCPBXTKDv5IzXUGw&fp=chrome&sni=auchan-retail.com&sid=ba6b07cd&spx=/&flow=xtls-rprx-vision#🇮🇷IR_26_@Surfboardv2ray
-vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@185.97.117.210:995?path=/&security=none&encryption=none&type=ws#🇮🇷IR_38_@Surfboardv2ray
-vless://2ab98dea-9a3f-499e-b947-d2b2866e4d56@arvancloud.ir:2086?security=&type=ws&path=/mahdiprog&host=sub.twixspace.com&encryption=none#🇮🇷IR_40_@Surfboardv2ray
-vless://44f8846d-8ef0-47ab-97fd-3df5213e0f0b@multi.srv1.safeunity.space:3232?path=/&security=none&encryption=none&type=ws#🇮🇷IR_47_@Surfboardv2ray
-vless://44f8846d-8ef0-47ab-97fd-3df5213e0f0b@multi.srv1.safeunity.space:3333?path=/&security=none&encryption=none&type=ws#🇮🇷IR_48_@Surfboardv2ray
-vless://44f8846d-8ef0-47ab-97fd-3df5213e0f0b@multi.srv1.safeunity.space:3333?path=/&security=none&encryption=none&type=ws#🇮🇷IR_49_@Surfboardv2ray
-vless://44f8846d-8ef0-47ab-97fd-3df5213e0f0b@multi.srv2.safeunity.space:3232?path=/&security=none&encryption=none&type=ws#🇮🇷IR_50_@Surfboardv2ray
-vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
-vless://585a4670-f905-4043-a9a7-757c14f55621@h4.tcod008.info:28732?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_56_@Surfboardv2ray
-vless://e6802b02-48e7-48fa-945c-a4e08e5cf09e@amr.blackapple.sbs:8001?type=tcp&security=reality&pbk=4BNkudIPt7bMS-DZ2olXt3AMgJhGxPzqta9G-ES5KCU&fp=chrome&sni=highspeedinternet.com&sid=74afcbbb&spx=/&flow=xtls-rprx-vision#🇮🇷IR_142_@Surfboardv2ray
+vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_74_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_100_@Surfboardv2ray
