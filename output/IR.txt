@@ -1,2 +1,7 @@
-vless://0f701637-2dc8-4b2f-8e91-942d5bb87d4e@193.151.158.16:80?type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&host=&security=none#🇮🇷IR_71_@Surfboardv2ray
-vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_89_@Surfboardv2ray
+vless://0f8572d9-52b2-4bf5-82cf-7b418b375135@87.248.152.16:34750?security=none&encryption=none&host=host:nasa.gov&headerType=http&type=tcp#🇮🇷IR_34_@Surfboardv2ray
+vless://0f8572d9-52b2-4bf5-82cf-7b418b375135@87.248.152.16:34750?security=none&encryption=none&host=host:nasa.gov&headerType=http&type=tcp#🇮🇷IR_35_@Surfboardv2ray
+vless://54ef4ecf-ff37-436a-be13-95c8a8a1114d@188.121.118.55:443?path=/&security=tls&encryption=none&host=ViRgInIaVpN-Nl.PaGeS.DeV&type=ws&sni=vIrGiNiAvPn-nL.pAgEs.dEv#🇮🇷IR_49_@Surfboardv2ray
+vless://54ef4ecf-ff37-436a-be13-95c8a8a1114d@188.121.118.55:443?path=/&security=tls&encryption=none&host=ViRgInIaVpN-Nl.PaGeS.DeV&type=ws&sni=vIrGiNiAvPn-nL.pAgEs.dEv#🇮🇷IR_50_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_51_@Surfboardv2ray
+vless://f823ba23-c92e-4278-a8b6-c2dafe151e3c@45.129.36.38:46041?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_174_@Surfboardv2ray
+vless://f823ba23-c92e-4278-a8b6-c2dafe151e3c@45.129.36.38:46041?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_175_@Surfboardv2ray
