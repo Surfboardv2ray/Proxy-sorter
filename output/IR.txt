@@ -1,2 +1,2 @@
-vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_74_@Surfboardv2ray
-vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_100_@Surfboardv2ray
+vless://0f701637-2dc8-4b2f-8e91-942d5bb87d4e@193.151.158.16:80?type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&host=&security=none#🇮🇷IR_71_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_89_@Surfboardv2ray
