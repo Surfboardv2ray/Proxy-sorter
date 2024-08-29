@@ -1,0 +1,2 @@
+vless://0f701637-2dc8-4b2f-8e91-942d5bb87d4e@193.151.158.16:80?type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&host=&security=none#🇮🇷IR_71_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_89_@Surfboardv2ray
