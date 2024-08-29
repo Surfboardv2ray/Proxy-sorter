@@ -1,5 +1,2 @@
-vless://31032693-6d80-40ea-ac0c-e31fa7c74bea@46.245.64.60:30352?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_20_@Surfboardv2ray
-vless://5155a2d0-27f1-4671-cbe6-38042d669ef4@5.34.199.43:8080?security=none&encryption=none&host=skyroom.online&headerType=http&type=tcp#🇮🇷IR_27_@Surfboardv2ray
-vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_28_@Surfboardv2ray
-vless://89a2e20c-6b57-4d82-9c3d-17862036a597@46.245.64.60:20652?security=none&encryption=none&host=webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_50_@Surfboardv2ray
-vless://f823ba23-c92e-4278-a8b6-c2dafe151e3c@185.53.141.155:46041?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_135_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_45_@Surfboardv2ray
+vless://c5547ee1-05c4-4aff-aeb7-1162b0c5d1ff@s3mci.riashop.ir:45051?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_104_@Surfboardv2ray
