@@ -1,0 +1,2 @@
+vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_45_@Surfboardv2ray
+vless://c5547ee1-05c4-4aff-aeb7-1162b0c5d1ff@s3mci.riashop.ir:45051?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_104_@Surfboardv2ray
