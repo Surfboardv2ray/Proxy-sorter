@@ -1,0 +1,4 @@
+vless://420e4da5-af5c-40b4-bd73-fb608fe45ecb@85.9.112.146:3434?path=/&security=none&encryption=none&type=ws#🇮🇷IR_15_@Surfboardv2ray
+vless://420e4da5-af5c-40b4-bd73-fb608fe45ecb@85.9.112.146:3434?path=/&security=none&encryption=none&type=ws#🇮🇷IR_16_@Surfboardv2ray
+vless://ad0876aa-c9dc-4368-8090-3397abd98f4a@79.175.146.94:21194?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_69_@Surfboardv2ray
+vless://ad0876aa-c9dc-4368-8090-3397abd98f4a@79.175.146.94:21194?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_70_@Surfboardv2ray
