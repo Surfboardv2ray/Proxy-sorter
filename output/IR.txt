@@ -1,2 +1,4 @@
-vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_45_@Surfboardv2ray
-vless://c5547ee1-05c4-4aff-aeb7-1162b0c5d1ff@s3mci.riashop.ir:45051?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_104_@Surfboardv2ray
+vless://1c6fa700-0eb2-404c-af88-d0a82bfc7a63@1.mobopasargad.xyz:8001?security=none&encryption=none&host=Fast.com&headerType=http&type=tcp#🇮🇷IR_92_@Surfboardv2ray
+vless://2f313253-c373-4337-979d-c8525dd1f775@mp3pandamusics.xyz:20082?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_96_@Surfboardv2ray
+vless://585a4670-f905-4043-a9a7-757c14f55621@185.155.72.114:28732/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_107_@Surfboardv2ray
+vless://d364a492-5e5e-43c2-9696-d4c786d962b2@89.42.137.37:20835/?type=tcp&encryption=none&security=tls&sni=whatbro.info&alpn=h3,h2,http/1.1&fp=chrome#🇮🇷IR_173_@Surfboardv2ray
