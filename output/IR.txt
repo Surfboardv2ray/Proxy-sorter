@@ -1,5 +1,8 @@
-vless://0f8572d9-52b2-4bf5-82cf-7b418b375135@87.248.152.16:34750?security=none&encryption=none&host=host:nasa.gov&headerType=http&type=tcp#🇮🇷IR_10_@Surfboardv2ray
-vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@37.152.183.116:995?encryption=none&security=none&type=ws&path=/#🇮🇷IR_11_@Surfboardv2ray
-vless://15e0e1bc-0551-42a6-dfca-26ed4a3165ef@46.245.64.60:20652?security=none&encryption=none&host=webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_12_@Surfboardv2ray
-vless://7d0f47de-a2c0-4754-c942-51837e603ccd@46.245.64.60:30352?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_34_@Surfboardv2ray
-vless://8cf73792-0b3e-8e8b-f833-e86067f7a22c@45.131.4.5:2052?path=/&security=none&encryption=none&host=2.v2.www.speedtest.net.blue99shop.ir.&type=httpupgrade#🇮🇷IR_59_@Surfboardv2ray
+vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_53_@Surfboardv2ray
+vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@37.152.183.116:995?path=/&security=none&encryption=none&type=ws#🇮🇷IR_55_@Surfboardv2ray
+vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@37.152.183.116:995?path=/&security=none&encryption=none&type=ws#🇮🇷IR_56_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_61_@Surfboardv2ray
+vless://687d303c-32d5-4ee7-da86-b66528e3894b@185.105.187.50:8081?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_73_@Surfboardv2ray
+vless://687d303c-32d5-4ee7-da86-b66528e3894b@www.forcepower.monster:8081?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_74_@Surfboardv2ray
+vless://8cf73792-0b3e-8e8b-f833-e86067f7a22c@45.131.4.5:2052?path=/&security=none&encryption=none&host=2.v2.www.speedtest.net.blue99shop.ir.&type=httpupgrade#🇮🇷IR_97_@Surfboardv2ray
+vless://8cf73792-0b3e-8e8b-f833-e86067f7a22c@45.131.4.5:2052?path=/&security=none&encryption=none&host=2.v2.www.speedtest.net.blue99shop.ir.&type=httpupgrade#🇮🇷IR_98_@Surfboardv2ray
