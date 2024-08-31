@@ -1,0 +1,8 @@
+vless://01b2aabf-d4ae-489f-82cf-57012de21d95@193.151.158.16:80?type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&host=&security=none#🇮🇷IR_9_@Surfboardv2ray
+vless://0e010a13-6767-4961-9795-7fab44b4ff7c@46.245.64.60:30352?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_13_@Surfboardv2ray
+vless://13ce135b-70b6-4e0b-b89c-f15cf15d066d@37.152.183.116:995?path=/&security=none&encryption=none&type=ws#🇮🇷IR_15_@Surfboardv2ray
+vless://37239c7f-b959-4065-841f-ac516465f8fe@176.65.242.107:39554/?type=ws&encryption=none&path=/#🇮🇷IR_28_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_33_@Surfboardv2ray
+vless://6f8ecdce-2801-4d12-96fa-638347ad7933@89.235.119.246:2445?security=none&encryption=none&host=zara.com&headerType=http&type=tcp#🇮🇷IR_39_@Surfboardv2ray
+vless://8cf73792-0b3e-8e8b-f833-e86067f7a22c@45.131.4.5:2052?path=/&security=none&encryption=none&host=2.v2.www.speedtest.net.blue99shop.ir.&type=httpupgrade#🇮🇷IR_64_@Surfboardv2ray
+vless://dbf9e6ba-96cc-49ec-c496-1dc4c008e5e8@46.245.64.60:20652?security=none&encryption=none&host=webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_115_@Surfboardv2ray
