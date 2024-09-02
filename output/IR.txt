@@ -1,7 +1,8 @@
-vless://08eca8a9-4135-4d36-848b-10e3e088ac9a@185.155.72.119:17132?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_9_@Surfboardv2ray
-vless://08eca8a9-4135-4d36-848b-10e3e088ac9a@185.155.72.119:17132?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_10_@Surfboardv2ray
-vless://6a250837-6dd2-4649-9004-74522f88dc7f@85.9.121.36:80?type=ws&security=none&path=/&host=#🇮🇷IR_80_@Surfboardv2ray
-vless://6c534179-2478-49a6-b888-e2758acd940c@85.198.8.83:443/?encryption=none&host=www.speedtest.net&type=tcp&headerType=http#🇮🇷IR_81_@Surfboardv2ray
-vless://ac29aaf0-0782-4a61-939f-e527dba26ac0@dash.fast-film.ir:443?hiddify=1&sni=www.pinterest.com&type=tcp&alpn=http/1.1&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=uDeXFLp03FsWQ73TvbmBK1IKFL-0j8aBTleNUm6kWS8&sid=f849b0e5#🇮🇷IR_138_@Surfboardv2ray
-vless://ac29aaf0-0782-4a61-939f-e527dba26ac0@dash.fast-film.ir:443?hiddify=1&sni=www.pinterest.com&type=tcp&alpn=http/1.1&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=uDeXFLp03FsWQ73TvbmBK1IKFL-0j8aBTleNUm6kWS8&sid=f849b0e5#🇮🇷IR_139_@Surfboardv2ray
-vless://c034cc43-cedd-4b9c-b623-d5b1f62b0479@185.97.118.101:14044?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_142_@Surfboardv2ray
+vless://08eca8a9-4135-4d36-848b-10e3e088ac9a@185.155.72.119:17132?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_40_@Surfboardv2ray
+vless://0b7322f7-d71f-4742-b285-830b216112e4@95.38.210.163:2096?security=none&TELEGRAM+-+@JOKERRVPN+۰+TELEGRAM+-+@JOKERRVPN+۰+TELEGRAM+-+@JOKERRVPN+۰+TELEGRAM+-+@JOKERRVPN+۰+TELEGRAM+-+@JOKERRVPN+۰+TELEGRAM+-+@JOKERRVPN+۰+TELEGRAM+-+@JOKERRVPNencryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_42_@Surfboardv2ray
+vless://c034cc43-cedd-4b9c-b623-d5b1f62b0479@185.97.118.101:14044/?encryption=none&host=speedtest.net&type=tcp&headerType=http#🇮🇷IR_142_@Surfboardv2ray
+vless://c034cc43-cedd-4b9c-b623-d5b1f62b0479@185.97.118.101:14044?encryption=none&security=none&type=tcp&headerType=http&host=speedtest.net#🇮🇷IR_143_@Surfboardv2ray
+vless://c034cc43-cedd-4b9c-b623-d5b1f62b0479@185.97.118.101:14044?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_144_@Surfboardv2ray
+vless://c034cc43-cedd-4b9c-b623-d5b1f62b0479@185.97.118.101:14044?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_145_@Surfboardv2ray
+vless://fdb60214-1d03-4b83-c4b7-3d2d33c08073@81.12.27.91:21807/?type=ws&encryption=none&path=/#🇮🇷IR_164_@Surfboardv2ray
+vless://fdb60214-1d03-4b83-c4b7-3d2d33c08073@81.12.27.91:21807?encryption=none&security=none&type=ws&path=/#🇮🇷IR_165_@Surfboardv2ray
