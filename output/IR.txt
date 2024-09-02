@@ -1,7 +1,5 @@
-vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_53_@Surfboardv2ray
-vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_54_@Surfboardv2ray
-vless://5bdc97d3-cb32-4e5b-908f-0d6897e27b56@85.133.247.214:443?type=tcp&host=speedtest.net&security=none&headerType=http&path=/#🇮🇷IR_60_@Surfboardv2ray
-vless://5bdc97d3-cb32-4e5b-908f-0d6897e27b56@85.133.247.214:443?type=tcp&host=speedtest.net&security=none&headerType=http&path=/#🇮🇷IR_61_@Surfboardv2ray
-vless://70420fb8-1439-4432-8f47-5941f8a0b14c@speedtest.netfast.comn.blaackgame.ir:2087?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_65_@Surfboardv2ray
-vless://768961c6-1172-4cfa-9d2b-d44c8be6cd0f@85.198.9.157:2070?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_68_@Surfboardv2ray
-vless://768961c6-1172-4cfa-9d2b-d44c8be6cd0f@85.198.9.157:2070?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_69_@Surfboardv2ray
+vless://6c534179-2478-49a6-b888-e2758acd940c@85.198.8.83:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_112_@Surfboardv2ray
+vless://6c534179-2478-49a6-b888-e2758acd940c@85.198.8.83:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_113_@Surfboardv2ray
+vless://768961c6-1172-4cfa-9d2b-d44c8be6cd0f@85.198.9.157:2070?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_115_@Surfboardv2ray
+vless://fdb60214-1d03-4b83-c4b7-3d2d33c08073@81.12.27.91:21807?path=/&security=none&encryption=none&type=ws#🇮🇷IR_128_@Surfboardv2ray
+vless://fdb60214-1d03-4b83-c4b7-3d2d33c08073@81.12.27.91:21807?path=/&security=none&encryption=none&type=ws#🇮🇷IR_129_@Surfboardv2ray
