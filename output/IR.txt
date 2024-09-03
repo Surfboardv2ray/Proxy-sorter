@@ -1,3 +1,2 @@
-vless://0012d4b0-1ab7-466b-85e8-8eaf05c6db9c@213.176.0.240:43521/?encryption=none&host=match-cdn.varzesh3.com&type=tcp&headerType=http#🇮🇷IR_51_@Surfboardv2ray
-vless://7d043a1c-5417-491e-8c0a-d12f1dd8474a@87.107.146.77:8880/?type=ws&encryption=none&host=aDmIn.SaNa-DoWnLoAd.Ir.&path=/#🇮🇷IR_89_@Surfboardv2ray
-vless://dd894e42-3510-468a-8893-aa5299151bd0@213.176.0.13:4054?type=tcp&path=/&host=header.com&headerType=http&security=none#🇮🇷IR_133_@Surfboardv2ray
+vless://434cd366-748e-4ec6-91f5-df027467ff8b@193.107.48.162:37829/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_83_@Surfboardv2ray
+vless://7d043a1c-5417-491e-8c0a-d12f1dd8474a@87.107.146.77:8880/?type=ws&encryption=none&host=aDmIn.SaNa-DoWnLoAd.Ir.&path=/#🇮🇷IR_109_@Surfboardv2ray
