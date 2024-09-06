@@ -1,7 +1,7 @@
-vless://10d356d6-4972-4d72-9ee9-fa54d5a1ee82@194.5.178.153:443?type=tcp&security=none#🇮🇷IR_12_@Surfboardv2ray
-vless://7a2ab708-b9bb-4e20-b18d-8f450bdf6cac@217.60.189.197:80?path=@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-?ed=2053&security=none&encryption=none&type=ws#🇮🇷IR_40_@Surfboardv2ray
-vless://8d2e66f9-20d5-4875-af22-3d371a73e6f3@46.245.74.178:80?Telegram=@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx&security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
-vless://8d2e66f9-20d5-4875-af22-3d371a73e6f3@46.245.74.178:80?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
-vless://ac281681-7b6f-48ef-8d3d-d1b2c1a4f4f0@84.47.234.19:443?mode=gun&security=tls&encryption=none&alpn=h3,h2&authority=&type=grpc&serviceName=www.speedtest.net&sni=mz-hostyones.abraria.ir#🇮🇷IR_86_@Surfboardv2ray
-vless://c11abd11-288f-4a36-84c3-4ad0584f533c@193.151.143.96:443/?encryption=none&host=www.speedtest.net&type=tcp&headerType=http#🇮🇷IR_88_@Surfboardv2ray
-vless://c11abd11-288f-4a36-84c3-4ad0584f533c@193.151.143.96:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_89_@Surfboardv2ray
+vless://20576fe0-dc63-4199-a5b6-d56ce1d6a367@62.60.219.145:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_27_@Surfboardv2ray
+vless://307b7afb-b502-4bbf-9525-f7ee0d2e772a@46.245.65.87:2095?path=/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------&security=none&encryption=none&host=www.speedtest.net&type=ws#🇮🇷IR_29_@Surfboardv2ray
+vless://3fdf1673-7951-41ca-9cdf-4985d893df3c@5.202.11.57:7711?security=none&type=grpc#🇮🇷IR_34_@Surfboardv2ray
+vless://3fdf1673-7951-41ca-9cdf-4985d893df3c@5.202.11.57:7711?security=none&type=grpc#🇮🇷IR_35_@Surfboardv2ray
+vless://48f243c6-5e63-4007-8b94-501e22974b00@78.157.63.22:2082?security=none&type=tcp&host=fararu.com&headerType=http#🇮🇷IR_36_@Surfboardv2ray
+vless://48f243c6-5e63-4007-8b94-501e22974b00@78.157.63.22:2082?security=none&type=tcp&host=fararu.com&headerType=http#🇮🇷IR_37_@Surfboardv2ray
+vless://a63f0b27-0087-4e6b-810d-3d74de08dc1b@finland11.server21.org:8443?encryption=none&type=ws&path=/&host=robot11.server21.org&security=tls&sni=robot11.server21.org#🇮🇷IR_111_@Surfboardv2ray
