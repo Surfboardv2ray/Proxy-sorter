@@ -1,3 +1,6 @@
-vless://307b7afb-b502-4bbf-9525-f7ee0d2e772a@46.245.65.87:2095?type=ws&path=/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------&host=www.speedtest.net&security=none#🇮🇷IR_38_@Surfboardv2ray
-vless://bdb38928-9572-424f-a950-fabd2e791aad@46.245.72.79:2046?security=none&encryption=none&host=skype.com&headerType=http&type=tcp#🇮🇷IR_138_@Surfboardv2ray
-vless://bdb38928-9572-424f-a950-fabd2e791aad@46.245.72.79:2046?security=none&encryption=none&host=skype.com&headerType=http&type=tcp#🇮🇷IR_139_@Surfboardv2ray
+vless://4c63b81f-24cc-4419-b050-7cee37a393b0@46.245.72.13:20589?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_45_@Surfboardv2ray
+vless://7a2ab708-b9bb-4e20-b18d-8f450bdf6cac@217.60.189.197:80?path=@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-?ed=2053&security=none&encryption=none&type=ws#🇮🇷IR_56_@Surfboardv2ray
+vless://7f13a709-9c61-4738-a3aa-e0d0cab02150@freee.drpingservice.net:80?encryption=none&security=none&type=ws&path=/@doctorping_bot#🇮🇷IR_63_@Surfboardv2ray
+vless://ac281681-7b6f-48ef-8d3d-d1b2c1a4f4f0@84.47.234.19:443?security=tls&sni=mz-hostyones.abraria.ir&type=grpc&serviceName=www.speedtest.net&alpn=h3,h2#🇮🇷IR_96_@Surfboardv2ray
+vless://ac281681-7b6f-48ef-8d3d-d1b2c1a4f4f0@84.47.234.19:443?security=tls&sni=mz-hostyones.abraria.ir&type=grpc&serviceName=www.speedtest.net&alpn=h3,h2#🇮🇷IR_97_@Surfboardv2ray
+vless://c11abd11-288f-4a36-84c3-4ad0584f533c@193.151.143.96:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_98_@Surfboardv2ray
