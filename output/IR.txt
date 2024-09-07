@@ -1,8 +1,9 @@
-vless://3196e82e-8e1b-4d8c-e879-243200b246a2@46.245.65.87:20227?security=none&encryption=none&host=Webmail.yjc.ir&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
-vless://3e94afd7-b5d7-4938-bcc8-487b9273e41a@46.245.65.87:2095?path=/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------&security=none&encryption=none&host=www.speedtest.net&type=ws#🇮🇷IR_35_@Surfboardv2ray
-vless://e9634977-9854-496d-f4dd-b17f9336b636@193.107.48.138:2090?Telegram=@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx&encryption=none&security=none&type=tcp&headerType=http#🇮🇷IR_146_@Surfboardv2ray
-vless://e9634977-9854-496d-f4dd-b17f9336b636@193.107.48.138:2090?encryption=none&security=none&type=tcp&headerType=http#🇮🇷IR_147_@Surfboardv2ray
-vless://e9634977-9854-496d-f4dd-b17f9336b636@193.107.48.138:2090?encryption=none&security=none&type=tcp&headerType=http#🇮🇷IR_148_@Surfboardv2ray
-vless://e9634977-9854-496d-f4dd-b17f9336b636@193.107.48.138:2090?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_149_@Surfboardv2ray
-vless://f2e6c022-0e47-49d9-cbab-5e6222ad80a2@62.60.221.190:8000?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#🇮🇷IR_152_@Surfboardv2ray
-vless://f2e6c022-0e47-49d9-cbab-5e6222ad80a2@62.60.221.190:8000?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#🇮🇷IR_153_@Surfboardv2ray
+vless://23198a1f-fb44-4364-bf3a-e0209295b04a@vnet.digiboy.xyz:80?type=tcp&security=none#🇮🇷IR_36_@Surfboardv2ray
+vless://3196e82e-8e1b-4d8c-e879-243200b246a2@46.245.65.87:20227?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_38_@Surfboardv2ray
+vless://5e8a73a0-6391-4806-84b6-ca23c6a1a6a5@46.245.72.13:20589?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_43_@Surfboardv2ray
+vless://674d7cee-9af0-4975-9fc8-622f60164ee3@78.109.198.25:80?Telegram=@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx&type=tcp&security=none#🇮🇷IR_45_@Surfboardv2ray
+vless://674d7cee-9af0-4975-9fc8-622f60164ee3@vnet.digiboy.xyz:80?type=tcp&security=none#🇮🇷IR_46_@Surfboardv2ray
+vless://674d7cee-9af0-4975-9fc8-622f60164ee3@vnet.digiboy.xyz:80?type=tcp&security=none#🇮🇷IR_47_@Surfboardv2ray
+vless://bfbcb41d-4427-4dbb-eace-9b8520783b2f@46.245.72.12:20227?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_122_@Surfboardv2ray
+vless://ca4dadc0-ba83-4438-a74c-d6f80c7e29de@46.245.72.13:30692?type=tcp&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&host=Webmail.yjc.ir&headerType=http&security=none#🇮🇷IR_125_@Surfboardv2ray
+vless://f2e6c022-0e47-49d9-cbab-5e6222ad80a2@62.60.221.190:8000?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#🇮🇷IR_130_@Surfboardv2ray
