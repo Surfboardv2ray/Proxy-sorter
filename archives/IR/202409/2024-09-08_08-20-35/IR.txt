@@ -1,0 +1,4 @@
+vless://60a3ac26-6956-4ac6-ccda-38b347199a9e@46.245.72.12:20227?security=none&type=tcp&host=Webmail.yjc.ir&path=/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray/ViraV2ray&headerType=http#🇮🇷IR_41_@Surfboardv2ray
+vless://7346083a-c287-4a2d-b2bc-3abbd16c0002@78.109.198.25:80?Telegram=@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx&type=tcp&security=none#🇮🇷IR_47_@Surfboardv2ray
+vless://7346083a-c287-4a2d-b2bc-3abbd16c0002@vnet.digiboy.xyz:80?type=tcp&security=none#🇮🇷IR_48_@Surfboardv2ray
+vless://7346083a-c287-4a2d-b2bc-3abbd16c0002@vnet.digiboy.xyz:80?type=tcp&security=none#🇮🇷IR_49_@Surfboardv2ray
