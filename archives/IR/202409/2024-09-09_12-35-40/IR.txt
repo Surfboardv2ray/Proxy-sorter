@@ -1,0 +1,2 @@
+vless://875caaad-60e7-440f-b8e3-5c6f3a536d13@d1Oarc.de3.bigtwttwtwtwty.store:9609?security=none&encryption=none&host=efvu5cgz.speedtest1.shatel.ir&headerType=http&type=tcp#🇮🇷IR_67_@Surfboardv2ray
+vless://e3c0b438-a4e7-4a38-8316-7512f6044eb3@vnet.digiboy.xyz:80?type=tcp&security=none#🇮🇷IR_114_@Surfboardv2ray
