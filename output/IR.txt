@@ -1,1 +1,5 @@
-vless://f9892049-d18a-4b52-973c-d9b0b0dcebe8@85.198.15.4:47742?type=tcp&security=none#🇮🇷IR_98_@Surfboardv2ray
+vless://deea74e5-e126-4f1a-8576-a042bbc494e4@31.40.4.105:3900?Telegram=@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx&security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_86_@Surfboardv2ray
+vless://deea74e5-e126-4f1a-8576-a042bbc494e4@31.40.4.105:3900?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_87_@Surfboardv2ray
+vless://deea74e5-e126-4f1a-8576-a042bbc494e4@31.40.4.105:3900?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_88_@Surfboardv2ray
+vless://f9892049-d18a-4b52-973c-d9b0b0dcebe8@85.198.15.4:47742?security=none&type=tcp#🇮🇷IR_91_@Surfboardv2ray
+vless://f9892049-d18a-4b52-973c-d9b0b0dcebe8@85.198.15.4:47742?type=tcp&security=none#🇮🇷IR_92_@Surfboardv2ray
