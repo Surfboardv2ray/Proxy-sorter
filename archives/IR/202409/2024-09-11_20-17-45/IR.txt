@@ -1,0 +1,2 @@
+vless://3f2ba720-5207-482c-ba85-ccb00ab0ce5c@5.202.75.114:2053/?encryption=none&host=sheypoor.com&type=tcp&headerType=http#🇮🇷IR_19_@Surfboardv2ray
+vless://3f2ba720-5207-482c-ba85-ccb00ab0ce5c@5.202.75.114:2053?security=none&encryption=none&host=sheypoor.com&headerType=http&type=tcp#🇮🇷IR_20_@Surfboardv2ray
