@@ -1,3 +1,3 @@
-vless://2f3c4afd-f4e2-46ba-bdad-6ed073c96c13@62.60.219.145:443?security=none&type=tcp&path=/#🇮🇷IR_30_@Surfboardv2ray
-vless://402c3e1a-e5ec-4b1f-be94-80f3fc415286@193.151.158.16:80?type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&host=&security=none#🇮🇷IR_46_@Surfboardv2ray
-vless://c1c0fed1-a789-2e18-490c-11569a25958c@testnimavip.funlifea.shop:2020?type=tcp&host=bwm.com&security=none&sni=1&alpn=&path=/&headerType=http#🇮🇷IR_115_@Surfboardv2ray
+vless://66d416b2-f36b-4d94-b9fa-03728bfdcb3f@178.239.145.241:46266?Telegram=@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx,@v2maxx&security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_65_@Surfboardv2ray
+vless://66d416b2-f36b-4d94-b9fa-03728bfdcb3f@digi1.ez0535.com:46266?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_66_@Surfboardv2ray
+vless://66d416b2-f36b-4d94-b9fa-03728bfdcb3f@digi1.ez0535.com:46266?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_67_@Surfboardv2ray
