@@ -1,3 +1,1 @@
-vless://6ae791d6-ec2a-42c4-9f38-36aa9de56ce8@core1.jsapp.kiawosch.academy:2095?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
-vless://6ae791d6-ec2a-42c4-9f38-36aa9de56ce8@core2.jsapp.kiawosch.academy:2096?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
-vless://fdb60214-1d03-4b83-c4b7-3d2d33c08073@81.12.27.91:21807?path=/&security=none&encryption=none&type=ws#🇮🇷IR_71_@Surfboardv2ray
+vless://05d780e3-2e9f-40b5-98f0-9f5294d9f0e4@62.60.192.104:1001?security=none&encryption=none&host=divar.ir&headerType=http&type=tcp#🇮🇷IR_14_@Surfboardv2ray
