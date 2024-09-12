@@ -1,0 +1,7 @@
+vless://05d780e3-2e9f-40b5-98f0-9f5294d9f0e4@62.60.192.104:1001?security=none&encryption=none&host=divar.ir&headerType=http&type=tcp#🇮🇷IR_4_@Surfboardv2ray
+vless://05d780e3-2e9f-40b5-98f0-9f5294d9f0e4@62.60.192.104:1001?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_5_@Surfboardv2ray
+vless://66d416b2-f36b-4d94-b9fa-03728bfdcb3f@digi1.ez0535.com:46266?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_32_@Surfboardv2ray
+vless://6ae791d6-ec2a-42c4-9f38-36aa9de56ce8@core1.jsapp.kiawosch.academy:2095?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_35_@Surfboardv2ray
+vless://6ae791d6-ec2a-42c4-9f38-36aa9de56ce8@core2.jsapp.kiawosch.academy:2096?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
+vless://978b376e-9f8b-4651-8ad3-4ff4969a91bd@lme86iit.nl1-zg8ookkt36kvkgx4rmk9a.flatocnx.com:882?security=none&encryption=none&host=uptvs.com&headerType=http&type=tcp#🇮🇷IR_52_@Surfboardv2ray
+vless://e2477bd9-0331-4d4a-9485-874c463484ea@185.211.56.216:2007?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_71_@Surfboardv2ray
