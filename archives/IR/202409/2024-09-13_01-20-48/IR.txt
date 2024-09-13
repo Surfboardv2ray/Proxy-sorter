@@ -1,0 +1,2 @@
+vless://05d780e3-2e9f-40b5-98f0-9f5294d9f0e4@62.60.192.104:1001?security=none&encryption=none&host=divar.ir&headerType=http&type=tcp#🇮🇷IR_17_@Surfboardv2ray
+vless://4c805462-4ced-4f29-88f0-029a8071a728@wex.callmecarl.website:35492?security=none&encryption=none&host=ubisoft.com&headerType=http&type=tcp#🇮🇷IR_33_@Surfboardv2ray
