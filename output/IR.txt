@@ -1,2 +1,7 @@
-vless://371ce456-3de2-4201-8f60-a94115f034d5@194.5.178.153:443/?type=tcp&security=none#🇮🇷IR_28_@Surfboardv2ray
-vless://371ce456-3de2-4201-8f60-a94115f034d5@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_29_@Surfboardv2ray
+vless://08eca8a9-4135-4d36-848b-10e3e088ac9a@185.155.72.119:17132?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_9_@Surfboardv2ray
+vless://1a14dc5d-4a8d-4d39-a87d-c4379301b1d4@62.60.219.145:443?security=none&type=tcp&path=/#🇮🇷IR_15_@Surfboardv2ray
+vless://371ce456-3de2-4201-8f60-a94115f034d5@194.5.178.153:443/?type=tcp&security=none#🇮🇷IR_29_@Surfboardv2ray
+vless://371ce456-3de2-4201-8f60-a94115f034d5@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_30_@Surfboardv2ray
+vless://40ae9d49-07a3-47f1-9698-a9c51749b49f@5.202.15.102:51511?security=none&encryption=none&host=81429612.divarcdn.com,+81429612.snappfood.ir,+81429612.yjc.ir,+81429612.digikala.com,+81429612.tic.ir&headerType=http&type=tcp#🇮🇷IR_33_@Surfboardv2ray
+vless://7053a948-73c2-4c9e-907c-53cb2c81a0af@79.175.129.65:27703?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_42_@Surfboardv2ray
+vless://b6bf7c77-6948-4c43-a409-5b24af8bc20c@95.38.250.93:35492?security=none&type=tcp&host=ubisoft.com&headerType=http#🇮🇷IR_97_@Surfboardv2ray
