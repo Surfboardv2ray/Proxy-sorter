@@ -1,0 +1,2 @@
+vless://05d780e3-2e9f-40b5-98f0-9f5294d9f0e4@62.60.192.104:1001?security=none&encryption=none&host=divar.ir&headerType=http&type=tcp#🇮🇷IR_14_@Surfboardv2ray
+vless://4fb85b33-41ed-4a33-a8d9-987c39951a8b@185.133.125.43:59823?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#🇮🇷IR_30_@Surfboardv2ray
