@@ -1,2 +1,1 @@
-vless://3e6a84ae-2fb2-4da8-d1e0-cd8a3a6ffb3b@62.60.177.136:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_30_@Surfboardv2ray
-vless://4c805462-4ced-4f29-88f0-029a8071a728@wex.callmecarl.website:35492?security=none&encryption=none&host=ubisoft.com&headerType=http&type=tcp#🇮🇷IR_31_@Surfboardv2ray
+vless://3e6a84ae-2fb2-4da8-d1e0-cd8a3a6ffb3b@62.60.177.136:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_17_@Surfboardv2ray
