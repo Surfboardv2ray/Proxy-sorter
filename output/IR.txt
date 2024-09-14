@@ -1,4 +1,2 @@
-vless://5b724dac-8beb-496d-bd2f-a45b0d2ee562@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_17_@Surfboardv2ray
-vless://7053a948-73c2-4c9e-907c-53cb2c81a0af@79.175.129.65:27703?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_19_@Surfboardv2ray
-vless://9d8a4620-fbe5-44aa-8b13-8056371caeec@78.109.198.25:80?security=none&type=tcp#🇮🇷IR_36_@Surfboardv2ray
-vless://bc783a61-cab0-413a-b6bc-1dc81950890a@b.acriliced.shop:3530?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
+vless://f20760e9-daca-4d41-a41e-b3c1f038fa0c@red.archervip.ir:4466/?type=tcp&path=/ir&host=soft98.ir&headerType=http&security=none#🇮🇷IR_72_@Surfboardv2ray
+vless://f20760e9-daca-4d41-a41e-b3c1f038fa0c@red.archervip.ir:4466?security=none&encryption=none&host=soft98.ir&headerType=http&type=tcp#🇮🇷IR_73_@Surfboardv2ray
