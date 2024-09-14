@@ -1,2 +1,2 @@
-vless://40ae9d49-07a3-47f1-9698-a9c51749b49f@5.202.15.102:51511?security=none&type=tcp&host=81429612.divarcdn.com,+81429612.snappfood.ir,+81429612.yjc.ir,+81429612.digikala.com,+81429612.tic.ir&headerType=http#🇮🇷IR_13_@Surfboardv2ray
-vless://c2390203-9e5b-4130-9e14-40f0453846fa@zxcvb.nightwolf.shop:55046?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_71_@Surfboardv2ray
+vless://371ce456-3de2-4201-8f60-a94115f034d5@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_12_@Surfboardv2ray
+vless://a6149487-82e7-4707-978e-339f297dc3be@62.60.219.145:443?security=none&type=tcp&path=/#🇮🇷IR_59_@Surfboardv2ray
