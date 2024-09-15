@@ -1,0 +1,2 @@
+vless://f20760e9-daca-4d41-a41e-b3c1f038fa0c@red.archervip.ir:4466/?type=tcp&path=/ir&host=soft98.ir&headerType=http&security=none#🇮🇷IR_72_@Surfboardv2ray
+vless://f20760e9-daca-4d41-a41e-b3c1f038fa0c@red.archervip.ir:4466?security=none&encryption=none&host=soft98.ir&headerType=http&type=tcp#🇮🇷IR_73_@Surfboardv2ray
