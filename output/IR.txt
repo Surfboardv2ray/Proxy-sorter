@@ -1,5 +1,2 @@
-vless://2d84bc65-6ab1-45a7-a01c-e8050d42cbcb@62.60.144.161:2029?security=none&encryption=none&host=vasaham.com&headerType=http&type=tcp#🇮🇷IR_9_@Surfboardv2ray
-vless://2d84bc65-6ab1-45a7-a01c-e8050d42cbcb@62.60.161.78:2025?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_10_@Surfboardv2ray
 vless://5857d52c-289f-47ba-91ac-ed672074d3b6@79.127.70.73:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_17_@Surfboardv2ray
-vless://5b724dac-8beb-496d-bd2f-a45b0d2ee562@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_20_@Surfboardv2ray
-vless://f20760e9-daca-4d41-a41e-b3c1f038fa0c@red.archervip.ir:4466/?type=tcp&path=/ir&host=soft98.ir&headerType=http&security=none#🇮🇷IR_51_@Surfboardv2ray
+vless://f20760e9-daca-4d41-a41e-b3c1f038fa0c@red.archervip.ir:4466/?type=tcp&path=/ir&host=soft98.ir&headerType=http&security=none#🇮🇷IR_61_@Surfboardv2ray
