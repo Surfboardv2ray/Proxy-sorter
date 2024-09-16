@@ -1,5 +1,4 @@
-vless://69f15cbd-0010-4f05-91e8-176c9f4efbee@5.202.75.114:2053?security=none&encryption=none&host=sheypoor.com&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
-vless://7053a948-73c2-4c9e-907c-53cb2c81a0af@79.175.129.65:27703?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?Telegram=@v2maxx#🇮🇷IR_76_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_77_@Surfboardv2ray
-vless://f5cd7aea-cb0f-d2ad-ee8e-bb71a95b90a3@ir.lightningt.ir:32433?security=none&encryption=none&host=telewebion.com,user.telewebion.com,plus.telewebion.com,api.telewebion.com&headerType=http&type=tcp#🇮🇷IR_86_@Surfboardv2ray
+vless://1405a5f0-b1a7-4589-a51e-7085b2f9fea8@money.vpnmoon.net:34277?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_13_@Surfboardv2ray
+vless://570343c9-b6d9-4022-97ef-b8621c3395f8@185.143.233.1:80?path=/&security=none&encryption=none&host=cdn.移.移动.&type=ws#🇮🇷IR_27_@Surfboardv2ray
+vless://7053a948-73c2-4c9e-907c-53cb2c81a0af@79.175.129.65:27703?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_30_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_67_@Surfboardv2ray
