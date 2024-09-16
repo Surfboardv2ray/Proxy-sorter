@@ -1,3 +1,5 @@
-vless://3eca0386-4102-4ad2-8bdb-4988e89b8943@85.133.216.125:2040?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_20_@Surfboardv2ray
-vless://65aeb2d7-260d-4cde-b352-a64c7f007b6c@tor-ip.xmsvip.online:211?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_36_@Surfboardv2ray
-vless://7e88095f-f7e8-4260-b17f-f5cb22534425@handel.bestguardtop.com:5002?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_44_@Surfboardv2ray
+vless://3eca0386-4102-4ad2-8bdb-4988e89b8943@85.133.216.125:2040?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_16_@Surfboardv2ray
+vless://3eca0386-4102-4ad2-8bdb-4988e89b8943@core2.jsapp.kiawosch.academy:2096?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_17_@Surfboardv2ray
+vless://69f15cbd-0010-4f05-91e8-176c9f4efbee@5.202.75.114:2053?security=none&encryption=none&host=sheypoor.com&headerType=http&type=tcp#🇮🇷IR_25_@Surfboardv2ray
+vless://bb58adb7-3f3f-4687-ab6b-2df8c43229bf@62.60.177.136:2052?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
+vless://v2boxvpnn@62.60.212.125:8585?security=none&encryption=none&host=iran.ir&headerType=http&type=tcp#🇮🇷IR_79_@Surfboardv2ray
