@@ -1,0 +1,2 @@
+vless://b347725d-1ccf-41ec-953b-57cac693333d@81.90.147.236:28738/?type=ws&encryption=none&host=telewebion&path=/#🇮🇷IR_61_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_62_@Surfboardv2ray
