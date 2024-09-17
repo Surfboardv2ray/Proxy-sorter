@@ -1,2 +1,6 @@
-vless://432ce1ef-b487-4bed-aec2-83c71f24d7a8@62.60.192.167:2020?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_19_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_56_@Surfboardv2ray
+vless://4df7f1b2-43af-43ca-adc1-92b4378ea93a@193.151.158.16:80?type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&host=&security=none#🇮🇷IR_27_@Surfboardv2ray
+vless://7053a948-73c2-4c9e-907c-53cb2c81a0af@79.175.129.65:27703?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_33_@Surfboardv2ray
+vless://70f090b5-33ec-4a08-b5af-13a752f23140@79.127.70.73:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_34_@Surfboardv2ray
+vless://a3545934-42b6-479b-8948-0653913e417c@193.151.158.16:80?type=ws&path=/@V2Graphy/giveaway/ws2?ed=2560&host=&security=none#🇮🇷IR_59_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_62_@Surfboardv2ray
+vless://de047772-3ef9-41f9-b330-114070a21f2d@46.245.75.127:2095?path=/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------&security=none&encryption=none&host=www.speedtest.net&type=ws#🇮🇷IR_64_@Surfboardv2ray
