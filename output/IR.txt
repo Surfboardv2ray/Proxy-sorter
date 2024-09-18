@@ -1,4 +1,4 @@
-vless://605339ff-9efe-45b4-ab2d-2cf0a88d3aad@test.iran-ont.co.uk:444?type=tcp&path=/&headerType=http&security=none#🇮🇷IR_21_@Surfboardv2ray
-vless://70f090b5-33ec-4a08-b5af-13a752f23140@79.127.70.73:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_32_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_51_@Surfboardv2ray
-vless://d1aa8245-f4af-4a3e-9fb4-b7944027dc2a@vnet.digiboy.xyz:80?type=tcp&security=none#🇮🇷IR_52_@Surfboardv2ray
+vless://70f090b5-33ec-4a08-b5af-13a752f23140@79.127.70.73:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_28_@Surfboardv2ray
+vless://c273f07b-e0b7-42ba-b17e-53f92e345d91@85.198.15.184:2052?path=/&security=none&encryption=none&type=ws#🇮🇷IR_53_@Surfboardv2ray
+vless://c273f07b-e0b7-42ba-b17e-53f92e345d91@85.198.15.184:2052?type=ws&path=/&security=none#🇮🇷IR_54_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
