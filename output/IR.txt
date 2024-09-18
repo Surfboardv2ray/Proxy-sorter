@@ -1,4 +1,3 @@
-vless://70f090b5-33ec-4a08-b5af-13a752f23140@79.127.70.73:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_28_@Surfboardv2ray
-vless://c273f07b-e0b7-42ba-b17e-53f92e345d91@85.198.15.184:2052?path=/&security=none&encryption=none&type=ws#🇮🇷IR_53_@Surfboardv2ray
-vless://c273f07b-e0b7-42ba-b17e-53f92e345d91@85.198.15.184:2052?type=ws&path=/&security=none#🇮🇷IR_54_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
+vless://70f090b5-33ec-4a08-b5af-13a752f23140@79.127.70.73:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_26_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_49_@Surfboardv2ray
+vless://d1aa8245-f4af-4a3e-9fb4-b7944027dc2a@vnet.digiboy.xyz:80?type=tcp&security=none#🇮🇷IR_50_@Surfboardv2ray
