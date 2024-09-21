@@ -1,0 +1,2 @@
+vless://a066a30b-b4b0-44db-a7cb-4ed5cd155ead@i1HUyM.de2.jdhsjsjsjjsjsj92929hshs.quest:5066?security=none&path=/&host=efvu5cgz.speedtest1.shatel.ir&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_66_@Surfboardv2ray
