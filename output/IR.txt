@@ -1,4 +1,3 @@
-vless://552d6665-ebe0-4609-838c-9ab7dcd4b2d6@star.ihomayon.site:56580?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
-vless://7053a948-73c2-4c9e-907c-53cb2c81a0af@79.175.129.65:27703?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
-vless://78326cbc-e27d-4b44-8781-bc49473ecff4@79.127.70.84:8880?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_56_@Surfboardv2ray
-vless://dcb0ef8d-ea2a-4e07-9388-0c8d6ae86aca@46.245.66.77:6600?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_61_@Surfboardv2ray
+vless://7053a948-73c2-4c9e-907c-53cb2c81a0af@79.175.129.65:27703?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_50_@Surfboardv2ray
+vless://78326cbc-e27d-4b44-8781-bc49473ecff4@79.127.70.84:8880?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_52_@Surfboardv2ray
+vless://dcb0ef8d-ea2a-4e07-9388-0c8d6ae86aca@46.245.66.77:6600?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_70_@Surfboardv2ray
