@@ -1,0 +1,3 @@
+vless://78326cbc-e27d-4b44-8781-bc49473ecff4@79.127.70.84:8880?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_41_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_79_@Surfboardv2ray
+vless://e0a4588d-0462-442d-a80e-f63963568519@tyuman.ir-the-notebook.nl:2082?mode=gun&security=reality&encryption=none&authority=&pbk=xk7m-C-yg_pfi7arwmBXb0nDMwWoPGfjojb7iEvKXxk&fp=chrome&spx=/&type=grpc&serviceName=&sni=google.com&sid=c5f3112d#🇮🇷IR_84_@Surfboardv2ray
