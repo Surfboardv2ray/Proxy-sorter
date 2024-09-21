@@ -1,2 +1,4 @@
-vless://a066a30b-b4b0-44db-a7cb-4ed5cd155ead@i1HUyM.de2.jdhsjsjsjjsjsj92929hshs.quest:5066?security=none&path=/&host=efvu5cgz.speedtest1.shatel.ir&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_66_@Surfboardv2ray
+vless://688b2c55-e536-43a9-b3d4-f41d27f01089@BlDP5I.de6.bbbbbbbbbbbb9.store:5647?security=none&encryption=none&host=efvu5cgz.speedtest1.shatel.ir&headerType=http&type=tcp#🇮🇷IR_47_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_73_@Surfboardv2ray
+vless://d7e03577-52e4-41ca-9372-0540dd47eb0e@zxcvb.nightwolf.shop:80?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_81_@Surfboardv2ray
+vless://e72fe91e-677b-46da-b126-8f79c9b07448@mik.nightwolf.shop:80?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
