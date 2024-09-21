@@ -1,4 +1,4 @@
-vless://78326cbc-e27d-4b44-8781-bc49473ecff4@79.127.70.84:8880?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_16_@Surfboardv2ray
-vless://7f69c69c-d4ab-44e5-a12a-c0bd48626228@79.127.70.84:8080?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_21_@Surfboardv2ray
-vless://88b2d70d-196c-4948-942d-3200c52d0541@79.127.70.80:2083?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_23_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_49_@Surfboardv2ray
+vless://552d6665-ebe0-4609-838c-9ab7dcd4b2d6@star.ihomayon.site:56580?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
+vless://7053a948-73c2-4c9e-907c-53cb2c81a0af@79.175.129.65:27703?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
+vless://78326cbc-e27d-4b44-8781-bc49473ecff4@79.127.70.84:8880?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_56_@Surfboardv2ray
+vless://dcb0ef8d-ea2a-4e07-9388-0c8d6ae86aca@46.245.66.77:6600?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_61_@Surfboardv2ray
