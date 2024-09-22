@@ -1,0 +1,9 @@
+vless://09d2888d-8f25-45fa-8724-6bd7b30c4609@46.245.66.128:2095/?type=ws&encryption=none&host=www.speedtest.net&path=/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------#🇮🇷IR_23_@Surfboardv2ray
+vless://23995ea7-c186-416d-a715-5f9c06cbfde8@62.60.173.203:47428/?type=tcp&encryption=none#🇮🇷IR_26_@Surfboardv2ray
+vless://30e9a20a-e26d-4ec8-b33e-055b573c1bd3@62.60.219.145:443/?type=tcp&encryption=none#🇮🇷IR_30_@Surfboardv2ray
+vless://50b677ae-980e-4d6f-bc33-6080dc887a38@87.107.164.234:53692?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_42_@Surfboardv2ray
+vless://62453f7f-c270-4233-9a80-07f9d5cca6fc@King1.king420.top:58336?security=none&encryption=none&host=snapp.ir&headerType=http&type=tcp#🇮🇷IR_47_@Surfboardv2ray
+vless://8e1c348a-de32-41a8-8cbe-1c67593ffa34@79.127.70.118:2053?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_67_@Surfboardv2ray
+vless://9874370d-a394-4d84-aca9-6c5b173092e4@46.245.66.77:5300/?encryption=none&host=cafeariel.ir&type=tcp&headerType=http#🇮🇷IR_69_@Surfboardv2ray
+vless://9874370d-a394-4d84-aca9-6c5b173092e4@46.245.66.77:5300?security=none&encryption=none&host=cafeariel.ir&headerType=http&type=tcp#🇮🇷IR_70_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
