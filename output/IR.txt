@@ -1,4 +1,4 @@
-vless://688b2c55-e536-43a9-b3d4-f41d27f01089@BlDP5I.de6.bbbbbbbbbbbb9.store:5647?security=none&encryption=none&host=efvu5cgz.speedtest1.shatel.ir&headerType=http&type=tcp#🇮🇷IR_47_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_73_@Surfboardv2ray
-vless://d7e03577-52e4-41ca-9372-0540dd47eb0e@zxcvb.nightwolf.shop:80?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_81_@Surfboardv2ray
-vless://e72fe91e-677b-46da-b126-8f79c9b07448@mik.nightwolf.shop:80?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
+vless://88140403-33b2-4632-82ee-5b71a5c54bef@85.133.247.238:443/?encryption=none&host=speedtest.net&type=tcp&headerType=http#🇮🇷IR_47_@Surfboardv2ray
+vless://8e1c348a-de32-41a8-8cbe-1c67593ffa34@79.127.70.118:2053/?encryption=none&host=www.speedtest.net&type=tcp&headerType=http#🇮🇷IR_56_@Surfboardv2ray
+vless://8e1c348a-de32-41a8-8cbe-1c67593ffa34@79.127.70.118:2053?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_57_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_77_@Surfboardv2ray
