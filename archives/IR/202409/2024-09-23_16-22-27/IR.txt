@@ -1,0 +1,3 @@
+vless://0a39ee54-7942-49d5-b666-de29ca843033@94.182.128.136:443?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_7_@Surfboardv2ray
+vless://2dca1d6f-b617-4ac2-a3eb-781cc99f6007@185.206.92.195:30500?path=/&security=none&encryption=none&type=ws#🇮🇷IR_10_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_47_@Surfboardv2ray
