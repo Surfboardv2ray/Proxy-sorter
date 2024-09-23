@@ -1,0 +1,5 @@
+vless://09d2888d-8f25-45fa-8724-6bd7b30c4609@46.245.66.128:2095?path=/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------&security=none&encryption=none&host=www.speedtest.net&type=ws#🇮🇷IR_16_@Surfboardv2ray
+vless://112cf69f-be37-4188-a677-631d627c5e5b@212.80.18.169:5880?path=/yourpath&security=none&encryption=none&type=ws#🇮🇷IR_19_@Surfboardv2ray
+vless://112cf69f-be37-4188-a677-631d627c5e5b@212.80.18.223:1661?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_20_@Surfboardv2ray
+vless://2f323cec-0d97-4815-aeca-2451a94cd16b@cb20sp.de3.bigtwttwtwtwty.store:9656?security=none&path=/&host=efvu5cgz.speedtest1.shatel.ir&headerType=http&type=tcp#🇮🇷IR_24_@Surfboardv2ray
+vless://6acf1430-1456-4df8-9559-b7717bad8d8d@81.90.147.236:28738?path=/&security=none&encryption=none&host=telewebion&type=ws#🇮🇷IR_42_@Surfboardv2ray
