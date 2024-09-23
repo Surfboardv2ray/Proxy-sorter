@@ -1,1 +1,1 @@
-vless://64a6caf5-983a-4cef-a31b-2afb0cb1f822@46.245.66.128:2095?path=/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------&security=none&encryption=none&host=www.speedtest.net&type=ws#🇮🇷IR_16_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_43_@Surfboardv2ray
