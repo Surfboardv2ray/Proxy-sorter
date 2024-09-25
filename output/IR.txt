@@ -1,7 +1,4 @@
-vless://16dbc072-3707-4a58-b1d9-955750fd2baf@iran-10.xrayshop2.site:12941/?encryption=none&host=telewebion.com&type=tcp&headerType=http#🇮🇷IR_11_@Surfboardv2ray
-vless://3c89845b-dbcb-44bf-e5f9-c1186ee91997@62.60.179.156:2096/?encryption=none&host=speedtest.net&type=tcp&headerType=http#🇮🇷IR_20_@Surfboardv2ray
-vless://884e09dd-bcb5-41a7-ab86-48d0b44c510e@79.127.70.107:443/?encryption=none&host=www.speedtest.net&type=tcp&headerType=http#🇮🇷IR_34_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
-vless://cdbe6f36-0509-4097-961c-571ece74621d@46.245.66.128:2095/?type=ws&encryption=none&host=www.speedtest.net&path=/-----------------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-------Zigma-Config-----------------#🇮🇷IR_58_@Surfboardv2ray
-vless://d901e011-893d-4303-b47c-52483a2d8918@79.127.70.84:2083?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_61_@Surfboardv2ray
-vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_66_@Surfboardv2ray
+vless://16dbc072-3707-4a58-b1d9-955750fd2baf@185.133.125.140:12941?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_15_@Surfboardv2ray
+vless://884e09dd-bcb5-41a7-ab86-48d0b44c510e@79.127.70.107:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_31_@Surfboardv2ray
+vless://d901e011-893d-4303-b47c-52483a2d8918@79.127.70.84:2083?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_59_@Surfboardv2ray
+vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_63_@Surfboardv2ray
