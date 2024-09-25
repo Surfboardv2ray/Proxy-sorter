@@ -1,7 +1,3 @@
-vless://0d1415be-07c8-45ad-9d55-3661fbc58855@217.60.191.78:2060?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_5_@Surfboardv2ray
-vless://654f6730-b3c8-4114-a282-81dc9b47cc01@217.60.191.78:2060?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_14_@Surfboardv2ray
-vless://884e09dd-bcb5-41a7-ab86-48d0b44c510e@79.127.70.107:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_26_@Surfboardv2ray
-vless://befc02f9-4609-44ab-bc36-0866b96e4e37@azadi.m8tokhsali.xyz:2096?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_50_@Surfboardv2ray
-vless://d901e011-893d-4303-b47c-52483a2d8918@79.127.70.84:2083?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
-vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_57_@Surfboardv2ray
-vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none=Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---Dorsa---&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_58_@Surfboardv2ray
+vless://16dbc072-3707-4a58-b1d9-955750fd2baf@iran-10.xrayshop2.site:12941?type=tcp&path=/&host=telewebion.com&headerType=http&security=none#🇮🇷IR_8_@Surfboardv2ray
+vless://884e09dd-bcb5-41a7-ab86-48d0b44c510e@79.127.70.107:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_31_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
