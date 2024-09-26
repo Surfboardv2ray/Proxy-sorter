@@ -1,3 +1,5 @@
-vless://cac082d8-9072-4df8-bc24-eb1928c93989@194.5.178.153:443?type=tcp&security=none#🇮🇷IR_46_@Surfboardv2ray
-vless://d901e011-893d-4303-b47c-52483a2d8918@79.127.70.84:2083?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_53_@Surfboardv2ray
-vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
+vless://c6349b80-e9ea-4a43-f90f-d7f4711ddc85@185.143.233.5:80?path=/&security=none&encryption=none&host=yfcycyy.ir&type=ws#🇮🇷IR_58_@Surfboardv2ray
+vless://d901e011-893d-4303-b47c-52483a2d8918@79.127.70.84:2083?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_62_@Surfboardv2ray
+vless://e789ec65-291d-4355-b71f-9122b1907242@185.58.241.9:8443?path=/&security=none&encryption=none&host=bama.ir&type=ws#🇮🇷IR_64_@Surfboardv2ray
+vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_65_@Surfboardv2ray
+vless://fb81fa44-40d8-441a-c9ab-04b10fe3a1c4@185.143.233.5:80?path=/&security=none&encryption=none&host=bshshs.ir&type=ws#🇮🇷IR_73_@Surfboardv2ray
