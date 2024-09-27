@@ -1,1 +1,1 @@
-vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_53_@Surfboardv2ray
+vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_62_@Surfboardv2ray
