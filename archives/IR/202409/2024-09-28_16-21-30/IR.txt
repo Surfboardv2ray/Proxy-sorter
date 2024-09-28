@@ -1,0 +1,4 @@
+vless://0debc6c2-fb5f-4ab9-9add-9b0a0e89994a@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_7_@Surfboardv2ray
+vless://ce7c31a4-5617-4d71-9130-2de17f270bda@92.61.180.24:4567?path=/&security=none&encryption=none&type=ws#🇮🇷IR_67_@Surfboardv2ray
+vless://d6fa6424-d474-46d0-98e2-762f282e99c1@tir.finalchance.tech:65530?security=none&encryption=none&host=ubisoft.com&headerType=http&type=tcp#🇮🇷IR_69_@Surfboardv2ray
+vless://e7cae227-ffda-4612-a76c-adcf3a9e49b6@79.127.70.80:2082?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_74_@Surfboardv2ray
