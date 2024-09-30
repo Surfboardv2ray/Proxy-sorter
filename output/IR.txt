@@ -1,2 +1,1 @@
-vless://6b4ad9ba-182c-423f-afd8-095f7e4719ac@194.5.178.153:443?type=tcp&security=none#🇮🇷IR_32_@Surfboardv2ray
-vless://BLUEV2RAYNG-78@109.94.164.15:51446?path=/BLUEV2RAYNG----BLUEV2RAYNG----BLUEV2RAYNG----BLUEV2RAYNG----BLUEV2RAYNG----BLUEV2RAYNG----BLUEV2RAYNG&security=none&encryption=none&host=www.speedtest.net&type=ws#🇮🇷IR_54_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_56_@Surfboardv2ray
