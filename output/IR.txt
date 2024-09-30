@@ -1,3 +1,4 @@
-vless://82b18d08-5aeb-414d-8545-07f26bcd75cb@62.60.223.54:38265?type=tcp#🇮🇷IR_26_@Surfboardv2ray
-vless://b4593a07-496c-4cd3-892b-1489c4e347c9@194.5.178.153:443?type=tcp&security=none#🇮🇷IR_56_@Surfboardv2ray
-vless://ce8fd53c-7181-4ac6-9ece-b99e2ca542c3@79.127.70.84:2083?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_60_@Surfboardv2ray
+vless://5485aecb-fe17-4857-83e1-fb29b8571aaa@78.109.198.25:80?security=none&type=tcp#🇮🇷IR_11_@Surfboardv2ray
+vless://9520a1fd-5ced-4a0f-a912-ffabccc52543@81.12.27.90:39568/?type=ws&encryption=none&path=/#🇮🇷IR_24_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_52_@Surfboardv2ray
+vless://d9059c35-a221-46d5-b0c7-b0815438d9c8@62.60.212.224:8585?security=none&type=grpc&serviceName=@v2rayng_vpnn@v2rayng_vpnn@v2rayng_vpnn@v2rayng_vpnn@v2rayng_vpnn@v2rayng_vpnn@v2rayng_vpnn@v2rayng_vpnn#🇮🇷IR_59_@Surfboardv2ray
