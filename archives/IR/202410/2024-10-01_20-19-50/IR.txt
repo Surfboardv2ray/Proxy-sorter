@@ -1,0 +1,5 @@
+vless://2c3e2c41-4395-4df3-e788-cb9cc82beceb@81.12.27.93:52722/?type=ws&encryption=none&path=/#🇮🇷IR_27_@Surfboardv2ray
+vless://35fb8584-27c9-4462-9e19-248e393a8f2f@79.127.70.81:2087/?encryption=none&host=www.speedtest.net&type=tcp&headerType=http#🇮🇷IR_29_@Surfboardv2ray
+vless://6e41c15a-65ce-4a25-b112-9e60abe5676b@193.24.103.101:51566?security=none&type=tcp&host=bmw.com&path=/&headerType=http#🇮🇷IR_39_@Surfboardv2ray
+vless://9520a1fd-5ced-4a0f-a912-ffabccc52543@81.12.27.90:39568/?type=ws&encryption=none&path=/#🇮🇷IR_54_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_68_@Surfboardv2ray
