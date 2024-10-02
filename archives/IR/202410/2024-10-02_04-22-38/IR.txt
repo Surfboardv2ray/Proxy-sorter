@@ -1,0 +1,2 @@
+vless://d715c48f-8120-4af8-a3b9-6c8677879640@37.152.182.55:8080?encryption=none&security=none&type=ws&path=/#🇮🇷IR_42_@Surfboardv2ray
+vless://e9f82f9c-74e9-4b31-fbe9-c1e7c71ec6a3@2bb.m8tokhsali.xyz:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_45_@Surfboardv2ray
