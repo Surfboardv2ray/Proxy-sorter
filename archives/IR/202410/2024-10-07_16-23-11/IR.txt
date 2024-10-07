@@ -1,0 +1,6 @@
+vless://4d23e844-bced-4f19-9fde-70ec99c04945@79.127.70.112:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_26_@Surfboardv2ray
+vless://7e416017-1929-475c-a591-249180b619a7@193.151.158.16:80?path=/@V2Graphy/giveaway/ws1?ed=2560&security=none&encryption=none&type=ws#🇮🇷IR_37_@Surfboardv2ray
+vless://924a17e7-4e9d-4055-bf2e-6f8edfdee786@185.211.59.91:2086?path=/index.php/login?ed=2048&security=tls&encryption=none&alpn=h2,http/1.1&host=nl-tun.netmxspeedtest.net&fp=chrome&type=ws&sni=nl-tun.netmxspeedtest.net#🇮🇷IR_41_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_60_@Surfboardv2ray
+vless://ddbccad6-64ed-44fe-8d9b-ebf884e479b3@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_68_@Surfboardv2ray
+vless://ddbccad6-64ed-44fe-8d9b-ebf884e479b3@194.5.178.153:443?type=tcp&security=none#🇮🇷IR_69_@Surfboardv2ray
