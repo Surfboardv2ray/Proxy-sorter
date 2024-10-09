@@ -1,0 +1,2 @@
+vless://a1464eb8-c826-431a-b771-2618d3aa60de@server2.emralstore.com:12084?security=none&encryption=none&host=booking.com&headerType=http&type=tcp#🇮🇷IR_45_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_52_@Surfboardv2ray
