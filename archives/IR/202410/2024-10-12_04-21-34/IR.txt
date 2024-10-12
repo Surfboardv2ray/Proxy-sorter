@@ -1,0 +1,5 @@
+vless://23aa88a0-cdc6-4a62-998b-30ef72f9b321@2.189.175.126:2052?security=none&encryption=none&host=idem.ir&headerType=http&type=tcp#🇮🇷IR_24_@Surfboardv2ray
+vless://3080f4e4-a258-4ca7-933e-c330b176bd83@79.127.70.114:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
+vless://bd8cbf68-a7d9-4a13-8ade-76629f501077@91.236.169.227:35555?security=none&encryption=none&host=ifilo.net&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_56_@Surfboardv2ray
+vless://f4b02459-fde7-442a-a285-75ed3c318f76@85.133.200.207:2053?security=none&encryption=none&host=neshan.org&headerType=http&type=tcp#🇮🇷IR_68_@Surfboardv2ray
