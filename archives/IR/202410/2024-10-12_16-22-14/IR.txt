@@ -1,0 +1,2 @@
+vless://1ed5d8dd-2cec-40e1-abc9-8fb02662661a@sony1.digipassive.ir:8055?type=ws&security=none&path=/&host=#🇮🇷IR_10_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_53_@Surfboardv2ray
