@@ -1,4 +1,5 @@
-vless://4bf15216-03d7-47b3-a36b-60b91043c2c1@194.33.28.39:33225?security=none&encryption=none&host=Fast.com&headerType=http&type=tcp#🇮🇷IR_14_@Surfboardv2ray
-vless://b7fe8fdd-e885-47ec-8c5e-85d789f94734@winston.ariankaku.top:443?type=tcp&path=/&host=alibaba.ir&headerType=http&security=none#🇮🇷IR_41_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_43_@Surfboardv2ray
-vless://f0bda007-3d74-4396-8e4c-4fa642e49a23@79.127.70.117:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_50_@Surfboardv2ray
+vless://23da8ed0-d864-4a4b-a024-ad8dce9a3a51@79.127.70.119:2053?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_14_@Surfboardv2ray
+vless://35a75331-dfde-4b39-a8bd-0ccdd506c36a@79.127.70.93:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_16_@Surfboardv2ray
+vless://83369c5c-295b-4077-9a94-c1054b9da417@195.158.230.95:2105?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_41_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_59_@Surfboardv2ray
+vless://f0bda007-3d74-4396-8e4c-4fa642e49a23@79.127.70.117:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_79_@Surfboardv2ray
