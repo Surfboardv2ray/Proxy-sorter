@@ -1,3 +1,5 @@
-vless://16c38ba6-7ef9-4c64-89ea-fd7552e4cb21@45.135.241.30:2053?path=/qlJPWkdG5duY1xMy4RvQjdFiL&security=tls&encryption=none&alpn=http/1.1&host=htevbl2.imamhassan.info&fp=chrome&type=ws&sni=htevbl2.imamhassan.info#🇮🇷IR_19_@Surfboardv2ray
-vless://246bb3d0-29f0-4724-98bb-ae898dafc210@195.96.135.235:49499?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_22_@Surfboardv2ray
-vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_60_@Surfboardv2ray
+vless://398e26d1-9461-43e3-af6e-5b98b659c3eb@winston.ariankaku.top:443?type=tcp&path=/&host=alibaba.ir&headerType=http&security=none#🇮🇷IR_15_@Surfboardv2ray
+vless://6b3da037-18f0-4535-b525-e00a81c77c7a@79.127.70.124:443?security=none&encryption=none&host=www.FergalvpnMod.test.net&headerType=http&type=tcp#🇮🇷IR_20_@Surfboardv2ray
+vless://6b3da037-18f0-4535-b525-e00a81c77c7a@79.127.70.124:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_21_@Surfboardv2ray
+vless://bd30b15c-0406-45a6-959d-0512daf2de37@info-1.nobifay.ir:4041?security=none&encryption=none&host=blog.nobifay.ir&headerType=http&type=tcp#🇮🇷IR_50_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_51_@Surfboardv2ray
