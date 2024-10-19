@@ -1,0 +1,2 @@
+vless://9520a1fd-5ced-4a0f-a912-ffabccc52543@81.12.27.90:39568?path=/&security=none&encryption=none&type=ws#🇮🇷IR_35_@Surfboardv2ray
+vless://fe0836b2-d59d-4d73-8e81-cf4d0b69a27b@winston.ariankaku.top:443?type=tcp&path=/&host=alibaba.ir&headerType=http&security=none#🇮🇷IR_64_@Surfboardv2ray
