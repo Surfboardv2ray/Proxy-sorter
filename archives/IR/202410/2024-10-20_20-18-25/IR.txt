@@ -1,0 +1,8 @@
+vless://528a49bd-d67c-4c69-8c18-ae05907e4209@79.127.70.123:2087?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_17_@Surfboardv2ray
+vless://5b9abc0d-435b-4df1-8f75-328b966a8d10@185.231.181.92:3030?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_21_@Surfboardv2ray
+vless://6fce5411-cfad-479e-b964-79197524af10@wolfshop.tixoshop.com:45764?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🇮🇷IR_24_@Surfboardv2ray
+vless://84999452-7c28-48fd-8b3f-dc3e61f92777@89.47.197.42:24664?security=none&encryption=none&host=Ponisha.ir&headerType=http&type=tcp#🇮🇷IR_28_@Surfboardv2ray
+vless://c4439ad6-9fd8-42af-b937-64450bb9c455@81.12.27.85:14551?path=/&security=none&encryption=none&host=@FergalVpnMod&type=ws#🇮🇷IR_50_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_51_@Surfboardv2ray
+vless://e6f006a6-1a84-424f-bc58-3d605aa8edbe@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_62_@Surfboardv2ray
+vless://ed82ff13-c818-42d2-a7ce-7a92c1bd5dbd@62.60.179.69:443?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_64_@Surfboardv2ray
