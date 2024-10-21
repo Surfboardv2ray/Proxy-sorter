@@ -1,0 +1,2 @@
+vless://5ee84bff-f49f-4336-9bb5-0e1cdacf235d@80.71.149.90:101/?type=tcp&encryption=none&sni=ftp.debian.org&fp=chrome&security=reality&pbk=LjRg8KMesM5oryRgOJ4x7w-dWVB6-5n7-puTriuj8hY&sid=51ec#🇮🇷IR_29_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_99_@Surfboardv2ray
