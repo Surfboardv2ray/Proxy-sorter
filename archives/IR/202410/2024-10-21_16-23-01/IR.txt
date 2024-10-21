@@ -1,0 +1,2 @@
+vless://5734d5ad-43ac-4274-ab46-1dda4077f7cf@v1.fingerbaar.com:80?security=none&encryption=none&host=Telewebion.com&headerType=http&type=tcp#🇮🇷IR_30_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_74_@Surfboardv2ray
