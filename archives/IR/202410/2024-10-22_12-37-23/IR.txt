@@ -1,0 +1,7 @@
+vless://119caa1e-65bb-4f98-97f9-2aab8b47132a@79.127.70.123:2087?security=none&encryption=none&host=www.@BugFreeNet.net&headerType=http&type=tcp#🇮🇷IR_18_@Surfboardv2ray
+vless://2c3e2c41-4395-4df3-e788-cb9cc82beceb@81.12.27.93:52722?path=/&security=none&encryption=none&type=ws#🇮🇷IR_23_@Surfboardv2ray
+vless://852ef8ba-19cc-43a6-a667-ab69b7b0e3d2@62.60.178.234:443?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
+vless://8814b3bd-f214-453e-a460-51552ced226c@194.5.178.153:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_38_@Surfboardv2ray
+vless://b5552d81-a42b-40a7-9b05-0d5be5eb1bff@v2.yayastorm.xyz:8443?type=tcp&path=/&host=telewebion.com&headerType=http&security=none#🇮🇷IR_69_@Surfboardv2ray
+vless://c4439ad6-9fd8-42af-b937-64450bb9c455@81.12.27.85:14551?path=/&security=none&encryption=none&host=@BugFreeNet&type=ws#🇮🇷IR_76_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_77_@Surfboardv2ray
