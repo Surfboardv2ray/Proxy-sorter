@@ -1,0 +1,9 @@
+vless://17373a53-ca5a-452c-98c3-3ea7d2aeb85e@37.152.188.190:8989?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_13_@Surfboardv2ray
+vless://49b8ce15-60c9-4ad4-85b8-3c6841ed6c19@79.127.70.121:2087?security=none&encryption=none&host=www.@FergalVpnMod.net&headerType=http&type=tcp#🇮🇷IR_28_@Surfboardv2ray
+vless://86c08638-1eaa-42ff-a71e-704d1a2bf27f@79.127.70.84:443?security=none&encryption=none&host=www.@Fergalvpnmod.net&headerType=http&type=tcp#🇮🇷IR_35_@Surfboardv2ray
+vless://89a73d5d-c08f-406e-a085-2f30776b3b72@37.152.176.236:2053?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
+vless://a0507c60-04e3-46c7-ad7e-babd31778d8c@46.38.146.230:48839?security=none&encryption=none&host=p30afzar.com&headerType=http&type=tcp#🇮🇷IR_66_@Surfboardv2ray
+vless://a0507c60-04e3-46c7-ad7e-babd31778d8c@46.38.146.230:48839?security=none&type=tcp&host=p30afzar.com&headerType=http#🇮🇷IR_67_@Surfboardv2ray
+vless://be60400f-011a-4c6c-b0cc-477b2fce6eb1@5.160.132.27:45495?path=/&security=none&encryption=none&type=ws#🇮🇷IR_79_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_83_@Surfboardv2ray
+vless://e53e7892-c3f5-49f2-a45f-d30753095e8e@213.176.7.147:26317?path=/&security=none&encryption=none&type=ws#🇮🇷IR_96_@Surfboardv2ray
