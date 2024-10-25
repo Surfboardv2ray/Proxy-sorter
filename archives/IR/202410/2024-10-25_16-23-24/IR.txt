@@ -1,0 +1,6 @@
+vless://2a363760-265f-4885-a96e-8d9daf0ad5c5@79.127.70.113:2083/?encryption=none&host=www.@FergalVpnMod.net&type=tcp&headerType=http#🇮🇷IR_19_@Surfboardv2ray
+vless://2d118ae1-e8ea-4e76-939f-4a9460c321c3@194.5.178.153:443/?type=tcp&encryption=none#🇮🇷IR_21_@Surfboardv2ray
+vless://8b7a5c4b-64d9-4a37-888a-70af7eba46f6@62.60.178.234:443/?encryption=none&host=speedtest.net&type=tcp&headerType=http#🇮🇷IR_45_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_71_@Surfboardv2ray
+vless://dc03106e-91c8-4baf-a3aa-8cb4dcd1b476@all67-vip.f-sub.com:8705?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_77_@Surfboardv2ray
+vless://febb4e05-e105-4dde-bb3f-d42074d461ec@79.127.70.83:443/?encryption=none&host=www.@client_proo.net&type=tcp&headerType=http#🇮🇷IR_87_@Surfboardv2ray
