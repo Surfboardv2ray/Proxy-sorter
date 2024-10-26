@@ -1,0 +1,3 @@
+vless://8d5caaa2-51bc-4985-98a1-b445062b6d28@79.127.70.113:443?security=none&type=tcp&host=www.@FergalVpnMod.net&headerType=http#🇮🇷IR_20_@Surfboardv2ray
+vless://a8598e2e-e93b-4c2d-b5aa-1573faaf44d8@62.60.161.158:20467?security=none&type=tcp&host=ea.com&path=/&headerType=http#🇮🇷IR_33_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_39_@Surfboardv2ray
