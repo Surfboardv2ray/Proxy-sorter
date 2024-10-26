@@ -1,0 +1,3 @@
+vless://2a813e5e-b2ae-4f3b-9e47-44cba23a681b@otr.chatoochak.com:8080?type=ws&security=none&host=&path=/#🇮🇷IR_12_@Surfboardv2ray
+vless://a8598e2e-e93b-4c2d-b5aa-1573faaf44d8@s1.viraoneyearold.ir.mahrostyle.ir:20467?type=tcp&security=none&headerType=http&path=/&host=ea.com#🇮🇷IR_58_@Surfboardv2ray
+vless://c5049393-6f27-4265-9691-8c9d963fa32b@79.127.70.82:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_62_@Surfboardv2ray
