@@ -29,12 +29,17 @@ jobs:
         run: python python/ipv6.py
 
       - name: Check for changes
+        id: check_changes
         run: |
-          git add custom/ipv6.txt custom/ipv64.txt
-          git diff --exit-code || echo "Changes detected."
+          git add ipv6.txt ipv64.txt
+          if git status --porcelain | grep -qE "ipv6.txt|ipv64.txt"; then
+            echo "::set-output name=changed::true"
+          else
+            echo "::set-output name=changed::false"
+          fi
 
       - name: Commit and push results
-        if: success() && steps.check-for-changes.outputs.changed == 'true'
+        if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
