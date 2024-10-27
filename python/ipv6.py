@@ -7,7 +7,7 @@ import requests
 config_urls = [
     "https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/refs/heads/main/submerge/converted.txt",
     "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/refs/heads/main/configtg.txt",
-    "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/refs/heads/main/my.txt",
+#    "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/refs/heads/main/my.txt",
     "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed",
     "https://github.com/Surfboardv2ray/v2ray-worker-sub/raw/refs/heads/master/providers/providers",
 ]
