@@ -10,6 +10,7 @@ config_urls = [
     "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/refs/heads/main/my.txt",
     "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed",
     "https://github.com/Surfboardv2ray/v2ray-worker-sub/raw/refs/heads/master/providers/providers",
+    "https://github.com/ndsphonemy/proxy-sub/raw/refs/heads/main/lt-sub-all.txt",
 ]
 
 # Helper functions
