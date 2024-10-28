@@ -1,0 +1,2 @@
+vless://0bb2fc37-62b1-498f-bdbb-7432e479a020@109.94.165.248:8094?security=none&type=tcp&host=zula.ir&headerType=http#🇮🇷IR_23_@Surfboardv2ray
+vless://61678f98-85e3-40b6-a9ff-cbb685a33f09@62.60.204.212:13034?security=none&type=tcp&path=/#🇮🇷IR_32_@Surfboardv2ray
