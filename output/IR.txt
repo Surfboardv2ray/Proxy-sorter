@@ -1,0 +1,2 @@
+vless://c393a438-4503-43b9-9a8b-977d75f010bd@85.133.200.39:443?type=tcp&host=neshan.org&headerType=http#🇮🇷IR_70_@Surfboardv2ray
+vless://f1a495fd-8236-45b7-ae71-4c855ad15367@srv10.gamekade.tech:443?type=tcp&path=/&security=none&sni=neshan.org&host=neshan.org&headerType=http#🇮🇷IR_78_@Surfboardv2ray
