@@ -1,0 +1,2 @@
+vless://3318da47-3065-4781-bf6c-576c6ec354a8@2.182.174.21:31550?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_17_@Surfboardv2ray
+vless://c4d548c5-dffa-4fd0-9ad0-047a089f71f0@81.90.147.182:29905/?encryption=none&host=telewebion.com&type=tcp&headerType=http#🇮🇷IR_56_@Surfboardv2ray
