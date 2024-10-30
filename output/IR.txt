@@ -1,0 +1,1 @@
+vless://8b2ae2ef-2058-7d06-78db-b6aa49a5da6f@193.151.134.68:3412?security=none&sni=cbws-284.f-sub.com&type=tcp&host=speedtest.net&path=/&headerType=http#🇮🇷IR_55_@Surfboardv2ray
