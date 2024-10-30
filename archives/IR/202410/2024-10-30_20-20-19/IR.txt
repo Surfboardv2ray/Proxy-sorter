@@ -1,0 +1,1 @@
+vless://150fd816-5c9f-4b02-ba4b-9d7b0cc06ffb@m1.jadidistorefandogh.ir:2053?path=/digikala.com/login/?ed=2560&security=tls&encryption=none&alpn=h3,h2,http/1.1&host=my.jadidistorefandogh.ir&fp=chrome&type=ws&sni=my.jadidistorefandogh.ir#🇮🇷IR_17_@Surfboardv2ray
