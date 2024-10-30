@@ -1,0 +1,4 @@
+vless://5afa7900-f7e3-4c76-f396-37e81a033105@193.107.48.15:57472?security=none&encryption=none&host=p30afzar.com&headerType=http&type=tcp#🇮🇷IR_31_@Surfboardv2ray
+vless://5eb32d76-7b18-4e01-fa09-99fc5424712a@103.215.221.219:20425/?type=ws&encryption=none&path=/#🇮🇷IR_32_@Surfboardv2ray
+vless://629b8387-ee9a-452a-9bcd-deb787ea62f2@dl.ir.giftCardshopping.ir:6443?type=tcp&path=/&host=snappfood.ir&headerType=http&security=none#🇮🇷IR_33_@Surfboardv2ray
+vless://f1a495fd-8236-45b7-ae71-4c855ad15367@185.113.10.235:443/?encryption=none&host=neshan.org&type=tcp&headerType=http#🇮🇷IR_71_@Surfboardv2ray
