@@ -1,0 +1,2 @@
+vless://a41c9df9-010f-4278-c81a-0665a6fec615@103.215.221.219:23165/?encryption=none&host=filmnet.ir&type=tcp&headerType=http#🇮🇷IR_61_@Surfboardv2ray
+vless://e424094c-d2bf-450c-8037-13814aa1d7f5@78.157.59.173:2082/?encryption=none&host=Zulla.ir&type=tcp&headerType=http#🇮🇷IR_79_@Surfboardv2ray
