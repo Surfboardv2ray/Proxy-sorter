@@ -1,0 +1,5 @@
+vless://23c0367c-6da7-494b-90e7-697816be5a46@79.127.70.122:8080?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_19_@Surfboardv2ray
+vless://4774e962-0df1-4745-bb97-d625b4f4233f@79.127.70.76:8585?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_27_@Surfboardv2ray
+vless://67f312ae-d064-4e51-9235-fa5361174b84@79.127.70.120:2323?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_32_@Surfboardv2ray
+vless://bb78706c-c189-4259-bf5d-e4ac22fab298@79.127.70.76:443?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_62_@Surfboardv2ray
+vless://e424094c-d2bf-450c-8037-13814aa1d7f5@78.157.59.173:2082?security=none&encryption=none&host=Zulla.ir&headerType=http&type=tcp#🇮🇷IR_68_@Surfboardv2ray
