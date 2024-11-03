@@ -1,0 +1,5 @@
+vless://48690bf6-7e7a-4618-a6b1-882196e91b42@Ser-1.hajalii.com:48362?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#🇮🇷IR_20_@Surfboardv2ray
+vless://63f57f6c-08c4-4614-bb6e-9964ee12c12d@5.202.10.246:9398?security=none&type=tcp&host=speedtest.net&headerType=http#🇮🇷IR_26_@Surfboardv2ray
+vless://67f312ae-d064-4e51-9235-fa5361174b84@79.127.70.120:2323?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_28_@Surfboardv2ray
+vless://bb78706c-c189-4259-bf5d-e4ac22fab298@79.127.70.76:443?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_60_@Surfboardv2ray
+vless://e424094c-d2bf-450c-8037-13814aa1d7f5@78.157.59.173:2082?security=none&encryption=none&host=Zulla.ir&headerType=http&type=tcp#🇮🇷IR_66_@Surfboardv2ray
