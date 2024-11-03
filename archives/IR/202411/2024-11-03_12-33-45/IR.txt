@@ -1,0 +1,1 @@
+vless://48690bf6-7e7a-4618-a6b1-882196e91b42@Ser-1.hajalii.com:48362?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#🇮🇷IR_40_@Surfboardv2ray
