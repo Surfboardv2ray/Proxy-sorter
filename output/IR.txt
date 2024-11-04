@@ -1,3 +1,2 @@
-vless://070a1f39-361e-d11b-0dac-829fc7bd5d11@5.202.10.246:9129?security=none&sni=188.245.157.215&type=tcp&host=speedtest.net&path=/&headerType=http#🇮🇷IR_9_@Surfboardv2ray
-vless://aec7723d-5b8e-4b9a-ebd4-27a8632f0cc5@103.215.221.219:8443?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_57_@Surfboardv2ray
-vless://bf74f5c5-3d23-44a8-91b4-3576bafc1fed@62.60.144.221:1042?security=none&encryption=none&host=api.vasaham.com&headerType=http&type=tcp#🇮🇷IR_61_@Surfboardv2ray
+vless://761840db-94af-4c2e-9c3a-d085b2117049@79.127.70.87:2087?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
+vless://ec94daf9-442f-4a6b-9633-70c90006dfdd@79.127.70.123:2083?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_102_@Surfboardv2ray
