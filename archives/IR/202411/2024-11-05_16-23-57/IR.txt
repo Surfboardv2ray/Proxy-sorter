@@ -1,0 +1,4 @@
+vless://06229bd2-0b97-4827-a3db-5606563555a7@185.206.92.195:30500?path=/&security=none&encryption=none&type=ws#🇮🇷IR_7_@Surfboardv2ray
+vless://23f39615-5ed9-4382-bb8b-41319a2b1f5a@62.60.178.195:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_12_@Surfboardv2ray
+vless://672a7a10-7e7a-40c6-8a45-2b2f799ae1dc@79.127.70.123:443?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
+vless://ce69b108-1ef2-4ad8-a7a8-ff0409956762@P8.Dr-Ping1.com:80?path=/Dr&security=none&encryption=none&type=ws#🇮🇷IR_73_@Surfboardv2ray
