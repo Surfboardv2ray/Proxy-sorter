@@ -1,0 +1,2 @@
+vless://422c55de-6ec9-4f59-9521-c3154eb9175d@dl4.downloadnaz.com:57752?type=tcp&path=/&headerType=http&security=none#🇮🇷IR_17_@Surfboardv2ray
+vless://5ba6e45d-c3dc-4a26-bdc1-6fbef09347bf@46.38.148.18:2083?security=none&type=grpc#🇮🇷IR_22_@Surfboardv2ray
