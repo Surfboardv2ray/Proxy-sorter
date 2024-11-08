@@ -1,0 +1,3 @@
+vless://a0754407-2c37-479d-9f79-6c09e8923879@79.127.70.87:2087/?encryption=none&host=doostihaa.com&type=tcp&headerType=http#🇮🇷IR_74_@Surfboardv2ray
+vless://a0754407-2c37-479d-9f79-6c09e8923879@79.127.70.87:2087?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_75_@Surfboardv2ray
+vless://bce356e7-85db-43ad-9442-b6470ab453ad@213.176.127.56:8989?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#🇮🇷IR_88_@Surfboardv2ray
