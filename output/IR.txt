@@ -1,0 +1,5 @@
+vless://53c35032-4d7b-47b2-80a2-165beeb4156e@188.121.117.161:80?type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&host=&security=none#🇮🇷IR_25_@Surfboardv2ray
+vless://6403ddf9-7b0a-407c-96f6-90ad6be4089d@84.47.232.39:443?type=ws&path=/ws&host=&security=none#🇮🇷IR_26_@Surfboardv2ray
+vless://725bac5a-48ef-4054-b7fe-c5ddb5138853@79.127.70.76:2052?security=none&encryption=none&host=doostihaa.com+@persianelon&headerType=http&type=tcp#🇮🇷IR_27_@Surfboardv2ray
+vless://79ea6e84-1870-4ef9-8dcc-4500f4af79f1@79.127.70.87:8088?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
+vless://devzali1@ir.devzali.org:35290?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_63_@Surfboardv2ray
