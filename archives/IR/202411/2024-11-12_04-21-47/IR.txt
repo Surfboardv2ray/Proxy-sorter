@@ -1,0 +1,2 @@
+vless://725bac5a-48ef-4054-b7fe-c5ddb5138853@79.127.70.76:2052?security=none&encryption=none&host=doostihaa.com+@Client_Proo&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
+vless://79ea6e84-1870-4ef9-8dcc-4500f4af79f1@79.127.70.87:8088?security=none&encryption=none&host=doostihaa.com&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
