@@ -1,1 +1,2 @@
-vless://f5f4315e-6759-49a3-b78c-60d9e83f470f@79.127.70.76:2020?security=none&encryption=none&host=Doostihaa.coM&headerType=http&type=tcp#🇮🇷IR_79_@Surfboardv2ray
+vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@2.189.104.10:52418?path=/&security=none&encryption=none&type=ws#🇮🇷IR_61_@Surfboardv2ray
+vless://e1310a6f-47cf-4ad0-9e23-876b26a33549@79.127.70.123:444?security=none&encryption=none&host=wFergalww.SpeedTest.net&headerType=http&type=tcp#🇮🇷IR_66_@Surfboardv2ray
