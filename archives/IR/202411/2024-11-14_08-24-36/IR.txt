@@ -1,0 +1,1 @@
+vless://cfe25d46-28ce-47de-86cc-c2c7e9670643@novin.nilistore.fun:8888?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_57_@Surfboardv2ray
