@@ -1,0 +1,2 @@
+vless://4748c66f-6fd4-48ca-d64d-164af297af09@v1.net2eset.com:59058?path=/&security=none&encryption=none&type=ws#🇮🇷IR_30_@Surfboardv2ray
+vless://9bb17a9c-3784-4501-9d87-e2bcb7fbdb4a@81.12.32.27:8080?security=none&type=ws&path=/#🇮🇷IR_55_@Surfboardv2ray
