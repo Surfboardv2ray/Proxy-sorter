@@ -1,0 +1,2 @@
+vless://e5c30981-508b-4b0a-cb41-ecfd5c3edfb0@62.60.178.195:2053?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_66_@Surfboardv2ray
+vless://f1f9a376-0b8a-4486-b639-da2841acf9f5@79.127.70.87:8383?security=none&encryption=none&host=Doostihaa.coM&headerType=http&type=tcp#🇮🇷IR_70_@Surfboardv2ray
