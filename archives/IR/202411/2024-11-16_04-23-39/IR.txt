@@ -1,0 +1,2 @@
+vless://97d6afaf-eca4-48ac-bba6-75fe7b416e4c@79.127.70.87:8282?security=none&encryption=none&host=Doostihaa.coM&headerType=http&type=tcp#🇮🇷IR_27_@Surfboardv2ray
+vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@v12.net2eset.com:52418?path=/&security=none&encryption=none&type=ws#🇮🇷IR_39_@Surfboardv2ray
