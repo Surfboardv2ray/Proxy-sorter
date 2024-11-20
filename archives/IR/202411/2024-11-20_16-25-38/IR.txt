@@ -1,0 +1,4 @@
+vless://3c166ce5-5d64-47cf-9bd5-e08b6e1bca73@loo.fhq0la447aac5504dspeedtestircomnetmeleosjanwjdifjsnjsx.com:14490/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_39_@Surfboardv2ray
+vless://3c166ce5-5d64-47cf-9bd5-e08b6e1bca73@loo.fhq0la447aac5504dspeedtestircomnetmeleosjanwjdifjsnjsx.com:14491/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_40_@Surfboardv2ray
+vless://3c166ce5-5d64-47cf-9bd5-e08b6e1bca73@loo.fhq0la447aac5504dspeedtestircomnetmeleosjanwjdifjsnjsx.com:14492/?encryption=none&host=fast.com&type=tcp&headerType=http#🇮🇷IR_41_@Surfboardv2ray
+vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@2.189.104.10:52418/?type=ws&encryption=none&path=/#🇮🇷IR_91_@Surfboardv2ray
