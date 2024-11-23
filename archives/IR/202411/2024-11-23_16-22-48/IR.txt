@@ -1,0 +1,2 @@
+vless://1722b819-77a6-4db0-998f-2e23e888fa56@178.239.144.145:34740/?type=grpc&encryption=none&serviceName=نگاه نکن نیگا#🇮🇷IR_41_@Surfboardv2ray
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@31.14.116.12:8000/?type=ws&encryption=none&host=a.mifeng.us.kg&path=/?ed=2560&security=tls&sni=a.mifeng.us.kg#🇮🇷IR_94_@Surfboardv2ray
