@@ -1,0 +1,4 @@
+vless://4b0c2314-1d81-445c-b936-c33d143a56c4@188.121.117.161:80?security=&type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&encryption=none#🇮🇷IR_26_@Surfboardv2ray
+vless://5a6b40bf-b775-49ba-8065-a327c65d49c9@ir1.ordeloil.com:2069?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_27_@Surfboardv2ray
+vless://8ff11428-caa1-4863-94de-2f1e56281c25@79.127.70.88:443?security=none&encryption=none&host=fast.com @Client_Proo&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
+vless://e2d78807-40c4-4940-a3fe-18c779e670c7@dk1.saeedip5.info:8080?path=/&security=none&encryption=none&type=ws#🇮🇷IR_78_@Surfboardv2ray
