@@ -1,0 +1,2 @@
+vless://619a4352-7d8a-4ac2-ab31-0b5135c7eb2f@85.9.120.100:40199?path=/&security=none&encryption=none&type=ws#🇮🇷IR_35_@Surfboardv2ray
+vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@2.189.104.10:52418?path=/&security=none&encryption=none&type=ws#🇮🇷IR_50_@Surfboardv2ray
