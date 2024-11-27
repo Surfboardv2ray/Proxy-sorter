@@ -1,0 +1,2 @@
+vless://00aa3999-ad7f-4c05-b868-eaf2d680cb51@testuae.bibbib.shop:2052?type=ws&security=none&path=/&host=#🇮🇷IR_2_@Surfboardv2ray
+vless://cbfa4d63-f6ef-4db8-bb4e-1939492968b4@79.127.70.115:443?security=&type=tcp&headerType=http&host=fast.com&encryption=none#🇮🇷IR_74_@Surfboardv2ray
