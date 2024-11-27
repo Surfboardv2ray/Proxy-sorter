@@ -1,0 +1,4 @@
+vless://3995305c-1375-4d5b-b2e2-33c77a4c3b49@ir.lordfree.site:1523?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#🇮🇷IR_22_@Surfboardv2ray
+vless://5a33c57e-18a3-4561-a763-f6207fda2677@62.60.174.99:4910?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_33_@Surfboardv2ray
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@31.14.116.12:8000/?type=ws&encryption=none&host=a.mifeng.us.kg&path=/?ed=2560&security=tls&sni=a.mifeng.us.kg#🇮🇷IR_80_@Surfboardv2ray
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@31.14.116.12:8000?path=/?ed=2560&security=tls&encryption=none&host=a.mifeng.us.kg&type=ws&sni=a.mifeng.us.kg#🇮🇷IR_81_@Surfboardv2ray
