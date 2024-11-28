@@ -1,0 +1,3 @@
+vless://c97861ff-0b79-44df-9019-6f8b5dd796ee@185.119.240.34:4009?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_62_@Surfboardv2ray
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@31.14.116.12:8000?path=/?ed=2560&security=tls&encryption=none&host=a.mifeng.us.kg&type=ws&sni=a.mifeng.us.kg#🇮🇷IR_64_@Surfboardv2ray
+vless://ee53847b-1d9f-4d9d-8a26-cfc60203635c@213.176.7.147:37277?type=ws&path=/&security=none#🇮🇷IR_67_@Surfboardv2ray
