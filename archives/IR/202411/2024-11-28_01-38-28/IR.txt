@@ -1,0 +1,1 @@
+vless://c97861ff-0b79-44df-9019-6f8b5dd796ee@cod-game.codmoviez.info:4009?security=none&type=tcp&headerType=http&path=/&host=speedtest.net#🇮🇷IR_72_@Surfboardv2ray
