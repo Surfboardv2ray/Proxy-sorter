@@ -1,3 +1,1 @@
-vless://1fcff757-00cb-4765-935f-fdca5249a66d@H1.CreHistory.Org:35552?security=none&type=tcp&headerType=&path=&host=#🇮🇷IR_18_@Surfboardv2ray
-vless://1fcff757-00cb-4765-935f-fdca5249a66d@H1.OrgSpeed.Net:25081?security=none&type=tcp&headerType=&path=&host=#🇮🇷IR_19_@Surfboardv2ray
-vless://1fcff757-00cb-4765-935f-fdca5249a66d@H1.OrgSpeed.Net:35585?security=none&type=tcp&headerType=&path=&host=upload.ir#🇮🇷IR_20_@Surfboardv2ray
+vless://c97861ff-0b79-44df-9019-6f8b5dd796ee@185.119.240.34:4009?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_40_@Surfboardv2ray
