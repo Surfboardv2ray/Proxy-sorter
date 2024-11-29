@@ -1,0 +1,2 @@
+vless://c97861ff-0b79-44df-9019-6f8b5dd796ee@185.119.240.34:4009?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_57_@Surfboardv2ray
+vless://dc20c088-6369-40d5-a708-32ff20f63f51@79.127.70.101:443?security=none&encryption=none&host=www.speedtest.net+@FergalVpnMod&headerType=http&type=tcp#🇮🇷IR_59_@Surfboardv2ray
