@@ -1,0 +1,3 @@
+vless://498afaa9-265e-4be6-ae98-aa69dc6ef99c@srv1.gamekade.tech:2053?type=tcp&path=/&security=none&sni=neshan.org&host=neshan.org&headerType=http#🇮🇷IR_21_@Surfboardv2ray
+vless://6f026cbd-5d4a-4d49-b653-9e02f3c1124d@srv1.gamekade.tech:443?type=tcp&path=/&security=none&sni=neshan.org&host=neshan.org&headerType=http#🇮🇷IR_24_@Surfboardv2ray
+vless://dc20c088-6369-40d5-a708-32ff20f63f51@79.127.70.101:443?security=none&encryption=none&host=www.speedtest.net+@FergalVpnMod&headerType=http&type=tcp#🇮🇷IR_48_@Surfboardv2ray
