@@ -1,0 +1,2 @@
+vless://38b5b950-1999-4df5-ad45-96bafae50c53@193.107.48.76:45665?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🇮🇷IR_29_@Surfboardv2ray
+vless://c0acff7c-2eed-468d-8e3b-1d860988c13f@213.176.121.52:26985?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷IR_62_@Surfboardv2ray
