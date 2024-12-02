@@ -1,0 +1,8 @@
+vless://57b1157d-967b-414b-bb33-a7bc61f5f6e2@46.36.97.248:2058?type=tcp&security=none#🇮🇷IR_35_@Surfboardv2ray
+vless://97dce074-7db1-4d59-99ca-0ef8311e2425@193.35.230.108:10005?path=?ed=2048&security=none&encryption=none&type=ws#🇮🇷IR_41_@Surfboardv2ray
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@94.182.136.181:2222?path=/?ed=2560&security=tls&encryption=none&host=a.xn--i-sx6a60i.us.kg&type=ws&sni=a.xn--i-sx6a60i.us.kg#🇮🇷IR_63_@Surfboardv2ray
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@94.182.136.181:2222?type=ws&host=a.xn--i-sx6a60i.us.kg&path=/?ed=2560&security=tls&sni=a.xn--i-sx6a60i.us.kg#🇮🇷IR_64_@Surfboardv2ray
+vless://dc20c088-6369-40d5-a708-32ff20f63f51@79.127.70.101:443?security=none&encryption=none&host=www.speedtest.net+@FergalVpnMod&headerType=http&type=tcp#🇮🇷IR_67_@Surfboardv2ray
+vless://dd39201c-7618-469d-968c-10d07410d59b@H1.CreHistory.Org:35552?security=none&type=tcp&headerType=&path=&host=#🇮🇷IR_68_@Surfboardv2ray
+vless://dd39201c-7618-469d-968c-10d07410d59b@H1.CreHistory.Org:35562?security=none&type=tcp&headerType=http&path=/&host=#🇮🇷IR_69_@Surfboardv2ray
+vless://dd39201c-7618-469d-968c-10d07410d59b@H1.OrgSpeed.Net:25071?security=none&type=tcp&headerType=&path=&host=#🇮🇷IR_70_@Surfboardv2ray
