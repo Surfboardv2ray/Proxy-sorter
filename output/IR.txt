@@ -1,3 +1,1 @@
-vless://74f041ab-6731-4b7a-9c43-61d9400308eb@germm.one.tankgerman.xyz:31097?type=tcp&path=/&host=zula.ir&headerType=http&security=none#🇮🇷IR_29_@Surfboardv2ray
-vless://77d42c2e-2a11-4e66-9ba4-c1ccc2b15458@testi.bivasteh.ir:4443?path=/?ed=2560/v2ray&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=flstudioirani.ir&fp=chrome&type=ws&sni=flstudioirani.ir#🇮🇷IR_30_@Surfboardv2ray
-vless://9a150a34-2ba4-4ff2-bcd2-974e87113f25@h02.a-vpn-ch.com:2082?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
+vless://108825ef-c84e-4350-abda-ce3872c754e1@95.38.132.198:2062?security=none&encryption=none&host=bwm.com&headerType=http&type=tcp#🇮🇷IR_18_@Surfboardv2ray
