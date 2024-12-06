@@ -29,21 +29,20 @@ vless://Parsashonam-118@[2a01:4f8:1c1b:26eb::1]:8888?security=none&encryption=no
 vless://Parsashonam-119@[2a01:4f8:1c1b:26eb::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-119@[2a01:4f8:1c1b:26eb::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@fastkanfig+🇩🇪+نیازمند+فعال+بودن+ipv6
 vless://Parsashonam-120@[2a01:4f8:1c1b:26eb::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
+vless://Parsashonam-121@[2a01:4f8:1c1b:26eb::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://TELEGRAM-ServerNett@[2a01:4f8:c012:2284::1]:54769?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 2
 vless://TELEGRAM-ServerNett@[2a01:4f8:c012:2284::1]:54769?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT+MCI+2
-vless://TELEGRAM-ServerNett@[2a01:4f8:c012:2284::1]:54769?security=none&encryption=none&headerType=none&type=tcp#🍑1@ConfigV2RayNG
-vless://TELEGRAM-ServerNett@[2a01:4f8:c013:7538::1]:44635?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT+MCI+1
 vless://TELEGRAM-ServerNett@[2a01:4f8:c17:1cd7::1]:38971?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT+MCI+1
 vless://TELEGRAM-ServerNett@[2a01:4f8:c17:1cd7::1]:38971?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT+MCI+2
 vless://TELEGRAM-ServerNett@[2a01:4f8:c17:1cd7::1]:54467?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
 vless://TELEGRAM-ServerNett@[2a01:4f8:c17:1cd7::1]:54467?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT+MCI+1
 vless://TELEGRAM-ServerNett@[2a01:4f8:c17:1cd7::1]:54467?security=none&encryption=none&headerType=none&type=tcp#🇷🇴🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
 vless://TELEGRAM-ServerNett@[2a01:4f8:c17:1cd7::1]:54467?security=none&encryption=none&headerType=none&type=tcp#🍑2@ConfigV2RayNG
-vless://TELEGRAM-ServerNett@[2a01:4f8:c17:650c::1]:46044?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT+MCI+2
 vless://TELEGRAM-ServerNett@[2a01:4f9:c010:a8b3::1]:8080?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT+MCI+1
 vless://TELEGRAM-ServerNett@[2a01:4f9:c010:a8b3::1]:8080?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT+MCI+2
 vless://Tel--ZEDMODEON@[2a0d:5940:102:2::]:25365?mode=gun&security=reality&encryption=none&authority=&pbk=hjDc_R0x4CAdT3Cfxn8Nui3IhZNLR1kjEwnL49MZGQk&fp=chrome&spx=/&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON&sni=sourceforge.net&sid=e6e4afb9#@AntiFilterService
 vless://aaf708a0-6fa0-40f5-b77a-abe4b190d8e2@[2a01:4f8:1c1b:25a3::1]:443?mode=gun&security=reality&encryption=none&authority=dr_mohsen-chanl-fastkanfig&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#🇩🇪+@fastkanfig
+vless://b20c25f2-1102-480a-b4bc-71a8b827911a@[2001:41d0:701:1000::14ca]:21147?security=none&encryption=none&headerType=none&type=tcp#@msv2raynp
 vless://b78f6228-b773-4708-9e08-172d4a725a66@[2a01:4f8:1c1b:25a3::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#fastkanfig+🇩🇪
 vless://c566c1a7-5040-4f1a-95b0-3f97e256ea27@[2001:19f0:7400:8c45:5400:04ff:feef:4ccb]:2083?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#@v2ryngfree+سرچ+کن+بیا+تو+کانال
 vless://ed086428-528e-4376-a125-8aa9c7a2710b@[2a01:4f8:c013:7538::1]:55738&serviceName=/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH/@FILTERK0SH?security=none&encryption=none&headerType=none&type=tcp#@FILTERK0SH+|+MCI🔵
