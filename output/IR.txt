@@ -1,2 +1,0 @@
-vless://dc5fd706-5a56-4ab7-b656-bb59db093e31@37.202.231.84:11011?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#🇮🇷IR_61_@Surfboardv2ray
-vless://dc5fd706-5a56-4ab7-b656-bb59db093e31@37.202.231.84:11011?type=tcp&path=/&security=none&host=varzesh3.com&headerType=http#🇮🇷IR_62_@Surfboardv2ray
