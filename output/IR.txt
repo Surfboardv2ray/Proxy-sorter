@@ -1,1 +1,1 @@
-vless://1f395054-21f8-4a0d-98c4-7d30f49553c5@188.213.196.188:55514?type=tcp#🇮🇷IR_6_@Surfboardv2ray
+vless://06fd5a50-d201-4f1c-a187-653a1d654746@nim.bedroomashop.ir:2053?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_9_@Surfboardv2ray
