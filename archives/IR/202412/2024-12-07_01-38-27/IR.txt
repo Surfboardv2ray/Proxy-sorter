@@ -1,0 +1,2 @@
+vless://1f395054-21f8-4a0d-98c4-7d30f49553c5@188.213.196.188:55514?security=&type=tcp&encryption=none#🇮🇷IR_10_@Surfboardv2ray
+vless://e4c82c2f-f154-4272-bcc8-6380a84cddb5@62.60.218.126:5782?encryption=none&security=none&type=tcp&headerType=http&host=virgool.io#🇮🇷IR_47_@Surfboardv2ray
