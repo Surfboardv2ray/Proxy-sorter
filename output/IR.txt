@@ -1,1 +1,2 @@
-vless://06fd5a50-d201-4f1c-a187-653a1d654746@nim.bedroomashop.ir:2053?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷IR_9_@Surfboardv2ray
+vless://8ee538e1-66c8-4eb1-8705-407b19afad84@46.36.97.25:8080/?type=ws&path=/&host=&security=none#🇮🇷IR_43_@Surfboardv2ray
+vless://8ee538e1-66c8-4eb1-8705-407b19afad84@46.36.97.25:8080?security=none&type=ws&path=/#🇮🇷IR_44_@Surfboardv2ray
