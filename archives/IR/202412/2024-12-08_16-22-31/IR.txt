@@ -1,0 +1,2 @@
+vless://5f3353d6-f26d-45af-a052-ad1d66d1fdcf@www.mizbanonline.icu:4146?headerType=http&host=&path=/&security=none&type=tcp#🇮🇷IR_25_@Surfboardv2ray
+vless://d7c7864a-ae4a-4f89-b0ea-d2688a408677@azadi.m8tokhsali.xyz:2096?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_45_@Surfboardv2ray
