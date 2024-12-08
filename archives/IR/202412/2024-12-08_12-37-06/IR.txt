@@ -1,0 +1,2 @@
+vless://5647a1dc-e52a-4be2-f79f-afd6c78baa1b@84.47.232.14:2052?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_26_@Surfboardv2ray
+vless://8ee538e1-66c8-4eb1-8705-407b19afad84@46.36.97.25:8080?path=/&security=none&encryption=none&type=ws#🇮🇷IR_49_@Surfboardv2ray
