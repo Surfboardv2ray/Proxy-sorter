@@ -1,1 +1,3 @@
-vless://46653d19-4b76-405a-9263-a19af6a2aa5a@95.81.85.83:5001?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_35_@Surfboardv2ray
+vless://46653d19-4b76-405a-9263-a19af6a2aa5a@95.81.85.83:5001?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_26_@Surfboardv2ray
+vless://6eababf1-4961-4f99-ae3f-76dbea4bbe3d@Blue9.webjob7.eu:48486?security=reality&encryption=none&pbk=I2bozyAqYo5CxnJZ_WtX5uP_BcaujVBfXnYu85sU2FM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=dash.cloudflare.com&sid=a629f128#🇮🇷IR_33_@Surfboardv2ray
+vless://6eababf1-4961-4f99-ae3f-76dbea4bbe3d@Blue9i.webjob7.eu:48486?security=reality&encryption=none&pbk=I2bozyAqYo5CxnJZ_WtX5uP_BcaujVBfXnYu85sU2FM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=www.speedtest.net&sid=a629f128#🇮🇷IR_34_@Surfboardv2ray
