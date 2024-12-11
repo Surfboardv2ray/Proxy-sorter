@@ -1,3 +1,2 @@
-vless://46653d19-4b76-405a-9263-a19af6a2aa5a@95.81.85.83:5001?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_25_@Surfboardv2ray
-vless://92dd07e6-9591-4780-ab7b-3e20e4551870@mr1.zapserver.top:7002?path=/&security=none&encryption=none&type=ws#🇮🇷IR_43_@Surfboardv2ray
-vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@2.189.104.10:52418?path=/&security=none&encryption=none&host=rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw594.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--g22h.kolsvslp.ir&type=ws#🇮🇷IR_62_@Surfboardv2ray
+vless://ad524a96-dfe5-460c-bf69-7513b3280a8e@86.104.32.218:26739?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_45_@Surfboardv2ray
+vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@2.189.104.10:52418?path=/&security=none&encryption=none&type=ws#🇮🇷IR_48_@Surfboardv2ray
