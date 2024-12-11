@@ -1,0 +1,2 @@
+vless://ad524a96-dfe5-460c-bf69-7513b3280a8e@86.104.32.218:26739?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_45_@Surfboardv2ray
+vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@2.189.104.10:52418?path=/&security=none&encryption=none&type=ws#🇮🇷IR_48_@Surfboardv2ray
