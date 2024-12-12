@@ -1,5 +1,4 @@
-vless://07d52999-8832-43c9-98ef-79070035ad14@84.47.232.14:2052?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_6_@Surfboardv2ray
-vless://18b50225-c044-46d3-a7a8-8a67ef4880d3@H2.OrgSpeed.Net:25081?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_11_@Surfboardv2ray
-vless://9a028e7b-d11d-4f20-a8ec-fcde8a8e6c38@37.32.30.112:2020?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_43_@Surfboardv2ray
-vless://ad524a96-dfe5-460c-bf69-7513b3280a8e@86.104.32.218:26739?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_54_@Surfboardv2ray
-vless://cdfee595-ccd0-4921-87b4-3683d9f2353d@pourya.tunnel.gpair7electronics.com:2002?security=none=/@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO-|-@TEHRANARGO&encryption=none&headerType=none&type=tcp#🇮🇷IR_57_@Surfboardv2ray
+vless://01ebaa8b-5c2f-41cb-9841-c76caf331767@llil2.carcarpetq.xyz:1484?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_15_@Surfboardv2ray
+vless://01ebaa8b-5c2f-41cb-9841-c76caf331767@llil3.carcarpetq.com:1486?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_16_@Surfboardv2ray
+vless://01ebaa8b-5c2f-41cb-9841-c76caf331767@llil4.flaptop.sbs:1487?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_17_@Surfboardv2ray
+vless://9a028e7b-d11d-4f20-a8ec-fcde8a8e6c38@37.32.30.112:2020?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_37_@Surfboardv2ray
