@@ -1,0 +1,2 @@
+vless://1f77f427-62f1-4ff6-a085-21278eb04472@victor1.safeunity.shop:45495?type=ws&path=/&host=&security=none#🇮🇷IR_21_@Surfboardv2ray
+vless://5a5fef53-3171-4b4d-b6ef-ea53796820a3@46.38.139.210:33585/?encryption=none&host=chess.com&type=tcp&headerType=http#🇮🇷IR_33_@Surfboardv2ray
