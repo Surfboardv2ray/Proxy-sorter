@@ -1,1 +1,0 @@
-vless://273d1329-6ea9-4dab-bd22-97ca933a8ccf@62.60.221.142:2388?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
