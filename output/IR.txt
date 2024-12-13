@@ -1,3 +1,1 @@
-vless://471aff70-a94a-4155-9cbe-95ada792f839@95.81.85.187:2201?security=none&type=tcp&path=/&headerType=http#🇮🇷IR_36_@Surfboardv2ray
-vless://5a5fef53-3171-4b4d-b6ef-ea53796820a3@46.38.139.210:33585?security=none&encryption=none&host=chess.com&headerType=http&type=tcp#🇮🇷IR_41_@Surfboardv2ray
-vless://9f1d03f5-907a-4ba2-b30f-616d77857a5e@srv5.safeunity.shop:28909?path=/&security=none&encryption=none&type=ws#🇮🇷IR_51_@Surfboardv2ray
+vless://273d1329-6ea9-4dab-bd22-97ca933a8ccf@62.60.221.142:2388?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
