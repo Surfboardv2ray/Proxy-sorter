@@ -1,0 +1,1 @@
+vless://5a5fef53-3171-4b4d-b6ef-ea53796820a3@46.38.139.210:33585?security=none&encryption=none&host=chess.com&headerType=http&type=tcp#🇮🇷IR_39_@Surfboardv2ray
