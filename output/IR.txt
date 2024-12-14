@@ -1,4 +1,5 @@
-vless://4285f327-20c6-483c-ab28-5ed6d28837bc@xe50-de40cdn4.unlimiteddev.co:443?path=/&security=tls&encryption=none&host=xe50-de40cdn1.unlimiteddev.co&fp=chrome&type=ws&sni=xe50-de40cdn1.unlimiteddev.co#🇮🇷IR_29_@Surfboardv2ray
-vless://9adcf8a0-2234-4b89-bde7-b840eacf064b@2.188.213.223:3333?security=none&type=tcp&headerType=http#🇮🇷IR_53_@Surfboardv2ray
-vless://cac0003e-89af-49de-b11b-387d957a73b5@188.121.117.161:80?type=ws&path=/@V2Graphy/giveaway/ws1?ed=2560&host=&security=none#🇮🇷IR_80_@Surfboardv2ray
-vless://d3977ad8-d3a8-43dc-a8c4-24f14299996e@79.127.70.104:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_82_@Surfboardv2ray
+vless://0e626bc4-44a4-4e24-baa9-604f5387db80@84.47.233.102:20014?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_17_@Surfboardv2ray
+vless://68c1d65d-d267-4510-9f42-804a2eb13ce4@2.144.4.240:8081?security=none&type=tcp&headerType=http&path=/&host=webdade.com#🇮🇷IR_42_@Surfboardv2ray
+vless://9adcf8a0-2234-4b89-bde7-b840eacf064b@2.188.213.223:3333?security=none&type=tcp&host=telewebion.com&headerType=http#🇮🇷IR_66_@Surfboardv2ray
+vless://9be8d832-98c2-4953-a48f-0fa79f2f81de@84.47.232.14:2052?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_67_@Surfboardv2ray
+vless://f2beb88f-b945-4b25-838b-ac76ae8a3618@zarin7i.alireza031.pw:27053?type=ws&security=none&path=/ZARIN7&host=ZZITB.divarcdn.com,pX91l.snappfood.ir,yK7kY.yjc.ir,E8g00.digikala.com,dyFZe.tic.ir&allowInsecure=false#🇮🇷IR_92_@Surfboardv2ray
