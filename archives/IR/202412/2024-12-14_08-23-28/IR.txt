@@ -1,0 +1,4 @@
+vless://4285f327-20c6-483c-ab28-5ed6d28837bc@xe50-de40cdn4.unlimiteddev.co:443?path=/&security=tls&encryption=none&host=xe50-de40cdn1.unlimiteddev.co&fp=chrome&type=ws&sni=xe50-de40cdn1.unlimiteddev.co#🇮🇷IR_44_@Surfboardv2ray
+vless://9adcf8a0-2234-4b89-bde7-b840eacf064b@2.188.213.223:3333?security=none&type=tcp&headerType=http#🇮🇷IR_52_@Surfboardv2ray
+vless://c2a2beb3-403a-4bc0-8bf5-7f6788a7b281@92.114.17.23:8443?security=none&type=tcp&host=rubika.ir&headerType=http&alpn=null#🇮🇷IR_65_@Surfboardv2ray
+vless://d3977ad8-d3a8-43dc-a8c4-24f14299996e@79.127.70.104:443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#🇮🇷IR_72_@Surfboardv2ray
