@@ -1,2 +1,2 @@
-vless://9b885507-4176-4d6f-8319-d242224cd124@78.157.59.145:49342?path=/Zarin3&security=none&encryption=none&host=aA4TF.divarcdn.com&type=ws#🇮🇷IR_27_@Surfboardv2ray
-vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@2.189.104.10:52418?path=/&security=none&encryption=none&type=ws#🇮🇷IR_42_@Surfboardv2ray
+vless://9b885507-4176-4d6f-8319-d242224cd124@78.157.59.145:49342?path=/Zarin3&security=none&encryption=none&host=aA4TF.divarcdn.com&type=ws#🇮🇷IR_28_@Surfboardv2ray
+vless://c31d6b4e-6105-4197-c94d-c45bce6c23a2@2.189.104.10:52418?path=/&security=none&encryption=none&type=ws#🇮🇷IR_44_@Surfboardv2ray
