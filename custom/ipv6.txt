@@ -57,9 +57,12 @@ vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:25797?security=none&encrypti
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:25797?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 4
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:25797?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 4 @poroxybaz
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:25797?security=none&encryption=none&headerType=none&type=tcp#🇹🇷 🚀@proxy_shadosocks🚀
+vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=&encryption=none&headerType=none&type=tcp#🇰🇼 @canfigv2ray ⬅️کانفیگ های قویتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1 @poroxybaz
-vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=none&encryption=none&headerType=none&type=tcp#🇬🇱@vpn_ioss ♻️ عضو شو
+vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=none&encryption=none&headerType=none&type=tcp#🇨🇵@vpn_ioss ♻️ عضو شو
+vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=none&encryption=none&headerType=none&type=tcp#🇩🇪@vpn_ioss ♻️ عضو شو
+vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=none&encryption=none&headerType=none&type=tcp#🇰🇼+@canfigv2ray+⬅️کانفیگ+های+قویتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:57258?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyyy
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:13776?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:13776?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1 @poroxybaz
