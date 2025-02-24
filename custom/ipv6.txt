@@ -1,7 +1,4 @@
 hy2://4e9ee29b39a28277@[2001:19f0:1000:20d0:5400:5ff:fe19:3ba9]:443/?insecure=1&sni=[2001:19f0:1000:20d0:5400:5ff:fe19:3ba9]&obfs=salamander&obfs-password=13f7ba5f#@vpnv2rayNGv
-hysteria2://18240b2dfdd76484@[2a05:f480:2000:1384:5400:5ff:fe19:8b0a]:443?security=tls&obfs=salamander&obfs-password=d2648ec2&insecure=1#@AZARBAYJAB1
-hysteria2://9bb452b106ffc217@[2001:19f0:1000:18b3:5400:5ff:fe19:3f6d]:443?security=tls&obfs=salamander&obfs-password=cd29099d&insecure=1#@AZARBAYJAB1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMDYwNTUyNy0yOGU0LTQ0OWMtODBlZS01NjQyY2MxNmE4YWY=@[2a02:29e0:1:1ee::1]:80#Mci@V2ray_Raha-2
 ss://YWVzLTEyOC1nY206WkVETU9ERU9Oam9pblpFRE1PREVPTmJpYVpFRE1PREVPTmJpYWluWkVETU9ERU9O@[2a00:6d42:1242:22a6::1]:38256#all 🇮🇹 (@ZEDMODEON)
 vless://07274a56-0475-4f2c-9780-c7df9d580afc@[2a01:4f8:1c1b:7df::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#fastkanfig
 vless://0886d047-0dac-4607-bad8-06ce2c9d36e1@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+chanl+telegram
@@ -23,6 +20,7 @@ vless://5e440d00-395e-4a3d-bac1-125aa59d1b2e@[2001:41d0:701:1000::1caa]:21147?se
 vless://65821e17-c2bc-4641-8a15-fc59e7a6f60f@[2a01:4f8:c013:95f7::1]:50081?security=none&encryption=none&headerType=none&type=tcp#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://71b12378-8c5a-48c6-b716-82bd9fb90148@[2a01:4f9:c011:7571::1]:8443?security=reality&encryption=none&pbk=pC_ce7-7TQe-rM1IaBAJsUENABoWl_cuu_KGe1NwPzc&headerType=none&fp=chrome&spx=/&type=tcp&sni=web.whatsapp.com&sid=21cfdb2f50#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://7b10e96f-e630-41b4-bb38-34aa830ad029@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
+vless://7e51eb7e-0347-40eb-9ec5-37a86a205c91@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
 vless://81a4ce79-0efd-464a-a10c-2875cb200059@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+2
 vless://914b9065-2c2f-46f8-b585-a4583f444c20@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
 vless://94c3155b-5252-4d66-bead-06b2e489f658@[2a0b:4140:659a:6::6]:33000?mode=gun&security=reality&encryption=none&authority=@fastkanfig-@fastkanfig-@fastkanfig-@fastkanfig-@fastkanfig-@fastkanfig-@fastkanfig&pbk=JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0&fp=chrome&spx=/&type=grpc&serviceName=b&sni=www.speedtest.net&sid=be7f13dd#fastkanfig+testi  join telegram chanl @fastkanfig
@@ -41,23 +39,22 @@ vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:17293?security=none&encrypti
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:24893?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyyy
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:36137?security=none&encryption=none&headerType=none&type=tcp#@Pashmam_Vpn سرور های بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:46468?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 4
-vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:46468?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 4 @poroxybaz
+vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:51773?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 3
+vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:51773?security=none&encryption=none&headerType=none&type=tcp#@V2ray1_Ng MCI
+vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:51773?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyyسرورای‌بیشتر
+vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:51773?security=none&encryption=none&headerType=none&type=tcp#A
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:15182?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
-vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:15182?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1 @poroxybaz
+vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:15182?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyyسرورای‌بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:15650?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 3
-vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:15650?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 3 @poroxybaz
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:17485?security=none&encryption=none&headerType=none&type=tcp#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:37417?security=none&encryption=none&headerType=none&type=tcp#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:51047?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 3
-vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:51047?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 3 @poroxybaz
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:24188?security=none&encryption=none&headerType=none&type=tcp#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:25797?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 2
-vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:25797?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 2 @poroxybaz
+vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:31899?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 2
+vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:31899?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyyسرورای‌بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
-vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:36736?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1 @poroxybaz
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:57258?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyyy
-vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:13776?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
-vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:13776?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1 @poroxybaz
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:40286?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyyy
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:40286?security=none&encryption=none&headerType=none&type=tcp#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:55242?security=none&encryption=none&headerType=none&type=tcp#@vpnstorefast+mci+mtn
@@ -70,15 +67,14 @@ vless://a6cfc36e-36bd-4e51-bc40-2d0dc62ebfdd@[2001:41d0:701:1000::441a]:21147?se
 vless://ad179afa-18b0-4ae2-eb2d-086b767f08d3@[2a01:4f8:c010:5c29::1]:2095?path=/ed=2082&security=&encryption=none&host=Da8.speedtest.hopeserver1.tech.&type=ws#@Hopev2ray💚
 vless://ad179afa-18b0-4ae2-eb2d-086b767f08d3@[2a01:4f8:c010:5c29::1]:2095?path=/ed=2082&security=&encryption=none&host=Da8.speedtest.hopeserver1.tech.&type=ws#@Hopev2ray💚   trojan://1ec653e0-d295-11ef-8eee-1239d0255272@uk1.test3.net:443?s
 vless://ad179afa-18b0-4ae2-eb2d-086b767f08d3@[2a01:4f8:c010:5c29::1]:2095?path=/ed=2082&security=&encryption=none&host=Da8.speedtest.hopeserver1.tech.&type=ws#@Hopev2ray💚  trojan://d06a14d0-ceb9-11ef-a13e-1239d0255272@uk1.test3.net:443?se
+vless://ad9b825b-6ae5-4cd1-bf25-58f47cea3572@[2a01:4f8:c010:6ca3::1]:27094?security=none&encryption=none&headerType=none&type=tcp#🇺🇸+@canfigv2ray+⬅️کانفیگ+های+قویتر
 vless://c566c1a7-5040-4f1a-95b0-3f97e256ea27@[2001:19f0:7400:8c45:5400:04ff:feef:4ccb]:2083?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#@v2ryngfree+سرچ+کن+بیا+تو+کانال
-vless://dd1b5326-ca26-4339-9814-22f0ea6ccd02@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
 vless://ec8a65ad-aafc-4095-9b8c-ea10890ca629@[2a10:cc40:233:245::]:44441?security=reality&encryption=none&pbk=h-tx4d8yBKf5Cevu1bPJZwrSxT3kCkaMESHBIofaalo&headerType=none&fp=chrome&type=tcp&sni=tile.openstreetmap.org&sid=be4243#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://ec8a65ad-aafc-4095-9b8c-ea10890ca629@[2a10:cc40:233:2b4::]:44441?security=reality&encryption=none&pbk=h-tx4d8yBKf5Cevu1bPJZwrSxT3kCkaMESHBIofaalo&headerType=none&fp=chrome&type=tcp&sni=tile.openstreetmap.org&sid=be4243#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://f64598db-8a33-4804-a61e-3f6f2a0f1c01@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+chanl+telegram
 vless://fb83581e-a7a2-4f3c-a1ef-ad6b13b21e72@[2001:41d0:701:1000::3f66]:21147?security=none&encryption=none&headerType=none&type=tcp#@WS6+-All-@Godv2ray_ng⚡
-vmess://eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjI0MDg6ODIxNDoyNTEyOmY2MzE6OmZhYiIsICJwb3J0IjogIjUyNzg2IiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICIwNTU3YjcwYy1jMTI0LTQyNDYtOTZhZi1mM2I4ZWY5ZDExMWIiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAiaG9zdCI6ICIiLCAidGxzIjogIiJ9
 vmess://eyJhZGQiOiIyYTA1OjU0MToxMTA6NDM6OjEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImZ0cC5kZWJpYW4ub3JnIiwiaWQiOiI4Mzg3NjIyMi02NGE0LTQ5MTItYWExOC1iN2Q5ZDM0OTU5ZGUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDk4IiwicHMiOiJAZGFyZWRldmlsbF80MDQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIyYTAxOjRmODpjMDEwOjZjYTM6OjEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMGM3MDUzMzAtMGM0ZC00NGIxLWJjMGUtZDA4Y2JhYzdjZjRlIiwibmV0Ijoia2NwIiwicGF0aCI6IkhKSGp5RkYzNFkiLCJwb3J0IjoiNDEzNTgiLCJwcyI6IkBtZWxpX3Byb3h5ediz2LHZiNix2KfbjOKAjNio24zYtNiq2LEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIyYTAxOjRmODpjMDEwOjZjYTM6OjEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMzQ1MTYzYTQtYmRjMC00Mzc2LThiN2UtYTU0OThhMGQzZGQzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxNjkwMiIsInBzIjoiQG1lbGlfcHJveHl52LPYsdmI2LHYp9uM4oCM2KjbjNi02KrYsSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 vless://1f8305a1-a9e7-4ff9-bb66-64b3a7d05a0d@[::ffff:d126:3176]:2083?security=reality&sni=www.speedtest.net&type=grpc&fp=firefox&pbk=b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc&sid=adf8a1f5689177a2#🔒 VL-GRPC-RLT 🇺🇸 US-[::ffff:d126:3176]:2083
-vmess://eyJ2IjoiMiIsInBzIjoiX+S4reWbvSIsImFkZCI6IjI0MDg6ODIxNDoyNTEyOmY2MzE6OmZhYiIsInBvcnQiOiI1Mjc4NiIsInR5cGUiOiJub25lIiwiaWQiOiIwNTU3YjcwYy1jMTI0LTQyNDYtOTZhZi1mM2I4ZWY5ZDExMWIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
-vmess://eyJ2IjoiMiIsInBzIjoiX+S4reWbvSIsImFkZCI6IjI0MDg6ODIxNDoyNTEyOmY2MzE6OmZhYiIsInBvcnQiOiI1Mjc4NiIsInR5cGUiOiJub25lIiwiaWQiOiIwNTU3YjcwYy1jMTI0LTQyNDYtOTZhZi1mM2I4ZWY5ZDExMWIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
 vless://1f8305a1-a9e7-4ff9-bb66-64b3a7d05a0d@[::ffff:d126:3176]:2083?security=reality&sni=www.speedtest.net&type=grpc&fp=firefox&pbk=b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc&sid=adf8a1f5689177a2#🔒 VL-GRPC-RLT 🇺🇸 US-[::ffff:d126:3176]:2083
