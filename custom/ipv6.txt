@@ -1,5 +1,5 @@
 hy2://4e9ee29b39a28277@[2001:19f0:1000:20d0:5400:5ff:fe19:3ba9]:443/?insecure=1&sni=[2001:19f0:1000:20d0:5400:5ff:fe19:3ba9]&obfs=salamander&obfs-password=13f7ba5f#@vpnv2rayNGv
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@[2a03:90c0:5f1:2903::601]:8080#Channel+id:+@ShadowProxy66🇦🇲Am  MTN❤️❤️&... ⚡️ @ShadowProxy66
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MFh3ZzBTYkhTTDhDdUNraUx1R2hP@[2a00:1a28:1410:5::162c]:15128#🇸🇪@AZARBAYJAB1
 ss://YWVzLTEyOC1nY206WkVETU9ERU9OWkVETU9ERU9OYmlhWkVETU9ERU9OYmlhaW5aRURNT0RFT05iaWFaRURNT0RFT04=@[2001:41d0:404:100::3b43]:14551#all 🇫🇷 (@ZEDMODEON) 5
 ss://YWVzLTEyOC1nY206WkVETU9ERU9OYmlhWkVETU9ERU9OYmlhaW5aRURNT0RFT04=@[2001:41d0:404:100::3b43]:14549#all 🇫🇷 (@ZEDMODEON) 5
 ss://YWVzLTEyOC1nY206WkVETU9ERU9OYmlhWkVETU9ERU9OYmlhaW5aRURNT0RFT04=@[2a00:6d42:1242:22a6::1]:38257#All+net+|+telegram:@ultrasurf_12+@ultrasurf_12+@ultrasurf_12+@ultrasurf_12+@ultrasurf_12
@@ -46,9 +46,9 @@ vless://Parsashonam-185@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=no
 vless://Parsashonam-186@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-187@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-188@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
-vless://Parsashonam-188@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyy
+vless://Parsashonam-189@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
+vless://Parsashonam-189@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyy
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:17293?security=none&encryption=none&headerType=none&type=tcp#@vpnstorefast+mci+mtn
-vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:36137?security=none&encryption=none&headerType=none&type=tcp#@Pashmam_Vpn سرور های بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:51773?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:51773?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 3
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:15182?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
@@ -69,7 +69,6 @@ vless://b61ff5e0-d602-4109-98dc-ae0af7052373@[2001:41d0:701:1000::600]:21147?sec
 vless://c4c43413-3bc3-452b-80ef-ce2798c62fda@[0:0:0:0:0:ffff:c23c:864e]:2083?mode=gun&security=reality&encryption=none&pbk=b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc&fp=chrome&type=grpc&sni=www.speedtest.net&sid=adf8a1f5689177a2#Moftinet4
 vless://c566c1a7-5040-4f1a-95b0-3f97e256ea27@[2001:19f0:7400:8c45:5400:04ff:feef:4ccb]:2083?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#@v2ryngfree+سرچ+کن+بیا+تو+کانال
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@[2a06:98c1:3122::]:80?path=ShadowProxy66/?ed=2560&security=none&encryption=none&host=a.xn--i-sx6a60i.us.kg.&type=ws#Channel+id:+@ShadowProxy66🇰🇷
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@[2a06:98c1:3122::]:80?path=ShadowProxy66/?ed=2560&security=none&encryption=none&host=a.xn--i-sx6a60i.us.kg.&type=ws#🇨🇦🌏 @customv2ray کانفیگ های بیشتر عضو شو
 vless://ec8a65ad-aafc-4095-9b8c-ea10890ca629@[2a10:cc40:233:245::]:44441?security=reality&encryption=none&pbk=h-tx4d8yBKf5Cevu1bPJZwrSxT3kCkaMESHBIofaalo&headerType=none&fp=chrome&type=tcp&sni=tile.openstreetmap.org&sid=be4243#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://ec8a65ad-aafc-4095-9b8c-ea10890ca629@[2a10:cc40:233:2b4::]:44441?security=reality&encryption=none&pbk=h-tx4d8yBKf5Cevu1bPJZwrSxT3kCkaMESHBIofaalo&headerType=none&fp=chrome&type=tcp&sni=tile.openstreetmap.org&sid=be4243#🔰@fast_2ray 👈سرورهای‌بیشتر
 vless://f64598db-8a33-4804-a61e-3f6f2a0f1c01@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+chanl+telegram
