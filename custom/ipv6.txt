@@ -14,7 +14,6 @@ vless://51508f11-9175-4b99-f319-8695819b8981@[2a01:4f8:c010:5c29::1]:2095?path=/
 vless://52a5be20-825c-45bc-a623-3077a5d53abe@[2001:19f0:6801:0e7f:5400:04ff:feee:6d60]:8443?path=/@v2ryngfree/@v2ryngfree/@v2ryngfree&security=none&encryption=none&host=cloudflare.com&type=ws#@v2ryngfree
 vless://52a5be20-825c-45bc-a623-3077a5d53abe@[2001:19f0:6801:0e7f:5400:04ff:feee:6d60]:8443?path=/@v2ryngfree/@v2ryngfree/@v2ryngfree&security=none&encryption=none&host=cloudflare.com&type=ws#@v2ryngfree  اختصاصی کانال✅ IPv6    آموزش فعال سازی IPv6
 vless://5b58dcbe-ff88-4ba4-824b-7912b6370200@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+xhanl+telegram
-vless://5e440d00-395e-4a3d-bac1-125aa59d1b2e@[2001:41d0:701:1000::1caa]:21147?security=none&encryption=none&headerType=none&type=tcp#@WS12+-All-@Godv2ray_ng⚡
 vless://63db405e-14b8-4a27-e089-d1569cc1c15f@[2a01:4f8:c010:5c29::1]:2095?path=/ed=2082&security=none&encryption=none&host=Da8.speedtest.hopeserver1.tech.&type=ws#Hopev2ray ipv6
 vless://6d65404f-9c32-4d96-85a9-9aee5e68e92b@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
 vless://81a4ce79-0efd-464a-a10c-2875cb200059@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+2
@@ -31,9 +30,9 @@ vless://Parsashonam-201@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=no
 vless://Parsashonam-202@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-203@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-204@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
-vless://Parsashonam-205@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp
 vless://Parsashonam-205@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-205@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyy
+vless://Parsashonam-205@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&type=tcp#@TEHRANARGO چنل تلگرام
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:17293?security=none&encryption=none&headerType=none&type=tcp#@vpnstorefast+mci+mtn
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:36137?security=none&encryption=none&headerType=none&type=tcp#@Pashmam_Vpn سرور های بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:51773?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
@@ -47,8 +46,8 @@ vless://ZEDMODEON--ZEDMODEON@[2a00:6d47:10:455::1]:45956?mode=gun&security=none&
 vless://a13143d7-e873-4b97-8f82-4f5e4d7b03de@[2001:41d0:701:1000::3fdf]:21147?security=none&encryption=none&headerType=none&type=tcp#@WS8+-All-@Godv2ray_ng⚡
 vless://abfce3ec-df21-407c-a20c-d2a89e3278b1@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@Selinc
 vless://abfce3ec-df21-407c-a20c-d2a89e3278b1@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@kingofilter
-vless://abfce3ec-df21-407c-a20c-d2a89e3278b1@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
 vless://b0a5129d-9aa5-48a2-a98d-5a5822441cfa@[0:0:0:0:0:ffff:c23c:864e]:2083?mode=gun&security=reality&encryption=none&pbk=b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc&fp=chrome&type=grpc&sni=www.speedtest.net&sid=adf8a1f5689177a2#KINGVPN👑🇳🇱 Tel:@VPN_KING_V2RAY
+vless://c1cd32d0-6995-4719-b5be-826e066b055f@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
 vless://c566c1a7-5040-4f1a-95b0-3f97e256ea27@[2001:19f0:7400:8c45:5400:04ff:feef:4ccb]:2083?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#@v2ryngfree+سرچ+کن+بیا+تو+کانال
 vless://e63fc54d-66f8-4855-a297-0f88f51d5ef1@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
 vless://ebb79338-df51-4e75-aa1e-7916bc295297@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
