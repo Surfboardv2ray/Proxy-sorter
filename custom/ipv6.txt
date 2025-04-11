@@ -26,28 +26,29 @@ vless://94c3155b-5252-4d66-bead-06b2e489f658@[2a0b:4140:659a:6::6]:33000?mode=gu
 vless://9d6a71e4-9d6a-4562-b7bd-546499c31cf6@[2a0d:5940:38:1c::]:25365?mode=gun&security=reality&encryption=none&authority=&pbk=Z1LVdPaRtSJbcBLQU2GXfHZmj_xDxhHR1q2R8CsDChg&fp=chrome&spx=/&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON&sni=sourceforge.net&sid=87fca642#@Proxy_n1
 vless://9d9e8afd-9c35-4a8e-82a2-97ef0b1f7e8c@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
 vless://Bia--ZEDMODEON@[2a0d:5940:48:11::]:25365?mode=gun&security=reality&encryption=none&authority=&pbk=IfRGbxsU5A8Xec8y3hDccNrYG3_RJBChFl7wtb4cFXQ&fp=chrome&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON&sni=eset.com&sid=7b65e82d#🆔+@Special_net8
-vless://Parsashonam-210@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-211@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-212@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-213@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-214@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-215@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-216@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
-vless://Parsashonam-216@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyy
+vless://Parsashonam-217@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
+vless://Parsashonam-217@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyy
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:17293?security=none&encryption=none&headerType=none&type=tcp#@vpnstorefast+mci+mtn
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:36137?security=none&encryption=none&headerType=none&type=tcp#@Pashmam_Vpn سرور های بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:51773?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 1
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:1051::1]:27729?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT  2
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:1051::1]:27729?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT  2  همراه اول و بعضی از ایرانسلا🔫
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:1051::1]:27729?security=none&encryption=none&headerType=none&type=tcp#@Selinc
-vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:1051::1]:27729?security=none&encryption=none&headerType=none&type=tcp#🇫🇰+@canfigv2ray+⬅️کانفیگ+های+قویتر
+vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:1051::1]:27729?security=none&encryption=none&headerType=none&type=tcp#@kingofilter
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:1051::1]:27729?security=none&encryption=none&headerType=none&type=tcp#🇫🇰@vpn_ioss ♻️ عضو شو
-vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:1051::1]:27729?security=none&encryption=none&headerType=none&type=tcp#🇰🇷@vpn_ioss ♻️ عضو شو
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:2411::1]:43224?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT  1
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:1d97::1]:15182?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 3
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:45f6::1]:31899?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT MCI 2
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:55242?security=none&encryption=none&headerType=none&type=tcp#@vpnstorefast+mci+mtn
 vless://Tel--ZEDMODEON@[2a0d:5940:102:2::]:25365?mode=gun&security=reality&encryption=none&authority=&pbk=hjDc_R0x4CAdT3Cfxn8Nui3IhZNLR1kjEwnL49MZGQk&fp=chrome&spx=/&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON&sni=sourceforge.net&sid=e6e4afb9#@AntiFilterService
+vless://a0e3ae8d-c37f-4970-8754-3a978d084fd6@[::ffff:b971:8e5]:8880?mode=gun&security=&encryption=none&type=grpc&serviceName=vless-grpc
+vless://a0e3ae8d-c37f-4970-8754-3a978d084fd6@[::ffff:b971:8e5]:8880?mode=gun&security=&encryption=none&type=grpc&serviceName=vless-grpc#Channel id: @ShadowProxy66🇳🇱
 vless://a13143d7-e873-4b97-8f82-4f5e4d7b03de@[2001:41d0:701:1000::3fdf]:21147?security=none&encryption=none&headerType=none&type=tcp#@WS8+-All-@Godv2ray_ng⚡
 vless://a33338ba-0136-417c-af93-e933030e4f16@[2001:41d0:801:1000::2c7]:14179?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048#all 🇬🇧 (@ZEDMODEON) 48-ipv6
 vless://bab529ad-6467-405b-a6aa-e1f3ea3c0a69@[2001:41d0:701:1000::600]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡ip6❤️‍🔥
