@@ -16,6 +16,8 @@ vless://472e2ab2-a7a5-44cf-84b2-158882a108a5@[2a01:4f8:c010:5c29::1]:80?path=/&s
 vless://4e9d0901-16c7-496b-992b-22387a92c6bc@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+chanl+telegram
 vless://52a5be20-825c-45bc-a623-3077a5d53abe@[2001:19f0:6801:0e7f:5400:04ff:feee:6d60]:8443?path=/@v2ryngfree/@v2ryngfree/@v2ryngfree&security=none&encryption=none&host=cloudflare.com&type=ws#@v2ryngfree
 vless://52a5be20-825c-45bc-a623-3077a5d53abe@[2001:19f0:6801:0e7f:5400:04ff:feee:6d60]:8443?path=/@v2ryngfree/@v2ryngfree/@v2ryngfree&security=none&encryption=none&host=cloudflare.com&type=ws#@v2ryngfree  اختصاصی کانال✅ IPv6    آموزش فعال سازی IPv6
+vless://54b9c1ae-697e-4ec0-aa95-9f1a5da6a746@[2001:41d0:701:1000::635]:21147?security=&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡mtn,rightel❤️‍🔥
+vless://54b9c1ae-697e-4ec0-aa95-9f1a5da6a746@[2001:41d0:701:1000::635]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡رایتل،ایرانسل❤️‍🔥
 vless://5b58dcbe-ff88-4ba4-824b-7912b6370200@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+xhanl+telegram
 vless://5f6ff057-f685-4625-9ca0-b5828ccb2384@[0:0:0:0:0:ffff:9de6:644d]:2001?security=none&seed=ec9e6ebd-2661-4a66-b83f-5ea98d58aef9&encryption=none&headerType=utp&type=kcp#🇩🇪@FreakConfig
 vless://63db405e-14b8-4a27-e089-d1569cc1c15f@[2a01:4f8:c010:5c29::1]:2095?path=/ed=2082&security=none&encryption=none&host=Da8.speedtest.hopeserver1.tech.&type=ws#Hopev2ray ipv6
@@ -27,7 +29,6 @@ vless://8f69b4a6-f8cd-4d11-8248-fde97b250d3b@[2a01:4f8:c010:5c29::1]:2095?path=/
 vless://94c3155b-5252-4d66-bead-06b2e489f658@[2a0b:4140:659a:6::6]:33000?mode=gun&security=reality&encryption=none&authority=@fastkanfig-@fastkanfig-@fastkanfig-@fastkanfig-@fastkanfig-@fastkanfig-@fastkanfig&pbk=JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0&fp=chrome&spx=/&type=grpc&serviceName=b&sni=www.speedtest.net&sid=be7f13dd#fastkanfig+testi  join telegram chanl @fastkanfig
 vless://9d6a71e4-9d6a-4562-b7bd-546499c31cf6@[2a0d:5940:38:1c::]:25365?mode=gun&security=reality&encryption=none&authority=&pbk=Z1LVdPaRtSJbcBLQU2GXfHZmj_xDxhHR1q2R8CsDChg&fp=chrome&spx=/&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON&sni=sourceforge.net&sid=87fca642#@Proxy_n1
 vless://Bia--ZEDMODEON@[2a0d:5940:48:11::]:25365?mode=gun&security=reality&encryption=none&authority=&pbk=IfRGbxsU5A8Xec8y3hDccNrYG3_RJBChFl7wtb4cFXQ&fp=chrome&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON&sni=eset.com&sid=7b65e82d#🆔+@Special_net8
-vless://Parsashonam-224@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-225@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-225@[2a01:4f8:1c1b:e1d0::1]:8888?type=tcp&headerType=none&security=none#(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
 vless://Parsashonam-226@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
@@ -35,7 +36,9 @@ vless://Parsashonam-227@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=no
 vless://Parsashonam-228@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-229@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
 vless://Parsashonam-230@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
-vless://Parsashonam-230@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#🇬🇸@vpn_ioss ♻️ عضو شو
+vless://Parsashonam-230@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#🇦🇪@vpn_ioss ♻️ عضو شو
+vless://Parsashonam-231@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Parsashonam 🇩🇪 نیازمند فعال بودن ipv6
+vless://Parsashonam-231@[2a01:4f8:1c1b:e1d0::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyy
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:17293?security=none&encryption=none&headerType=none&type=tcp#@vpnstorefast+mci+mtn
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c17:ee5c::1]:36137?security=none&encryption=none&headerType=none&type=tcp#@Pashmam_Vpn سرور های بیشتر
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:1051::1]:21614?security=none&encryption=none&headerType=none&type=tcp#TELEGRAM-ServerNett-TELEGRAM-ServerNett
@@ -52,10 +55,10 @@ vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:2411::1]:36496?security=none&encrypti
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:2411::1]:43224?security=none&encryption=none&headerType=none&type=tcp#@SERVERNETT  1
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:247d::1]:31579?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyy
 vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:247d::1]:31579?security=none&encryption=none&headerType=none&type=tcp#TELEGRAM-ServerNett-TELEGRAM-ServerNett
+vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:247d::1]:31579?security=none&encryption=none&headerType=none&type=tcp#🇧🇻@vpn_ioss ♻️ عضو شو
 vless://TELEGRAM-ServerNett@[2a01:4f8:c010:5aa8::1]:55242?security=none&encryption=none&headerType=none&type=tcp#@vpnstorefast+mci+mtn
 vless://Tel--ZEDMODEON@[2a0d:5940:102:2::]:25365?mode=gun&security=reality&encryption=none&authority=&pbk=hjDc_R0x4CAdT3Cfxn8Nui3IhZNLR1kjEwnL49MZGQk&fp=chrome&spx=/&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON&sni=sourceforge.net&sid=e6e4afb9#@AntiFilterService
 vless://a13143d7-e873-4b97-8f82-4f5e4d7b03de@[2001:41d0:701:1000::3fdf]:21147?security=none&encryption=none&headerType=none&type=tcp#@WS8+-All-@Godv2ray_ng⚡
-vless://bd888635-2566-4e06-adeb-32ac9dce3b9f@[2a01:4f8:1c17:d613::1]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡mtn,rightel❤️‍🔥
 vless://c102e504-9780-4d30-94f7-dc27746eb5d2@[2a01:4f8:1c17:d613::1]:21147?security=none&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡mtn,rightel❤️‍🔥
 vless://c566c1a7-5040-4f1a-95b0-3f97e256ea27@[2001:19f0:7400:8c45:5400:04ff:feef:4ccb]:2083?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#@v2ryngfree+سرچ+کن+بیا+تو+کانال
 vless://d6eb5dbc-adef-4461-87a0-3d8fed260452@[2001:41d0:701:1000::635]:21147?security=&encryption=none&headerType=none&type=tcp#@v2rayfast_7⚡mtn,rightel❤️‍🔥
@@ -65,11 +68,11 @@ vless://e5d57d8c-9632-4fff-9ae5-be37d3f091b0@[2001:41d0:701:1000::296e]:21147?se
 vless://f64598db-8a33-4804-a61e-3f6f2a0f1c01@[2a01:4f8:1c1b:3e2::1]:443?mode=gun&security=reality&encryption=none&authority=&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&fp=chrome&spx=/&type=grpc&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&sni=gsmarena.com&sid=32d7a82d#@fastkanfig+chanl+telegram
 vless://fb83581e-a7a2-4f3c-a1ef-ad6b13b21e72@[2001:41d0:701:1000::3f66]:21147?security=none&encryption=none&headerType=none&type=tcp#@WS6+-All-@Godv2ray_ng⚡
 vmess://eyJhZGQiOiIyYTA1OjU0MToxMTA6NDM6OjEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImZ0cC5kZWJpYW4ub3JnIiwiaWQiOiI4Mzg3NjIyMi02NGE0LTQ5MTItYWExOC1iN2Q5ZDM0OTU5ZGUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDk4IiwicHMiOiJAZGFyZWRldmlsbF80MDQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9
+vless://46db85a1-9d97-46f8-9b7a-ff9704510e5e@[0:0:0:0:0:ffff:55d1:9c07]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇳🇱 NL-[0:0:0:0:0:ffff:55d1:9c07]:8880
+vless://4d54cca5-20ea-4ed7-b7b1-a7956dcc68c6@[::ffff:2d88:7508]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇱🇺 LU-[::ffff:2d88:7508]:8880
+vless://9e28dd25-f4e1-4434-a31d-40c8ed0c0f52@[::ffff:58da:5f08]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇺🇸 US-[::ffff:58da:5f08]:8880
 vless://e464526a-e3de-4db9-8821-4e146507976f@[::ffff:5b4:2e09]:8880?type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NA 🇳🇱 NL-[::ffff:5b4:2e09]:8880
 vless://46db85a1-9d97-46f8-9b7a-ff9704510e5e@[0:0:0:0:0:ffff:55d1:9c07]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇳🇱 NL-[0:0:0:0:0:ffff:55d1:9c07]:8880
-vless://9e28dd25-f4e1-4434-a31d-40c8ed0c0f52@[::ffff:58da:5f08]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇺🇸 US-[::ffff:58da:5f08]:8880
 vless://4d54cca5-20ea-4ed7-b7b1-a7956dcc68c6@[::ffff:2d88:7508]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇱🇺 LU-[::ffff:2d88:7508]:8880
+vless://9e28dd25-f4e1-4434-a31d-40c8ed0c0f52@[::ffff:58da:5f08]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇺🇸 US-[::ffff:58da:5f08]:8880
 vless://e464526a-e3de-4db9-8821-4e146507976f@[::ffff:5b4:2e09]:8880?type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NA 🇳🇱 NL-[::ffff:5b4:2e09]:8880
-vless://46db85a1-9d97-46f8-9b7a-ff9704510e5e@[0:0:0:0:0:ffff:55d1:9c07]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇳🇱 NL-[0:0:0:0:0:ffff:55d1:9c07]:8880
-vless://9e28dd25-f4e1-4434-a31d-40c8ed0c0f52@[::ffff:58da:5f08]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇺🇸 US-[::ffff:58da:5f08]:8880
-vless://4d54cca5-20ea-4ed7-b7b1-a7956dcc68c6@[::ffff:2d88:7508]:8880?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇱🇺 LU-[::ffff:2d88:7508]:8880
