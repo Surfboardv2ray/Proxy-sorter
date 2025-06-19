@@ -1,25 +1,4 @@
-vless://13baf8e7-b432-4e51-b174-aa08ab42119c@[0000:0000:0000:0000:0000:ffff:b94f:9e97]:8051?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇩🇪
-vless://13baf8e7-b432-4e51-b174-aa08ab42119c@[0:0:0:0:0:ffff:b94f:9e97]:8051?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇩🇪
-vless://13baf8e7-b432-4e51-b174-aa08ab42119c@[2a01:4f8:c17:db6c::1]:8051?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇩🇪
-vless://13baf8e7-b432-4e51-b174-aa08ab42119c@[::ffff:b94f:9e97]:8051?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇩🇪
-vless://5b77d2e4-c347-4f15-8082-9383d5f3ff68@[0000:0000:0000:0000:0000:ffff:b94f:9e93]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://5b77d2e4-c347-4f15-8082-9383d5f3ff68@[0:0:0:0:0:ffff:b94f:9e93]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://5b77d2e4-c347-4f15-8082-9383d5f3ff68@[2a01:4f9:c013:1627::1]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://5b77d2e4-c347-4f15-8082-9383d5f3ff68@[::ffff:b94f:9e93]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://68279b84-36f7-47c8-ba27-40de2d20153d@[0:0:0:0:0:ffff:b94f:9e93]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://68279b84-36f7-47c8-ba27-40de2d20153d@[2a01:4f9:c013:1627::1]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://68279b84-36f7-47c8-ba27-40de2d20153d@[::ffff:b94f:9e93]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://774f044e-434e-4a2e-9619-4bf3ebb7687f@[0000:0000:0000:0000:0000:ffff:b94f:9e93]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://774f044e-434e-4a2e-9619-4bf3ebb7687f@[0:0:0:0:0:ffff:b94f:9e93]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://774f044e-434e-4a2e-9619-4bf3ebb7687f@[2a01:4f9:c013:1627::1]:8087?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇫🇮
-vless://8e156824-abc0-47b9-9585-8b6ca86be7e3@[0000:0000:0000:0000:0000:ffff:b94f:9e97]:8051?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇩🇪
-vless://8e156824-abc0-47b9-9585-8b6ca86be7e3@[0:0:0:0:0:ffff:b94f:9e97]:8051?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇩🇪
-vless://8e156824-abc0-47b9-9585-8b6ca86be7e3@[::ffff:b94f:9e97]:8051?security=none&encryption=none&host=/Channel:@ShadowProxy66---@ShadowProxy66&headerType=http&type=tcp#Channel id: @ShadowProxy66🇩🇪
 ss://YWVzLTI1Ni1nY206S25ZS3dwdzB3NGMwUkRuQ284S1VjRFFjd3BwN3c3YkN2M25DZ01PUEhCL0RuaExEajhPYXdyVlZCMm81@[::ffff:b280:c8c6]:8443#🔒 SS-TCP-NA 🇩🇪 DE-[::ffff:b280:c8c6]:8443
-vless://d0d63657-bd5a-42a8-b4ed-72c0c0c04be6@[::ffff:57f8:9b55]:155?security=none&type=tcp#🔒 VL-TCP-NONE 🇮🇷 IR-[::ffff:57f8:9b55]:155
 vless://6d483827-7155-4483-b1e6-551e1304e5af@[0:0:0:0:0:ffff:bcf5:cee9]:8051?security=none&type=tcp&host=%2FBIA_CHANEL%40JOKERRVPN&headerType=http#🔒 VL-TCP-NONE 🇩🇪 DE-[0:0:0:0:0:ffff:bcf5:cee9]:8051
-vless://db7d4b58-0aff-4408-a637-c72cd0f8a774@[::ffff:b94f:9e95]:8091?security=none&type=tcp&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-[::ffff:b94f:9e95]:8091
 ss://YWVzLTI1Ni1nY206S25ZS3dwdzB3NGMwUkRuQ284S1VjRFFjd3BwN3c3YkN2M25DZ01PUEhCL0RuaExEajhPYXdyVlZCMm81@[::ffff:b280:c8c6]:8443#🔒 SS-TCP-NA 🇩🇪 DE-[::ffff:b280:c8c6]:8443
-vless://d0d63657-bd5a-42a8-b4ed-72c0c0c04be6@[::ffff:57f8:9b55]:155?security=none&type=tcp#🔒 VL-TCP-NONE 🇮🇷 IR-[::ffff:57f8:9b55]:155
 vless://6d483827-7155-4483-b1e6-551e1304e5af@[0:0:0:0:0:ffff:bcf5:cee9]:8051?security=none&type=tcp&host=%2FBIA_CHANEL%40JOKERRVPN&headerType=http#🔒 VL-TCP-NONE 🇩🇪 DE-[0:0:0:0:0:ffff:bcf5:cee9]:8051
-vless://db7d4b58-0aff-4408-a637-c72cd0f8a774@[::ffff:b94f:9e95]:8091?security=none&type=tcp&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-[::ffff:b94f:9e95]:8091
