@@ -1,4 +1,2 @@
 ss://YWVzLTI1Ni1nY206S25ZS3dwdzB3NGMwUkRuQ284S1VjRFFjd3BwN3c3YkN2M25DZ01PUEhCL0RuaExEajhPYXdyVlZCMm81@[::ffff:b280:c8c6]:8443#🔒 SS-TCP-NA 🇩🇪 DE-[::ffff:b280:c8c6]:8443
-vless://6d483827-7155-4483-b1e6-551e1304e5af@[0:0:0:0:0:ffff:bcf5:cee9]:8051?security=none&type=tcp&host=%2FBIA_CHANEL%40JOKERRVPN&headerType=http#🔒 VL-TCP-NONE 🇩🇪 DE-[0:0:0:0:0:ffff:bcf5:cee9]:8051
 ss://YWVzLTI1Ni1nY206S25ZS3dwdzB3NGMwUkRuQ284S1VjRFFjd3BwN3c3YkN2M25DZ01PUEhCL0RuaExEajhPYXdyVlZCMm81@[::ffff:b280:c8c6]:8443#🔒 SS-TCP-NA 🇩🇪 DE-[::ffff:b280:c8c6]:8443
-vless://6d483827-7155-4483-b1e6-551e1304e5af@[0:0:0:0:0:ffff:bcf5:cee9]:8051?security=none&type=tcp&host=%2FBIA_CHANEL%40JOKERRVPN&headerType=http#🔒 VL-TCP-NONE 🇩🇪 DE-[0:0:0:0:0:ffff:bcf5:cee9]:8051
