@@ -26,7 +26,6 @@ jobs:
             "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/tuic"
             "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/hysteria"
             "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/tuic"
-            "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/hys-tuic.txt"
           )
 
 
