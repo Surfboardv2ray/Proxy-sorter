@@ -17,6 +17,7 @@ hysteria2://cde345-6789-9012-3456-7890abcdef34@javidnamaniran.ir:443?secure=true
 hysteria2://dec336f6-e5da-40f4-a4de-986c7b34d587@fr4.eyucdn.xyz:2056?security=tls&insecure=1&sni=fr4.eyucdn.xyz#IRAN 4 (@Outline_Vpn)
 hysteria2://def789-0123-4567-8901-2345abcdef67@azadnet.t.me:443?secure=true&sni=www.speedtest.net#@Filter_breaker | 🏴‍☠️ NA
 hysteria2://dongtaiwang.com@108.181.5.130:4710?security=tls&insecure=1&sni=apple.com#IRAN 9 (@Outline_Vpn)
+hysteria2://dongtaiwang.com@51.159.111.32:31180?sni=apple.com&insecure=1#👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:51.43ms
 hysteria2://e8f9a0b1-c2d3-4567-f012-6789012345wx@4n0nymou3.ir:9446?secure=true&sni=www.speedtest.net#@Filter_breaker | 🏴‍☠️ NA
 hysteria2://f6a7b8c9-d0e1-1234-f012-6789012345fg@azadnet.t.me:444?secure=true&sni=www.speedtest.net#@Filter_breaker | 🏴‍☠️ NA
 hysteria2://g7b8c9d0-e1f2-3456-f012-6789012345hi@4n0nymou3.ir:9444?secure=true&sni=www.speedtest.net#@Filter_breaker | 🏴‍☠️ NA
@@ -24,6 +25,8 @@ hysteria2://k1sCJ4SJQj@p1.3dfigures.ir:11726?security=tls&obfs=salamander&obfs-p
 hysteria2://k1sCJ4SJQj@p1.3dfigures.ir:18646?security=tls&obfs=salamander&obfs-password=ywfihi3ohyg9iun3gvu&insecure=1#@meli_proxyy
 hysteria2://k1sCJ4SJQj@p1.3dfigures.ir:20971?security=tls&obfs=salamander&obfs-password=31khbqfou1njilgv2qoih&insecure=1#@meli_proxyy
 hysteria2://k1sCJ4SJQj@p1.3dfigures.ir:501?security=tls&obfs=salamander&obfs-password=Djxsjduwue&insecure=1#@meli_proxyy
+hysteria2://r7s8t9u0-1234-5bcd-6abc-7890abcdef12@185.146.173.180:8888?obfs=salamander&obfs-password=secret#@Filter_breaker | Finland
+hysteria2://u9v0w1x2-3456-7bcd-8abc-9012abcdef34@185.146.173.190:8888?obfs=salamander&obfs-password=secret#@Filter_breaker | Finland
 hy2://0a0f1f4a-40d9-47b4-aca5-0b281daea3bb@hg.myyfqh.tech:443/?mport=30601-30699&sni=hg.myyfqh.tech#Channel id: @ShadowProxy66🇰🇷
 hy2://0a0f1f4a-40d9-47b4-aca5-0b281daea3bb@us.myyfqh.tech:443/?mport=30601-30699&sni=us.myyfqh.tech#Channel id: @ShadowProxy66🇺🇸
 hy2://37d19f09-5fa4-4ad0-8484-55050b582a29@zp1.eyucdn.xyz:2056/?insecure=1&sni=zp1.eyujichang.xyz#Channel id: @ShadowProxy66
@@ -44,13 +47,13 @@ hysteria://108.181.24.77:11512/?insecure=1&peer=apple.com&auth=dongtaiwang.com&u
 hysteria://176.32.35.226:62003/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#Channel id: @ShadowProxy66
 hysteria://185.22.155.71:10803/?insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#Channel id: @ShadowProxy66
 tuic://2f77527e-678c-4af6-9a0a-30823885bd53:2f77527e-678c-4af6-9a0a-30823885bd53@134.209.28.89.sslip.io:54773?congestion_control=cubic&udp_relay_mode=native&sni=134.209.28.89.sslip.io&alpn=h3#Tuic3
-tuic://abc012-3456-7890-1234-5678abcdef90@rayan-config.ir:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | 🏴‍☠️ NA
-tuic://abc123-4567-8901-2345-6789abcdef12@172.67.131.245:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | 🇺🇸 US
-tuic://abc456-7890-1234-5678-9012abcdef56@172.67.131.246:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | 🇺🇸 US
-tuic://abc789-0123-4567-8901-2345abcdef78@rayan-config.ir:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | 🏴‍☠️ NA
-tuic://abc901-2345-6789-0123-4567abcdef89@rayan-config.ir:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | 🏴‍☠️ NA
-tuic://def456-7890-0123-4567-8901abcdef45@rayan-config.ir:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | 🏴‍☠️ NA
-tuic://def456-7890-1234-5678-9012abcdef34@172.67.131.245:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | 🇺🇸 US
+tuic://abc012-3456-7890-1234-5678abcdef90@rayan-config.ir:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | рҹҸҙвҖҚвҳ пёҸ NA
+tuic://abc123-4567-8901-2345-6789abcdef12@172.67.131.245:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | рҹҮәрҹҮё US
+tuic://abc456-7890-1234-5678-9012abcdef56@172.67.131.246:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | рҹҮәрҹҮё US
+tuic://abc789-0123-4567-8901-2345abcdef78@rayan-config.ir:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | рҹҸҙвҖҚвҳ пёҸ NA
+tuic://abc901-2345-6789-0123-4567abcdef89@rayan-config.ir:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | рҹҸҙвҖҚвҳ пёҸ NA
+tuic://def456-7890-0123-4567-8901abcdef45@rayan-config.ir:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | рҹҸҙвҖҚвҳ пёҸ NA
+tuic://def456-7890-1234-5678-9012abcdef34@172.67.131.245:9443?congestion_control=bbr&alpn=h3#@Filter_breaker | рҹҮәрҹҮё US
 tuic://m3n4o5p6-7890-4abc-1def-23456789abcd@185.146.173.150:8888?congestion_control=bbr&alpn=h3#@Filter_breaker | Finland
 vless://caaacbb-baca-aacb-abcd-cabbabbaaccc@127.0.0.1:1080?security=tls&type=tcp#🔄 LATEST-UPDATE 📅 THU-12-TIR-1404 🕑 01:06
 vless://acacabb-cbaa-acba-bcad-bccaccababba@127.0.0.1:2080?security=tls&type=tcp#🤖 TELEGRAM-CHANNEL 🌟 ARTIFICIAL-INTELLIGENCE 🖥 @NEUROVANCE 🧠
