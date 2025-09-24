@@ -1,3 +1,4 @@
+hy2://Yet-Another-Public-Config-1@[2a14:3f87:f001:13::a]:36400/?insecure=1&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#Channel id: @ShadowProxy66🇳🇱
 hysteria2://71504eaf-29ac-4190-89d1-dd9ce2c9ee14@[2001:bc8:1640:50eb:dc00:ff:fe57:dd6f]:443?note=JOIN----AZADIV2RAYY----JOIN----AZADIV2RAYY----JOIN---AZADIV2RAYY-‐-JOIN---AZADIV2RAYY-----bia-‐--AZADIV2RAYY---Bia---AZADIV2RAYY&security=tls&obfs=salamander&obfs-password=FnFgQIckcMRtKq7i&insecure=1&mport=50000-60000&sni=Ab.ac#AZADIV2RAYY NL  🇳🇱
 hysteria2://71504eaf-29ac-4190-89d1-dd9ce2c9ee14@[2001:bc8:1640:50eb:dc00:ff:fe57:dd6f]:443?security=tls&obfs=salamander&obfs-password=FnFgQIckcMRtKq7i&insecure=1&mport=50000-60000&sni=Ab.ac#@IRAN_V2RAY1
 hysteria2://Yet-Another-Public-Config-1@[2a14:3f87:f001:13::a]:36400?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#@IRAN_V2RAY1
@@ -8,7 +9,6 @@ vless://1b38f1a4-5d20-44a9-a4d3-ca621ebfefbf@[2a03:b0c0:3:f0:0:1:230e:f000]:2727
 vless://Parsashonam-302@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Dropcube⚡❤️‍🔥
 vless://Parsashonam-302@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Selinc
 vless://Parsashonam-302@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#All-@IRAN_V2RAY1
-vless://Parsashonam-302@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#→ @Hddify
 vless://Parsashonam-303@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Selinc
 vless://Parsashonam-303@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@V2RAYNG_1378
 vless://Parsashonam-304@[2a01:4f8:1c1a:dc2b::1]:8888?security=&encryption=none&headerType=none&type=tcp#@Dropcube
@@ -24,6 +24,7 @@ vless://Parsashonam-311@[2a01:4f8:1c1a:dc2b::1]:8888?security=&encryption=none=-
 vless://Parsashonam-311@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@HiByeVPNN👈⚡❤️‍🔥
 vless://b77d5b7a-c15f-40e3-b510-d6b9c45fbc17@[2a03:b0c0:1:e0::a400:5001]:24256?mode=gun&security=none&encryption=none&authority=drive.google.com&type=grpc&serviceName=@UCIRANIR@UCIRANIR@Silver_v2ray#خرید کانفیگ نیم بها از @Silver_v2ray
 vmess://eyJhZGQiOiIyMDAxOjQxZDA6NzBlOmMxMDA6OiIsImFpZCI6IjAiLCJhbHBuIjoiaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzZXJrYXQub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh6nwn4eqQHZwbnNlcnZlcnJyINqp2KfZhtin2YQg2KrZhNqv2LHYp9mF24wiLCJzY3kiOiJhdXRvIiwic25pIjoic2Vya2F0Lm9yZyIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIyMDAxOjQxZDA6NzBlOmMxMDA6OiIsImFpZCI6IjAiLCJhbHBuIjoiaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzZXJrYXQub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IvCflJAgQEFibE5ldDciLCJzY3kiOiJhdXRvIiwic25pIjoic2Vya2F0Lm9yZyIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 vless://827545b9-5e1d-4e29-a97f-46b388891f57@[::ffff:3207:55dc]:80?type=ws&host=hello-world-twilight-lake-386e.yijiled513.workers.dev&path=%2F%3Fed%3D443#🔒 VL-WS-NA 🇺🇸 US-[::ffff:3207:55dc]:80
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@[::ffff:2d8e:7808]:443?security=tls&sni=mail.ski1plag.ir&type=ws&host=mail.ski1plag.ir&path=%2Fupload&fp=random&alpn=h2%2Chttp%2F1.1#🔒 VL-WS-TLS 🇷🇺 RU-[::ffff:2d8e:7808]:443
 vless://09324ee6-1235-4793-bf9b-0da17a466a69@[0000:0000:0000:0000:0000:ffff:5b63:9012]:20600?security=reality&sni=www.speedtest.net&type=grpc&fp=firefox&pbk=b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc&sid=adf8a1f5689177a2#🔒 VL-GRPC-RLT 🇩🇪 DE-[0000:0000:0000:0000:0000:ffff:5b63:9012]:20600
