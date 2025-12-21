@@ -1,5 +1,7 @@
+hy2://dongtaiwang.com@[2001:bc8:32d7:302::11]:20088/?insecure=1&sni=apple.com#🎲76@oneclickvpnkeys
 hy2://dongtaiwang.com@[2001:bc8:32d7:302::11]:20088/?insecure=1&sni=🔒#🎨19@oneclickvpnkeys
 hy2://linux.do@[2a01:4f9:4b:f378::1]:13599/?insecure=1&sni=www.bing.com#🎨22@oneclickvpnkeys
+hy2://linux.do@[2a01:4f9:4b:f378::1]:13599/?insecure=1&sni=www.bing.com#🎲85@oneclickvpnkeys
 hysteria2://680210f5-3b5f-4947-9983-e508a15cf169@[2a0c:4ac1:8::121]:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1&sni=jnir.pichondan.com#All-@IRAN_V2RAY1
 hysteria2://680210f5-3b5f-4947-9983-e508a15cf169@[2a14:3f87:f001:1a::a]:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1&sni=jnir.pichondan.com#All-@IRAN_V2RAY1
 hysteria2://71504eaf-29ac-4190-89d1-dd9ce2c9ee14@[2001:bc8:1640:50eb:dc00:ff:fe57:dd6f]:443?security=tls&obfs=salamander&obfs-password=FnFgQIckcMRtKq7i&insecure=1&mport=50000-60000&sni=Ab.ac#All-#V2rayAlpha--12
@@ -20,6 +22,7 @@ hysteria2://linux.do@[2a01:4f9:4b:f378::1]:13599?security=tls&insecure=1&sni=www
 hysteria2://linux.do@[2a01:4f9:4b:f378::1]:13599?security=tls&insecure=1&sni=www.bing.com#All-@V2rayAlpha--39
 hysteria2://linux.do@[2a01:4f9:4b:f378::1]:13599?security=tls&insecure=1&sni=www.bing.com#All-@V2rayAlpha--4
 hysteria2://linux.do@[2a01:4f9:4b:f378::1]:13599?security=tls&insecure=1&sni=www.bing.com#All_8--@V2rayAlpha
+hysteria2://linux.do@[2a01:4f9:4b:f378::1]:13599?security=tls&insecure=1&sni=www.bing.com#r♡ya
 hysteria2://linux.do@[2a01:4f9:4b:f378::1]:13599?security=tls&insecure=1&sni=www.bing.com#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
 ss://YWVzLTI1Ni1nY206ZG9uZ3RhaXdhbmcuY29t@[2001:bc8:1203:106::300]:33333#@HiByeVPNN❤️‍🔥⚡☘️
 tuic://8687b6e0-ef24-4cd2-bcd2-02d3732bf554:dongtaiwang.com@[2001:bc8:32d7:302::16]:34997/?congestion_control=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#@Hddify
@@ -59,6 +62,7 @@ vmess://eyJhZGQiOiIyMDAxOmJjODozMmQ3OjMwMjo6MTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZw
 vmess://eyJhZGQiOiIyMDAxOmJjODozMmQ3OjMwMjo6MTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiOGUzNGUxNzAtMTNhZS00ODkyLTlkMjAtMDU5NjJhY2M5Zjg0IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDU3OSIsInBzIjoi8J2XnfCdl7zwnZe28J2XuyDinqAg8J2Qk/CdkJ7wnZCl8J2QnvCdkKDwnZCr8J2QmvCdkKY6IEBWMkdhdGVlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiIyMDAxOmJjODozMmQ3OjMwMjo6MTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiOGUzNGUxNzAtMTNhZS00ODkyLTlkMjAtMDU5NjJhY2M5Zjg0IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDU3OSIsInBzIjoiQWxsLS1AVjJyYXlBbHBoYS0tMjkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIyMDAxOmJjODozMmQ3OjMwMjo6MTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiOGUzNGUxNzAtMTNhZS00ODkyLTlkMjAtMDU5NjJhY2M5Zjg0IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDU3OSIsInBzIjoiYXphZGlpaXZwbiDCueKBtiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIyMDAxOmJjODozMmQ3OjMwMjo6MTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiOGUzNGUxNzAtMTNhZS00ODkyLTlkMjAtMDU5NjJhY2M5Zjg0IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNDhIaUJ5ZVZQTk4tLUhpQnllVlBOTi0tSGlCeWVWUE5OLS1IaUJ5ZVZQTk4tLUhpQnllVlBOTi0tSGlCeWVWUE5OLS1IaUJ5ZVZQTk4tLUhpQnllVlBOTi0tSGlCeWVWUE5OLS1IaUJ5ZVZQTk4tLUhpQnllVlBOTi0tSGlCeWVWUE5OLS1IaUJ5ZVZQTk4iLCJwb3J0IjoiNDQ1NzkiLCJwcyI6IvCfjrI2NUBvbmVjbGlja3ZwbmtleXMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIyMDAxOmJjODozMmQ3OjMwMjo6MTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IjIwMDE6YmM4OjMyZDc6MzAyOjoxMCIsImlkIjoiOGUzNGUxNzAtMTNhZS00ODkyLTlkMjAtMDU5NjJhY2M5Zjg0IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDU3OSIsInBzIjoiQEhpQnllVlBOTuKdpO+4j+KAjfCflKXimqHimJjvuI8iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIyMDAxOmJjODozMmQ3OjMwMjo6MTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IjIwMDE6YmM4OjMyZDc6MzAyOjoxMCIsImlkIjoiOGUzNGUxNzAtMTNhZS00ODkyLTlkMjAtMDU5NjJhY2M5Zjg0IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDU3OSIsInBzIjoiQWxsLUBWMnJheUFscGhhLS0zMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiIyMDAxOmJjODozMmQ3OjMwMjo6MTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IkFaRVJCLk5FVCIsImlkIjoiOGUzNGUxNzAtMTNhZS00ODkyLTlkMjAtMDU5NjJhY2M5Zjg0IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9CSUFfVEVMRUdSQU1AQVpBUkJBWUpBQjFfQVpBUkJBWUpBQjFfQVpBUkJBWUpBQjFfQVpBUkJBWUpBQjE/ZWRcdTAwM2QyNTYwIiwicG9ydCI6IjQ0NTc5IiwicHMiOiLwn4ey8J+Hq1RNIChAQVpBUkJBWUpBQjEpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
