@@ -24,7 +24,9 @@ jobs:
         mkdir -p ./archives/IR/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
         cp submerge/converted.txt ./archives/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')/
         cp output/IR.txt ./archives/IR/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
-
+        > submerge/converted.txt  
+        > output/converted.txt
+        
     - name: Grab content and update backup
       run: |
         curl https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt -o archives/latest_backup/converted.txt # Replace with your actual URL
