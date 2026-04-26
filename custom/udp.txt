@@ -1,4 +1,4 @@
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#Telegram : @V2ynpv
 
 
-
+tuic://e033ef6e-ab4b-47d4-a523-ff568d2c8dbb:strong-secret-pass-777@45.140.167.209:50043/?congestion_control=bbr&udp_relay_mode=native&alpn=h3#🇬🇧t@oneclickvpnkeys
