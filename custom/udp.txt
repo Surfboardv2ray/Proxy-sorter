@@ -4,4 +4,4 @@ hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tl
 hysteria2://tSVwuwRnNk@srm.kishonline.online:443?security=tls&obfs=salamander&obfs-password=kish-data-center&insecure=0&sni=srm.kishonline.online#برای+اتصال+دائمی+جوین+شو🗾+prrofile_purple@
 
 
-
+tuic://2d1ad594-80a4-4bfb-87a6-038e39701f51:2d1ad594-80a4-4bfb-87a6-038e39701f51@sg2-8sb.6121999.dpdns.org:33738/?congestion_control=bbr&udp_relay_mode=quic&sni=sg2-8sb.6121999.dpdns.org&alpn=h3#tu🫎@oneclickvpnkeys
