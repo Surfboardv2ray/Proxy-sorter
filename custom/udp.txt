@@ -5,4 +5,4 @@ hysteria2://github.com/Alvin9999-newpac/fanqiang@178.18.147.66:29900/?insecure=1
 hysteria2://tSVwuwRnNk@srm.kishonline.online:443?security=tls&obfs=salamander&obfs-password=kish-data-center&insecure=0&sni=srm.kishonline.online#برای+اتصال+دائمی+جوین+شو🗾+prrofile_purple@
 
 
-tuic://2d1ad594-80a4-4bfb-87a6-038e39701f51:2d1ad594-80a4-4bfb-87a6-038e39701f51@sg2-8sb.6121999.dpdns.org:33738/?congestion_control=bbr&udp_relay_mode=quic&sni=sg2-8sb.6121999.dpdns.org&alpn=h3#tu🫎@oneclickvpnkeys
+
