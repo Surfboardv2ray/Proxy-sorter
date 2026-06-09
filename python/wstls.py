@@ -9,23 +9,41 @@ def filter_proxies():
     filtered_proxies = []
     for proxy in proxies:
         proxy = proxy.strip()
+
         if proxy.startswith('vmess://'):
-            base64_str = proxy.split('vmess://')[1]
-            proxy_info = base64.b64decode(base64_str).decode('utf-8')
-            proxy_dict = json.loads(proxy_info)
+            try:
+                base64_str = proxy.split('vmess://')[1]
+                proxy_info = base64.b64decode(base64_str).decode('utf-8')
+                proxy_dict = json.loads(proxy_info)
 
-            if proxy_dict.get('tls') == 'tls' and proxy_dict.get('net') == 'ws' and proxy_dict.get('port') == '443':
-                filtered_proxies.append(proxy)
+                if (
+                    proxy_dict.get('tls') == 'tls'
+                    and proxy_dict.get('net') == 'ws'
+                    and proxy_dict.get('port') == '443'
+                ):
+                    filtered_proxies.append(proxy)
+            except Exception:
+                continue
+
         elif proxy.startswith('vless://'):
-            proxy_info = proxy.split('vless://')[1]
-            url_parts = urllib.parse.urlparse('http://' + proxy_info)
-            query_params = urllib.parse.parse_qs(url_parts.query)
-        
-            port = url_parts.port  # Extract the port directly from the URL
-        
-            if str(port) == '443' and query_params.get('security') == ['tls'] and query_params.get('type') == ['ws']:
-                filtered_proxies.append(proxy)
+            try:
+                proxy_info = proxy.split('vless://')[1]
+                url_parts = urllib.parse.urlparse('http://' + proxy_info)
+                query_params = urllib.parse.parse_qs(url_parts.query)
 
+                try:
+                    port = url_parts.port
+                except ValueError:
+                    continue
+
+                if (
+                    str(port) == '443'
+                    and query_params.get('security') == ['tls']
+                    and query_params.get('type') == ['ws']
+                ):
+                    filtered_proxies.append(proxy)
+            except Exception:
+                continue
 
     with open('ws_tls/proxies/wstls', 'w') as f:
         for proxy in filtered_proxies:
