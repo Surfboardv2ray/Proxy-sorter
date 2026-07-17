@@ -196,6 +196,11 @@ jobs:
     - name: Run script to select random lines
       run: |
           python selector/random_lines.py
+          
+    - name: Check for Random Changes
+      id: changesRandom
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
 
     - name: Push Random
       if: steps.changesRandom.outputs.changed == 'true'
