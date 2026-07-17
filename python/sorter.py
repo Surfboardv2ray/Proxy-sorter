@@ -15,6 +15,7 @@ def get_country_code(ip_address):
     except UnicodeError:
         print(f"Hostname violates IDNA rules: {ip_address}")
         return None
+
     try:
         # Retrieve the base URL from the environment variable
         base_url = os.getenv('GET_IPGEO')
@@ -23,71 +24,142 @@ def get_country_code(ip_address):
 
         response = requests.get(f'{base_url}/{ip_address}')
         return response.text
+
     except requests.exceptions.RequestException as e:
         print(f"Error sending request: {e}")
         return None
+
 
 def country_code_to_emoji(country_code):
     # Convert the country code to corresponding Unicode regional indicator symbols
     return ''.join(chr(ord(letter) + 127397) for letter in country_code.upper())
 
+
 # Counter for all proxies
 proxy_counter = 0
 
+
 def process_vmess(proxy):
     global proxy_counter
+
     base64_str = proxy.split('://')[1]
+
     missing_padding = len(base64_str) % 4
     if missing_padding:
-        base64_str += '='* (4 - missing_padding)
+        base64_str += '=' * (4 - missing_padding)
+
     try:
         decoded_str = base64.b64decode(base64_str).decode('utf-8')
         proxy_json = json.loads(decoded_str)
+
         ip_address = proxy_json['add']
+
         country_code = get_country_code(ip_address)
+
         if country_code is None:
             return None
+
         flag_emoji = country_code_to_emoji(country_code)
+
         proxy_counter += 1
-        remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
+
+        remarks = (
+            flag_emoji
+            + country_code
+            + '_'
+            + str(proxy_counter)
+            + '_'
+            + '@Surfboardv2ray'
+        )
+
         proxy_json['ps'] = remarks
-        encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
+
+        encoded_str = base64.b64encode(
+            json.dumps(proxy_json).encode('utf-8')
+        ).decode('utf-8')
+
         processed_proxy = 'vmess://' + encoded_str
+
         return processed_proxy
+
     except Exception as e:
-        print("Error processing vmess proxy: ", e)
+        print("Error processing vmess proxy:", e)
         return None
+
 
 def process_vless(proxy):
     global proxy_counter
+
     ip_address = proxy.split('@')[1].split(':')[0]
+
     country_code = get_country_code(ip_address)
+
     if country_code is None:
         return None
+
     flag_emoji = country_code_to_emoji(country_code)
+
     proxy_counter += 1
-    remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
+
+    remarks = (
+        flag_emoji
+        + country_code
+        + '_'
+        + str(proxy_counter)
+        + '_'
+        + '@Surfboardv2ray'
+    )
+
     processed_proxy = proxy.split('#')[0] + '#' + remarks
+
     return processed_proxy
+
 
 # Process the proxies and write them to converted.txt
 with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as out_f:
+
     proxies = f.readlines()
+
+    print("Total input lines:", len(proxies))
+
+    skipped = 0
+
     for proxy in proxies:
+
+        # Important: reset every iteration
+        processed_proxy = None
+
         proxy = proxy.strip()
+
         if proxy.startswith('vmess://'):
             processed_proxy = process_vmess(proxy)
+
         elif proxy.startswith('vless://'):
             processed_proxy = process_vless(proxy)
+
+        else:
+            skipped += 1
+            print("Skipped line:", proxy[:80])
+
         if processed_proxy is not None:
             out_f.write(processed_proxy + '\n')
 
-# Read from converted.txt and separate the proxies based on the country code
+
+    print("Skipped lines:", skipped)
+    print("Total processed proxies:", proxy_counter)
+
+
+# Read from converted.txt and separate the proxies based on country code
 with open('output/converted.txt', 'r') as in_f:
+
     proxies = in_f.readlines()
+
     with open('output/IR.txt', 'w') as ir_f, open('output/US.txt', 'w') as us_f:
+
         for proxy in proxies:
+
             if 'IR_' in proxy:
                 ir_f.write(proxy)
+
             elif 'US_' in proxy:
                 us_f.write(proxy)
