@@ -58,29 +58,6 @@ jobs:
 
         # Combine and save to a file
         echo -e "$CONTENT1\n$CONTENT2" > input/proxies.txt
-
-    - name: Check for Input Changes
-      id: changesin
-      run: |
-        git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
-      
-# Could always disable this section to apply bug fixes
-    - name: Stop if no changes
-      run: |
-        if [[ "${{ steps.changesin.outputs.changed }}" != "true" ]]; then
-          echo "No changes in input file, exiting"
-          echo "::error::No changes in input file, stopping workflow"
-          exit 1
-        fi
-    
-    - name: Commit and push if there are changes
-      if: steps.changesin.outputs.changed == 'true' 
-      run: |  
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add input/proxies.txt
-        git commit -m "Fetch proxies" || echo "No changes to commit"
-        git push
     
     - name: Set up Python
       uses: actions/setup-python@v2
