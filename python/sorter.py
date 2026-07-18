@@ -4,8 +4,22 @@ import requests
 import re
 import socket
 import os
+import time
+
+
+# Rate limit settings for ip-api.com
+REQUEST_DELAY = 1.4
+RATE_LIMIT_WAIT = 60
+MAX_IP_ERRORS = 3
+
+last_request_time = 0
+
+ip_error_counter = {}
+
 
 def get_country_code(ip_address):
+    global last_request_time
+
     try:
         # Try to resolve the hostname to an IP address
         ip_address = socket.gethostbyname(ip_address)
@@ -16,18 +30,95 @@ def get_country_code(ip_address):
         print(f"Hostname violates IDNA rules: {ip_address}")
         return None
 
-    try:
-        # Retrieve the base URL from the environment variable
-        base_url = os.getenv('GET_IPGEO')
-        if not base_url:
-            raise ValueError("Environment variable GET_IPGEO not set")
 
-        response = requests.get(f'{base_url}/{ip_address}')
-        return response.text
+    # Skip IPs that repeatedly fail
+    if ip_error_counter.get(ip_address, 0) >= MAX_IP_ERRORS:
+        print(f"Skipping IP after multiple errors: {ip_address}")
+        return None
+
+
+    try:
+
+        # Respect ip-api.com rate limit
+        elapsed = time.time() - last_request_time
+
+        if elapsed < REQUEST_DELAY:
+            time.sleep(REQUEST_DELAY - elapsed)
+
+
+        response = requests.get(
+            f'http://ip-api.com/json/{ip_address}',
+            timeout=10
+        )
+
+        last_request_time = time.time()
+
+
+        # Rate limit hit
+        if response.status_code == 429:
+
+            print(
+                f"Rate limit reached. Waiting {RATE_LIMIT_WAIT} seconds..."
+            )
+
+            time.sleep(RATE_LIMIT_WAIT)
+
+
+            response = requests.get(
+                f'http://ip-api.com/json/{ip_address}',
+                timeout=10
+            )
+
+
+        response.raise_for_status()
+
+
+        data = response.json()
+
+
+        if data.get("status") != "success":
+            print(
+                f"API lookup failed for {ip_address}: {data}"
+            )
+
+            ip_error_counter[ip_address] = (
+                ip_error_counter.get(ip_address, 0) + 1
+            )
+
+            return None
+
+
+        country_code = data.get("countryCode")
+
+
+        if not country_code or len(country_code) != 2:
+
+            print(
+                f"Invalid country code for {ip_address}: {country_code}"
+            )
+
+            ip_error_counter[ip_address] = (
+                ip_error_counter.get(ip_address, 0) + 1
+            )
+
+            return None
+
+
+        return country_code.upper()
+
 
     except requests.exceptions.RequestException as e:
-        print(f"Error sending request: {e}")
+
+        print(
+            f"Error sending request for {ip_address}: {e}"
+        )
+
+        ip_error_counter[ip_address] = (
+            ip_error_counter.get(ip_address, 0) + 1
+        )
+
         return None
+
 
 
 def country_code_to_emoji(country_code):
@@ -35,8 +126,10 @@ def country_code_to_emoji(country_code):
     return ''.join(chr(ord(letter) + 127397) for letter in country_code.upper())
 
 
+
 # Counter for all proxies
 proxy_counter = 0
+
 
 
 def process_vmess(proxy):
@@ -87,6 +180,7 @@ def process_vmess(proxy):
         return None
 
 
+
 def process_vless(proxy):
     global proxy_counter
 
@@ -113,6 +207,7 @@ def process_vless(proxy):
     processed_proxy = proxy.split('#')[0] + '#' + remarks
 
     return processed_proxy
+
 
 
 # Process the proxies and write them to converted.txt
@@ -147,6 +242,7 @@ with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as o
 
     print("Skipped lines:", skipped)
     print("Total processed proxies:", proxy_counter)
+
 
 
 # Read from converted.txt and separate the proxies based on country code
