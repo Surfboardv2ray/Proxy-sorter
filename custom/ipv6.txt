@@ -1,5 +1,5 @@
 vless://8efe38df-eb31-45b9-9a09-78a31562bae0@[2a0b:8800:580::12d]:8585?mode=gun&security=reality&encryption=none&pbk=a20AW-pKrDkwITkp3eZ6WC809AYkNqoW1rs4AfLs73Y&fp=chrome&spx=/353add2ce7a3241&type=grpc&sni=mena-images.shop.samsung.com&sid=9632f7ba3390c8#@B2vasl
-vless://8efe38df-eb31-45b9-9a09-78a31562bae0@[2a0b:8800:580::12d]:8585?mode=gun&security=reality&encryption=none&pbk=a20AW-pKrDkwITkp3eZ6WC809AYkNqoW1rs4AfLs73Y&fp=chrome&spx=/353add2ce7a3241&type=grpc&sni=mena-images.shop.samsung.com&sid=9632f7ba3390c8#کانال تلگرام ما🏅ange1vpn@
+vless://8efe38df-eb31-45b9-9a09-78a31562bae0@[2a0b:8800:580::12d]:8585?mode=gun&security=reality&encryption=none&pbk=a20AW-pKrDkwITkp3eZ6WC809AYkNqoW1rs4AfLs73Y&fp=chrome&spx=/353add2ce7a3241&type=grpc&sni=mena-images.shop.samsung.com&sid=9632f7ba3390c8#@tootffarangi🍓-3
 vless://e1924dca-9fcd-453c-af56-f09ad0818c9a@[2a01:7e01::2000:d6ff:fe83:fc32]:14019?security=none&encryption=none&headerType=none&type=tcp#@Begoo_VPN ²¹³
 vless://e1924dca-9fcd-453c-af56-f09ad0818c9a@[2a01:7e01::2000:d6ff:fe83:fc32]:14019?security=none&encryption=none&headerType=none&type=tcp#@Begoo_VPN ²¹³ ipv6
 vless://827545b9-5e1d-4e29-a97f-46b388891f57@[::ffff:3207:55dc]:80?type=ws&host=hello-world-twilight-lake-386e.yijiled513.workers.dev&path=%2F%3Fed%3D443#🔒 VL-WS-NA 🇺🇸 US-[::ffff:3207:55dc]:80
