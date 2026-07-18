@@ -9,6 +9,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 */3 * * *"
+
 jobs:
   build:
 
@@ -24,19 +25,25 @@ jobs:
         mkdir -p ./archives/IR/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
         cp submerge/converted.txt ./archives/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')/
         cp output/IR.txt ./archives/IR/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
-        > submerge/converted.txt  
-        > output/converted.txt
+
+        if [ -s submerge/converted.txt ]; then
+          > submerge/converted.txt
+        fi
+
+        if [ -s output/converted.txt ]; then
+          > output/converted.txt
+        fi
         
     - name: Grab content and update backup
       run: |
-        curl https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt -o archives/latest_backup/converted.txt # Replace with your actual URL
+        curl https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt -o archives/latest_backup/converted.txt
 
     - name: Commit and push if there are changes
       run: |
         git config --local user.name 'Github Action'
         git config --local user.email 'Action@github.com'
         git add .
-        git commit -m "Archived backups"
+        git commit -m "Archived backups" || echo "No changes to commit"
         git push
     
     - name: Combine URL contents
@@ -72,7 +79,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add input/proxies.txt
-        git commit -m "Fetch proxies"
+        git commit -m "Fetch proxies" || echo "No changes to commit"
         git push
     
     - name: Set up Python
@@ -101,23 +108,44 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add output/converted.txt output/US.txt output/IR.txt
-        git commit -m "Update files" -a
+        git commit -m "Update files" -a || echo "No changes to commit"
         git push
 
     - name: Convert Converted to base64
       run: |
           content=$(cat output/converted.txt | base64 | tr -d '\n')
-            echo "$content" > submerge/converted.txt
+          echo "$content" > submerge/converted.tmp
+
+          if ! cmp -s submerge/converted.tmp submerge/converted.txt; then
+              mv submerge/converted.tmp submerge/converted.txt
+          else
+              rm submerge/converted.tmp
+              echo "No changes in converted.txt"
+          fi
 
     - name: Convert IR to base64
       run: |
           content=$(cat output/IR.txt | base64 | tr -d '\n')
-            echo "$content" > submerge/IR.txt
+          echo "$content" > submerge/IR.tmp
+
+          if ! cmp -s submerge/IR.tmp submerge/IR.txt; then
+              mv submerge/IR.tmp submerge/IR.txt
+          else
+              rm submerge/IR.tmp
+              echo "No changes in IR.txt"
+          fi
 
     - name: Convert US to base64
       run: |
           content=$(cat output/US.txt | base64 | tr -d '\n')
-            echo "$content" > submerge/US.txt
+          echo "$content" > submerge/US.tmp
+
+          if ! cmp -s submerge/US.tmp submerge/US.txt; then
+              mv submerge/US.tmp submerge/US.txt
+          else
+              rm submerge/US.tmp
+              echo "No changes in US.txt"
+          fi
        
     - name: Check for Base64 Changes
       id: changes64
@@ -129,8 +157,8 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add submerge/* 
-          git commit -m "Update output files"
+          git add submerge/*
+          git commit -m "Update output files" || echo "No changes to commit"
           git push
 
     - name: Create timestamped directory
@@ -138,13 +166,16 @@ jobs:
         mkdir -p ./archives/ws_tls/$(date +'%Y%m')
         mkdir -p ./archives/ws_tls/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
         cp ws_tls/proxies/wstls ./archives/ws_tls/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')/
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+
     - name: Run WSTLS
       run: |
         python python/wstls.py
@@ -153,29 +184,46 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+
     - name: Run 7899
       run: |
         python python/7899.py
+
     - name: Commit and push if it changed
       run: |
         git diff
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -am "Update WS+TLS" || exit 0
+        git commit -am "Update WS+TLS" || echo "No changes to commit"
         git push
 
     - name: Convert WSTLS to base64
       run: |
           content=$(cat ws_tls/proxies/wstls | base64 | tr -d '\n')
-            echo "$content" > ws_tls/proxies/wstls_base64
+          echo "$content" > ws_tls/proxies/wstls_base64.tmp
+
+          if ! cmp -s ws_tls/proxies/wstls_base64.tmp ws_tls/proxies/wstls_base64; then
+              mv ws_tls/proxies/wstls_base64.tmp ws_tls/proxies/wstls_base64
+          else
+              rm ws_tls/proxies/wstls_base64.tmp
+              echo "No changes in wstls_base64"
+          fi
 
     - name: Convert 7899 to base64
       run: |
           content=$(cat ws_tls/7899/7899 | base64 | tr -d '\n')
-            echo "$content" > ws_tls/7899/7899_base64
+          echo "$content" > ws_tls/7899/7899_base64.tmp
+
+          if ! cmp -s ws_tls/7899/7899_base64.tmp ws_tls/7899/7899_base64; then
+              mv ws_tls/7899/7899_base64.tmp ws_tls/7899/7899_base64
+          else
+              rm ws_tls/7899/7899_base64.tmp
+              echo "No changes in 7899_base64"
+          fi
        
     - name: Check for Base64 Changes
       id: changes7899
@@ -190,7 +238,7 @@ jobs:
           git add .
           git add ws_tls/proxies/wstls_base64
           git add ws_tls/7899/7899_base64
-          git commit -m "Update Base64"
+          git commit -m "Update Base64" || echo "No changes to commit"
           git push
 
     - name: Run script to select random lines
@@ -209,14 +257,20 @@ jobs:
           git config --local user.name "GitHub Action"
           git add selector/random
           timestamp=$(TZ='Asia/Tehran' date)
-          git commit -m "✅Updated on ${timestamp}"
+          git commit -m "✅Updated on ${timestamp}" || echo "No changes to commit"
           git push
 
     - name: Convert Random to base64
       run: |
-          > selector/random64
           content=$(cat selector/random | base64 | tr -d '\n')
-            echo "$content" > selector/random64
+          echo "$content" > selector/random64.tmp
+
+          if ! cmp -s selector/random64.tmp selector/random64; then
+              mv selector/random64.tmp selector/random64
+          else
+              rm selector/random64.tmp
+              echo "No changes in random64"
+          fi
 
     - name: Check for Random base64 Changes
       id: changesRandom64
@@ -230,7 +284,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           timestamp=$(TZ='Asia/Tehran' date)
-          git commit -m "✅Updated on ${timestamp}"
+          git commit -m "✅Updated on ${timestamp}" || echo "No changes to commit"
           git push
-
-
