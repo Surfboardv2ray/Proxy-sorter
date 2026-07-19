@@ -8,9 +8,9 @@ import time
 
 
 # Rate limit settings for ip-api.com
-REQUEST_DELAY = 1.4
-RATE_LIMIT_WAIT = 60
-MAX_IP_ERRORS = 3
+REQUEST_DELAY = 1.5
+RATE_LIMIT_WAIT = 3
+MAX_IP_ERRORS = 1
 
 last_request_time = 0
 
