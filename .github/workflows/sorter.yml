@@ -86,6 +86,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add output/converted.txt output/US.txt output/IR.txt
         git commit -m "Update files" -a || echo "No changes to commit"
+        git pull
         git push
 
     - name: Convert Converted to base64
