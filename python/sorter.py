@@ -1,261 +1,299 @@
 import base64
 import json
-import requests
-import re
 import socket
-import os
 import time
+import requests
 
+# -----------------------------
+# Configuration
+# -----------------------------
 
-# Rate limit settings for ip-api.com
 REQUEST_DELAY = 1.5
 RATE_LIMIT_WAIT = 3
 MAX_IP_ERRORS = 1
 
-last_request_time = 0
+INPUT_FILE = "input/proxies.txt"
+OUTPUT_FILE = "output/converted.txt"
+
+session = requests.Session()
+
+next_request_time = 0
+
+proxy_counter = 0
 
 ip_error_counter = {}
 
+dns_cache = {}
 
-def get_country_code(ip_address):
-    global last_request_time
+country_cache = {}
+
+# -----------------------------
+# Helpers
+# -----------------------------
+
+
+def wait_for_rate_limit():
+    global next_request_time
+
+    now = time.monotonic()
+
+    if now < next_request_time:
+        time.sleep(next_request_time - now)
+
+    next_request_time = time.monotonic() + REQUEST_DELAY
+
+
+def resolve_hostname(host):
+
+    if host in dns_cache:
+        return dns_cache[host]
 
     try:
-        # Try to resolve the hostname to an IP address
-        ip_address = socket.gethostbyname(ip_address)
+        ip = socket.gethostbyname(host)
+        dns_cache[host] = ip
+        return ip
+
     except socket.gaierror:
-        print(f"Unable to resolve hostname: {ip_address}")
-        return None
+        print(f"Unable to resolve hostname: {host}")
+
     except UnicodeError:
-        print(f"Hostname violates IDNA rules: {ip_address}")
+        print(f"Hostname violates IDNA rules: {host}")
+
+    return None
+
+
+def get_country_code(host):
+
+    ip = resolve_hostname(host)
+
+    if ip is None:
         return None
 
+    # Cached lookup
+    if ip in country_cache:
+        return country_cache[ip]
 
-    # Skip IPs that repeatedly fail
-    if ip_error_counter.get(ip_address, 0) >= MAX_IP_ERRORS:
-        print(f"Skipping IP after multiple errors: {ip_address}")
+    if ip_error_counter.get(ip, 0) >= MAX_IP_ERRORS:
+        print(f"Skipping IP after repeated failures: {ip}")
         return None
-
 
     try:
 
-        # Respect ip-api.com rate limit
-        elapsed = time.time() - last_request_time
+        wait_for_rate_limit()
 
-        if elapsed < REQUEST_DELAY:
-            time.sleep(REQUEST_DELAY - elapsed)
-
-
-        response = requests.get(
-            f'http://ip-api.com/json/{ip_address}',
+        response = session.get(
+            f"http://ip-api.com/json/{ip}",
             timeout=10
         )
 
-        last_request_time = time.time()
-
-
-        # Rate limit hit
         if response.status_code == 429:
 
-            print(
-                f"Rate limit reached. Waiting {RATE_LIMIT_WAIT} seconds..."
-            )
+            print("Rate limit reached. Waiting...")
 
             time.sleep(RATE_LIMIT_WAIT)
 
-
-            response = requests.get(
-                f'http://ip-api.com/json/{ip_address}',
+            response = session.get(
+                f"http://ip-api.com/json/{ip}",
                 timeout=10
             )
 
-
         response.raise_for_status()
-
 
         data = response.json()
 
-
         if data.get("status") != "success":
-            print(
-                f"API lookup failed for {ip_address}: {data}"
-            )
 
-            ip_error_counter[ip_address] = (
-                ip_error_counter.get(ip_address, 0) + 1
-            )
+            print(f"Lookup failed for {ip}: {data}")
+
+            ip_error_counter[ip] = ip_error_counter.get(ip, 0) + 1
 
             return None
 
+        country = data.get("countryCode")
 
-        country_code = data.get("countryCode")
+        if not country or len(country) != 2:
 
+            print(f"Invalid country code: {country}")
 
-        if not country_code or len(country_code) != 2:
-
-            print(
-                f"Invalid country code for {ip_address}: {country_code}"
-            )
-
-            ip_error_counter[ip_address] = (
-                ip_error_counter.get(ip_address, 0) + 1
-            )
+            ip_error_counter[ip] = ip_error_counter.get(ip, 0) + 1
 
             return None
 
+        country = country.upper()
 
-        return country_code.upper()
+        country_cache[ip] = country
 
+        return country
 
-    except requests.exceptions.RequestException as e:
+    except requests.RequestException as e:
 
-        print(
-            f"Error sending request for {ip_address}: {e}"
-        )
+        print(f"Request error for {ip}: {e}")
 
-        ip_error_counter[ip_address] = (
-            ip_error_counter.get(ip_address, 0) + 1
-        )
+        ip_error_counter[ip] = ip_error_counter.get(ip, 0) + 1
 
         return None
 
 
-
-def country_code_to_emoji(country_code):
-    # Convert the country code to corresponding Unicode regional indicator symbols
-    return ''.join(chr(ord(letter) + 127397) for letter in country_code.upper())
+def country_code_to_emoji(country):
+    return "".join(chr(ord(c) + 127397) for c in country)
 
 
+# -----------------------------
+# Proxy helpers
+# -----------------------------
 
-# Counter for all proxies
-proxy_counter = 0
 
+def extract_host(proxy):
+
+    if proxy.startswith("vmess://"):
+
+        encoded = proxy.split("://", 1)[1]
+
+        encoded += "=" * (-len(encoded) % 4)
+
+        try:
+            data = json.loads(
+                base64.b64decode(encoded).decode("utf-8")
+            )
+
+            return data["add"]
+
+        except Exception:
+            return None
+
+    elif proxy.startswith("vless://"):
+
+        return proxy.partition("@")[2].partition(":")[0]
+
+    return None
 
 
 def process_vmess(proxy):
+
     global proxy_counter
 
-    base64_str = proxy.split('://')[1]
+    encoded = proxy.split("://", 1)[1]
 
-    missing_padding = len(base64_str) % 4
-    if missing_padding:
-        base64_str += '=' * (4 - missing_padding)
+    encoded += "=" * (-len(encoded) % 4)
 
     try:
-        decoded_str = base64.b64decode(base64_str).decode('utf-8')
-        proxy_json = json.loads(decoded_str)
 
-        ip_address = proxy_json['add']
+        data = json.loads(
+            base64.b64decode(encoded).decode("utf-8")
+        )
 
-        country_code = get_country_code(ip_address)
+        country = get_country_code(data["add"])
 
-        if country_code is None:
+        if country is None:
             return None
-
-        flag_emoji = country_code_to_emoji(country_code)
 
         proxy_counter += 1
 
-        remarks = (
-            flag_emoji
-            + country_code
-            + '_'
-            + str(proxy_counter)
-            + '_'
-            + '@Surfboardv2ray'
+        data["ps"] = (
+            f"{country_code_to_emoji(country)}"
+            f"{country}_{proxy_counter}_@Surfboardv2ray"
         )
 
-        proxy_json['ps'] = remarks
+        encoded = base64.b64encode(
+            json.dumps(data).encode()
+        ).decode()
 
-        encoded_str = base64.b64encode(
-            json.dumps(proxy_json).encode('utf-8')
-        ).decode('utf-8')
-
-        processed_proxy = 'vmess://' + encoded_str
-
-        return processed_proxy
+        return "vmess://" + encoded
 
     except Exception as e:
-        print("Error processing vmess proxy:", e)
-        return None
 
+        print(f"VMESS error: {e}")
+
+        return None
 
 
 def process_vless(proxy):
+
     global proxy_counter
 
-    ip_address = proxy.split('@')[1].split(':')[0]
+    host = proxy.partition("@")[2].partition(":")[0]
 
-    country_code = get_country_code(ip_address)
+    country = get_country_code(host)
 
-    if country_code is None:
+    if country is None:
         return None
-
-    flag_emoji = country_code_to_emoji(country_code)
 
     proxy_counter += 1
 
     remarks = (
-        flag_emoji
-        + country_code
-        + '_'
-        + str(proxy_counter)
-        + '_'
-        + '@Surfboardv2ray'
+        f"{country_code_to_emoji(country)}"
+        f"{country}_{proxy_counter}_@Surfboardv2ray"
     )
 
-    processed_proxy = proxy.split('#')[0] + '#' + remarks
-
-    return processed_proxy
+    return proxy.split("#", 1)[0] + "#" + remarks
 
 
+# -----------------------------
+# Pre-cache unique IPs
+# -----------------------------
 
-# Process the proxies and write them to converted.txt
-with open('input/proxies.txt', 'r') as f, open('output/converted.txt', 'w') as out_f:
+with open(INPUT_FILE, "r") as f:
 
-    proxies = f.readlines()
+    proxies = [line.strip() for line in f]
 
-    print("Total input lines:", len(proxies))
+print(f"Total input lines: {len(proxies)}")
 
-    skipped = 0
+unique_hosts = {
+    extract_host(p)
+    for p in proxies
+    if extract_host(p)
+}
+
+print(f"Unique hosts: {len(unique_hosts)}")
+
+print("Resolving countries...")
+
+for host in unique_hosts:
+    get_country_code(host)
+
+print(f"Country cache size: {len(country_cache)}")
+
+# -----------------------------
+# Process proxies
+# -----------------------------
+
+skipped = 0
+
+with open(OUTPUT_FILE, "w") as out:
 
     for proxy in proxies:
 
-        # Important: reset every iteration
-        processed_proxy = None
+        processed = None
 
-        proxy = proxy.strip()
+        if proxy.startswith("vmess://"):
+            processed = process_vmess(proxy)
 
-        if proxy.startswith('vmess://'):
-            processed_proxy = process_vmess(proxy)
-
-        elif proxy.startswith('vless://'):
-            processed_proxy = process_vless(proxy)
+        elif proxy.startswith("vless://"):
+            processed = process_vless(proxy)
 
         else:
             skipped += 1
-            print("Skipped line:", proxy[:80])
+            print("Skipped:", proxy[:80])
 
-        if processed_proxy is not None:
-            out_f.write(processed_proxy + '\n')
+        if processed:
+            out.write(processed + "\n")
 
+print(f"Skipped lines: {skipped}")
+print(f"Processed proxies: {proxy_counter}")
 
-    print("Skipped lines:", skipped)
-    print("Total processed proxies:", proxy_counter)
+# -----------------------------
+# Split by country
+# -----------------------------
 
+with open(OUTPUT_FILE) as f:
 
+    with open("output/IR.txt", "w") as ir,\
+         open("output/US.txt", "w") as us:
 
-# Read from converted.txt and separate the proxies based on country code
-with open('output/converted.txt', 'r') as in_f:
+        for line in f:
 
-    proxies = in_f.readlines()
+            if "IR_" in line:
+                ir.write(line)
 
-    with open('output/IR.txt', 'w') as ir_f, open('output/US.txt', 'w') as us_f:
-
-        for proxy in proxies:
-
-            if 'IR_' in proxy:
-                ir_f.write(proxy)
-
-            elif 'US_' in proxy:
-                us_f.write(proxy)
+            elif "US_" in line:
+                us.write(line)
