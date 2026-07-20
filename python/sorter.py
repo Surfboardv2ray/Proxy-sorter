@@ -3,17 +3,37 @@ import json
 import socket
 import time
 import requests
+import ipaddress
+import os
+import maxminddb
+
 
 # -----------------------------
 # Configuration
 # -----------------------------
 
-REQUEST_DELAY = 1.5
-RATE_LIMIT_WAIT = 3
-MAX_IP_ERRORS = 1
-
 INPUT_FILE = "input/proxies.txt"
 OUTPUT_FILE = "output/converted.txt"
+
+DATABASE_FILE = "databases/dbip-country-lite.mmdb"
+
+TEMP_DIR = "temp"
+
+TEMP0 = f"{TEMP_DIR}/temp0_configs.txt"
+TEMP1 = f"{TEMP_DIR}/temp1_hosts.json"
+TEMP2 = f"{TEMP_DIR}/temp2_ips.json"
+
+REQUEST_DELAY = 1.5
+MAX_API_ERRORS = 3
+
+API_SERVICES = [
+    "ipwho.is",
+    "ipapi.co",
+    "ip-api.com",
+    "ip.guide",
+    "ip.sb"
+]
+
 
 session = requests.Session()
 
@@ -21,18 +41,26 @@ next_request_time = 0
 
 proxy_counter = 0
 
-ip_error_counter = {}
-
 dns_cache = {}
 
 country_cache = {}
 
+api_error_counter = {}
+
+api_index = 0
+
+
+os.makedirs(TEMP_DIR, exist_ok=True)
+os.makedirs("output", exist_ok=True)
+
+
 # -----------------------------
-# Helpers
+# Rate limiting
 # -----------------------------
 
 
-def wait_for_rate_limit():
+def wait_rate():
+
     global next_request_time
 
     now = time.monotonic()
@@ -43,257 +71,613 @@ def wait_for_rate_limit():
     next_request_time = time.monotonic() + REQUEST_DELAY
 
 
+
+# -----------------------------
+# IP validation
+# -----------------------------
+
+
+def is_private_ip(ip):
+
+    try:
+
+        addr = ipaddress.ip_address(ip)
+
+        return (
+            addr.is_private
+            or addr.is_loopback
+            or addr.is_reserved
+            or addr.is_link_local
+            or addr.is_multicast
+        )
+
+    except Exception:
+
+        return True
+
+
+
+# -----------------------------
+# DNS
+# -----------------------------
+
+
 def resolve_hostname(host):
 
     if host in dns_cache:
         return dns_cache[host]
 
+
     try:
+
         ip = socket.gethostbyname(host)
+
         dns_cache[host] = ip
+
         return ip
 
-    except socket.gaierror:
-        print(f"Unable to resolve hostname: {host}")
 
-    except UnicodeError:
-        print(f"Hostname violates IDNA rules: {host}")
+    except Exception as e:
+
+        print(
+            f"DNS resolution failed: {host} | {e}"
+        )
+
+        return None
+
+
+
+# -----------------------------
+# Local DB lookup
+# -----------------------------
+
+
+def lookup_local_database(ip):
+
+    try:
+
+        reader = maxminddb.open_database(
+            DATABASE_FILE
+        )
+
+
+    except Exception as e:
+
+        print(
+            "FAILED opening DB-IP database:",
+            e
+        )
+
+        return None
+
+
+    try:
+
+        result = reader.get(ip)
+
+        reader.close()
+
+
+        if not result:
+            return None
+
+
+        country = (
+            result
+            .get("country", {})
+            .get("iso_code")
+        )
+
+
+        if country:
+
+            return country.upper()
+
+
+    except Exception as e:
+
+        print(
+            f"Database lookup failed {ip}: {e}"
+        )
+
 
     return None
 
 
-def get_country_code(host):
 
-    ip = resolve_hostname(host)
+# -----------------------------
+# API lookup
+# -----------------------------
 
-    if ip is None:
-        return None
 
-    # Cached lookup
-    if ip in country_cache:
-        return country_cache[ip]
+def api_lookup(ip):
 
-    if ip_error_counter.get(ip, 0) >= MAX_IP_ERRORS:
-        print(f"Skipping IP after repeated failures: {ip}")
-        return None
+    global api_index
 
-    try:
 
-        wait_for_rate_limit()
+    if api_error_counter.get(ip, 0) >= MAX_API_ERRORS:
 
-        response = session.get(
-            f"http://ip-api.com/json/{ip}",
-            timeout=10
+        print(
+            f"Skipping API lookup for {ip}"
         )
 
-        if response.status_code == 429:
+        return None
 
-            print("Rate limit reached. Waiting...")
 
-            time.sleep(RATE_LIMIT_WAIT)
 
-            response = session.get(
-                f"http://ip-api.com/json/{ip}",
-                timeout=10
+    start_index = api_index
+
+
+    while True:
+
+
+        service = API_SERVICES[api_index]
+
+
+        api_index = (
+            api_index + 1
+        ) % len(API_SERVICES)
+
+
+
+        try:
+
+            wait_rate()
+
+
+            print(
+                f"Querying API: {service} -> {ip}"
             )
 
-        response.raise_for_status()
 
-        data = response.json()
 
-        if data.get("status") != "success":
+            if service == "ipwho.is":
 
-            print(f"Lookup failed for {ip}: {data}")
+                r = session.get(
+                    f"https://ipwho.is/{ip}",
+                    timeout=10
+                )
 
-            ip_error_counter[ip] = ip_error_counter.get(ip, 0) + 1
+                data = r.json()
 
-            return None
+                country = data.get(
+                    "country_code"
+                )
 
-        country = data.get("countryCode")
 
-        if not country or len(country) != 2:
 
-            print(f"Invalid country code: {country}")
+            elif service == "ipapi.co":
 
-            ip_error_counter[ip] = ip_error_counter.get(ip, 0) + 1
+                r = session.get(
+                    f"https://ipapi.co/{ip}/json/",
+                    timeout=10
+                )
 
-            return None
+                data = r.json()
 
-        country = country.upper()
+                country = data.get(
+                    "country"
+                )
+
+
+
+            elif service == "ip-api.com":
+
+                r = session.get(
+                    f"http://ip-api.com/json/{ip}",
+                    timeout=10
+                )
+
+                data = r.json()
+
+                country = data.get(
+                    "countryCode"
+                )
+
+
+
+            elif service == "ip.guide":
+
+                r = session.get(
+                    f"https://ip.guide/{ip}",
+                    timeout=10
+                )
+
+                data = r.json()
+
+                country = (
+                    data
+                    .get("location", {})
+                    .get("country_code")
+                )
+
+
+
+            elif service == "ip.sb":
+
+                r = session.get(
+                    f"https://api.ip.sb/geoip/{ip}",
+                    timeout=10
+                )
+
+                data = r.json()
+
+                country = data.get(
+                    "country_code"
+                )
+
+
+
+            else:
+
+                country = None
+
+
+
+            if country and len(country) == 2:
+
+                return country.upper()
+
+
+
+            raise Exception(
+                "No country returned"
+            )
+
+
+
+        except Exception as e:
+
+
+            print(
+                f"API failed {service} {ip}: {e}"
+            )
+
+
+            api_error_counter[ip] = (
+                api_error_counter.get(ip,0)+1
+            )
+
+
+            if api_index == start_index:
+
+                return None
+
+
+
+# -----------------------------
+# Main country resolver
+# -----------------------------
+
+
+def get_country(ip):
+
+
+    if ip in country_cache:
+
+        return country_cache[ip]
+
+
+    if is_private_ip(ip):
+
+        return None
+
+
+
+    print(
+        f"Querying local database: {ip}"
+    )
+
+
+    country = lookup_local_database(ip)
+
+
+    if country:
 
         country_cache[ip] = country
 
         return country
 
-    except requests.RequestException as e:
-
-        print(f"Request error for {ip}: {e}")
-
-        ip_error_counter[ip] = ip_error_counter.get(ip, 0) + 1
-
-        return None
 
 
-def country_code_to_emoji(country):
-    return "".join(chr(ord(c) + 127397) for c in country)
+    print(
+        f"Local DB failed, using APIs: {ip}"
+    )
+
+
+    country = api_lookup(ip)
+
+
+    if country:
+
+        country_cache[ip] = country
+
+
+    return country
+
 
 
 # -----------------------------
-# Proxy helpers
+# Extract hosts
 # -----------------------------
 
 
 def extract_host(proxy):
 
-    if proxy.startswith("vmess://"):
+    try:
 
-        encoded = proxy.split("://", 1)[1]
+        if proxy.startswith("vmess://"):
 
-        encoded += "=" * (-len(encoded) % 4)
+            encoded = proxy.split("://")[1]
 
-        try:
+            encoded += "=" * (
+                -len(encoded)%4
+            )
+
             data = json.loads(
-                base64.b64decode(encoded).decode("utf-8")
+                base64.b64decode(encoded)
+                .decode()
             )
 
             return data["add"]
 
-        except Exception:
-            return None
 
-    elif proxy.startswith("vless://"):
 
-        return proxy.partition("@")[2].partition(":")[0]
+        if proxy.startswith("vless://"):
+
+            return (
+                proxy
+                .partition("@")[2]
+                .partition(":")[0]
+            )
+
+
+    except Exception as e:
+
+        print(
+            "Extract host failed:",
+            e
+        )
+
 
     return None
 
 
-def process_vmess(proxy):
 
-    global proxy_counter
+# -----------------------------
+# temp0
+# -----------------------------
 
-    encoded = proxy.split("://", 1)[1]
 
-    encoded += "=" * (-len(encoded) % 4)
+with open(INPUT_FILE) as f:
+
+    original = [
+        x.strip()
+        for x in f
+        if x.strip()
+    ]
+
+
+unique_configs = list(
+    dict.fromkeys(original)
+)
+
+
+with open(TEMP0,"w") as f:
+
+    f.write(
+        "\n".join(unique_configs)
+    )
+
+
+print(
+    "Configs deduplicated and saved temp0."
+)
+
+print(
+    f"Number of configs: {len(original)}"
+)
+
+print(
+    f"Number deduplicated: {len(unique_configs)}"
+)
+
+
+
+# -----------------------------
+# temp1
+# -----------------------------
+
+
+hosts=[]
+
+
+for i,p in enumerate(unique_configs):
+
+    host=extract_host(p)
+
+    if host:
+
+        hosts.append(
+            {
+                "id":i,
+                "host":host
+            }
+        )
+
+
+with open(TEMP1,"w") as f:
+
+    json.dump(
+        hosts,
+        f,
+        indent=2
+    )
+
+
+print(
+    f"Extracted hosts: {len(hosts)}"
+)
+
+
+
+# -----------------------------
+# temp2
+# -----------------------------
+
+
+ips=[]
+
+
+for item in hosts:
+
+    host=item["host"]
+
+
+    if is_private_ip(host):
+
+        continue
+
+
+    ip=host
+
 
     try:
 
-        data = json.loads(
-            base64.b64decode(encoded).decode("utf-8")
+        ipaddress.ip_address(ip)
+
+    except:
+
+        ip=resolve_hostname(host)
+
+
+
+    if ip and not is_private_ip(ip):
+
+        ips.append(
+            {
+                "id":item["id"],
+                "ip":ip
+            }
         )
 
-        country = get_country_code(data["add"])
 
-        if country is None:
-            return None
+with open(TEMP2,"w") as f:
+
+    json.dump(
+        ips,
+        f,
+        indent=2
+    )
+
+
+print(
+    f"Resolved IPs saved temp2: {len(ips)}"
+)
+
+
+
+# -----------------------------
+# Resolve countries
+# -----------------------------
+
+
+for item in ips:
+
+    get_country(
+        item["ip"]
+    )
+
+
+print(
+    f"Countries resolved: {len(country_cache)}"
+)
+
+
+
+# -----------------------------
+# Build output
+# -----------------------------
+
+
+id_to_country={}
+
+
+for item in ips:
+
+    country = country_cache.get(
+        item["ip"]
+    )
+
+    if country:
+
+        id_to_country[
+            item["id"]
+        ] = country
+
+
+
+with open(OUTPUT_FILE,"w") as out:
+
+
+    for index,proxy in enumerate(unique_configs):
+
+
+        country = id_to_country.get(index)
+
+
+        if not country:
+
+            continue
+
 
         proxy_counter += 1
 
-        data["ps"] = (
-            f"{country_code_to_emoji(country)}"
+
+        remark = (
+            f"{''.join(chr(ord(c)+127397) for c in country)}"
             f"{country}_{proxy_counter}_@Surfboardv2ray"
         )
 
-        encoded = base64.b64encode(
-            json.dumps(data).encode()
-        ).decode()
-
-        return "vmess://" + encoded
-
-    except Exception as e:
-
-        print(f"VMESS error: {e}")
-
-        return None
-
-
-def process_vless(proxy):
-
-    global proxy_counter
-
-    host = proxy.partition("@")[2].partition(":")[0]
-
-    country = get_country_code(host)
-
-    if country is None:
-        return None
-
-    proxy_counter += 1
-
-    remarks = (
-        f"{country_code_to_emoji(country)}"
-        f"{country}_{proxy_counter}_@Surfboardv2ray"
-    )
-
-    return proxy.split("#", 1)[0] + "#" + remarks
-
-
-# -----------------------------
-# Pre-cache unique IPs
-# -----------------------------
-
-with open(INPUT_FILE, "r") as f:
-
-    proxies = [line.strip() for line in f]
-
-print(f"Total input lines: {len(proxies)}")
-
-unique_hosts = {
-    extract_host(p)
-    for p in proxies
-    if extract_host(p)
-}
-
-print(f"Unique hosts: {len(unique_hosts)}")
-
-print("Resolving countries...")
-
-for host in unique_hosts:
-    get_country_code(host)
-
-print(f"Country cache size: {len(country_cache)}")
-
-# -----------------------------
-# Process proxies
-# -----------------------------
-
-skipped = 0
-
-with open(OUTPUT_FILE, "w") as out:
-
-    for proxy in proxies:
-
-        processed = None
 
         if proxy.startswith("vmess://"):
-            processed = process_vmess(proxy)
 
-        elif proxy.startswith("vless://"):
-            processed = process_vless(proxy)
+            encoded = proxy.split("://")[1]
+
+            encoded += "=" * (
+                -len(encoded)%4
+            )
+
+            data=json.loads(
+                base64.b64decode(encoded)
+                .decode()
+            )
+
+            data["ps"]=remark
+
+
+            encoded=base64.b64encode(
+                json.dumps(data)
+                .encode()
+            ).decode()
+
+
+            out.write(
+                "vmess://"+encoded+"\n"
+            )
+
 
         else:
-            skipped += 1
-            print("Skipped:", proxy[:80])
 
-        if processed:
-            out.write(processed + "\n")
+            out.write(
+                proxy.split("#")[0]
+                +"#"
+                +remark
+                +"\n"
+            )
 
-print(f"Skipped lines: {skipped}")
-print(f"Processed proxies: {proxy_counter}")
 
-# -----------------------------
-# Split by country
-# -----------------------------
 
-with open(OUTPUT_FILE) as f:
-
-    with open("output/IR.txt", "w") as ir,\
-         open("output/US.txt", "w") as us:
-
-        for line in f:
-
-            if "IR_" in line:
-                ir.write(line)
-
-            elif "US_" in line:
-                us.write(line)
+print(
+    f"Finished. Output configs: {proxy_counter}"
+)
