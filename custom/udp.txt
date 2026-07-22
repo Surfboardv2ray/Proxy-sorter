@@ -1,34 +1,30 @@
-hysteria2://3uIVdQh2vc@140.233.177.48:33884?sni=www.oracle.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#@AzarAndoozVPNbot
-hysteria2://5NLxoNSwj0@162.19.181.176:40837?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=3b83adf5bb0fd609fbe171a2965e11a40b29a835520851a6b9ac49c7f9898942&sni=www.oracle.com#🇩🇪118650 | ⚡️Telegram = t.me/SOSkeyNET
+hysteria2://18cf8030-1ceb-4b7d-8c0c-c036413c144e@202.61.205.86:4433/?insecure=1&sni=de1.xiaoliyu.cyou#♨️65@oneclickvpnkeys
+hysteria2://18cf8030-1ceb-4b7d-8c0c-c036413c144e@202.61.205.86:4433/?insecure=1&sni=de1.xiaoliyu.cyou#🇩🇪118893 | ⚡️Telegram = t.me/SOSkeyNET
 hysteria2://5NLxoNSwj0@162.19.181.176:40837?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=3b83adf5bb0fd609fbe171a2965e11a40b29a835520851a6b9ac49c7f9898942&sni=www.oracle.com#🇩🇪@V2RayyNGvpn🇩🇪
 hysteria2://73x493S1pE@91.107.152.188:31999?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#🇩🇪@V2RayyNGvpn کانال ما ❗
+hysteria2://76TeSy4hi8@51.159.137.79:55809?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=4d5c3200cd9a371684203fd8bfa29bba7e46777d4599cbc2130e78d9a7f197d2&sni=www.amd.com#🇨🇵@V2RayyNGvpn🇨🇵
 hysteria2://ALg6h4f8Mo@91.107.152.188:31999?sni=www.amd.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e#@AzarAndoozVPNbot
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?sni=https://t.me/oneclickvpnkeys&insecure=1&allowInsecure=1#@one_shop_official
 hysteria2://IoFmkhjUlE@91.107.152.188:31999?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#@icv2ray
 hysteria2://KevinZakarian@179.61.132.96:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1&sni=179.61.132.96#🩵+@Azarakhsh_Proxy+🩷
-hysteria2://M4q4riAk3C@91.107.152.188:31999?sni=www.amd.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e#@Surfboardv2ray
-hysteria2://Ov5kSglMCd@91.107.152.188:31999?sni=www.amd.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e#@AzarAndoozVPNbot
 hysteria2://Pld6E6l8xI@51.15.110.119:19978?security=tls&obfs=salamander&obfs-password=Telegram=V2RayyNGvpn&insecure=1&pinSHA256=c9ab2d723ac19048abdbc53fbcff44b64436390c5c7a60b9b993588c190f263b&sni=www.amd.com#🇳🇱@V2RayyNGvpn کانال ما  🇳🇱
 hysteria2://RSGabzHJGl@91.107.152.188:31999?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
 hysteria2://UUoAsk2eM4@91.107.174.32:25810?security=tls&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&insecure=1&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27&sni=www.amd.com#@confiig_hub
 hysteria2://UUoAsk2eM4@91.107.174.32:25810?security=tls&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&insecure=1&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27&sni=www.amd.com#@icv2ray
 hysteria2://UUoAsk2eM4@91.107.174.32:25810?security=tls&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&insecure=1&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27&sni=www.amd.com#@mehrosaboran
-hysteria2://UUoAsk2eM4@91.107.174.32:25810?security=tls&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&insecure=1&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27&sni=www.amd.com#telegram @mtmvpn 15
-hysteria2://V2RayyNGvpn@91.107.174.32:25810?sni=www.amd.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn#@Surfboardv2ray
+hysteria2://V2RayyNGvpn@162.19.181.176:40837?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=3b83adf5bb0fd609fbe171a2965e11a40b29a835520851a6b9ac49c7f9898942&sni=www.oracle.com#Telegra
+hysteria2://V2RayyNGvpn@162.19.181.176:40837?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=3b83adf5bb0fd609fbe171a2965e11a40b29a835520851a6b9ac49c7f9898942&sni=www.oracle.com#Telegram=V2RayyNGvpn🇩🇪
 hysteria2://VpxzokH9V4@91.107.174.32:25810?sni=www.amd.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27#@Surfboardv2ray
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir&note=@FreeOnlineVPN#🇳🇱 - NL - @FreeOnlineVPN
 hysteria2://ZkWtnfGK6h@91.107.152.188:31999?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
-hysteria2://ZkaDQncyundefineda@91.107.152.188:31999?sni=www.amd.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e#@AzarAndoozVPNbot
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1&sni=api.kermanshahi.org#@KAFING_2
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#@KAFING_2
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1&sni=api.kermanshahi.org#@KAFING_2
 hysteria2://elknam6l7izf3z71@assets.gateway-stream.com:52002?security=tls&obfs=salamander&obfs-password=ielzukpwth087afx&insecure=0&sni=assets.gateway-stream.com#@FarazV2ray
 hysteria2://elknam6l7izf3z71@assets.gateway-stream.com:52021?security=tls&obfs=salamander&obfs-password=mtg2vchyir6la3et&insecure=0&sni=assets.gateway-stream.com#@prrofile_purple  ♥️👈 تلگرام
 hysteria2://fGc3qPlaQk@91.107.152.188:31999?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#Telegram=V2RayyNGvpn🇩🇪
-hysteria2://gG5szcxrbt@51.15.110.119:19978/?insecure=1&obfs=salamander&obfs-password=Telegram=V2RayyNGvpn&sni=www.amd.com#📊76@oneclickvpnkeys
 hysteria2://gG5szcxrbt@51.15.110.119:19978?security=tls&obfs=salamander&obfs-password=Telegram=V2RayyNGvpn&insecure=1&pinSHA256=c9ab2d723ac19048abdbc53fbcff44b64436390c5c7a60b9b993588c190f263b&sni=www.amd.com#
 hysteria2://gG5szcxrbt@51.15.110.119:19978?security=tls&obfs=salamander&obfs-password=Telegram=V2RayyNGvpn&insecure=1&pinSHA256=c9ab2d723ac19048abdbc53fbcff44b64436390c5c7a60b9b993588c190f263b&sni=www.amd.com#🇳🇱 Telegram=V2RayyNGvpn 🇳🇱
-hysteria2://gG5szcxrbt@51.15.110.119:19978?security=tls&obfs=salamander&obfs-password=Telegram=V2RayyNGvpn&insecure=1&pinSHA256=c9ab2d723ac19048abdbc53fbcff44b64436390c5c7a60b9b993588c190f263b&sni=www.amd.com#🇳🇱@V2RayyNGvpn🇳🇱
 hysteria2://lubtxOi8h8@91.107.152.188:31999?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
 hysteria2://o3774es6cfv74kaf@social.klipp.su:443/?obfs=salamander&obfs-password=3sv5vpdl9xr84lyb&sni=social.klipp.su#🪩45@oneclickvpnkeys
 hysteria2://p0IbtS8wCZ@91.107.174.32:25810?security=tls&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&insecure=1&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27&sni=www.amd.com#@Selinc
@@ -36,7 +32,6 @@ hysteria2://p0IbtS8wCZ@91.107.174.32:25810?security=tls&obfs=salamander&obfs-pas
 hysteria2://p0IbtS8wCZ@91.107.174.32:25810?security=tls&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&insecure=1&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27&sni=www.amd.com#@confiig_hub
 hysteria2://p0IbtS8wCZ@91.107.174.32:25810?security=tls&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&insecure=1&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27&sni=www.amd.com#@mehrosaboran
 hysteria2://p0IbtS8wCZ@91.107.174.32:25810?security=tls&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn&insecure=1&pinSHA256=acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27&sni=www.amd.com#MTMVPN 🇩🇪
-hysteria2://vVaz4PV7B7@140.233.177.48:33884?sni=www.oracle.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&pinSHA256=8a93949bea6dc943bc3af58adc667972de05482d30e9c41fc32959700c0db029#@Surfboardv2ray
 hy2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@mg2.mangshe.xyz:2056/?insecure=1&sni=mg2.mangshe.xyz#美国2
 hy2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@xjp1.mangshe.xyz:2055/?insecure=1&sni=xjp1.mangshe.xyz#新加坡1
 hy2://95D27EEF-B7AE-4076-BA39-40FDFA3D0F61@jp7.dexlos.com:13778/?insecure=1#JP
@@ -48,4 +43,15 @@ hy2://e7965e64-e001-4e8c-8273-39c61ff4a094@tw.oomz.ru:30000/?insecure=1&sni=bing
 hysteria://195.154.200.40:15010/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=100&downmbps=100&alpn=h3#🇫🇷FR
 hysteria://5.83.129.153:20088/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=500&downmbps=1000&alpn=h3#🇩🇪
 hysteria://5.83.129.90:54177/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=500&downmbps=1000&alpn=h3#🇩🇪 DE
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@jp01.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇯🇵118980 | ⚡️Telegram = t.me/SOSkeyNET
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@jp01.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇯🇵t@oneclickvpnkeys
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@sg01.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇸🇬118981 | ⚡️Telegram = t.me/SOSkeyNET
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@sg01.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇸🇬1t@oneclickvpnkeys
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@soskeynets.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇯🇵118980 | ⚡️Telegram = t.me/SOSkeyNET
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@soskeynets.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇸🇬118981 | ⚡️Telegram = t.me/SOSkeyNET
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@soskeynets.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇺🇸118979 | ⚡️Telegram = t.me/SOSkeyNET
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@us01.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=azure.microsoft.com&alpn=h3#🇺🇸118982 | ⚡️Telegram = t.me/SOSkeyNET
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@us01.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=azure.microsoft.com&alpn=h3#🇺🇸2t@oneclickvpnkeys
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@us02.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇺🇸118979 | ⚡️Telegram = t.me/SOSkeyNET
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@us02.uzifan.monster:8443/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3#🇺🇸1t@oneclickvpnkeys
 tuic://9adb384a-0f16-4501-a8f3-b6b2556fce87:dongtaiwang.com@62.210.24.143:33888/?congestion_control=cubic&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#🇫🇷 FR
