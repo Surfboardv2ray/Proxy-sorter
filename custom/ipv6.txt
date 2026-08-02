@@ -1,8 +1,4 @@
-ss://YWVzLTEyOC1nY206cmtidmZtNG1neDd2ajY5eQ@[2a0e:97c0:3f0:1::15b2]:1000?plugin=obfs-local;obfs=http;obfs-host=#中国香港 Tsuen Wan District Zouter Limited-IPV6
-vless://28c69c09-621a-4ab1-9bbc-a484eedf098e@[2a01:4f9:2a:30ed::98]:31025/?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&host=fast.com&type=tcp&headerType=http#@GozargahAzad|🇫🇮
-vless://28c69c09-621a-4ab1-9bbc-a484eedf098e@[2a01:4f9:2a:30ed::98]:31025/?encryption=none&host=fast.com&type=tcp&headerType=http#@Hope_Net-join-us-on-Telegram
-vless://28c69c09-621a-4ab1-9bbc-a484eedf098e@[2a01:4f9:2a:30ed::98]:31025/?encryption=none&host=fast.com&type=tcp&headerType=http#[9656] - Telegram : @V2All
-vless://28c69c09-621a-4ab1-9bbc-a484eedf098e@[2a01:4f9:2a:30ed::98]:31025/?encryption=none&host=fast.com&type=tcp&headerType=http#[🏁]t.me/ConfigsHub
+ss://YWVzLTEyOC1nY206cmtidmZtNG1neDd2ajY5eQ@[2a0e:97c0:3f0:1::15b2]:1000?plugin=obfs-local;obfs=http;obfs-host=#HK
 vless://8efe38df-eb31-45b9-9a09-78a31562bae0@[2a0b:8800:580::12d]:8585?mode=gun&security=reality&encryption=none&pbk=a20AW-pKrDkwITkp3eZ6WC809AYkNqoW1rs4AfLs73Y&fp=chrome&spx=/353add2ce7a3241&type=grpc&sni=mena-images.shop.samsung.com&sid=9632f7ba3390c8#@B2vasl
 vless://a9a95d7c-ee7e-4ee0-9cbd-89cb566d08e9@[2a01:4f8:1c18:4078::1]:443?mode=auto&path=/&security=reality&encryption=none&extra={"xPaddingBytes":"100-1000"}&pbk=NYZeZKuCbWGJGifmzP4jBqAueCm4iQCifv9gOEBEgnI&host=www.icloud.com&fp=chrome&spx=/&type=xhttp&sni=www.icloud.com&sid=b7ff5b90d8#@Alfred_Config
 vless://b1a1fb9d-a72e-4ac0-8c1e-aa05256f0855@[2a01:4f8:1c18:4078::1]:8080?security=none&encryption=none&host=www.icloud.com&headerType=http&type=tcp#@Alfred_Config
