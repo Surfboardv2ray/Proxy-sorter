@@ -599,85 +599,96 @@ print(
 # Build output
 # -----------------------------
 
-
-id_to_country={}
-
+id_to_country = {}
 
 for item in ips:
 
-    country = country_cache.get(
-        item["ip"]
-    )
+    country = country_cache.get(item["ip"])
 
     if country:
-
-        id_to_country[
-            item["id"]
-        ] = country
+        id_to_country[item["id"]] = country
 
 
-
-with open(OUTPUT_FILE,"w") as out:
-
-
-    for index,proxy in enumerate(unique_configs):
+IR_OUTPUT_FILE = "output/IR.txt"
+US_OUTPUT_FILE = "output/US.txt"
 
 
-        country = id_to_country.get(index)
+def build_config(proxy, country, counter):
 
+    remark = (
+        f"{''.join(chr(ord(c) + 127397) for c in country)}"
+        f"{country}_{counter}_@Surfboardv2ray"
+    )
 
-        if not country:
+    if proxy.startswith("vmess://"):
 
-            continue
+        encoded = proxy.split("://")[1]
 
+        encoded += "=" * (-len(encoded) % 4)
 
-        proxy_counter += 1
+        data = json.loads(
+            base64.b64decode(encoded).decode()
+        )
 
+        data["ps"] = remark
 
-        remark = (
-            f"{''.join(chr(ord(c)+127397) for c in country)}"
-            f"{country}_{proxy_counter}_@Surfboardv2ray"
+        encoded = base64.b64encode(
+            json.dumps(data).encode()
+        ).decode()
+
+        return "vmess://" + encoded + "\n"
+
+    else:
+
+        return (
+            proxy.split("#")[0]
+            + "#"
+            + remark
+            + "\n"
         )
 
 
-        if proxy.startswith("vmess://"):
+proxy_counter = 0
 
-            encoded = proxy.split("://")[1]
+# Open all three files in write mode.
+# This ensures old IR/US configurations are removed every run.
 
-            encoded += "=" * (
-                -len(encoded)%4
-            )
+with open(OUTPUT_FILE, "w", encoding="utf-8") as all_out, \
+     open(IR_OUTPUT_FILE, "w", encoding="utf-8") as ir_out, \
+     open(US_OUTPUT_FILE, "w", encoding="utf-8") as us_out:
 
-            data=json.loads(
-                base64.b64decode(encoded)
-                .decode()
-            )
+    for index, proxy in enumerate(unique_configs):
 
-            data["ps"]=remark
+        country = id_to_country.get(index)
 
+        if not country:
+            continue
 
-            encoded=base64.b64encode(
-                json.dumps(data)
-                .encode()
-            ).decode()
+        proxy_counter += 1
 
+        config = build_config(
+            proxy,
+            country,
+            proxy_counter
+        )
 
-            out.write(
-                "vmess://"+encoded+"\n"
-            )
+        # All identified configurations
+        all_out.write(config)
 
+        # Country-specific configurations
+        if country == "IR":
 
-        else:
+            ir_out.write(config)
 
-            out.write(
-                proxy.split("#")[0]
-                +"#"
-                +remark
-                +"\n"
-            )
+        elif country == "US":
 
+            us_out.write(config)
 
 
-print(
-    f"Finished. Output configs: {proxy_counter}"
-)
+print(f"Finished. Total identified configs: {proxy_counter}")
+
+print("IR and US configurations separated successfully.")
+
+print(f"All configs: {OUTPUT_FILE}")
+print(f"Iran configs: {IR_OUTPUT_FILE}")
+print(f"US configs: {US_OUTPUT_FILE}")
