@@ -83,7 +83,9 @@ jobs:
     - name: Check for Output Changes
       id: changes
       run: |
-        git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+        if [[ -n "$(git status --porcelain -- output/converted.txt output/IR.txt output/US.txt)" ]]; then
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        fi
       
     - name: Commit and push sorter changes
       if: steps.changes.outputs.changed == 'true'   
